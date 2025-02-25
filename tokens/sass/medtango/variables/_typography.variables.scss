@@ -1,0 +1,489 @@
+
+    $tp-typography: (
+      
+      paragraph-normal-default-md: (
+        'font-weight': 400,
+'font-size': 16px,
+'line-height': 150%,
+'text-transform': none,
+'font-family': FS Emeric,
+'letter-spacing': 4%
+      )
+    ,
+
+      paragraph-normal-default-sm: (
+        'font-weight': 400,
+'font-size': 12px,
+'line-height': 150%,
+'text-transform': none,
+'font-family': FS Emeric,
+'letter-spacing': 4%
+      )
+    ,
+
+      paragraph-bold-default-md: (
+        'font-weight': 600,
+'font-size': 16px,
+'line-height': 150%,
+'text-transform': none,
+'letter-spacing': 4%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-bold-default-sm: (
+        'font-weight': 600,
+'font-size': 14px,
+'line-height': 150%,
+'text-transform': none,
+'font-family': FS Emeric,
+'letter-spacing': 4%
+      )
+    ,
+
+      title-normal-default-lg: (
+        'font-weight': 400,
+'font-size': 24px,
+'line-height': 150%,
+'text-transform': none,
+'font-family': FS Emeric,
+'letter-spacing': 4%
+      )
+    ,
+
+      title-normal-default-md: (
+        'font-weight': 400,
+'font-size': 18px,
+'line-height': 150%,
+'text-transform': none,
+'font-family': FS Emeric,
+'letter-spacing': 4%
+      )
+    ,
+
+      title-bold-default-lg: (
+        'font-weight': 600,
+'font-size': 24px,
+'line-height': 150%,
+'text-transform': none,
+'font-family': FS Emeric,
+'letter-spacing': 4%
+      )
+    ,
+
+      title-bold-default-md: (
+        'font-weight': 600,
+'font-size': 18px,
+'line-height': 150%,
+'text-transform': none,
+'font-family': FS Emeric,
+'letter-spacing': 4%
+      )
+    ,
+
+      label-normal-default-md: (
+        'font-weight': 400,
+'font-size': 16px,
+'line-height': 150%,
+'text-transform': none,
+'font-family': FS Emeric,
+'letter-spacing': 4%
+      )
+    ,
+
+      label-normal-default-sm: (
+        'font-weight': 400,
+'font-size': 12px,
+'line-height': 150%,
+'text-transform': none,
+'font-family': FS Emeric,
+'letter-spacing': 4%
+      )
+    ,
+
+      label-bold-default-md: (
+        'font-weight': 600,
+'font-size': 16px,
+'line-height': 150%,
+'text-transform': none,
+'letter-spacing': 4%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-bold-default-sm: (
+        'font-weight': 600,
+'font-size': 14px,
+'line-height': 150%,
+'text-transform': none,
+'font-family': FS Emeric,
+'letter-spacing': 4%
+      )
+    
+    );
+
+    $tp-typography-custom-properties: (
+      
+      paragraph-normal-default-md: (
+        '--font-weight': 400,
+'--font-size': 16px,
+'--line-height': 150%,
+'--text-transform': none,
+'--font-family': FS Emeric,
+'--letter-spacing': 4%
+      )
+    ,
+
+      paragraph-normal-default-sm: (
+        '--font-weight': 400,
+'--font-size': 12px,
+'--line-height': 150%,
+'--text-transform': none,
+'--font-family': FS Emeric,
+'--letter-spacing': 4%
+      )
+    ,
+
+      paragraph-bold-default-md: (
+        '--font-weight': 600,
+'--font-size': 16px,
+'--line-height': 150%,
+'--text-transform': none,
+'--letter-spacing': 4%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-bold-default-sm: (
+        '--font-weight': 600,
+'--font-size': 14px,
+'--line-height': 150%,
+'--text-transform': none,
+'--font-family': FS Emeric,
+'--letter-spacing': 4%
+      )
+    ,
+
+      title-normal-default-lg: (
+        '--font-weight': 400,
+'--font-size': 24px,
+'--line-height': 150%,
+'--text-transform': none,
+'--font-family': FS Emeric,
+'--letter-spacing': 4%
+      )
+    ,
+
+      title-normal-default-md: (
+        '--font-weight': 400,
+'--font-size': 18px,
+'--line-height': 150%,
+'--text-transform': none,
+'--font-family': FS Emeric,
+'--letter-spacing': 4%
+      )
+    ,
+
+      title-bold-default-lg: (
+        '--font-weight': 600,
+'--font-size': 24px,
+'--line-height': 150%,
+'--text-transform': none,
+'--font-family': FS Emeric,
+'--letter-spacing': 4%
+      )
+    ,
+
+      title-bold-default-md: (
+        '--font-weight': 600,
+'--font-size': 18px,
+'--line-height': 150%,
+'--text-transform': none,
+'--font-family': FS Emeric,
+'--letter-spacing': 4%
+      )
+    ,
+
+      label-normal-default-md: (
+        '--font-weight': 400,
+'--font-size': 16px,
+'--line-height': 150%,
+'--text-transform': none,
+'--font-family': FS Emeric,
+'--letter-spacing': 4%
+      )
+    ,
+
+      label-normal-default-sm: (
+        '--font-weight': 400,
+'--font-size': 12px,
+'--line-height': 150%,
+'--text-transform': none,
+'--font-family': FS Emeric,
+'--letter-spacing': 4%
+      )
+    ,
+
+      label-bold-default-md: (
+        '--font-weight': 600,
+'--font-size': 16px,
+'--line-height': 150%,
+'--text-transform': none,
+'--letter-spacing': 4%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-bold-default-sm: (
+        '--font-weight': 600,
+'--font-size': 14px,
+'--line-height': 150%,
+'--text-transform': none,
+'--font-family': FS Emeric,
+'--letter-spacing': 4%
+      )
+    
+    );
+
+    
+      %tp-typography-paragraph-normal-default-md {
+        font-weight: 400 !important;
+font-size: 16px !important;
+line-height: 150% !important;
+text-transform: none !important;
+font-family: FS Emeric !important;
+letter-spacing: 4% !important;
+      }
+    
+
+      %tp-typography-paragraph-normal-default-sm {
+        font-weight: 400 !important;
+font-size: 12px !important;
+line-height: 150% !important;
+text-transform: none !important;
+font-family: FS Emeric !important;
+letter-spacing: 4% !important;
+      }
+    
+
+      %tp-typography-paragraph-bold-default-md {
+        font-weight: 600 !important;
+font-size: 16px !important;
+line-height: 150% !important;
+text-transform: none !important;
+letter-spacing: 4% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-bold-default-sm {
+        font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 150% !important;
+text-transform: none !important;
+font-family: FS Emeric !important;
+letter-spacing: 4% !important;
+      }
+    
+
+      %tp-typography-title-normal-default-lg {
+        font-weight: 400 !important;
+font-size: 24px !important;
+line-height: 150% !important;
+text-transform: none !important;
+font-family: FS Emeric !important;
+letter-spacing: 4% !important;
+      }
+    
+
+      %tp-typography-title-normal-default-md {
+        font-weight: 400 !important;
+font-size: 18px !important;
+line-height: 150% !important;
+text-transform: none !important;
+font-family: FS Emeric !important;
+letter-spacing: 4% !important;
+      }
+    
+
+      %tp-typography-title-bold-default-lg {
+        font-weight: 600 !important;
+font-size: 24px !important;
+line-height: 150% !important;
+text-transform: none !important;
+font-family: FS Emeric !important;
+letter-spacing: 4% !important;
+      }
+    
+
+      %tp-typography-title-bold-default-md {
+        font-weight: 600 !important;
+font-size: 18px !important;
+line-height: 150% !important;
+text-transform: none !important;
+font-family: FS Emeric !important;
+letter-spacing: 4% !important;
+      }
+    
+
+      %tp-typography-label-normal-default-md {
+        font-weight: 400 !important;
+font-size: 16px !important;
+line-height: 150% !important;
+text-transform: none !important;
+font-family: FS Emeric !important;
+letter-spacing: 4% !important;
+      }
+    
+
+      %tp-typography-label-normal-default-sm {
+        font-weight: 400 !important;
+font-size: 12px !important;
+line-height: 150% !important;
+text-transform: none !important;
+font-family: FS Emeric !important;
+letter-spacing: 4% !important;
+      }
+    
+
+      %tp-typography-label-bold-default-md {
+        font-weight: 600 !important;
+font-size: 16px !important;
+line-height: 150% !important;
+text-transform: none !important;
+letter-spacing: 4% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-bold-default-sm {
+        font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 150% !important;
+text-transform: none !important;
+font-family: FS Emeric !important;
+letter-spacing: 4% !important;
+      }
+    
+
+    
+      %tp-typography-paragraph-normal-default-md-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 16px !important;
+--line-height: 150% !important;
+--text-transform: none !important;
+--font-family: FS Emeric !important;
+--letter-spacing: 4% !important;
+      }
+    
+
+      %tp-typography-paragraph-normal-default-sm-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 12px !important;
+--line-height: 150% !important;
+--text-transform: none !important;
+--font-family: FS Emeric !important;
+--letter-spacing: 4% !important;
+      }
+    
+
+      %tp-typography-paragraph-bold-default-md-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 16px !important;
+--line-height: 150% !important;
+--text-transform: none !important;
+--letter-spacing: 4% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-bold-default-sm-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 14px !important;
+--line-height: 150% !important;
+--text-transform: none !important;
+--font-family: FS Emeric !important;
+--letter-spacing: 4% !important;
+      }
+    
+
+      %tp-typography-title-normal-default-lg-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 24px !important;
+--line-height: 150% !important;
+--text-transform: none !important;
+--font-family: FS Emeric !important;
+--letter-spacing: 4% !important;
+      }
+    
+
+      %tp-typography-title-normal-default-md-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 18px !important;
+--line-height: 150% !important;
+--text-transform: none !important;
+--font-family: FS Emeric !important;
+--letter-spacing: 4% !important;
+      }
+    
+
+      %tp-typography-title-bold-default-lg-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 24px !important;
+--line-height: 150% !important;
+--text-transform: none !important;
+--font-family: FS Emeric !important;
+--letter-spacing: 4% !important;
+      }
+    
+
+      %tp-typography-title-bold-default-md-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 18px !important;
+--line-height: 150% !important;
+--text-transform: none !important;
+--font-family: FS Emeric !important;
+--letter-spacing: 4% !important;
+      }
+    
+
+      %tp-typography-label-normal-default-md-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 16px !important;
+--line-height: 150% !important;
+--text-transform: none !important;
+--font-family: FS Emeric !important;
+--letter-spacing: 4% !important;
+      }
+    
+
+      %tp-typography-label-normal-default-sm-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 12px !important;
+--line-height: 150% !important;
+--text-transform: none !important;
+--font-family: FS Emeric !important;
+--letter-spacing: 4% !important;
+      }
+    
+
+      %tp-typography-label-bold-default-md-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 16px !important;
+--line-height: 150% !important;
+--text-transform: none !important;
+--letter-spacing: 4% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-bold-default-sm-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 14px !important;
+--line-height: 150% !important;
+--text-transform: none !important;
+--font-family: FS Emeric !important;
+--letter-spacing: 4% !important;
+      }
+    
+  

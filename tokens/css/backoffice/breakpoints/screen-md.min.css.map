@@ -1,0 +1,1 @@
+{"version":3,"sources":["screen-md.css"],"names":[],"mappings":"AAIA,uCACE,qBAAA","sourcesContent":["/**\n * Do not edit directly, this file was auto-generated.\n */\n\n.tp-backoffice.tp-breakpoint-screen-md {\n  --tp-dialog-width-md: 440px;\n}\n"]}

@@ -1,0 +1,1033 @@
+
+    $tp-typography: (
+      
+      paragraph-md-regular-normal: (
+        'font-weight': 500,
+'font-size': 14px,
+'line-height': 100%,
+'font-family': Poppins
+      )
+    ,
+
+      paragraph-md-regular-tall: (
+        'font-weight': 500,
+'font-size': 14px,
+'line-height': 150%,
+'font-family': Poppins
+      )
+    ,
+
+      paragraph-md-bold-normal: (
+        'font-weight': 600,
+'font-size': 14px,
+'line-height': 100%,
+'font-family': Poppins
+      )
+    ,
+
+      paragraph-md-bold-tall: (
+        'font-weight': 600,
+'font-size': 14px,
+'line-height': 150%,
+'font-family': Poppins
+      )
+    ,
+
+      paragraph-md-light-normal: (
+        'font-weight': 400,
+'font-size': 14px,
+'line-height': 100%,
+'font-family': Poppins
+      )
+    ,
+
+      paragraph-md-light-tall: (
+        'font-weight': 400,
+'font-size': 14px,
+'line-height': 150%,
+'font-family': Poppins
+      )
+    ,
+
+      paragraph-sm-regular-normal: (
+        'font-weight': 500,
+'font-size': 12px,
+'line-height': 100%,
+'font-family': Poppins
+      )
+    ,
+
+      paragraph-sm-regular-tall: (
+        'font-weight': 500,
+'font-size': 12px,
+'line-height': 150%,
+'font-family': Poppins
+      )
+    ,
+
+      paragraph-sm-bold-normal: (
+        'font-weight': 600,
+'font-size': 12px,
+'line-height': 100%,
+'font-family': Poppins
+      )
+    ,
+
+      paragraph-sm-bold-tall: (
+        'font-weight': 600,
+'font-size': 12px,
+'line-height': 150%,
+'font-family': Poppins
+      )
+    ,
+
+      paragraph-sm-light-normal: (
+        'font-weight': 400,
+'font-size': 12px,
+'line-height': 100%,
+'font-family': Poppins
+      )
+    ,
+
+      paragraph-sm-light-tall: (
+        'font-weight': 400,
+'font-size': 12px,
+'line-height': 150%,
+'font-family': Poppins
+      )
+    ,
+
+      title-lg-regular-normal: (
+        'font-weight': 500,
+'font-size': 24px,
+'line-height': 100%,
+'font-family': Poppins
+      )
+    ,
+
+      title-lg-regular-tall: (
+        'font-weight': 500,
+'font-size': 24px,
+'line-height': 150%,
+'font-family': Poppins
+      )
+    ,
+
+      title-lg-bold-normal: (
+        'font-weight': 600,
+'font-size': 24px,
+'line-height': 100%,
+'font-family': Poppins
+      )
+    ,
+
+      title-lg-bold-tall: (
+        'font-weight': 600,
+'font-size': 24px,
+'line-height': 150%,
+'font-family': Poppins
+      )
+    ,
+
+      title-md-regular-normal: (
+        'font-weight': 500,
+'font-size': 18px,
+'line-height': 100%,
+'font-family': Poppins
+      )
+    ,
+
+      title-md-regular-tall: (
+        'font-weight': 500,
+'font-size': 18px,
+'line-height': 150%,
+'font-family': Poppins
+      )
+    ,
+
+      title-md-bold-normal: (
+        'font-weight': 600,
+'font-size': 18px,
+'line-height': 100%,
+'font-family': Poppins
+      )
+    ,
+
+      title-md-bold-tall: (
+        'font-weight': 600,
+'font-size': 18px,
+'line-height': 150%,
+'font-family': Poppins
+      )
+    ,
+
+      label-md-regular-normal: (
+        'font-weight': 500,
+'font-size': 14px,
+'line-height': 100%,
+'font-family': Poppins
+      )
+    ,
+
+      label-md-regular-tall: (
+        'font-weight': 500,
+'font-size': 14px,
+'line-height': 150%,
+'font-family': Poppins
+      )
+    ,
+
+      label-md-bold-normal: (
+        'font-weight': 600,
+'font-size': 14px,
+'line-height': 100%,
+'font-family': Poppins
+      )
+    ,
+
+      label-md-bold-tall: (
+        'font-weight': 600,
+'font-size': 14px,
+'line-height': 150%,
+'font-family': Poppins
+      )
+    ,
+
+      label-md-light-normal: (
+        'font-weight': 400,
+'font-size': 14px,
+'line-height': 100%,
+'font-family': Poppins
+      )
+    ,
+
+      label-md-light-tall: (
+        'font-weight': 400,
+'font-size': 14px,
+'line-height': 150%,
+'font-family': Poppins
+      )
+    ,
+
+      label-sm-regular-normal: (
+        'font-weight': 500,
+'font-size': 12px,
+'line-height': 100%,
+'font-family': Poppins
+      )
+    ,
+
+      label-sm-regular-tall: (
+        'font-weight': 500,
+'font-size': 12px,
+'line-height': 150%,
+'font-family': Poppins
+      )
+    ,
+
+      label-sm-bold-normal: (
+        'font-weight': 600,
+'font-size': 12px,
+'line-height': 100%,
+'font-family': Poppins
+      )
+    ,
+
+      label-sm-bold-tall: (
+        'font-weight': 600,
+'font-size': 12px,
+'line-height': 150%,
+'font-family': Poppins
+      )
+    ,
+
+      label-sm-light-normal: (
+        'font-weight': 400,
+'font-size': 12px,
+'line-height': 100%,
+'font-family': Poppins
+      )
+    ,
+
+      label-sm-light-tall: (
+        'font-weight': 400,
+'font-size': 12px,
+'line-height': 150%,
+'font-family': Poppins
+      )
+    
+    );
+
+    $tp-typography-custom-properties: (
+      
+      paragraph-md-regular-normal: (
+        '--font-weight': 500,
+'--font-size': 14px,
+'--line-height': 100%,
+'--font-family': Poppins
+      )
+    ,
+
+      paragraph-md-regular-tall: (
+        '--font-weight': 500,
+'--font-size': 14px,
+'--line-height': 150%,
+'--font-family': Poppins
+      )
+    ,
+
+      paragraph-md-bold-normal: (
+        '--font-weight': 600,
+'--font-size': 14px,
+'--line-height': 100%,
+'--font-family': Poppins
+      )
+    ,
+
+      paragraph-md-bold-tall: (
+        '--font-weight': 600,
+'--font-size': 14px,
+'--line-height': 150%,
+'--font-family': Poppins
+      )
+    ,
+
+      paragraph-md-light-normal: (
+        '--font-weight': 400,
+'--font-size': 14px,
+'--line-height': 100%,
+'--font-family': Poppins
+      )
+    ,
+
+      paragraph-md-light-tall: (
+        '--font-weight': 400,
+'--font-size': 14px,
+'--line-height': 150%,
+'--font-family': Poppins
+      )
+    ,
+
+      paragraph-sm-regular-normal: (
+        '--font-weight': 500,
+'--font-size': 12px,
+'--line-height': 100%,
+'--font-family': Poppins
+      )
+    ,
+
+      paragraph-sm-regular-tall: (
+        '--font-weight': 500,
+'--font-size': 12px,
+'--line-height': 150%,
+'--font-family': Poppins
+      )
+    ,
+
+      paragraph-sm-bold-normal: (
+        '--font-weight': 600,
+'--font-size': 12px,
+'--line-height': 100%,
+'--font-family': Poppins
+      )
+    ,
+
+      paragraph-sm-bold-tall: (
+        '--font-weight': 600,
+'--font-size': 12px,
+'--line-height': 150%,
+'--font-family': Poppins
+      )
+    ,
+
+      paragraph-sm-light-normal: (
+        '--font-weight': 400,
+'--font-size': 12px,
+'--line-height': 100%,
+'--font-family': Poppins
+      )
+    ,
+
+      paragraph-sm-light-tall: (
+        '--font-weight': 400,
+'--font-size': 12px,
+'--line-height': 150%,
+'--font-family': Poppins
+      )
+    ,
+
+      title-lg-regular-normal: (
+        '--font-weight': 500,
+'--font-size': 24px,
+'--line-height': 100%,
+'--font-family': Poppins
+      )
+    ,
+
+      title-lg-regular-tall: (
+        '--font-weight': 500,
+'--font-size': 24px,
+'--line-height': 150%,
+'--font-family': Poppins
+      )
+    ,
+
+      title-lg-bold-normal: (
+        '--font-weight': 600,
+'--font-size': 24px,
+'--line-height': 100%,
+'--font-family': Poppins
+      )
+    ,
+
+      title-lg-bold-tall: (
+        '--font-weight': 600,
+'--font-size': 24px,
+'--line-height': 150%,
+'--font-family': Poppins
+      )
+    ,
+
+      title-md-regular-normal: (
+        '--font-weight': 500,
+'--font-size': 18px,
+'--line-height': 100%,
+'--font-family': Poppins
+      )
+    ,
+
+      title-md-regular-tall: (
+        '--font-weight': 500,
+'--font-size': 18px,
+'--line-height': 150%,
+'--font-family': Poppins
+      )
+    ,
+
+      title-md-bold-normal: (
+        '--font-weight': 600,
+'--font-size': 18px,
+'--line-height': 100%,
+'--font-family': Poppins
+      )
+    ,
+
+      title-md-bold-tall: (
+        '--font-weight': 600,
+'--font-size': 18px,
+'--line-height': 150%,
+'--font-family': Poppins
+      )
+    ,
+
+      label-md-regular-normal: (
+        '--font-weight': 500,
+'--font-size': 14px,
+'--line-height': 100%,
+'--font-family': Poppins
+      )
+    ,
+
+      label-md-regular-tall: (
+        '--font-weight': 500,
+'--font-size': 14px,
+'--line-height': 150%,
+'--font-family': Poppins
+      )
+    ,
+
+      label-md-bold-normal: (
+        '--font-weight': 600,
+'--font-size': 14px,
+'--line-height': 100%,
+'--font-family': Poppins
+      )
+    ,
+
+      label-md-bold-tall: (
+        '--font-weight': 600,
+'--font-size': 14px,
+'--line-height': 150%,
+'--font-family': Poppins
+      )
+    ,
+
+      label-md-light-normal: (
+        '--font-weight': 400,
+'--font-size': 14px,
+'--line-height': 100%,
+'--font-family': Poppins
+      )
+    ,
+
+      label-md-light-tall: (
+        '--font-weight': 400,
+'--font-size': 14px,
+'--line-height': 150%,
+'--font-family': Poppins
+      )
+    ,
+
+      label-sm-regular-normal: (
+        '--font-weight': 500,
+'--font-size': 12px,
+'--line-height': 100%,
+'--font-family': Poppins
+      )
+    ,
+
+      label-sm-regular-tall: (
+        '--font-weight': 500,
+'--font-size': 12px,
+'--line-height': 150%,
+'--font-family': Poppins
+      )
+    ,
+
+      label-sm-bold-normal: (
+        '--font-weight': 600,
+'--font-size': 12px,
+'--line-height': 100%,
+'--font-family': Poppins
+      )
+    ,
+
+      label-sm-bold-tall: (
+        '--font-weight': 600,
+'--font-size': 12px,
+'--line-height': 150%,
+'--font-family': Poppins
+      )
+    ,
+
+      label-sm-light-normal: (
+        '--font-weight': 400,
+'--font-size': 12px,
+'--line-height': 100%,
+'--font-family': Poppins
+      )
+    ,
+
+      label-sm-light-tall: (
+        '--font-weight': 400,
+'--font-size': 12px,
+'--line-height': 150%,
+'--font-family': Poppins
+      )
+    
+    );
+
+    
+      %tp-typography-paragraph-md-regular-normal {
+        font-weight: 500 !important;
+font-size: 14px !important;
+line-height: 100% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-paragraph-md-regular-tall {
+        font-weight: 500 !important;
+font-size: 14px !important;
+line-height: 150% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-paragraph-md-bold-normal {
+        font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 100% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-paragraph-md-bold-tall {
+        font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 150% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-paragraph-md-light-normal {
+        font-weight: 400 !important;
+font-size: 14px !important;
+line-height: 100% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-paragraph-md-light-tall {
+        font-weight: 400 !important;
+font-size: 14px !important;
+line-height: 150% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-regular-normal {
+        font-weight: 500 !important;
+font-size: 12px !important;
+line-height: 100% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-regular-tall {
+        font-weight: 500 !important;
+font-size: 12px !important;
+line-height: 150% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-bold-normal {
+        font-weight: 600 !important;
+font-size: 12px !important;
+line-height: 100% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-bold-tall {
+        font-weight: 600 !important;
+font-size: 12px !important;
+line-height: 150% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-light-normal {
+        font-weight: 400 !important;
+font-size: 12px !important;
+line-height: 100% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-light-tall {
+        font-weight: 400 !important;
+font-size: 12px !important;
+line-height: 150% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-title-lg-regular-normal {
+        font-weight: 500 !important;
+font-size: 24px !important;
+line-height: 100% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-title-lg-regular-tall {
+        font-weight: 500 !important;
+font-size: 24px !important;
+line-height: 150% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-title-lg-bold-normal {
+        font-weight: 600 !important;
+font-size: 24px !important;
+line-height: 100% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-title-lg-bold-tall {
+        font-weight: 600 !important;
+font-size: 24px !important;
+line-height: 150% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-title-md-regular-normal {
+        font-weight: 500 !important;
+font-size: 18px !important;
+line-height: 100% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-title-md-regular-tall {
+        font-weight: 500 !important;
+font-size: 18px !important;
+line-height: 150% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-title-md-bold-normal {
+        font-weight: 600 !important;
+font-size: 18px !important;
+line-height: 100% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-title-md-bold-tall {
+        font-weight: 600 !important;
+font-size: 18px !important;
+line-height: 150% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-md-regular-normal {
+        font-weight: 500 !important;
+font-size: 14px !important;
+line-height: 100% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-md-regular-tall {
+        font-weight: 500 !important;
+font-size: 14px !important;
+line-height: 150% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-md-bold-normal {
+        font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 100% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-md-bold-tall {
+        font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 150% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-md-light-normal {
+        font-weight: 400 !important;
+font-size: 14px !important;
+line-height: 100% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-md-light-tall {
+        font-weight: 400 !important;
+font-size: 14px !important;
+line-height: 150% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-sm-regular-normal {
+        font-weight: 500 !important;
+font-size: 12px !important;
+line-height: 100% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-sm-regular-tall {
+        font-weight: 500 !important;
+font-size: 12px !important;
+line-height: 150% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-sm-bold-normal {
+        font-weight: 600 !important;
+font-size: 12px !important;
+line-height: 100% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-sm-bold-tall {
+        font-weight: 600 !important;
+font-size: 12px !important;
+line-height: 150% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-sm-light-normal {
+        font-weight: 400 !important;
+font-size: 12px !important;
+line-height: 100% !important;
+font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-sm-light-tall {
+        font-weight: 400 !important;
+font-size: 12px !important;
+line-height: 150% !important;
+font-family: Poppins !important;
+      }
+    
+
+    
+      %tp-typography-paragraph-md-regular-normal-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 14px !important;
+--line-height: 100% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-paragraph-md-regular-tall-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 14px !important;
+--line-height: 150% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-paragraph-md-bold-normal-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 14px !important;
+--line-height: 100% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-paragraph-md-bold-tall-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 14px !important;
+--line-height: 150% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-paragraph-md-light-normal-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 14px !important;
+--line-height: 100% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-paragraph-md-light-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 14px !important;
+--line-height: 150% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-regular-normal-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 12px !important;
+--line-height: 100% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-regular-tall-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 12px !important;
+--line-height: 150% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-bold-normal-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 12px !important;
+--line-height: 100% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-bold-tall-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 12px !important;
+--line-height: 150% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-light-normal-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 12px !important;
+--line-height: 100% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-light-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 12px !important;
+--line-height: 150% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-title-lg-regular-normal-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 24px !important;
+--line-height: 100% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-title-lg-regular-tall-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 24px !important;
+--line-height: 150% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-title-lg-bold-normal-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 24px !important;
+--line-height: 100% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-title-lg-bold-tall-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 24px !important;
+--line-height: 150% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-title-md-regular-normal-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 18px !important;
+--line-height: 100% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-title-md-regular-tall-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 18px !important;
+--line-height: 150% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-title-md-bold-normal-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 18px !important;
+--line-height: 100% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-title-md-bold-tall-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 18px !important;
+--line-height: 150% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-md-regular-normal-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 14px !important;
+--line-height: 100% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-md-regular-tall-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 14px !important;
+--line-height: 150% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-md-bold-normal-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 14px !important;
+--line-height: 100% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-md-bold-tall-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 14px !important;
+--line-height: 150% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-md-light-normal-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 14px !important;
+--line-height: 100% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-md-light-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 14px !important;
+--line-height: 150% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-sm-regular-normal-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 12px !important;
+--line-height: 100% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-sm-regular-tall-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 12px !important;
+--line-height: 150% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-sm-bold-normal-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 12px !important;
+--line-height: 100% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-sm-bold-tall-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 12px !important;
+--line-height: 150% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-sm-light-normal-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 12px !important;
+--line-height: 100% !important;
+--font-family: Poppins !important;
+      }
+    
+
+      %tp-typography-label-sm-light-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 12px !important;
+--line-height: 150% !important;
+--font-family: Poppins !important;
+      }
+    
+  

@@ -1,0 +1,99 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+export const tpColorNeutral10 = "hsla( 188, 10%, 98%, 1)";
+export const tpColorNeutral15 = "hsla( 188, 10%,93%, 1)";
+export const tpColorNeutral20 = "hsla( 188, 10%, 88%, 1)";
+export const tpColorNeutral25 = "hsla( 188, 10%,83%, 1)";
+export const tpColorNeutral30 = "hsla( 188, 10%, 78%, 1)";
+export const tpColorNeutral35 = "hsla( 188, 10%, 73%, 1)";
+export const tpColorNeutral40 = "hsla( 188, 10%, 68%, 1)";
+export const tpColorNeutral45 = "hsla( 188, 10%, 63%, 1)";
+export const tpColorNeutral50 = "hsla( 188, 10%, 58%, 1)";
+export const tpColorNeutral55 = "hsla( 188, 10%, 53%, 1)";
+export const tpColorNeutral60 = "hsla( 188, 10%, 48%, 1)";
+export const tpColorNeutral65 = "hsla( 188, 10%, 43%, 1)";
+export const tpColorNeutral70 = "hsla( 188, 10%, 38%, 1)";
+export const tpColorNeutral75 = "hsla( 188, 10%, 33%, 1)";
+export const tpColorNeutral80 = "hsla( 188, 10%, 28%, 1)";
+export const tpColorNeutral85 = "hsla( 188, 10%, 23%, 1)";
+export const tpColorNeutral90 = "hsla( 188, 10%, 18%, 1)";
+export const tpColorNeutral95 = "hsla( 188, 10%, 13%, 1)";
+export const tpColorNeutral100 = "hsla( 188, 10%, 8%, 1)";
+export const tpColorPrimary10 = "hsla( 188, 40%, 80%, 1)";
+export const tpColorPrimary20 = "hsla( 188, 40%, 60%, 1)";
+export const tpColorPrimary30 = "hsla( 188, 40%, 40%, 1)";
+export const tpColorPrimary40 = "hsla( 188, 40%, 30%, 1)";
+export const tpColorPrimary50 = "hsla( 188, 40%, 20%, 1)";
+export const tpColorSecondary10 = "hsla( 342, 40%, 80%, 1)";
+export const tpColorSecondary20 = "hsla( 342, 40%, 60%, 1)";
+export const tpColorSecondary30 = "hsla( 342, 40%, 40%, 1)";
+export const tpColorSecondary40 = "hsla( 342, 40%, 30%, 1)";
+export const tpColorSecondary50 = "hsla( 342, 40%, 20%, 1)";
+export const tpColorFbAttention = "hsla( 44, 80%, 45%, 1)";
+export const tpColorFbCaution = "hsla( 24, 80%, 45%, 1)";
+export const tpColorFbWarning = "hsla( 4, 80%, 45%, 1)";
+export const tpColorFbSuccess = "hsla( 128, 80%, 45%, 1)";
+export const tpColorContrastBlack = "hsla( 188, 10%, 98%, 1)";
+export const tpColorContrastWhite = "hsla( 188, 10%, 8%, 1)";
+export const tpColorContrastFixed = "hsla( 188, 10%, 98%, 1)";
+export const tpButtonSolidPrimaryBgDefault = "hsla( 188, 40%, 40%, 1)";
+export const tpButtonSolidPrimaryBgHover = "hsla( 188, 40%, 60%, 1)";
+export const tpButtonSolidPrimaryBgDisabled = "hsla( 188, 10%, 78%, 1)";
+export const tpButtonSolidPrimaryBorderColorDefault = "rgba(0, 0, 0, 0)";
+export const tpButtonSolidPrimaryBorderColorHover = "rgba(0, 0, 0, 0)";
+export const tpButtonSolidPrimaryBorderColorDisabled = "rgba(0, 0, 0, 0)";
+export const tpButtonSolidPrimaryFgDefault = "hsla( 188, 10%, 98%, 1)";
+export const tpButtonSolidPrimaryFgHover = "hsla( 188, 10%, 98%, 1)";
+export const tpButtonSolidPrimaryFgDisabled = "hsla( 188, 10%, 58%, 1)";
+export const tpButtonSolidSecondaryBgDefault = "hsla( 342, 40%, 40%, 1)";
+export const tpButtonSolidSecondaryBgHover = "hsla( 342, 40%, 60%, 1)";
+export const tpButtonSolidSecondaryBgDisabled = "hsla( 188, 10%, 78%, 1)";
+export const tpButtonSolidSecondaryBorderColorDefault = "rgba(0, 0, 0, 0)";
+export const tpButtonSolidSecondaryBorderColorHover = "rgba(0, 0, 0, 0)";
+export const tpButtonSolidSecondaryBorderColorDisabled = "rgba(0, 0, 0, 0)";
+export const tpButtonSolidSecondaryFgDefault = "hsla( 188, 10%, 98%, 1)";
+export const tpButtonSolidSecondaryFgHover = "hsla( 188, 10%, 98%, 1)";
+export const tpButtonSolidSecondaryFgDisabled = "hsla( 188, 10%, 58%, 1)";
+export const tpButtonOutlinePrimaryBgDefault = "rgba(0, 0, 0, 0)";
+export const tpButtonOutlinePrimaryBgHover = "rgba(0, 0, 0, 0)";
+export const tpButtonOutlinePrimaryBgDisabled = "rgba(0, 0, 0, 0)";
+export const tpButtonOutlinePrimaryBorderColorDefault =
+  "hsla( 188, 10%, 78%, 1)";
+export const tpButtonOutlinePrimaryBorderColorHover = "hsla( 188, 10%, 78%, 1)";
+export const tpButtonOutlinePrimaryBorderColorDisabled =
+  "hsla( 188, 10%, 78%, 1)";
+export const tpButtonOutlinePrimaryFgDefault = "hsla( 188, 10%, 98%, 1)";
+export const tpButtonOutlinePrimaryFgHover = "hsla( 188, 10%, 98%, 1)";
+export const tpButtonOutlinePrimaryFgDisabled = "hsla( 188, 10%, 58%, 1)";
+export const tpButtonOutlineSecondaryBgDefault = "rgba(0, 0, 0, 0)";
+export const tpButtonOutlineSecondaryBgHover = "rgba(0, 0, 0, 0)";
+export const tpButtonOutlineSecondaryBgDisabled = "rgba(0, 0, 0, 0)";
+export const tpButtonOutlineSecondaryBorderColorDefault =
+  "hsla( 342, 40%, 40%, 1)";
+export const tpButtonOutlineSecondaryBorderColorHover =
+  "hsla( 342, 40%, 60%, 1)";
+export const tpButtonOutlineSecondaryBorderColorDisabled =
+  "hsla( 188, 10%, 78%, 1)";
+export const tpButtonOutlineSecondaryFgDefault = "hsla( 342, 40%, 40%, 1)";
+export const tpButtonOutlineSecondaryFgHover = "hsla( 342, 40%, 60%, 1)";
+export const tpButtonOutlineSecondaryFgDisabled = "hsla( 188, 10%, 58%, 1)";
+export const tpButtonClearPrimaryBgDefault = "rgba(0, 0, 0, 0)";
+export const tpButtonClearPrimaryBgHover = "rgba(0, 0, 0, 0)";
+export const tpButtonClearPrimaryBgDisabled = "rgba(0, 0, 0, 0)";
+export const tpButtonClearPrimaryBorderColorDefault = "rgba(0, 0, 0, 0)";
+export const tpButtonClearPrimaryBorderColorHover = "rgba(0, 0, 0, 0)";
+export const tpButtonClearPrimaryBorderColorDisabled = "rgba(0, 0, 0, 0)";
+export const tpButtonClearPrimaryFgDefault = "hsla( 188, 10%, 98%, 1)";
+export const tpButtonClearPrimaryFgHover = "hsla( 188, 40%, 40%, 1)";
+export const tpButtonClearPrimaryFgDisabled = "hsla( 188, 10%, 58%, 1)";
+export const tpButtonClearSecondaryBgDefault = "rgba(0, 0, 0, 0)";
+export const tpButtonClearSecondaryBgHover = "rgba(0, 0, 0, 0)";
+export const tpButtonClearSecondaryBgDisabled = "rgba(0, 0, 0, 0)";
+export const tpButtonClearSecondaryBorderColorDefault = "rgba(0, 0, 0, 0)";
+export const tpButtonClearSecondaryBorderColorHover = "rgba(0, 0, 0, 0)";
+export const tpButtonClearSecondaryBorderColorDisabled = "rgba(0, 0, 0, 0)";
+export const tpButtonClearSecondaryFgDefault = "hsla( 188, 10%, 98%, 1)";
+export const tpButtonClearSecondaryFgHover = "hsla( 342, 40%, 40%, 1)";
+export const tpButtonClearSecondaryFgDisabled = "hsla( 188, 10%, 58%, 1)";

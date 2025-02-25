@@ -1,0 +1,83 @@
+export declare const THEMES: {
+    medme: {
+        "Default \u00B7 Dark": string;
+        "Default \u00B7 Light": string;
+    };
+    medsoft: {
+        "Default \u00B7 Dark": string;
+        "Default \u00B7 Light": string;
+    };
+    backoffice: {
+        "Academico \u00B7 Dark \u00B7 Screen lg": string;
+        "Academico \u00B7 Dark \u00B7 Screen md": string;
+        "Academico \u00B7 Dark \u00B7 Screen sm": string;
+        "Academico \u00B7 Light \u00B7 Screen lg": string;
+        "Academico \u00B7 Light \u00B7 Screen md": string;
+        "Academico \u00B7 Light \u00B7 Screen sm": string;
+        "Financeiro \u00B7 Dark \u00B7 Screen lg": string;
+        "Financeiro \u00B7 Dark \u00B7 Screen md": string;
+        "Financeiro \u00B7 Dark \u00B7 Screen sm": string;
+        "Financeiro \u00B7 Light \u00B7 Screen lg": string;
+        "Financeiro \u00B7 Light \u00B7 Screen md": string;
+        "Financeiro \u00B7 Light \u00B7 Screen sm": string;
+        "Gestao-acessos \u00B7 Dark \u00B7 Screen lg": string;
+        "Gestao-acessos \u00B7 Dark \u00B7 Screen md": string;
+        "Gestao-acessos \u00B7 Dark \u00B7 Screen sm": string;
+        "Gestao-acessos \u00B7 Light \u00B7 Screen lg": string;
+        "Gestao-acessos \u00B7 Light \u00B7 Screen md": string;
+        "Gestao-acessos \u00B7 Light \u00B7 Screen sm": string;
+        "Helpdesk \u00B7 Dark \u00B7 Screen lg": string;
+        "Helpdesk \u00B7 Dark \u00B7 Screen md": string;
+        "Helpdesk \u00B7 Dark \u00B7 Screen sm": string;
+        "Helpdesk \u00B7 Light \u00B7 Screen lg": string;
+        "Helpdesk \u00B7 Light \u00B7 Screen md": string;
+        "Helpdesk \u00B7 Light \u00B7 Screen sm": string;
+        "Inscricoes \u00B7 Dark \u00B7 Screen lg": string;
+        "Inscricoes \u00B7 Dark \u00B7 Screen md": string;
+        "Inscricoes \u00B7 Dark \u00B7 Screen sm": string;
+        "Inscricoes \u00B7 Light \u00B7 Screen lg": string;
+        "Inscricoes \u00B7 Light \u00B7 Screen md": string;
+        "Inscricoes \u00B7 Light \u00B7 Screen sm": string;
+        "Institucional \u00B7 Dark \u00B7 Screen lg": string;
+        "Institucional \u00B7 Dark \u00B7 Screen md": string;
+        "Institucional \u00B7 Dark \u00B7 Screen sm": string;
+        "Institucional \u00B7 Light \u00B7 Screen lg": string;
+        "Institucional \u00B7 Light \u00B7 Screen md": string;
+        "Institucional \u00B7 Light \u00B7 Screen sm": string;
+        "Login \u00B7 Dark \u00B7 Screen lg": string;
+        "Login \u00B7 Dark \u00B7 Screen md": string;
+        "Login \u00B7 Dark \u00B7 Screen sm": string;
+        "Login \u00B7 Light \u00B7 Screen lg": string;
+        "Login \u00B7 Light \u00B7 Screen md": string;
+        "Login \u00B7 Light \u00B7 Screen sm": string;
+        "Marketing \u00B7 Dark \u00B7 Screen lg": string;
+        "Marketing \u00B7 Dark \u00B7 Screen md": string;
+        "Marketing \u00B7 Dark \u00B7 Screen sm": string;
+        "Marketing \u00B7 Light \u00B7 Screen lg": string;
+        "Marketing \u00B7 Light \u00B7 Screen md": string;
+        "Marketing \u00B7 Light \u00B7 Screen sm": string;
+        "Operacoes \u00B7 Dark \u00B7 Screen lg": string;
+        "Operacoes \u00B7 Dark \u00B7 Screen md": string;
+        "Operacoes \u00B7 Dark \u00B7 Screen sm": string;
+        "Operacoes \u00B7 Light \u00B7 Screen lg": string;
+        "Operacoes \u00B7 Light \u00B7 Screen md": string;
+        "Operacoes \u00B7 Light \u00B7 Screen sm": string;
+        "Permissoes \u00B7 Dark \u00B7 Screen lg": string;
+        "Permissoes \u00B7 Dark \u00B7 Screen md": string;
+        "Permissoes \u00B7 Dark \u00B7 Screen sm": string;
+        "Permissoes \u00B7 Light \u00B7 Screen lg": string;
+        "Permissoes \u00B7 Light \u00B7 Screen md": string;
+        "Permissoes \u00B7 Light \u00B7 Screen sm": string;
+    };
+    congressos: {
+        "Default \u00B7 Dark": string;
+    };
+    "inscricoes-cardapio": {
+        "Default \u00B7 Dark \u00B7 Screen md": string;
+        "Default \u00B7 Dark \u00B7 Screen sm": string;
+    };
+    medtango: {
+        "Medcurso-car": string;
+        "Medcurso-cir": string;
+    };
+};

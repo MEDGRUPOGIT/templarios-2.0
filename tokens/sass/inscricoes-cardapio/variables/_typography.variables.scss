@@ -1,0 +1,1609 @@
+
+    $tp-typography: (
+      
+      label-lg-bold-short: (
+        'font-weight': 600,
+'font-size': 18px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-lg-bold-tall: (
+        'font-weight': 600,
+'font-size': 18px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-lg-normal-short: (
+        'font-weight': 400,
+'font-size': 18px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-lg-normal-tall: (
+        'font-weight': 400,
+'font-size': 18px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-md-bold-short: (
+        'font-weight': 600,
+'font-size': 16px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-md-bold-tall: (
+        'font-weight': 600,
+'font-size': 16px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-md-normal-short: (
+        'font-weight': 400,
+'font-size': 16px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-md-normal-tall: (
+        'font-weight': 400,
+'font-size': 16px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-sm-bold-short: (
+        'font-weight': 600,
+'font-size': 14px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-sm-bold-tall: (
+        'font-weight': 600,
+'font-size': 14px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-sm-normal-short: (
+        'font-weight': 400,
+'font-size': 14px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-sm-normal-tall: (
+        'font-weight': 400,
+'font-size': 14px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-xs-bold-short: (
+        'font-weight': 600,
+'font-size': 12px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-xs-bold-tall: (
+        'font-weight': 600,
+'font-size': 12px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-xs-normal-short: (
+        'font-weight': 400,
+'font-size': 12px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-xs-normal-tall: (
+        'font-weight': 400,
+'font-size': 12px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-2xs-bold-short: (
+        'font-weight': 600,
+'font-size': 10px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-2xs-bold-tall: (
+        'font-weight': 600,
+'font-size': 10px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-2xs-normal-short: (
+        'font-weight': 400,
+'font-size': 10px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-2xs-normal-tall: (
+        'font-weight': 400,
+'font-size': 10px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-lg-bold-short: (
+        'font-weight': 600,
+'font-size': 18px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-lg-bold-tall: (
+        'font-weight': 600,
+'font-size': 18px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-lg-normal-short: (
+        'font-weight': 400,
+'font-size': 18px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-lg-normal-tall: (
+        'font-weight': 400,
+'font-size': 18px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-md-bold-short: (
+        'font-weight': 600,
+'font-size': 16px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-md-bold-tall: (
+        'font-weight': 600,
+'font-size': 16px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-md-normal-short: (
+        'font-weight': 400,
+'font-size': 16px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-md-normal-tall: (
+        'font-weight': 400,
+'font-size': 16px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-sm-bold-short: (
+        'font-weight': 600,
+'font-size': 14px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-sm-bold-tall: (
+        'font-weight': 600,
+'font-size': 14px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-sm-normal-short: (
+        'font-weight': 400,
+'font-size': 14px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-sm-normal-tall: (
+        'font-weight': 400,
+'font-size': 14px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-xs-bold-short: (
+        'font-weight': 600,
+'font-size': 12px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-xs-bold-tall: (
+        'font-weight': 600,
+'font-size': 12px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-xs-normal-short: (
+        'font-weight': 400,
+'font-size': 12px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-xs-normal-tall: (
+        'font-weight': 400,
+'font-size': 12px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-2xs-bold-short: (
+        'font-weight': 600,
+'font-size': 10px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-2xs-bold-tall: (
+        'font-weight': 600,
+'font-size': 10px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-2xs-normal-short: (
+        'font-weight': 400,
+'font-size': 10px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-2xs-normal-tall: (
+        'font-weight': 400,
+'font-size': 10px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      title-xl-normal-short: (
+        'font-weight': 600,
+'font-size': 64px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      title-xl-normal-tall: (
+        'font-weight': 600,
+'font-size': 64px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      title-lg-normal-short: (
+        'font-weight': 600,
+'font-size': 48px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      title-lg-normal-tall: (
+        'font-weight': 600,
+'font-size': 48px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      title-md-normal-short: (
+        'font-weight': 600,
+'font-size': 32px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      title-md-normal-tall: (
+        'font-weight': 600,
+'font-size': 32px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      title-sm-normal-short: (
+        'font-weight': 600,
+'font-size': 24px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      title-sm-normal-tall: (
+        'font-weight': 600,
+'font-size': 24px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      title-xs-normal-short: (
+        'font-weight': 600,
+'font-size': 20px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      title-xs-normal-tall: (
+        'font-weight': 600,
+'font-size': 20px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    
+    );
+
+    $tp-typography-custom-properties: (
+      
+      label-lg-bold-short: (
+        '--font-weight': 600,
+'--font-size': 18px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-lg-bold-tall: (
+        '--font-weight': 600,
+'--font-size': 18px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-lg-normal-short: (
+        '--font-weight': 400,
+'--font-size': 18px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-lg-normal-tall: (
+        '--font-weight': 400,
+'--font-size': 18px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-md-bold-short: (
+        '--font-weight': 600,
+'--font-size': 16px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-md-bold-tall: (
+        '--font-weight': 600,
+'--font-size': 16px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-md-normal-short: (
+        '--font-weight': 400,
+'--font-size': 16px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-md-normal-tall: (
+        '--font-weight': 400,
+'--font-size': 16px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-sm-bold-short: (
+        '--font-weight': 600,
+'--font-size': 14px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-sm-bold-tall: (
+        '--font-weight': 600,
+'--font-size': 14px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-sm-normal-short: (
+        '--font-weight': 400,
+'--font-size': 14px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-sm-normal-tall: (
+        '--font-weight': 400,
+'--font-size': 14px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-xs-bold-short: (
+        '--font-weight': 600,
+'--font-size': 12px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-xs-bold-tall: (
+        '--font-weight': 600,
+'--font-size': 12px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-xs-normal-short: (
+        '--font-weight': 400,
+'--font-size': 12px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-xs-normal-tall: (
+        '--font-weight': 400,
+'--font-size': 12px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-2xs-bold-short: (
+        '--font-weight': 600,
+'--font-size': 10px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-2xs-bold-tall: (
+        '--font-weight': 600,
+'--font-size': 10px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-2xs-normal-short: (
+        '--font-weight': 400,
+'--font-size': 10px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-2xs-normal-tall: (
+        '--font-weight': 400,
+'--font-size': 10px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-lg-bold-short: (
+        '--font-weight': 600,
+'--font-size': 18px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-lg-bold-tall: (
+        '--font-weight': 600,
+'--font-size': 18px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-lg-normal-short: (
+        '--font-weight': 400,
+'--font-size': 18px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-lg-normal-tall: (
+        '--font-weight': 400,
+'--font-size': 18px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-md-bold-short: (
+        '--font-weight': 600,
+'--font-size': 16px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-md-bold-tall: (
+        '--font-weight': 600,
+'--font-size': 16px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-md-normal-short: (
+        '--font-weight': 400,
+'--font-size': 16px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-md-normal-tall: (
+        '--font-weight': 400,
+'--font-size': 16px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-sm-bold-short: (
+        '--font-weight': 600,
+'--font-size': 14px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-sm-bold-tall: (
+        '--font-weight': 600,
+'--font-size': 14px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-sm-normal-short: (
+        '--font-weight': 400,
+'--font-size': 14px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-sm-normal-tall: (
+        '--font-weight': 400,
+'--font-size': 14px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-xs-bold-short: (
+        '--font-weight': 600,
+'--font-size': 12px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-xs-bold-tall: (
+        '--font-weight': 600,
+'--font-size': 12px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-xs-normal-short: (
+        '--font-weight': 400,
+'--font-size': 12px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-xs-normal-tall: (
+        '--font-weight': 400,
+'--font-size': 12px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-2xs-bold-short: (
+        '--font-weight': 600,
+'--font-size': 10px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-2xs-bold-tall: (
+        '--font-weight': 600,
+'--font-size': 10px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-2xs-normal-short: (
+        '--font-weight': 400,
+'--font-size': 10px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-2xs-normal-tall: (
+        '--font-weight': 400,
+'--font-size': 10px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      title-xl-normal-short: (
+        '--font-weight': 600,
+'--font-size': 64px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      title-xl-normal-tall: (
+        '--font-weight': 600,
+'--font-size': 64px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      title-lg-normal-short: (
+        '--font-weight': 600,
+'--font-size': 48px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      title-lg-normal-tall: (
+        '--font-weight': 600,
+'--font-size': 48px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      title-md-normal-short: (
+        '--font-weight': 600,
+'--font-size': 32px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      title-md-normal-tall: (
+        '--font-weight': 600,
+'--font-size': 32px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      title-sm-normal-short: (
+        '--font-weight': 600,
+'--font-size': 24px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      title-sm-normal-tall: (
+        '--font-weight': 600,
+'--font-size': 24px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      title-xs-normal-short: (
+        '--font-weight': 600,
+'--font-size': 20px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      title-xs-normal-tall: (
+        '--font-weight': 600,
+'--font-size': 20px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    
+    );
+
+    
+      %tp-typography-label-lg-bold-short {
+        font-weight: 600 !important;
+font-size: 18px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-lg-bold-tall {
+        font-weight: 600 !important;
+font-size: 18px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-lg-normal-short {
+        font-weight: 400 !important;
+font-size: 18px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-lg-normal-tall {
+        font-weight: 400 !important;
+font-size: 18px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-md-bold-short {
+        font-weight: 600 !important;
+font-size: 16px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-md-bold-tall {
+        font-weight: 600 !important;
+font-size: 16px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-md-normal-short {
+        font-weight: 400 !important;
+font-size: 16px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-md-normal-tall {
+        font-weight: 400 !important;
+font-size: 16px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-sm-bold-short {
+        font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-sm-bold-tall {
+        font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-sm-normal-short {
+        font-weight: 400 !important;
+font-size: 14px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-sm-normal-tall {
+        font-weight: 400 !important;
+font-size: 14px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-xs-bold-short {
+        font-weight: 600 !important;
+font-size: 12px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-xs-bold-tall {
+        font-weight: 600 !important;
+font-size: 12px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-xs-normal-short {
+        font-weight: 400 !important;
+font-size: 12px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-xs-normal-tall {
+        font-weight: 400 !important;
+font-size: 12px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-2xs-bold-short {
+        font-weight: 600 !important;
+font-size: 10px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-2xs-bold-tall {
+        font-weight: 600 !important;
+font-size: 10px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-2xs-normal-short {
+        font-weight: 400 !important;
+font-size: 10px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-2xs-normal-tall {
+        font-weight: 400 !important;
+font-size: 10px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-lg-bold-short {
+        font-weight: 600 !important;
+font-size: 18px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-lg-bold-tall {
+        font-weight: 600 !important;
+font-size: 18px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-lg-normal-short {
+        font-weight: 400 !important;
+font-size: 18px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-lg-normal-tall {
+        font-weight: 400 !important;
+font-size: 18px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-md-bold-short {
+        font-weight: 600 !important;
+font-size: 16px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-md-bold-tall {
+        font-weight: 600 !important;
+font-size: 16px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-md-normal-short {
+        font-weight: 400 !important;
+font-size: 16px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-md-normal-tall {
+        font-weight: 400 !important;
+font-size: 16px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-bold-short {
+        font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-bold-tall {
+        font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-normal-short {
+        font-weight: 400 !important;
+font-size: 14px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-normal-tall {
+        font-weight: 400 !important;
+font-size: 14px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-xs-bold-short {
+        font-weight: 600 !important;
+font-size: 12px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-xs-bold-tall {
+        font-weight: 600 !important;
+font-size: 12px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-xs-normal-short {
+        font-weight: 400 !important;
+font-size: 12px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-xs-normal-tall {
+        font-weight: 400 !important;
+font-size: 12px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-2xs-bold-short {
+        font-weight: 600 !important;
+font-size: 10px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-2xs-bold-tall {
+        font-weight: 600 !important;
+font-size: 10px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-2xs-normal-short {
+        font-weight: 400 !important;
+font-size: 10px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-2xs-normal-tall {
+        font-weight: 400 !important;
+font-size: 10px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-title-xl-normal-short {
+        font-weight: 600 !important;
+font-size: 64px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-title-xl-normal-tall {
+        font-weight: 600 !important;
+font-size: 64px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-title-lg-normal-short {
+        font-weight: 600 !important;
+font-size: 48px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-title-lg-normal-tall {
+        font-weight: 600 !important;
+font-size: 48px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-title-md-normal-short {
+        font-weight: 600 !important;
+font-size: 32px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-title-md-normal-tall {
+        font-weight: 600 !important;
+font-size: 32px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-title-sm-normal-short {
+        font-weight: 600 !important;
+font-size: 24px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-title-sm-normal-tall {
+        font-weight: 600 !important;
+font-size: 24px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-title-xs-normal-short {
+        font-weight: 600 !important;
+font-size: 20px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-title-xs-normal-tall {
+        font-weight: 600 !important;
+font-size: 20px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+    
+      %tp-typography-label-lg-bold-short-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 18px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-lg-bold-tall-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 18px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-lg-normal-short-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 18px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-lg-normal-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 18px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-md-bold-short-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 16px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-md-bold-tall-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 16px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-md-normal-short-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 16px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-md-normal-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 16px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-sm-bold-short-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 14px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-sm-bold-tall-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 14px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-sm-normal-short-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 14px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-sm-normal-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 14px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-xs-bold-short-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 12px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-xs-bold-tall-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 12px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-xs-normal-short-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 12px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-xs-normal-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 12px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-2xs-bold-short-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 10px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-2xs-bold-tall-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 10px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-2xs-normal-short-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 10px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-2xs-normal-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 10px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-lg-bold-short-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 18px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-lg-bold-tall-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 18px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-lg-normal-short-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 18px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-lg-normal-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 18px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-md-bold-short-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 16px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-md-bold-tall-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 16px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-md-normal-short-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 16px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-md-normal-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 16px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-bold-short-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 14px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-bold-tall-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 14px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-normal-short-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 14px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-normal-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 14px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-xs-bold-short-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 12px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-xs-bold-tall-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 12px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-xs-normal-short-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 12px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-xs-normal-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 12px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-2xs-bold-short-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 10px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-2xs-bold-tall-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 10px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-2xs-normal-short-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 10px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-2xs-normal-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 10px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-title-xl-normal-short-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 64px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-title-xl-normal-tall-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 64px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-title-lg-normal-short-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 48px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-title-lg-normal-tall-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 48px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-title-md-normal-short-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 32px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-title-md-normal-tall-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 32px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-title-sm-normal-short-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 24px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-title-sm-normal-tall-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 24px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-title-xs-normal-short-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 20px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-title-xs-normal-tall-custom-properties {
+        --font-weight: 600 !important;
+--font-size: 20px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+  

@@ -538,7 +538,7 @@ export const tpDatepickerWrapperPaddingBottomOs: {
   decimal: number;
   scale: number;
 };
-export const tpDatepickerMiddleMarginRightOs: {
+export const tpDatepickerMiddlePaddingHorizontalOs: {
   original: string;
   number: number;
   decimal: number;
@@ -686,13 +686,13 @@ export const tpInputContainerBorderRadiusOs: {
   decimal: number;
   scale: number;
 };
-export const tpInputContainerMinHeightOs: {
+export const tpInputContainerHeightOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpInputElementPaddingVerticalOs: {
+export const tpInputElementPaddingHorizontalOs: {
   original: string;
   number: number;
   decimal: number;
@@ -714,6 +714,12 @@ export const tpInputElementFontMapOs: {
   };
   lineHeight: string;
   fontFamily: string;
+};
+export const tpInputElementPaddingTopOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
 };
 export const tpInputLabelDefaultFontMapOs: {
   fontWeight: string;
@@ -750,7 +756,7 @@ export const tpInputHintFontMapOs: {
 };
 export const tpInputMetadataDisabled: string;
 export const tpInputMetadataState: string;
-export const tpInputFeddbackFontMapOs: {
+export const tpInputFeedbackFontMapOs: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -761,7 +767,7 @@ export const tpInputFeddbackFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpInputWrapperPaddingBottomOs: {
+export const tpInputPaddingBottomOs: {
   original: string;
   number: number;
   decimal: number;
@@ -773,7 +779,7 @@ export const tpInputWrapperSidesMinWidthOs: {
   decimal: number;
   scale: number;
 };
-export const tpInputMiddleMarginRightOs: {
+export const tpInputMiddlePaddingHorizontalOs: {
   original: string;
   number: number;
   decimal: number;
@@ -785,6 +791,7 @@ export const tpInputIconDefaultSizeOs: {
   decimal: number;
   scale: number;
 };
+export const tpInputMinWidthOs: string;
 export const tpMenuNavItemPaddingVerticalOs: {
   original: string;
   number: number;
@@ -1440,7 +1447,20 @@ export const tpTextareaContainerMinHeightOs: {
   decimal: number;
   scale: number;
 };
-export const tpTextareaElementPaddingVerticalOs: {
+export const tpTextareaMinWidthOs: string;
+export const tpTextareaElementPaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTextareaElementPaddingBottomOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTextareaElementPaddingTopOs: {
   original: string;
   number: number;
   decimal: number;
@@ -1462,12 +1482,6 @@ export const tpTextareaElementFontMapOs: {
   };
   lineHeight: string;
   fontFamily: string;
-};
-export const tpTextareaElementMinHeightOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
 };
 export const tpTextareaLabelDefaultFontMapOs: {
   fontWeight: string;
@@ -1504,7 +1518,7 @@ export const tpTextareaHintFontMapOs: {
 };
 export const tpTextareaMetadataDisabled: string;
 export const tpTextareaMetadataState: string;
-export const tpTextareaFeddbackFontMapOs: {
+export const tpTextareaFeedbackFontMapOs: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -1515,13 +1529,19 @@ export const tpTextareaFeddbackFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTextareaWrapperPaddingBottomOs: {
+export const tpTextareaPaddingBottomOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpTextareaMiddleMarginRightOs: {
+export const tpTextareaMiddlePaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTextareaWrapperSidesMinWidthOs: {
   original: string;
   number: number;
   decimal: number;
@@ -1700,3 +1720,17 @@ export const tpUppyDropzonePercentageContainerMarginTopOs: {
   decimal: number;
   scale: number;
 };
+export const tpUtilsMetadataRow: string;
+export const tpUtilsMetadataCol: string;
+export const tpUtilsMetadataDisplay: string;
+export const tpUtilsMetadataAlignItems: string;
+export const tpUtilsMetadataJustifyContent: string;
+export const tpUtilsMetadataFlexDirection: string;
+export const tpUtilsMetadataFlexWrap: string;
+export const tpUtilsMetadataFlexGrow1: string;
+export const tpUtilsMetadataW100: string;
+export const tpUtilsMetadataH100: string;
+export const tpUtilsMetadataOverflow: string;
+export const tpUtilsMetadataBorder: string;
+export const tpUtilsMetadataTextAlign: string;
+export const tpUtilsMetadataClamp: string;

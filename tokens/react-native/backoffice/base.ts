@@ -100,23 +100,29 @@ export const tpBorderRadiusNone = {
   decimal: 0,
   scale: 0,
 };
-export const tpSpacing4xl = {
+export const tpSpacing5xl = {
   original: "32px",
   number: 32,
   decimal: 0.32,
   scale: 512,
 };
-export const tpSpacing3xl = {
+export const tpSpacing4xl = {
   original: "28px",
   number: 28,
   decimal: 0.28,
   scale: 448,
 };
-export const tpSpacing2xl = {
+export const tpSpacing3xl = {
   original: "24px",
   number: 24,
   decimal: 0.24,
   scale: 384,
+};
+export const tpSpacing2xl = {
+  original: "18px",
+  number: 18,
+  decimal: 0.18,
+  scale: 288,
 };
 export const tpSpacingXl = {
   original: "16px",

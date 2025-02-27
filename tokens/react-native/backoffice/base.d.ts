@@ -99,6 +99,12 @@ export const tpBorderRadiusNone: {
   decimal: number;
   scale: number;
 };
+export const tpSpacing5xl: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpSpacing4xl: {
   original: string;
   number: number;

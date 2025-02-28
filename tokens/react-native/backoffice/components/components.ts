@@ -77,6 +77,34 @@ export const tpAlertTextFontMapMd = {
   fontFamily: "Poppins",
 };
 export const tpAlertMetadataColor = "danger warning info success";
+export const tpApexchartsDotSizeOs = {
+  original: "12px",
+  number: 12,
+  decimal: 0.12,
+  scale: 192,
+};
+export const tpApexchartsDotBorderRadiusOs = "9999px";
+export const tpApexchartsLegendGapOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpApexchartsContainerGapOs = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
+};
+export const tpApexchartsTextFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
+  lineHeight: "1.5em",
+  fontFamily: "Poppins",
+};
+export const tpApexchartsCircleBorderRadiusOs = "9999px";
+export const tpApexchartsCircleWidthOs = "200px";
+export const tpApexchartsCircleHeightOs = "165px";
 export const tpBadgeSizeMd = {
   original: "24px",
   number: 24,

@@ -97,6 +97,39 @@ export const tpAlertTextFontMapMd: {
   fontFamily: string;
 };
 export const tpAlertMetadataColor: string;
+export const tpApexchartsDotSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpApexchartsDotBorderRadiusOs: string;
+export const tpApexchartsLegendGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpApexchartsContainerGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpApexchartsTextFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpApexchartsCircleBorderRadiusOs: string;
+export const tpApexchartsCircleWidthOs: string;
+export const tpApexchartsCircleHeightOs: string;
 export const tpBadgeSizeMd: {
   original: string;
   number: number;

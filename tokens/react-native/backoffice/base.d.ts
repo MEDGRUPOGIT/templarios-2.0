@@ -405,6 +405,72 @@ export const tpTypographyParagraphSmLightTall: {
   lineHeight: string;
   fontFamily: string;
 };
+export const tpTypographyParagraphXsRegularNormal: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraphXsRegularTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraphXsBoldNormal: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraphXsBoldTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraphXsLightNormal: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraphXsLightTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
 export const tpTypographyTitleLgRegularNormal: {
   fontWeight: string;
   fontSize: {
@@ -615,6 +681,72 @@ export const tpTypographyLabelSmLightNormal: {
   fontFamily: string;
 };
 export const tpTypographyLabelSmLightTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelXsRegularNormal: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelXsRegularTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelXsBoldNormal: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelXsBoldTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelXsLightNormal: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelXsLightTall: {
   fontWeight: string;
   fontSize: {
     original: string;

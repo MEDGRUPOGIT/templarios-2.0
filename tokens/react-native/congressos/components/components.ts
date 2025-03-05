@@ -36,7 +36,7 @@ export const tpButtonPaddingHorizontalMd = {
 export const tpButtonFontMap = {
   fontWeight: "600",
   fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
 export const tpButtonClearBgDefault = "rgba(0, 0, 0, 0)";
@@ -240,7 +240,7 @@ export const tpInputElementPaddingRight = {
 export const tpInputElementFontMap = {
   fontWeight: "400",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
 export const tpInputFeedbackErrorDefault = "#ed685e";
@@ -294,7 +294,7 @@ export const tpInputLabelDisabled = "hsla( 188, 10%, 98%, 1)";
 export const tpInputLabelFontMap = {
   fontWeight: "400",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
 export const tpInputGapMd = {
@@ -309,7 +309,7 @@ export const tpInputMetadataIcon = "clear start end feedback";
 export const tpInputFeddbackFontMap = {
   fontWeight: "400",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
 export const tpItemPaddingMd = {
@@ -327,7 +327,7 @@ export const tpItemGapMd = {
 export const tpItemFontMap = {
   fontWeight: "400",
   fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
-  lineHeight: "1em",
+  lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
 export const tpItemBgDefault = "rgba(0, 0, 0, 0)";

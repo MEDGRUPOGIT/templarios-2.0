@@ -30,7 +30,7 @@ export const tpBadgeBorderMd = {
 export const tpBadgeFontMap = {
   fontWeight: "400",
   fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
 export const tpButtonIconSolidBgDefault = "hsla( 245, 34%, 84%, 1)";
@@ -107,7 +107,7 @@ export const tpButtonHeightMd = {
 export const tpButtonFontMap = {
   fontWeight: "600",
   fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
 export const tpButtonClearBgDefault = "rgba(0, 0, 0, 0)";
@@ -317,7 +317,7 @@ export const tpInputElementPaddingRight = {
 export const tpInputElementFontMap = {
   fontWeight: "400",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
 export const tpInputFeedbackErrorDefault = "#ed685e";
@@ -371,7 +371,7 @@ export const tpInputLabelDisabled = "hsla( 188, 10%, 98%, 1)";
 export const tpInputLabelFontMap = {
   fontWeight: "400",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
 export const tpInputGapMd = {
@@ -386,7 +386,7 @@ export const tpInputMetadataIcon = "start end feedback";
 export const tpInputFeddbackFontMap = {
   fontWeight: "400",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
 export const tpItemPaddingMd = {
@@ -404,7 +404,7 @@ export const tpItemGapMd = {
 export const tpItemFontMap = {
   fontWeight: "400",
   fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
-  lineHeight: "1em",
+  lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
 export const tpItemBgDefault = "rgba(0, 0, 0, 0)";
@@ -572,7 +572,7 @@ export const tpSelectElementPaddingRight = {
 export const tpSelectElementFontMap = {
   fontWeight: "400",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
 export const tpSelectFeedbackErrorDefault = "#ed685e";
@@ -626,7 +626,7 @@ export const tpSelectLabelDisabled = "hsla( 188, 10%, 98%, 1)";
 export const tpSelectLabelFontMap = {
   fontWeight: "400",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
 export const tpSelectGapMd = {
@@ -641,7 +641,7 @@ export const tpSelectMetadataIcon = "start end feedback";
 export const tpSelectFeddbackFontMap = {
   fontWeight: "400",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
 export const tpSelectContentHeightMd = "273px";
@@ -682,7 +682,7 @@ export const tpSelectContentItemBorderBottomLastChild = {
 export const tpSelectContentItemFont = {
   fontWeight: "400",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "1em",
+  lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
 export const tpSelectContentBorderRadiusMd = {

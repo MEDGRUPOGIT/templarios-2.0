@@ -277,192 +277,264 @@ export const tpSizingNone = {
 export const tpTypographyParagraphMdRegularNormal = {
   fontWeight: "500",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "1em",
+  lineHeight: "100%",
   fontFamily: "Poppins",
 };
 export const tpTypographyParagraphMdRegularTall = {
   fontWeight: "500",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "Poppins",
 };
 export const tpTypographyParagraphMdBoldNormal = {
   fontWeight: "600",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "1em",
+  lineHeight: "100%",
   fontFamily: "Poppins",
 };
 export const tpTypographyParagraphMdBoldTall = {
   fontWeight: "600",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "Poppins",
 };
 export const tpTypographyParagraphMdLightNormal = {
   fontWeight: "400",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "1em",
+  lineHeight: "100%",
   fontFamily: "Poppins",
 };
 export const tpTypographyParagraphMdLightTall = {
   fontWeight: "400",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "Poppins",
 };
 export const tpTypographyParagraphSmRegularNormal = {
   fontWeight: "500",
   fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
-  lineHeight: "1em",
+  lineHeight: "100%",
   fontFamily: "Poppins",
 };
 export const tpTypographyParagraphSmRegularTall = {
   fontWeight: "500",
   fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "Poppins",
 };
 export const tpTypographyParagraphSmBoldNormal = {
   fontWeight: "600",
   fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
-  lineHeight: "1em",
+  lineHeight: "100%",
   fontFamily: "Poppins",
 };
 export const tpTypographyParagraphSmBoldTall = {
   fontWeight: "600",
   fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "Poppins",
 };
 export const tpTypographyParagraphSmLightNormal = {
   fontWeight: "400",
   fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
-  lineHeight: "1em",
+  lineHeight: "100%",
   fontFamily: "Poppins",
 };
 export const tpTypographyParagraphSmLightTall = {
   fontWeight: "400",
   fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
+  fontFamily: "Poppins",
+};
+export const tpTypographyParagraphXsRegularNormal = {
+  fontWeight: "500",
+  fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
+  lineHeight: "100%",
+  fontFamily: "Poppins",
+};
+export const tpTypographyParagraphXsRegularTall = {
+  fontWeight: "500",
+  fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
+  lineHeight: "150%",
+  fontFamily: "Poppins",
+};
+export const tpTypographyParagraphXsBoldNormal = {
+  fontWeight: "600",
+  fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
+  lineHeight: "100%",
+  fontFamily: "Poppins",
+};
+export const tpTypographyParagraphXsBoldTall = {
+  fontWeight: "600",
+  fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
+  lineHeight: "150%",
+  fontFamily: "Poppins",
+};
+export const tpTypographyParagraphXsLightNormal = {
+  fontWeight: "400",
+  fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
+  lineHeight: "100%",
+  fontFamily: "Poppins",
+};
+export const tpTypographyParagraphXsLightTall = {
+  fontWeight: "400",
+  fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
+  lineHeight: "150%",
   fontFamily: "Poppins",
 };
 export const tpTypographyTitleLgRegularNormal = {
   fontWeight: "500",
   fontSize: { original: "24px", number: 24, decimal: 0.24, scale: 384 },
-  lineHeight: "1em",
+  lineHeight: "100%",
   fontFamily: "Poppins",
 };
 export const tpTypographyTitleLgRegularTall = {
   fontWeight: "500",
   fontSize: { original: "24px", number: 24, decimal: 0.24, scale: 384 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "Poppins",
 };
 export const tpTypographyTitleLgBoldNormal = {
   fontWeight: "600",
   fontSize: { original: "24px", number: 24, decimal: 0.24, scale: 384 },
-  lineHeight: "1em",
+  lineHeight: "100%",
   fontFamily: "Poppins",
 };
 export const tpTypographyTitleLgBoldTall = {
   fontWeight: "600",
   fontSize: { original: "24px", number: 24, decimal: 0.24, scale: 384 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "Poppins",
 };
 export const tpTypographyTitleMdRegularNormal = {
   fontWeight: "500",
   fontSize: { original: "18px", number: 18, decimal: 0.18, scale: 288 },
-  lineHeight: "1em",
+  lineHeight: "100%",
   fontFamily: "Poppins",
 };
 export const tpTypographyTitleMdRegularTall = {
   fontWeight: "500",
   fontSize: { original: "18px", number: 18, decimal: 0.18, scale: 288 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "Poppins",
 };
 export const tpTypographyTitleMdBoldNormal = {
   fontWeight: "600",
   fontSize: { original: "18px", number: 18, decimal: 0.18, scale: 288 },
-  lineHeight: "1em",
+  lineHeight: "100%",
   fontFamily: "Poppins",
 };
 export const tpTypographyTitleMdBoldTall = {
   fontWeight: "600",
   fontSize: { original: "18px", number: 18, decimal: 0.18, scale: 288 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "Poppins",
 };
 export const tpTypographyLabelMdRegularNormal = {
   fontWeight: "500",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "1em",
+  lineHeight: "100%",
   fontFamily: "Poppins",
 };
 export const tpTypographyLabelMdRegularTall = {
   fontWeight: "500",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "Poppins",
 };
 export const tpTypographyLabelMdBoldNormal = {
   fontWeight: "600",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "1em",
+  lineHeight: "100%",
   fontFamily: "Poppins",
 };
 export const tpTypographyLabelMdBoldTall = {
   fontWeight: "600",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "Poppins",
 };
 export const tpTypographyLabelMdLightNormal = {
   fontWeight: "400",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "1em",
+  lineHeight: "100%",
   fontFamily: "Poppins",
 };
 export const tpTypographyLabelMdLightTall = {
   fontWeight: "400",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "Poppins",
 };
 export const tpTypographyLabelSmRegularNormal = {
   fontWeight: "500",
   fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
-  lineHeight: "1em",
+  lineHeight: "100%",
   fontFamily: "Poppins",
 };
 export const tpTypographyLabelSmRegularTall = {
   fontWeight: "500",
   fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "Poppins",
 };
 export const tpTypographyLabelSmBoldNormal = {
   fontWeight: "600",
   fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
-  lineHeight: "1em",
+  lineHeight: "100%",
   fontFamily: "Poppins",
 };
 export const tpTypographyLabelSmBoldTall = {
   fontWeight: "600",
   fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
   fontFamily: "Poppins",
 };
 export const tpTypographyLabelSmLightNormal = {
   fontWeight: "400",
   fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
-  lineHeight: "1em",
+  lineHeight: "100%",
   fontFamily: "Poppins",
 };
 export const tpTypographyLabelSmLightTall = {
   fontWeight: "400",
   fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
-  lineHeight: "1.5em",
+  lineHeight: "150%",
+  fontFamily: "Poppins",
+};
+export const tpTypographyLabelXsRegularNormal = {
+  fontWeight: "500",
+  fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
+  lineHeight: "100%",
+  fontFamily: "Poppins",
+};
+export const tpTypographyLabelXsRegularTall = {
+  fontWeight: "500",
+  fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
+  lineHeight: "150%",
+  fontFamily: "Poppins",
+};
+export const tpTypographyLabelXsBoldNormal = {
+  fontWeight: "600",
+  fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
+  lineHeight: "100%",
+  fontFamily: "Poppins",
+};
+export const tpTypographyLabelXsBoldTall = {
+  fontWeight: "600",
+  fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
+  lineHeight: "150%",
+  fontFamily: "Poppins",
+};
+export const tpTypographyLabelXsLightNormal = {
+  fontWeight: "400",
+  fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
+  lineHeight: "100%",
+  fontFamily: "Poppins",
+};
+export const tpTypographyLabelXsLightTall = {
+  fontWeight: "400",
+  fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
+  lineHeight: "150%",
   fontFamily: "Poppins",
 };

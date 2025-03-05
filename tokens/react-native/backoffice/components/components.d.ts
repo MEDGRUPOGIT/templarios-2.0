@@ -116,7 +116,18 @@ export const tpApexchartsContainerGapOs: {
   decimal: number;
   scale: number;
 };
-export const tpApexchartsTextFontMapOs: {
+export const tpApexchartsTextFontMapMd: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpApexchartsTextFontMapSm: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -130,6 +141,7 @@ export const tpApexchartsTextFontMapOs: {
 export const tpApexchartsCircleBorderRadiusOs: string;
 export const tpApexchartsCircleWidthOs: string;
 export const tpApexchartsCircleHeightOs: string;
+export const tpApexchartsMetadataName: string;
 export const tpBadgeSizeMd: {
   original: string;
   number: number;
@@ -223,6 +235,18 @@ export const tpButtonIconClearBorderRadiusMd: {
   scale: number;
 };
 export const tpButtonIconClearBorderRadiusSm: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpButtonIconIconSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpButtonIconSpinnerSizeOs: {
   original: string;
   number: number;
   decimal: number;
@@ -377,6 +401,12 @@ export const tpButtonIconSizeOs: {
   decimal: number;
   scale: number;
 };
+export const tpButtonSpinnerSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpCardBorderRadiusOs: {
   original: string;
   number: number;
@@ -471,6 +501,7 @@ export const tpCheckboxFontMapLabelButton: {
 export const tpCheckboxBorderWidthOs: string;
 export const tpCheckboxBorderStyleOs: string;
 export const tpCheckboxMetadataDisabled: string;
+export const tpCheckboxMetadataLabelButton: string;
 export const tpCheckboxRippleSizeOs: {
   original: string;
   number: number;
@@ -479,6 +510,24 @@ export const tpCheckboxRippleSizeOs: {
 };
 export const tpCheckboxRippleBorderRadiusOs: string;
 export const tpCheckboxIconSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpCkeditorMetadataSize: string;
+export const tpCkeditorMetadataInline: string;
+export const tpCkeditorEditableMinHeightMd: string;
+export const tpCkeditorEditableMinHeightSm: string;
+export const tpCkeditorListPaddingLeftOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpCkeditorBorderWidthOs: string;
+export const tpCkeditorBorderStyleOs: string;
+export const tpCkeditorBorderRadiusOs: {
   original: string;
   number: number;
   decimal: number;
@@ -1062,6 +1111,182 @@ export const tpRadioRippleSizeOs: {
   scale: number;
 };
 export const tpRadioRippleBorderRadiusOs: string;
+export const tpSelectFilterContainerBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSelectFilterContainerHeightOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSelectFilterElementPaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSelectFilterElementGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSelectFilterElementFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpSelectFilterElementPaddingTopOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSelectFilterLabelDefaultFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpSelectFilterLabelFloatFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpSelectFilterMetadataDisabled: string;
+export const tpSelectFilterMetadataState: string;
+export const tpSelectFilterFeedbackFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpSelectFilterPaddingBottomOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSelectFilterPopoverMaxHeightOs: string;
+export const tpSelectFilterPopoverBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSelectFilterPopoverBoxShadowOs: {
+  x: string;
+  y: string;
+  blur: string;
+  spread: string;
+  color: string;
+  type: string;
+}[];
+export const tpSelectFilterPopoverItemHeightOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSelectFilterPopoverItemPaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSelectFilterPopoverItemFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpSelectFilterPopoverItemGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSelectFilterIconDefaultSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSelectFilterMiddlePaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSelectFilterWrapperSidesMinWidthOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSelectFilterMinWidthOs: string;
+export const tpSelectFilterInputMarginVerticalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSelectFilterInputMarginHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSelectFilterContainerButtonsPaddingOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSelectFilterContainerButtonsWidthOs: string;
+export const tpSelectFilterButtonFirstChildBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSelectFilterButtonLastChildBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpSelectItemMetadataColor: string;
 export const tpSelectItemMetadataSelected: string;
 export const tpSelectItemMetadataMove: string;
@@ -1397,23 +1622,40 @@ export const tpTableThFontMapOs: {
   fontFamily: string;
 };
 export const tpTableThFontTextTransformOs: string;
-export const tpTableThFirstChildPaddingLeftOs: {
+export const tpTableThLevel1PaddingLeftOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpTableThLastChildPaddingRightOs: {
+export const tpTableThGapOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpTableBorderWidthMd: string;
-export const tpTableBorderWidthSm: string;
+export const tpTableThIconSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTableThContainerGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTableThLevel2PaddingLeftOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTableBorderWidthOs: string;
 export const tpTableBorderStyleOs: string;
 export const tpTableResposiveMinWidthOs: string;
-export const tpTableResposivePaddingBottomOs: {
+export const tpTablePaddingBottomOs: {
   original: string;
   number: number;
   decimal: number;
@@ -1436,32 +1678,38 @@ export const tpTableTdFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTableTdFirstChildPaddingLeftOs: {
+export const tpTableTdLevel1PaddingLeftOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpTableTdLastChildPaddingRightOs: {
+export const tpTableTdGapOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpTableCircleSizeOs: {
+export const tpTableTdContainerGapOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpTableCircleBorderRadiusOs: string;
-export const tpTableAccordionTdPaddingVerticalOs: {
+export const tpTableTdLevel2PaddingLeftOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpTableAccordionGridPaddingLeftOs: {
+export const tpTableTdMinWidthOs: string;
+export const tpTableTdIconSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTableAccordionPaddingHorizontalOs: {
   original: string;
   number: number;
   decimal: number;

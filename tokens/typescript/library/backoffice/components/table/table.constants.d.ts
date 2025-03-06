@@ -1,4 +1,5 @@
-import { TpTableTableBorder } from './table.enums';
+import { TpTableBorder, TpTableCellLevel } from './table.enums';
 export declare const TP_TABLE: {
-    "tp-table-border": TpTableTableBorder[];
+    "tp-border": TpTableBorder[];
+    "tp-cell-level": TpTableCellLevel[];
 };

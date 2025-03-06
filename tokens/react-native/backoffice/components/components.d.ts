@@ -702,6 +702,14 @@ export const tpDatepickerCalendarHeaderButtonFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
+export const tpDatepickerBorderStyleOs: string;
+export const tpDatepickerBorderWidthOs: string;
+export const tpDatepickerFeedbackMarginTopOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpDialogBorderRadiusOs: {
   original: string;
   number: number;
@@ -736,6 +744,37 @@ export const tpDialogFooterPaddingHorizontalOs: {
   scale: number;
 };
 export const tpDialogFooterHeightOs: string;
+export const tpFlagTagMetadataSize: string;
+export const tpFlagTagMetadataColor: string;
+export const tpFlagTagPaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpFlagTagPaddingVerticalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpFlagTagBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpFlagTagFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
 export const tpIconMetadataSize: string;
 export const tpIconMetadataColor: string;
 export const tpIconSize2xl: {
@@ -761,6 +800,173 @@ export const tpIconSizeMd: {
   number: number;
   decimal: number;
   scale: number;
+};
+export const tpInputAddContainerBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpInputAddContainerHeightOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpInputAddElementPaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpInputAddElementGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpInputAddElementFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpInputAddElementPaddingTopOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpInputAddElementPaddingBottomOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpInputAddLabelDefaultFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpInputAddLabelFloatFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpInputAddHintFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpInputAddMetadataDisabled: string;
+export const tpInputAddMetadataState: string;
+export const tpInputAddFeedbackFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpInputAddFeedbackMarginTopOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpInputAddPaddingBottomOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpInputAddWrapperSidesMinWidthOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpInputAddMiddlePaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpInputAddIconDefaultSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpInputAddMinWidthOs: string;
+export const tpInputAddBorderWidthOs: string;
+export const tpInputAddBorderStyleOs: string;
+export const tpInputAddListMarginTopOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpInputAddListGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpInputAddTagItemPaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpInputAddTagItemPaddingVerticalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpInputAddTagItemBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpInputAddTagItemFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
 };
 export const tpInputContainerBorderRadiusOs: {
   original: string;
@@ -798,6 +1004,12 @@ export const tpInputElementFontMapOs: {
   fontFamily: string;
 };
 export const tpInputElementPaddingTopOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpInputElementPaddingBottomOs: {
   original: string;
   number: number;
   decimal: number;
@@ -849,6 +1061,12 @@ export const tpInputFeedbackFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
+export const tpInputFeedbackMarginTopOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpInputPaddingBottomOs: {
   original: string;
   number: number;
@@ -874,6 +1092,30 @@ export const tpInputIconDefaultSizeOs: {
   scale: number;
 };
 export const tpInputMinWidthOs: string;
+export const tpInputBorderWidthOs: string;
+export const tpInputBorderStyleOs: string;
+export const tpInputTagFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpInputTagItemFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
 export const tpMenuNavItemPaddingVerticalOs: {
   original: string;
   number: number;
@@ -914,7 +1156,7 @@ export const tpMenuMetadataSize: string;
 export const tpMenuWidthLg: string;
 export const tpMenuWidthMd: string;
 export const tpMenuWidthSm: string;
-export const tpMenuSpacingOs: {
+export const tpMenuPaddingOs: {
   original: string;
   number: number;
   decimal: number;
@@ -934,12 +1176,6 @@ export const tpMenuBoxShadowOs: {
   color: string;
   type: string;
 }[];
-export const tpMenuContentPaddingVerticalOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
 export const tpModalBorderRadiusOs: {
   original: string;
   number: number;
@@ -1152,6 +1388,12 @@ export const tpSelectFilterElementPaddingTopOs: {
   decimal: number;
   scale: number;
 };
+export const tpSelectFilterElementPaddingBottomOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpSelectFilterLabelDefaultFontMapOs: {
   fontWeight: string;
   fontSize: {
@@ -1186,6 +1428,12 @@ export const tpSelectFilterFeedbackFontMapOs: {
   };
   lineHeight: string;
   fontFamily: string;
+};
+export const tpSelectFilterFeedbackMarginTopOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
 };
 export const tpSelectFilterPaddingBottomOs: {
   original: string;
@@ -1287,6 +1535,8 @@ export const tpSelectFilterButtonLastChildBorderRadiusOs: {
   decimal: number;
   scale: number;
 };
+export const tpSelectFilterBorderWidthOs: string;
+export const tpSelectFilterBorderStyleOs: string;
 export const tpSelectItemMetadataColor: string;
 export const tpSelectItemMetadataSelected: string;
 export const tpSelectItemMetadataMove: string;
@@ -1371,6 +1621,12 @@ export const tpSelectElementPaddingTopOs: {
   decimal: number;
   scale: number;
 };
+export const tpSelectElementPaddingBottomOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpSelectLabelDefaultFontMapOs: {
   fontWeight: string;
   fontSize: {
@@ -1405,6 +1661,12 @@ export const tpSelectFeedbackFontMapOs: {
   };
   lineHeight: string;
   fontFamily: string;
+};
+export const tpSelectFeedbackMarginTopOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
 };
 export const tpSelectPaddingBottomOs: {
   original: string;
@@ -1469,6 +1731,8 @@ export const tpSelectWrapperSidesMinWidthOs: {
   scale: number;
 };
 export const tpSelectMinWidthOs: string;
+export const tpSelectBorderStyleOs: string;
+export const tpSelectBorderWidthOs: string;
 export const tpSnackbarMetadataColor: string;
 export const tpSnackbarMinHeightOs: {
   original: string;
@@ -1583,21 +1847,23 @@ export const tpTabHeaderItemPaddingHorizontalOs: {
   decimal: number;
   scale: number;
 };
-export const tpTabHeaderItemWidthOs: string;
+export const tpTabHeaderItemMinWidthOs: string;
 export const tpTabHeaderBorderWidthOs: string;
-export const tpTabHeaderInkBarHeightOs: {
+export const tpTabHeaderBarHeightOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpTabBorderStyleOs: string;
+export const tpTabHeaderBorderStyleOs: string;
 export const tpTableMetadataBreakWord: string;
 export const tpTableMetadataAction: string;
 export const tpTableMetadataBorder: string;
+export const tpTableMetadataLevel: string;
 export const tpTableMetadataCenter: string;
 export const tpTableMetadataEven: string;
-export const tpTableMetadataHeaderMinWidth: string;
+export const tpTableMetadataMinWidthFull: string;
+export const tpTableMetadataCellMinWidthFull: string;
 export const tpTableMetadataHover: string;
 export const tpTableMetadataPointer: string;
 export const tpTableMetadataResponsive: string;
@@ -1810,6 +2076,12 @@ export const tpTextareaFeedbackFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
+export const tpTextareaFeedbackMarginTopOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpTextareaPaddingBottomOs: {
   original: string;
   number: number;
@@ -1828,6 +2100,8 @@ export const tpTextareaWrapperSidesMinWidthOs: {
   decimal: number;
   scale: number;
 };
+export const tpTextareaBorderStyleOs: string;
+export const tpTextareaBorderWidthOs: string;
 export const tpToggleGapOs: {
   original: string;
   number: number;

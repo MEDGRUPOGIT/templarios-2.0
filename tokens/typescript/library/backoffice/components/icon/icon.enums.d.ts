@@ -11,5 +11,6 @@ export declare enum TpIconColor {
     WARNING = "warning",
     INFO = "info",
     PRIMARY = "primary",
-    DARK = "dark"
+    DARK = "dark",
+    LIGHT = "light"
 }

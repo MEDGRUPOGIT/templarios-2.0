@@ -273,10 +273,10 @@ export const tpButtonClearHeightMd = {
   scale: 768,
 };
 export const tpButtonClearHeightSm = {
-  original: "36px",
-  number: 36,
-  decimal: 0.36,
-  scale: 576,
+  original: "32px",
+  number: 32,
+  decimal: 0.32,
+  scale: 512,
 };
 export const tpButtonClearPaddingHorizontalMd = {
   original: "12px",
@@ -432,10 +432,10 @@ export const tpCheckboxOuterSizeOs = {
   scale: 256,
 };
 export const tpCheckboxGapOs = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
+  original: "14px",
+  number: 14,
+  decimal: 0.14,
+  scale: 224,
 };
 export const tpCheckboxFontMapDefault = {
   fontWeight: "400",
@@ -529,7 +529,7 @@ export const tpDatepickerLabelFloatFontMapOs = {
 export const tpDatepickerHintFontMapOs = {
   fontWeight: "500",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "100%",
+  lineHeight: "150%",
   fontFamily: "Poppins",
 };
 export const tpDatepickerMetadataDisabled = "boolean";
@@ -537,7 +537,7 @@ export const tpDatepickerMetadataState = "error success";
 export const tpDatepickerFeddbackFontMapOs = {
   fontWeight: "500",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "100%",
+  lineHeight: "150%",
   fontFamily: "Poppins",
 };
 export const tpDatepickerWrapperPaddingBottomOs = {
@@ -608,6 +608,14 @@ export const tpDatepickerCalendarHeaderButtonFontMapOs = {
   lineHeight: "100%",
   fontFamily: "Poppins",
 };
+export const tpDatepickerBorderStyleOs = "solid";
+export const tpDatepickerBorderWidthOs = "1px";
+export const tpDatepickerFeedbackMarginTopOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
 export const tpDialogBorderRadiusOs = {
   original: "8px",
   number: 8,
@@ -642,9 +650,36 @@ export const tpDialogFooterPaddingHorizontalOs = {
   scale: 384,
 };
 export const tpDialogFooterHeightOs = "80px";
+export const tpFlagTagMetadataSize = "boolean";
+export const tpFlagTagMetadataColor =
+  "success danger warning warning-light info primary gray-dark gray-light";
+export const tpFlagTagPaddingHorizontalOs = {
+  original: "12px",
+  number: 12,
+  decimal: 0.12,
+  scale: 192,
+};
+export const tpFlagTagPaddingVerticalOs = {
+  original: "6px",
+  number: 6,
+  decimal: 0.06,
+  scale: 96,
+};
+export const tpFlagTagBorderRadiusOs = {
+  original: "6px",
+  number: 6,
+  decimal: 0.06,
+  scale: 96,
+};
+export const tpFlagTagFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
+  lineHeight: "150%",
+  fontFamily: "Poppins",
+};
 export const tpIconMetadataSize = "2xl xl lg md";
 export const tpIconMetadataColor =
-  "gray success danger warning info primary dark";
+  "gray success danger warning info primary dark light";
 export const tpIconSize2xl = {
   original: "48px",
   number: 48,
@@ -668,6 +703,143 @@ export const tpIconSizeMd = {
   number: 20,
   decimal: 0.2,
   scale: 320,
+};
+export const tpInputAddContainerBorderRadiusOs = {
+  original: "4px",
+  number: 4,
+  decimal: 0.04,
+  scale: 64,
+};
+export const tpInputAddContainerHeightOs = {
+  original: "48px",
+  number: 48,
+  decimal: 0.48,
+  scale: 768,
+};
+export const tpInputAddElementPaddingHorizontalOs = {
+  original: "12px",
+  number: 12,
+  decimal: 0.12,
+  scale: 192,
+};
+export const tpInputAddElementGapOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpInputAddElementFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "100%",
+  fontFamily: "Poppins",
+};
+export const tpInputAddElementPaddingTopOs = {
+  original: "18px",
+  number: 18,
+  decimal: 0.18,
+  scale: 288,
+};
+export const tpInputAddElementPaddingBottomOs = {
+  original: "14px",
+  number: 14,
+  decimal: 0.14,
+  scale: 224,
+};
+export const tpInputAddLabelDefaultFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "100%",
+  fontFamily: "Poppins",
+};
+export const tpInputAddLabelFloatFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
+  lineHeight: "100%",
+  fontFamily: "Poppins",
+};
+export const tpInputAddHintFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "150%",
+  fontFamily: "Poppins",
+};
+export const tpInputAddMetadataDisabled = "boolean";
+export const tpInputAddMetadataState = "error success";
+export const tpInputAddFeedbackFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "150%",
+  fontFamily: "Poppins",
+};
+export const tpInputAddFeedbackMarginTopOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpInputAddPaddingBottomOs = {
+  original: "24px",
+  number: 24,
+  decimal: 0.24,
+  scale: 384,
+};
+export const tpInputAddWrapperSidesMinWidthOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpInputAddMiddlePaddingHorizontalOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpInputAddIconDefaultSizeOs = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
+};
+export const tpInputAddMinWidthOs = "200px";
+export const tpInputAddBorderWidthOs = "1px";
+export const tpInputAddBorderStyleOs = "solid";
+export const tpInputAddListMarginTopOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpInputAddListGapOs = {
+  original: "12px",
+  number: 12,
+  decimal: 0.12,
+  scale: 192,
+};
+export const tpInputAddTagItemPaddingHorizontalOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpInputAddTagItemPaddingVerticalOs = {
+  original: "6px",
+  number: 6,
+  decimal: 0.06,
+  scale: 96,
+};
+export const tpInputAddTagItemBorderRadiusOs = {
+  original: "4px",
+  number: 4,
+  decimal: 0.04,
+  scale: 64,
+};
+export const tpInputAddTagItemFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "100%",
+  fontFamily: "Poppins",
 };
 export const tpInputContainerBorderRadiusOs = {
   original: "4px",
@@ -700,10 +872,16 @@ export const tpInputElementFontMapOs = {
   fontFamily: "Poppins",
 };
 export const tpInputElementPaddingTopOs = {
-  original: "4px",
-  number: 4,
-  decimal: 0.04,
-  scale: 64,
+  original: "18px",
+  number: 18,
+  decimal: 0.18,
+  scale: 288,
+};
+export const tpInputElementPaddingBottomOs = {
+  original: "14px",
+  number: 14,
+  decimal: 0.14,
+  scale: 224,
 };
 export const tpInputLabelDefaultFontMapOs = {
   fontWeight: "500",
@@ -720,7 +898,7 @@ export const tpInputLabelFloatFontMapOs = {
 export const tpInputHintFontMapOs = {
   fontWeight: "500",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "100%",
+  lineHeight: "150%",
   fontFamily: "Poppins",
 };
 export const tpInputMetadataDisabled = "boolean";
@@ -728,8 +906,14 @@ export const tpInputMetadataState = "error success";
 export const tpInputFeedbackFontMapOs = {
   fontWeight: "500",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "100%",
+  lineHeight: "150%",
   fontFamily: "Poppins",
+};
+export const tpInputFeedbackMarginTopOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
 };
 export const tpInputPaddingBottomOs = {
   original: "24px",
@@ -756,6 +940,20 @@ export const tpInputIconDefaultSizeOs = {
   scale: 256,
 };
 export const tpInputMinWidthOs = "200px";
+export const tpInputBorderWidthOs = "1px";
+export const tpInputBorderStyleOs = "solid";
+export const tpInputTagFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "150%",
+  fontFamily: "Poppins",
+};
+export const tpInputTagItemFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "150%",
+  fontFamily: "Poppins",
+};
 export const tpMenuNavItemPaddingVerticalOs = {
   original: "8px",
   number: 8,
@@ -791,7 +989,7 @@ export const tpMenuMetadataSize = "lg md sm";
 export const tpMenuWidthLg = "980px";
 export const tpMenuWidthMd = "600px";
 export const tpMenuWidthSm = "300px";
-export const tpMenuSpacingOs = {
+export const tpMenuPaddingOs = {
   original: "12px",
   number: 12,
   decimal: 0.12,
@@ -821,12 +1019,6 @@ export const tpMenuBoxShadowOs = [
     type: "dropShadow",
   },
 ];
-export const tpMenuContentPaddingVerticalOs = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
-};
 export const tpModalBorderRadiusOs = {
   original: "8px",
   number: 8,
@@ -1024,10 +1216,16 @@ export const tpSelectFilterElementFontMapOs = {
   fontFamily: "Poppins",
 };
 export const tpSelectFilterElementPaddingTopOs = {
-  original: "4px",
-  number: 4,
-  decimal: 0.04,
-  scale: 64,
+  original: "18px",
+  number: 18,
+  decimal: 0.18,
+  scale: 288,
+};
+export const tpSelectFilterElementPaddingBottomOs = {
+  original: "14px",
+  number: 14,
+  decimal: 0.14,
+  scale: 224,
 };
 export const tpSelectFilterLabelDefaultFontMapOs = {
   fontWeight: "500",
@@ -1048,6 +1246,12 @@ export const tpSelectFilterFeedbackFontMapOs = {
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
   lineHeight: "100%",
   fontFamily: "Poppins",
+};
+export const tpSelectFilterFeedbackMarginTopOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
 };
 export const tpSelectFilterPaddingBottomOs = {
   original: "24px",
@@ -1154,6 +1358,8 @@ export const tpSelectFilterButtonLastChildBorderRadiusOs = {
   decimal: 0.06,
   scale: 96,
 };
+export const tpSelectFilterBorderWidthOs = "1px";
+export const tpSelectFilterBorderStyleOs = "solid";
 export const tpSelectItemMetadataColor = "success danger";
 export const tpSelectItemMetadataSelected = "boolean";
 export const tpSelectItemMetadataMove = "boolean";
@@ -1228,10 +1434,16 @@ export const tpSelectElementFontMapOs = {
   fontFamily: "Poppins",
 };
 export const tpSelectElementPaddingTopOs = {
-  original: "4px",
-  number: 4,
-  decimal: 0.04,
-  scale: 64,
+  original: "18px",
+  number: 18,
+  decimal: 0.18,
+  scale: 288,
+};
+export const tpSelectElementPaddingBottomOs = {
+  original: "14px",
+  number: 14,
+  decimal: 0.14,
+  scale: 224,
 };
 export const tpSelectLabelDefaultFontMapOs = {
   fontWeight: "500",
@@ -1250,8 +1462,14 @@ export const tpSelectMetadataState = "error success";
 export const tpSelectFeedbackFontMapOs = {
   fontWeight: "500",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "100%",
+  lineHeight: "150%",
   fontFamily: "Poppins",
+};
+export const tpSelectFeedbackMarginTopOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
 };
 export const tpSelectPaddingBottomOs = {
   original: "24px",
@@ -1321,6 +1539,8 @@ export const tpSelectWrapperSidesMinWidthOs = {
   scale: 128,
 };
 export const tpSelectMinWidthOs = "200px";
+export const tpSelectBorderStyleOs = "solid";
+export const tpSelectBorderWidthOs = "1px";
 export const tpSnackbarMetadataColor = "success danger warning info";
 export const tpSnackbarMinHeightOs = {
   original: "48px",
@@ -1435,22 +1655,24 @@ export const tpTabHeaderItemPaddingHorizontalOs = {
   decimal: 0.24,
   scale: 384,
 };
-export const tpTabHeaderItemWidthOs = "160px";
+export const tpTabHeaderItemMinWidthOs = "160px";
 export const tpTabHeaderBorderWidthOs = "1px";
-export const tpTabHeaderInkBarHeightOs = {
+export const tpTabHeaderBarHeightOs = {
   original: "2px",
   number: 2,
   decimal: 0.02,
   scale: 32,
 };
-export const tpTabBorderStyleOs = "solid";
+export const tpTabHeaderBorderStyleOs = "solid";
 export const tpTableMetadataBreakWord = "boolean";
 export const tpTableMetadataAction = "boolean";
 export const tpTableMetadataBorder =
-  "border border-secondary border-right border-none";
+  "border-horizontal border-vertical border-inner border-all";
+export const tpTableMetadataLevel = "one two";
 export const tpTableMetadataCenter = "boolean";
 export const tpTableMetadataEven = "boolean";
-export const tpTableMetadataHeaderMinWidth = "boolean";
+export const tpTableMetadataMinWidthFull = "boolean";
+export const tpTableMetadataCellMinWidthFull = "boolean";
 export const tpTableMetadataHover = "boolean";
 export const tpTableMetadataPointer = "boolean";
 export const tpTableMetadataResponsive = "boolean";
@@ -1600,7 +1822,7 @@ export const tpTextareaElementGapOs = {
 export const tpTextareaElementFontMapOs = {
   fontWeight: "500",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "100%",
+  lineHeight: "150%",
   fontFamily: "Poppins",
 };
 export const tpTextareaLabelDefaultFontMapOs = {
@@ -1618,7 +1840,7 @@ export const tpTextareaLabelFloatFontMapOs = {
 export const tpTextareaHintFontMapOs = {
   fontWeight: "500",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "100%",
+  lineHeight: "150%",
   fontFamily: "Poppins",
 };
 export const tpTextareaMetadataDisabled = "boolean";
@@ -1626,8 +1848,14 @@ export const tpTextareaMetadataState = "error success";
 export const tpTextareaFeedbackFontMapOs = {
   fontWeight: "500",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "100%",
+  lineHeight: "150%",
   fontFamily: "Poppins",
+};
+export const tpTextareaFeedbackMarginTopOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
 };
 export const tpTextareaPaddingBottomOs = {
   original: "24px",
@@ -1647,6 +1875,8 @@ export const tpTextareaWrapperSidesMinWidthOs = {
   decimal: 0.08,
   scale: 128,
 };
+export const tpTextareaBorderStyleOs = "solid";
+export const tpTextareaBorderWidthOs = "1px";
 export const tpToggleGapOs = {
   original: "8px",
   number: 8,

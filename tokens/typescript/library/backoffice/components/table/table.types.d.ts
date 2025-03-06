@@ -1,14 +1,16 @@
-import { TpTableTableBorder } from './table.enums';
+import { TpTableBorder, TpTableCellLevel } from './table.enums';
 export type TpTable = {
-    ['tp-table-break-word']: boolean;
-    ['tp-table-action']: boolean;
-    ['tp-table-border']: `${TpTableTableBorder}`;
-    ['tp-table-center']: boolean;
-    ['tp-table-even']: boolean;
-    ['tp-table-header-min-width']: boolean;
-    ['tp-table-hover']: boolean;
-    ['tp-table-pointer']: boolean;
-    ['tp-table-responsive']: boolean;
-    ['tp-table-row-error']: boolean;
-    ['tp-table-min-width-initial']: boolean;
+    ['tp-break-word']: boolean;
+    ['tp-action']: boolean;
+    ['tp-border']: `${TpTableBorder}`;
+    ['tp-cell-level']: `${TpTableCellLevel}`;
+    ['tp-center']: boolean;
+    ['tp-even']: boolean;
+    ['tp-min-width-full']: boolean;
+    ['tp-cell-min-width-full']: boolean;
+    ['tp-hover']: boolean;
+    ['tp-pointer']: boolean;
+    ['tp-responsive']: boolean;
+    ['tp-row-error']: boolean;
+    ['tp-min-width-initial']: boolean;
 };

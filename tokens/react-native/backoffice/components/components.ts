@@ -966,17 +966,23 @@ export const tpMenuNavItemFontMapOs = {
   lineHeight: "150%",
   fontFamily: "Poppins",
 };
-export const tpMenuNavItemSizeOs = {
-  original: "40px",
-  number: 40,
-  decimal: 0.4,
-  scale: 640,
+export const tpMenuNavItemMinHeightOs = {
+  original: "48px",
+  number: 48,
+  decimal: 0.48,
+  scale: 768,
 };
-export const tpMenuNavPaddingVerticalOs = {
-  original: "16px",
-  number: 16,
-  decimal: 0.16,
-  scale: 256,
+export const tpMenuNavItemIconSizeOs = {
+  original: "20px",
+  number: 20,
+  decimal: 0.2,
+  scale: 320,
+};
+export const tpMenuNavItemGapOs = {
+  original: "12px",
+  number: 12,
+  decimal: 0.12,
+  scale: 192,
 };
 export const tpMenuNavMetadataActive = "boolean";
 export const tpMenuNavSubitemPaddingLeftOs = {
@@ -1664,6 +1670,12 @@ export const tpTabHeaderBarHeightOs = {
   scale: 32,
 };
 export const tpTabHeaderBorderStyleOs = "solid";
+export const tpTabHeaderFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "100%",
+  fontFamily: "Poppins",
+};
 export const tpTableMetadataBreakWord = "boolean";
 export const tpTableMetadataAction = "boolean";
 export const tpTableMetadataBorder =
@@ -1692,7 +1704,7 @@ export const tpTableThFontMapOs = {
   fontFamily: "Poppins",
 };
 export const tpTableThFontTextTransformOs = "uppercase";
-export const tpTableThLevel1PaddingLeftOs = {
+export const tpTableThLevelOnePaddingLeftOs = {
   original: "16px",
   number: 16,
   decimal: 0.16,
@@ -1716,7 +1728,7 @@ export const tpTableThContainerGapOs = {
   decimal: 0.08,
   scale: 128,
 };
-export const tpTableThLevel2PaddingLeftOs = {
+export const tpTableThLevelTwoPaddingLeftOs = {
   original: "24px",
   number: 24,
   decimal: 0.24,
@@ -1743,7 +1755,7 @@ export const tpTableTdFontMapOs = {
   lineHeight: "150%",
   fontFamily: "Poppins",
 };
-export const tpTableTdLevel1PaddingLeftOs = {
+export const tpTableTdLevelOnePaddingLeftOs = {
   original: "16px",
   number: 16,
   decimal: 0.16,
@@ -1761,7 +1773,7 @@ export const tpTableTdContainerGapOs = {
   decimal: 0.08,
   scale: 128,
 };
-export const tpTableTdLevel2PaddingLeftOs = {
+export const tpTableTdLevelTwoPaddingLeftOs = {
   original: "24px",
   number: 24,
   decimal: 0.24,

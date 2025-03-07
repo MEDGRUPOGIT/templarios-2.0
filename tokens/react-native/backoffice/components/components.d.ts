@@ -1133,13 +1133,19 @@ export const tpMenuNavItemFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpMenuNavItemSizeOs: {
+export const tpMenuNavItemMinHeightOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpMenuNavPaddingVerticalOs: {
+export const tpMenuNavItemIconSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpMenuNavItemGapOs: {
   original: string;
   number: number;
   decimal: number;
@@ -1856,6 +1862,17 @@ export const tpTabHeaderBarHeightOs: {
   scale: number;
 };
 export const tpTabHeaderBorderStyleOs: string;
+export const tpTabHeaderFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
 export const tpTableMetadataBreakWord: string;
 export const tpTableMetadataAction: string;
 export const tpTableMetadataBorder: string;
@@ -1888,7 +1905,7 @@ export const tpTableThFontMapOs: {
   fontFamily: string;
 };
 export const tpTableThFontTextTransformOs: string;
-export const tpTableThLevel1PaddingLeftOs: {
+export const tpTableThLevelOnePaddingLeftOs: {
   original: string;
   number: number;
   decimal: number;
@@ -1912,7 +1929,7 @@ export const tpTableThContainerGapOs: {
   decimal: number;
   scale: number;
 };
-export const tpTableThLevel2PaddingLeftOs: {
+export const tpTableThLevelTwoPaddingLeftOs: {
   original: string;
   number: number;
   decimal: number;
@@ -1944,7 +1961,7 @@ export const tpTableTdFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTableTdLevel1PaddingLeftOs: {
+export const tpTableTdLevelOnePaddingLeftOs: {
   original: string;
   number: number;
   decimal: number;
@@ -1962,7 +1979,7 @@ export const tpTableTdContainerGapOs: {
   decimal: number;
   scale: number;
 };
-export const tpTableTdLevel2PaddingLeftOs: {
+export const tpTableTdLevelTwoPaddingLeftOs: {
   original: string;
   number: number;
   decimal: number;

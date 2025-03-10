@@ -1,0 +1,30 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title>expand</title>
+<style>
+  :host {
+    --stroke-width: 2;
+    --fill: none;
+    --transition: none;
+  }
+
+  :host {
+    font-size: 24px;
+    stroke: inherit;
+  }
+
+  :host path {
+    stroke: currentColor;
+    stroke-width: var(--stroke-width);
+    fill: var(--fill);
+    transition: var(--transition);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  /* ionic */
+  :host(.ion-color) path {
+    --stroke: var(--ion-color-base) !important;
+  }
+</style>
+<path d="M7.50004 7.50001L3.33337 3.33334M3.33337 3.33334V6.66668M3.33337 3.33334H6.66671M12.5 7.50001L16.6667 3.33334M16.6667 3.33334V6.66668M16.6667 3.33334H13.3334M7.50004 12.5L3.33337 16.6667M3.33337 16.6667V13.3333M3.33337 16.6667H6.66671M12.5 12.5L16.6667 16.6667M16.6667 16.6667V13.3333M16.6667 16.6667H13.3334" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

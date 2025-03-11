@@ -8,3 +8,10 @@ export declare enum TpTableCellLevel {
     ONE = "one",
     TWO = "two"
 }
+export declare enum TpTableFeedback {
+    DANGER = "danger",
+    SUCCESS = "success",
+    WARNING = "warning",
+    INFO = "info",
+    PRIMARY = "primary"
+}

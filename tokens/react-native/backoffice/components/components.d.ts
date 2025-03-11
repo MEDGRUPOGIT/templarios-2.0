@@ -142,6 +142,109 @@ export const tpApexchartsCircleBorderRadiusOs: string;
 export const tpApexchartsCircleWidthOs: string;
 export const tpApexchartsCircleHeightOs: string;
 export const tpApexchartsMetadataName: string;
+export const tpAsideNavItemPaddingVerticalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpAsideNavItemFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpAsideNavItemMinHeightOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpAsideNavItemIconSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpAsideNavItemGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpAsideNavMetadataSelected: string;
+export const tpAsideNavMetadataDisabled: string;
+export const tpAsideNavSubitemPaddingLeftOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpAsidePaddingOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpAsideTitleFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpAsideWidthOs: string;
+export const tpAsideTopGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpAsideGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpAsideExitButtonWidthOs: string;
+export const tpAsideBottomGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpAsideContainerSettingsGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpAsideToggleMarginHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpAsideSettingsFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
 export const tpBadgeSizeMd: {
   original: string;
   number: number;
@@ -161,6 +264,19 @@ export const tpBadgeFontMapMd: {
   fontFamily: string;
 };
 export const tpBadgeMetadataColor: string;
+export const tpBreadcrumbsMetadataActive: string;
+export const tpBreadcrumbsListGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpBreadcrumbsIconSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpButtonIconSolidBorderRadiusMd: {
   original: string;
   number: number;
@@ -1116,48 +1232,6 @@ export const tpInputTagItemFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpMenuNavItemPaddingVerticalOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpMenuNavItemFontMapOs: {
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-  fontFamily: string;
-};
-export const tpMenuNavItemMinHeightOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpMenuNavItemIconSizeOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpMenuNavItemGapOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpMenuNavMetadataActive: string;
-export const tpMenuNavSubitemPaddingLeftOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
 export const tpMenuMetadataSize: string;
 export const tpMenuWidthLg: string;
 export const tpMenuWidthMd: string;
@@ -1222,36 +1296,55 @@ export const tpModalBoxShadowOs: {
   color: string;
   type: string;
 }[];
-export const tpNavMetadataActive: string;
-export const tpNavMetadataDisabled: string;
-export const tpNavItemPaddingHorizontalOs: {
+export const tpNavigationIconLogoSizeOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpNavItemPaddingVerticalOs: {
+export const tpNavigationPaddingOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpNavItemGapOs: {
+export const tpNavigationBorderWidthOs: string;
+export const tpNavigationBorderStyleOs: string;
+export const tpNavigationItemSizeOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpNavItemFontMapOs: {
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-  fontFamily: string;
+export const tpNavigationItemBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpNavigationIconItemSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpNavigationLogoSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpNavigationGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpNavigationListGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
 };
 export const tpPaginationGapButtonRightOs: {
   original: string;
@@ -1840,6 +1933,37 @@ export const tpSpinnerIconSizeSm: {
   scale: number;
 };
 export const tpSpinnerWrapperZIndexOs: string;
+export const tpStepsMetadataActive: string;
+export const tpStepsMetadataDisabled: string;
+export const tpStepsItemPaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpStepsItemPaddingVerticalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpStepsItemGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpStepsItemFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
 export const tpTabMetadataWidthFull: string;
 export const tpTabHeaderHeightOs: {
   original: string;
@@ -1878,13 +2002,14 @@ export const tpTableMetadataAction: string;
 export const tpTableMetadataBorder: string;
 export const tpTableMetadataLevel: string;
 export const tpTableMetadataCenter: string;
-export const tpTableMetadataEven: string;
+export const tpTableMetadataOdd: string;
+export const tpTableMetadataDisabled: string;
 export const tpTableMetadataMinWidthFull: string;
 export const tpTableMetadataCellMinWidthFull: string;
 export const tpTableMetadataHover: string;
 export const tpTableMetadataPointer: string;
 export const tpTableMetadataResponsive: string;
-export const tpTableMetadataRowError: string;
+export const tpTableMetadataFeedback: string;
 export const tpTableMetadataMinWidthInitial: string;
 export const tpTableThMinWidthOs: string;
 export const tpTableThPaddingOs: {

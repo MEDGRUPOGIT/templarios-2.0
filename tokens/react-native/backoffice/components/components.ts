@@ -112,6 +112,94 @@ export const tpApexchartsCircleBorderRadiusOs = "9999px";
 export const tpApexchartsCircleWidthOs = "200px";
 export const tpApexchartsCircleHeightOs = "180px";
 export const tpApexchartsMetadataName = "text-colors columns legend-bottom-xl";
+export const tpAsideNavItemPaddingVerticalOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpAsideNavItemFontMapOs = {
+  fontWeight: "400",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "150%",
+  fontFamily: "Poppins",
+};
+export const tpAsideNavItemMinHeightOs = {
+  original: "48px",
+  number: 48,
+  decimal: 0.48,
+  scale: 768,
+};
+export const tpAsideNavItemIconSizeOs = {
+  original: "20px",
+  number: 20,
+  decimal: 0.2,
+  scale: 320,
+};
+export const tpAsideNavItemGapOs = {
+  original: "12px",
+  number: 12,
+  decimal: 0.12,
+  scale: 192,
+};
+export const tpAsideNavMetadataSelected = "boolean";
+export const tpAsideNavMetadataDisabled = "boolean";
+export const tpAsideNavSubitemPaddingLeftOs = {
+  original: "32px",
+  number: 32,
+  decimal: 0.32,
+  scale: 512,
+};
+export const tpAsidePaddingOs = {
+  original: "24px",
+  number: 24,
+  decimal: 0.24,
+  scale: 384,
+};
+export const tpAsideTitleFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "24px", number: 24, decimal: 0.24, scale: 384 },
+  lineHeight: "100%",
+  fontFamily: "Poppins",
+};
+export const tpAsideWidthOs = "260px";
+export const tpAsideTopGapOs = {
+  original: "24px",
+  number: 24,
+  decimal: 0.24,
+  scale: 384,
+};
+export const tpAsideGapOs = {
+  original: "24px",
+  number: 24,
+  decimal: 0.24,
+  scale: 384,
+};
+export const tpAsideExitButtonWidthOs = "100%";
+export const tpAsideBottomGapOs = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
+};
+export const tpAsideContainerSettingsGapOs = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
+};
+export const tpAsideToggleMarginHorizontalOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpAsideSettingsFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
+  lineHeight: "100%",
+  fontFamily: "Poppins",
+};
 export const tpBadgeSizeMd = {
   original: "24px",
   number: 24,
@@ -126,6 +214,19 @@ export const tpBadgeFontMapMd = {
   fontFamily: "Poppins",
 };
 export const tpBadgeMetadataColor = "danger success warning info";
+export const tpBreadcrumbsMetadataActive = "boolean";
+export const tpBreadcrumbsListGapOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpBreadcrumbsIconSizeOs = {
+  original: "24px",
+  number: 24,
+  decimal: 0.24,
+  scale: 384,
+};
 export const tpButtonIconSolidBorderRadiusMd = {
   original: "6px",
   number: 6,
@@ -954,43 +1055,6 @@ export const tpInputTagItemFontMapOs = {
   lineHeight: "150%",
   fontFamily: "Poppins",
 };
-export const tpMenuNavItemPaddingVerticalOs = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
-};
-export const tpMenuNavItemFontMapOs = {
-  fontWeight: "400",
-  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "150%",
-  fontFamily: "Poppins",
-};
-export const tpMenuNavItemMinHeightOs = {
-  original: "48px",
-  number: 48,
-  decimal: 0.48,
-  scale: 768,
-};
-export const tpMenuNavItemIconSizeOs = {
-  original: "20px",
-  number: 20,
-  decimal: 0.2,
-  scale: 320,
-};
-export const tpMenuNavItemGapOs = {
-  original: "12px",
-  number: 12,
-  decimal: 0.12,
-  scale: 192,
-};
-export const tpMenuNavMetadataActive = "boolean";
-export const tpMenuNavSubitemPaddingLeftOs = {
-  original: "32px",
-  number: 32,
-  decimal: 0.32,
-  scale: 512,
-};
 export const tpMenuMetadataSize = "lg md sm";
 export const tpMenuWidthLg = "980px";
 export const tpMenuWidthMd = "600px";
@@ -1075,31 +1139,55 @@ export const tpModalBoxShadowOs = [
     type: "dropShadow",
   },
 ];
-export const tpNavMetadataActive = "boolean";
-export const tpNavMetadataDisabled = "boolean";
-export const tpNavItemPaddingHorizontalOs = {
-  original: "16px",
-  number: 16,
-  decimal: 0.16,
-  scale: 256,
+export const tpNavigationIconLogoSizeOs = {
+  original: "40px",
+  number: 40,
+  decimal: 0.4,
+  scale: 640,
 };
-export const tpNavItemPaddingVerticalOs = {
+export const tpNavigationPaddingOs = {
   original: "8px",
   number: 8,
   decimal: 0.08,
   scale: 128,
 };
-export const tpNavItemGapOs = {
+export const tpNavigationBorderWidthOs = "1px";
+export const tpNavigationBorderStyleOs = "solid";
+export const tpNavigationItemSizeOs = {
+  original: "40px",
+  number: 40,
+  decimal: 0.4,
+  scale: 640,
+};
+export const tpNavigationItemBorderRadiusOs = {
   original: "8px",
   number: 8,
   decimal: 0.08,
   scale: 128,
 };
-export const tpNavItemFontMapOs = {
-  fontWeight: "500",
-  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "150%",
-  fontFamily: "Poppins",
+export const tpNavigationIconItemSizeOs = {
+  original: "24px",
+  number: 24,
+  decimal: 0.24,
+  scale: 384,
+};
+export const tpNavigationLogoSizeOs = {
+  original: "60px",
+  number: 60,
+  decimal: 0.6,
+  scale: 960,
+};
+export const tpNavigationGapOs = {
+  original: "18px",
+  number: 18,
+  decimal: 0.18,
+  scale: 288,
+};
+export const tpNavigationListGapOs = {
+  original: "12px",
+  number: 12,
+  decimal: 0.12,
+  scale: 192,
 };
 export const tpPaginationGapButtonRightOs = {
   original: "8px",
@@ -1648,6 +1736,32 @@ export const tpSpinnerIconSizeSm = {
   scale: 256,
 };
 export const tpSpinnerWrapperZIndexOs = "1001";
+export const tpStepsMetadataActive = "boolean";
+export const tpStepsMetadataDisabled = "boolean";
+export const tpStepsItemPaddingHorizontalOs = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
+};
+export const tpStepsItemPaddingVerticalOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpStepsItemGapOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpStepsItemFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "150%",
+  fontFamily: "Poppins",
+};
 export const tpTabMetadataWidthFull = "boolean";
 export const tpTabHeaderHeightOs = {
   original: "48px",
@@ -1682,13 +1796,14 @@ export const tpTableMetadataBorder =
   "border-horizontal border-vertical border-inner border-all";
 export const tpTableMetadataLevel = "one two";
 export const tpTableMetadataCenter = "boolean";
-export const tpTableMetadataEven = "boolean";
+export const tpTableMetadataOdd = "boolean";
+export const tpTableMetadataDisabled = "boolean";
 export const tpTableMetadataMinWidthFull = "boolean";
 export const tpTableMetadataCellMinWidthFull = "boolean";
 export const tpTableMetadataHover = "boolean";
 export const tpTableMetadataPointer = "boolean";
 export const tpTableMetadataResponsive = "boolean";
-export const tpTableMetadataRowError = "boolean";
+export const tpTableMetadataFeedback = "danger success warning info primary";
 export const tpTableMetadataMinWidthInitial = "boolean";
 export const tpTableThMinWidthOs = "150px";
 export const tpTableThPaddingOs = {

@@ -36,6 +36,12 @@ export const tpAccordionHeaderHeightOs: {
   decimal: number;
   scale: number;
 };
+export const tpAccordionHeaderIconSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpAlertPaddingOs: {
   original: string;
   number: number;
@@ -138,10 +144,14 @@ export const tpApexchartsTextFontMapSm: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpApexchartsCircleBorderRadiusOs: string;
-export const tpApexchartsCircleWidthOs: string;
-export const tpApexchartsCircleHeightOs: string;
+export const tpApexchartsCircleSizeOs: string;
 export const tpApexchartsMetadataName: string;
+export const tpApexchartsGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpAsideNavItemPaddingVerticalOs: {
   original: string;
   number: number;
@@ -277,6 +287,17 @@ export const tpBreadcrumbsIconSizeOs: {
   decimal: number;
   scale: number;
 };
+export const tpBreadcrumbsButtonFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
 export const tpButtonIconSolidBorderRadiusMd: {
   original: string;
   number: number;
@@ -289,25 +310,13 @@ export const tpButtonIconSolidBorderRadiusSm: {
   decimal: number;
   scale: number;
 };
-export const tpButtonIconSolidHeightMd: {
+export const tpButtonIconSolidSizeMd: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpButtonIconSolidHeightSm: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpButtonIconSolidPaddingHorizontalMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpButtonIconSolidPaddingHorizontalSm: {
+export const tpButtonIconSolidSizeSm: {
   original: string;
   number: number;
   decimal: number;
@@ -320,25 +329,13 @@ export const tpButtonIconMetadataDisabled: string;
 export const tpButtonIconMetadataName: string;
 export const tpButtonIconBorderWidthOs: string;
 export const tpButtonIconBorderStyleOs: string;
-export const tpButtonIconClearHeightMd: {
+export const tpButtonIconClearSizeMd: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpButtonIconClearHeightSm: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpButtonIconClearPaddingHorizontalMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpButtonIconClearPaddingHorizontalSm: {
+export const tpButtonIconClearSizeSm: {
   original: string;
   number: number;
   decimal: number;
@@ -649,6 +646,19 @@ export const tpCkeditorBorderRadiusOs: {
   decimal: number;
   scale: number;
 };
+export const tpContainerMaxWidthOs: string;
+export const tpContainerPaddingOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpContainerGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpDatepickerContainerBorderRadiusOs: {
   original: string;
   number: number;
@@ -832,12 +842,6 @@ export const tpDialogBorderRadiusOs: {
   decimal: number;
   scale: number;
 };
-export const tpDialogContainerSizeLateralOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
 export const tpDialogBorderWidthOs: string;
 export const tpDialogBorderStyleOs: string;
 export const tpDialogHeaderHeightOs: string;
@@ -846,6 +850,17 @@ export const tpDialogHeaderPaddingHorizontalOs: {
   number: number;
   decimal: number;
   scale: number;
+};
+export const tpDialogHeaderFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
 };
 export const tpDialogContentPaddingOs: {
   original: string;
@@ -860,6 +875,16 @@ export const tpDialogFooterPaddingHorizontalOs: {
   scale: number;
 };
 export const tpDialogFooterHeightOs: string;
+export const tpDialogBoxShadowOs: {
+  x: string;
+  y: string;
+  blur: string;
+  spread: string;
+  color: string;
+  type: string;
+}[];
+export const tpDialogMinHeightOs: string;
+export const tpDialogMarginOs: string;
 export const tpFlagTagMetadataSize: string;
 export const tpFlagTagMetadataColor: string;
 export const tpFlagTagPaddingHorizontalOs: {
@@ -1125,12 +1150,6 @@ export const tpInputElementPaddingTopOs: {
   decimal: number;
   scale: number;
 };
-export const tpInputElementPaddingBottomOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
 export const tpInputLabelDefaultFontMapOs: {
   fontWeight: string;
   fontSize: {
@@ -1346,43 +1365,7 @@ export const tpNavigationListGapOs: {
   decimal: number;
   scale: number;
 };
-export const tpPaginationGapButtonRightOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpPaginationGapLastButtonIconOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpPaginationGapFormFieldOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpPaginationGapRangeLabelOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpPaginationBorderRadiusButtonIconOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpPaginationBorderRadiusFormFieldInfixOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpPaginationFontMapOs: {
+export const tpPaginatorFontMapOs: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -1393,7 +1376,73 @@ export const tpPaginationFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpPaginationPaddingFormFieldInfixOs: {
+export const tpPaginatorLeftGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpPaginatorSelectBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpPaginatorSelectMinWidthOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpPaginatorSelectHeightOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpPaginatorSelectIconSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpPaginatorSelectGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpPaginatorContainerGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpPaginatorPagesPaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpPaginatorRightGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpPaginatorButtonBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpPaginatorButtonSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpPaginatorButtonIconSizeOs: {
   original: string;
   number: number;
   decimal: number;
@@ -1446,6 +1495,14 @@ export const tpRadioRippleSizeOs: {
   scale: number;
 };
 export const tpRadioRippleBorderRadiusOs: string;
+export const tpScrollThumbBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpScrollBorderWidthOs: string;
+export const tpScrollBorderStyleOs: string;
 export const tpSelectFilterContainerBorderRadiusOs: {
   original: string;
   number: number;
@@ -1482,12 +1539,6 @@ export const tpSelectFilterElementFontMapOs: {
   fontFamily: string;
 };
 export const tpSelectFilterElementPaddingTopOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpSelectFilterElementPaddingBottomOs: {
   original: string;
   number: number;
   decimal: number;
@@ -1715,12 +1766,6 @@ export const tpSelectElementFontMapOs: {
   fontFamily: string;
 };
 export const tpSelectElementPaddingTopOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpSelectElementPaddingBottomOs: {
   original: string;
   number: number;
   decimal: number;
@@ -1965,6 +2010,7 @@ export const tpStepsItemFontMapOs: {
   fontFamily: string;
 };
 export const tpTabMetadataWidthFull: string;
+export const tpTabMetadataDisabled: string;
 export const tpTabHeaderHeightOs: {
   original: string;
   number: number;
@@ -1997,6 +2043,40 @@ export const tpTabHeaderFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
+export const tpTabHeaderButtonHeightOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTabHeaderButtonWidthOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTabHeaderButtonIconSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTabHeaderButtonLeftBoxShadowOs: {
+  x: string;
+  y: string;
+  blur: string;
+  spread: string;
+  color: string;
+  type: string;
+}[];
+export const tpTabHeaderButtonRightBoxShadowOs: {
+  x: string;
+  y: string;
+  blur: string;
+  spread: string;
+  color: string;
+  type: string;
+}[];
 export const tpTableMetadataBreakWord: string;
 export const tpTableMetadataAction: string;
 export const tpTableMetadataBorder: string;
@@ -2124,6 +2204,7 @@ export const tpTableAccordionPaddingHorizontalOs: {
   scale: number;
 };
 export const tpTextMetadataType: string;
+export const tpTextMetadataColor: string;
 export const tpTextareaContainerBorderRadiusOs: {
   original: string;
   number: number;

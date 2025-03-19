@@ -26,6 +26,12 @@ export const tpAccordionHeaderHeightOs = {
   decimal: 0.6,
   scale: 960,
 };
+export const tpAccordionHeaderIconSizeOs = {
+  original: "20px",
+  number: 20,
+  decimal: 0.2,
+  scale: 320,
+};
 export const tpAlertPaddingOs = {
   original: "24px",
   number: 24,
@@ -91,10 +97,10 @@ export const tpApexchartsLegendGapOs = {
   scale: 128,
 };
 export const tpApexchartsContainerGapOs = {
-  original: "16px",
-  number: 16,
-  decimal: 0.16,
-  scale: 256,
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
 };
 export const tpApexchartsTextFontMapMd = {
   fontWeight: "500",
@@ -108,10 +114,14 @@ export const tpApexchartsTextFontMapSm = {
   lineHeight: "150%",
   fontFamily: "Poppins",
 };
-export const tpApexchartsCircleBorderRadiusOs = "9999px";
-export const tpApexchartsCircleWidthOs = "200px";
-export const tpApexchartsCircleHeightOs = "180px";
+export const tpApexchartsCircleSizeOs = "180px";
 export const tpApexchartsMetadataName = "text-colors columns legend-bottom-xl";
+export const tpApexchartsGapOs = {
+  original: "32px",
+  number: 32,
+  decimal: 0.32,
+  scale: 512,
+};
 export const tpAsideNavItemPaddingVerticalOs = {
   original: "8px",
   number: 8,
@@ -227,6 +237,12 @@ export const tpBreadcrumbsIconSizeOs = {
   decimal: 0.24,
   scale: 384,
 };
+export const tpBreadcrumbsButtonFontMapOs = {
+  fontWeight: "600",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "100%",
+  fontFamily: "Poppins",
+};
 export const tpButtonIconSolidBorderRadiusMd = {
   original: "6px",
   number: 6,
@@ -239,29 +255,17 @@ export const tpButtonIconSolidBorderRadiusSm = {
   decimal: 0.06,
   scale: 96,
 };
-export const tpButtonIconSolidHeightMd = {
+export const tpButtonIconSolidSizeMd = {
   original: "48px",
   number: 48,
   decimal: 0.48,
   scale: 768,
 };
-export const tpButtonIconSolidHeightSm = {
+export const tpButtonIconSolidSizeSm = {
   original: "32px",
   number: 32,
   decimal: 0.32,
   scale: 512,
-};
-export const tpButtonIconSolidPaddingHorizontalMd = {
-  original: "12px",
-  number: 12,
-  decimal: 0.12,
-  scale: 192,
-};
-export const tpButtonIconSolidPaddingHorizontalSm = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
 };
 export const tpButtonIconMetadataSize = "md sm";
 export const tpButtonIconMetadataFill = "solid clear";
@@ -271,29 +275,17 @@ export const tpButtonIconMetadataDisabled = "boolean";
 export const tpButtonIconMetadataName = "button button-icon";
 export const tpButtonIconBorderWidthOs = "1px";
 export const tpButtonIconBorderStyleOs = "solid";
-export const tpButtonIconClearHeightMd = {
+export const tpButtonIconClearSizeMd = {
   original: "48px",
   number: 48,
   decimal: 0.48,
   scale: 768,
 };
-export const tpButtonIconClearHeightSm = {
+export const tpButtonIconClearSizeSm = {
   original: "32px",
   number: 32,
   decimal: 0.32,
   scale: 512,
-};
-export const tpButtonIconClearPaddingHorizontalMd = {
-  original: "12px",
-  number: 12,
-  decimal: 0.12,
-  scale: 192,
-};
-export const tpButtonIconClearPaddingHorizontalSm = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
 };
 export const tpButtonIconClearBorderRadiusMd = {
   original: "6px",
@@ -585,6 +577,19 @@ export const tpCkeditorBorderRadiusOs = {
   decimal: 0.06,
   scale: 96,
 };
+export const tpContainerMaxWidthOs = "1320px";
+export const tpContainerPaddingOs = {
+  original: "24px",
+  number: 24,
+  decimal: 0.24,
+  scale: 384,
+};
+export const tpContainerGapOs = {
+  original: "24px",
+  number: 24,
+  decimal: 0.24,
+  scale: 384,
+};
 export const tpDatepickerContainerBorderRadiusOs = {
   original: "4px",
   number: 4,
@@ -723,12 +728,6 @@ export const tpDialogBorderRadiusOs = {
   decimal: 0.08,
   scale: 128,
 };
-export const tpDialogContainerSizeLateralOs = {
-  original: "48px",
-  number: 48,
-  decimal: 0.48,
-  scale: 768,
-};
 export const tpDialogBorderWidthOs = "1px";
 export const tpDialogBorderStyleOs = "solid";
 export const tpDialogHeaderHeightOs = "80px";
@@ -737,6 +736,12 @@ export const tpDialogHeaderPaddingHorizontalOs = {
   number: 24,
   decimal: 0.24,
   scale: 384,
+};
+export const tpDialogHeaderFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "18px", number: 18, decimal: 0.18, scale: 288 },
+  lineHeight: "100%",
+  fontFamily: "Poppins",
 };
 export const tpDialogContentPaddingOs = {
   original: "24px",
@@ -751,6 +756,26 @@ export const tpDialogFooterPaddingHorizontalOs = {
   scale: 384,
 };
 export const tpDialogFooterHeightOs = "80px";
+export const tpDialogBoxShadowOs = [
+  {
+    x: "0",
+    y: "4",
+    blur: "4",
+    spread: "0",
+    color: "rgba(0, 0, 0, 0.3)",
+    type: "dropShadow",
+  },
+  {
+    x: "0",
+    y: "8",
+    blur: "12",
+    spread: "6",
+    color: "rgba(0, 0, 0, 0.15)",
+    type: "dropShadow",
+  },
+];
+export const tpDialogMinHeightOs = "230px";
+export const tpDialogMarginOs = "32px";
 export const tpFlagTagMetadataSize = "boolean";
 export const tpFlagTagMetadataColor =
   "success danger warning warning-light info primary gray-dark gray-light";
@@ -973,16 +998,10 @@ export const tpInputElementFontMapOs = {
   fontFamily: "Poppins",
 };
 export const tpInputElementPaddingTopOs = {
-  original: "18px",
-  number: 18,
-  decimal: 0.18,
-  scale: 288,
-};
-export const tpInputElementPaddingBottomOs = {
-  original: "14px",
-  number: 14,
-  decimal: 0.14,
-  scale: 224,
+  original: "4px",
+  number: 4,
+  decimal: 0.04,
+  scale: 64,
 };
 export const tpInputLabelDefaultFontMapOs = {
   fontWeight: "500",
@@ -1189,53 +1208,83 @@ export const tpNavigationListGapOs = {
   decimal: 0.12,
   scale: 192,
 };
-export const tpPaginationGapButtonRightOs = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
-};
-export const tpPaginationGapLastButtonIconOs = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
-};
-export const tpPaginationGapFormFieldOs = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
-};
-export const tpPaginationGapRangeLabelOs = {
-  original: "16px",
-  number: 16,
-  decimal: 0.16,
-  scale: 256,
-};
-export const tpPaginationBorderRadiusButtonIconOs = {
-  original: "6px",
-  number: 6,
-  decimal: 0.06,
-  scale: 96,
-};
-export const tpPaginationBorderRadiusFormFieldInfixOs = {
-  original: "6px",
-  number: 6,
-  decimal: 0.06,
-  scale: 96,
-};
-export const tpPaginationFontMapOs = {
-  fontWeight: "500",
+export const tpPaginatorFontMapOs = {
+  fontWeight: "400",
   fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
   lineHeight: "100%",
   fontFamily: "Poppins",
 };
-export const tpPaginationPaddingFormFieldInfixOs = {
+export const tpPaginatorLeftGapOs = {
   original: "8px",
   number: 8,
   decimal: 0.08,
   scale: 128,
+};
+export const tpPaginatorSelectBorderRadiusOs = {
+  original: "6px",
+  number: 6,
+  decimal: 0.06,
+  scale: 96,
+};
+export const tpPaginatorSelectMinWidthOs = {
+  original: "60px",
+  number: 60,
+  decimal: 0.6,
+  scale: 960,
+};
+export const tpPaginatorSelectHeightOs = {
+  original: "32px",
+  number: 32,
+  decimal: 0.32,
+  scale: 512,
+};
+export const tpPaginatorSelectIconSizeOs = {
+  original: "20px",
+  number: 20,
+  decimal: 0.2,
+  scale: 320,
+};
+export const tpPaginatorSelectGapOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpPaginatorContainerGapOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpPaginatorPagesPaddingHorizontalOs = {
+  original: "32px",
+  number: 32,
+  decimal: 0.32,
+  scale: 512,
+};
+export const tpPaginatorRightGapOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpPaginatorButtonBorderRadiusOs = {
+  original: "6px",
+  number: 6,
+  decimal: 0.06,
+  scale: 96,
+};
+export const tpPaginatorButtonSizeOs = {
+  original: "32px",
+  number: 32,
+  decimal: 0.32,
+  scale: 512,
+};
+export const tpPaginatorButtonIconSizeOs = {
+  original: "20px",
+  number: 20,
+  decimal: 0.2,
+  scale: 320,
 };
 export const tpProgressHeightOs = {
   original: "4px",
@@ -1279,6 +1328,14 @@ export const tpRadioRippleSizeOs = {
   scale: 640,
 };
 export const tpRadioRippleBorderRadiusOs = "9999px";
+export const tpScrollThumbBorderRadiusOs = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
+};
+export const tpScrollBorderWidthOs = "2px";
+export const tpScrollBorderStyleOs = "solid";
 export const tpSelectFilterContainerBorderRadiusOs = {
   original: "4px",
   number: 4,
@@ -1310,16 +1367,10 @@ export const tpSelectFilterElementFontMapOs = {
   fontFamily: "Poppins",
 };
 export const tpSelectFilterElementPaddingTopOs = {
-  original: "18px",
-  number: 18,
-  decimal: 0.18,
-  scale: 288,
-};
-export const tpSelectFilterElementPaddingBottomOs = {
-  original: "14px",
-  number: 14,
-  decimal: 0.14,
-  scale: 224,
+  original: "4px",
+  number: 4,
+  decimal: 0.04,
+  scale: 64,
 };
 export const tpSelectFilterLabelDefaultFontMapOs = {
   fontWeight: "500",
@@ -1528,16 +1579,10 @@ export const tpSelectElementFontMapOs = {
   fontFamily: "Poppins",
 };
 export const tpSelectElementPaddingTopOs = {
-  original: "18px",
-  number: 18,
-  decimal: 0.18,
-  scale: 288,
-};
-export const tpSelectElementPaddingBottomOs = {
-  original: "14px",
-  number: 14,
-  decimal: 0.14,
-  scale: 224,
+  original: "4px",
+  number: 4,
+  decimal: 0.04,
+  scale: 64,
 };
 export const tpSelectLabelDefaultFontMapOs = {
   fontWeight: "500",
@@ -1763,6 +1808,7 @@ export const tpStepsItemFontMapOs = {
   fontFamily: "Poppins",
 };
 export const tpTabMetadataWidthFull = "boolean";
+export const tpTabMetadataDisabled = "boolean";
 export const tpTabHeaderHeightOs = {
   original: "48px",
   number: 48,
@@ -1790,6 +1836,60 @@ export const tpTabHeaderFontMapOs = {
   lineHeight: "100%",
   fontFamily: "Poppins",
 };
+export const tpTabHeaderButtonHeightOs = {
+  original: "48px",
+  number: 48,
+  decimal: 0.48,
+  scale: 768,
+};
+export const tpTabHeaderButtonWidthOs = {
+  original: "36px",
+  number: 36,
+  decimal: 0.36,
+  scale: 576,
+};
+export const tpTabHeaderButtonIconSizeOs = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
+};
+export const tpTabHeaderButtonLeftBoxShadowOs = [
+  {
+    x: "1",
+    y: "0",
+    blur: "2",
+    spread: "0",
+    color: "rgba(0, 0, 0, 0.3)",
+    type: "dropShadow",
+  },
+  {
+    x: "1",
+    y: "0",
+    blur: "3",
+    spread: "1",
+    color: "rgba(0, 0, 0, 0.15)",
+    type: "dropShadow",
+  },
+];
+export const tpTabHeaderButtonRightBoxShadowOs = [
+  {
+    x: "-1",
+    y: "0",
+    blur: "2",
+    spread: "0",
+    color: "rgba(0, 0, 0, 0.3)",
+    type: "dropShadow",
+  },
+  {
+    x: "-1",
+    y: "0",
+    blur: "3",
+    spread: "1",
+    color: "rgba(0, 0, 0, 0.15)",
+    type: "dropShadow",
+  },
+];
 export const tpTableMetadataBreakWord = "boolean";
 export const tpTableMetadataAction = "boolean";
 export const tpTableMetadataBorder =
@@ -1908,7 +2008,9 @@ export const tpTableAccordionPaddingHorizontalOs = {
   scale: 384,
 };
 export const tpTextMetadataType =
-  "paragraph-md-regular-normal paragraph-md-bold-normal  paragraph-md-light-normal paragraph-sm-regular-normal paragraph-sm-bold-normal  paragraph-sm-light-normal title-lg-regular-normal title-lg-bold-normal title-md-regular-normal title-md-bold-normal label-md-regular-normal label-md-bold-normal label-md-light-normal label-sm-regular-normal label-sm-bold-normal label-sm-light-normal paragraph-md-regular-tall paragraph-md-bold-tall paragraph-md-light-tall paragraph-sm-regular-tall paragraph-sm-bold-tall paragraph-sm-light-tall title-lg-regular-tall title-lg-bold-tall title-md-regular-tall title-md-bold-tall label-md-regular-tall label-md-bold-tall label-md-light-tall label-sm-regular-tall label-sm-bold-tall label-sm-light-tall";
+  "paragraph-md-regular-normal paragraph-md-bold-normal paragraph-md-light-normal paragraph-sm-regular-normal paragraph-sm-bold-normal paragraph-sm-light-normal title-lg-regular-normal title-lg-bold-normal title-md-regular-normal title-md-bold-normal label-md-regular-normal label-md-bold-normal label-md-light-normal label-sm-regular-normal label-sm-bold-normal label-sm-light-normal paragraph-md-regular-tall paragraph-md-bold-tall paragraph-md-light-tall paragraph-sm-regular-tall paragraph-sm-bold-tall paragraph-sm-light-tall title-lg-regular-tall title-lg-bold-tall title-md-regular-tall title-md-bold-tall label-md-regular-tall label-md-bold-tall label-md-light-tall label-sm-regular-tall label-sm-bold-tall label-sm-light-tall";
+export const tpTextMetadataColor =
+  "danger success warning info primary neutral-solid-100 neutral-solid-200 neutral-solid-300 neutral-solid-400 neutral-solid-500 neutral-solid-600 neutral-solid-700 neutral-solid-800 neutral-solid-900";
 export const tpTextareaContainerBorderRadiusOs = {
   original: "4px",
   number: 4,

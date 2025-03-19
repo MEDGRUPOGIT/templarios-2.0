@@ -69,6 +69,12 @@ export const tpColorNeutralFixedWeak800: string;
 export const tpColorNeutralFixedWeak900: string;
 export const tpColorMetadataColor: string;
 export const tpBorderRadiusFull: string;
+export const tpBorderRadiusLg: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpBorderRadiusMd: {
   original: string;
   number: number;
@@ -775,3 +781,19 @@ export const tpTypographyLabelXsLightTall: {
   lineHeight: string;
   fontFamily: string;
 };
+export const tpBackofficeShadowLeft1: {
+  x: string;
+  y: string;
+  blur: string;
+  spread: string;
+  color: string;
+  type: string;
+}[];
+export const tpBackofficeShadowRight1: {
+  x: string;
+  y: string;
+  blur: string;
+  spread: string;
+  color: string;
+  type: string;
+}[];

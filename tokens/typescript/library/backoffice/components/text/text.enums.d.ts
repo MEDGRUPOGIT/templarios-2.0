@@ -32,3 +32,19 @@ export declare enum TpTextType {
     LABEL_SM_BOLD_TALL = "label-sm-bold-tall",
     LABEL_SM_LIGHT_TALL = "label-sm-light-tall"
 }
+export declare enum TpTextColor {
+    DANGER = "danger",
+    SUCCESS = "success",
+    WARNING = "warning",
+    INFO = "info",
+    PRIMARY = "primary",
+    NEUTRAL_SOLID_100 = "neutral-solid-100",
+    NEUTRAL_SOLID_200 = "neutral-solid-200",
+    NEUTRAL_SOLID_300 = "neutral-solid-300",
+    NEUTRAL_SOLID_400 = "neutral-solid-400",
+    NEUTRAL_SOLID_500 = "neutral-solid-500",
+    NEUTRAL_SOLID_600 = "neutral-solid-600",
+    NEUTRAL_SOLID_700 = "neutral-solid-700",
+    NEUTRAL_SOLID_800 = "neutral-solid-800",
+    NEUTRAL_SOLID_900 = "neutral-solid-900"
+}

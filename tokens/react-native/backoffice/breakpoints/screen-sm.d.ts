@@ -3,3 +3,9 @@
  */
 
 export const tpDialogWidthMd: string;
+export const tpScrollWidthOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};

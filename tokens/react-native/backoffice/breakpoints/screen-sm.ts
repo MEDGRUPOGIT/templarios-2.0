@@ -3,3 +3,9 @@
  */
 
 export const tpDialogWidthMd = "100%";
+export const tpScrollWidthOs = {
+  original: "0px",
+  number: 0,
+  decimal: 0,
+  scale: 0,
+};

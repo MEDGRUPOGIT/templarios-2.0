@@ -70,6 +70,12 @@ export const tpColorNeutralFixedWeak900 = "rgba(38, 38, 38, 0.1)";
 export const tpColorMetadataColor =
   "neutral-solid-100 neutral-solid-200 neutral-solid-300 neutral-solid-400 neutral-solid-500 neutral-solid-600 neutral-solid-700 neutral-solid-800 neutral-solid-900 neutral-strong-100 neutral-strong-200 neutral-strong-300 neutral-strong-400 neutral-strong-500 neutral-strong-600 neutral-strong-700 neutral-strong-800 neutral-strong-900 neutral-weak-100 neutral-weak-200 neutral-weak-300 neutral-weak-400 neutral-weak-500 neutral-weak-600 neutral-weak-700 neutral-weak-800 neutral-weak-900 danger-solid-default danger-solid-hard danger-solid-soft danger-strong-default danger-strong-hard danger-strong-soft danger-weak-default danger-weak-hard danger-weak-soft success-solid-default success-solid-hard success-solid-soft success-strong-default success-strong-hard success-strong-soft success-weak-default success-weak-hard success-weak-soft warning-solid-default warning-solid-hard warning-solid-soft warning-strong-default warning-strong-hard warning-strong-soft warning-weak-default warning-weak-hard warning-weak-soft info-solid-default info-solid-hard info-solid-soft info-strong-default info-strong-hard info-strong-soft info-weak-default info-weak-hard info-weak-soft white black weak primary-solid-default primary-solid-hard primary-solid-soft primary-strong-default primary-strong-hard primary-strong-soft primary-weak-default primary-weak-hard primary-weak-soft";
 export const tpBorderRadiusFull = "9999px";
+export const tpBorderRadiusLg = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
+};
 export const tpBorderRadiusMd = {
   original: "8px",
   number: 8,
@@ -556,3 +562,39 @@ export const tpTypographyLabelXsLightTall = {
   lineHeight: "150%",
   fontFamily: "Poppins",
 };
+export const tpBackofficeShadowLeft1 = [
+  {
+    x: "-1",
+    y: "0",
+    blur: "2",
+    spread: "0",
+    color: "rgba(0, 0, 0, 0.3)",
+    type: "dropShadow",
+  },
+  {
+    x: "-1",
+    y: "0",
+    blur: "3",
+    spread: "1",
+    color: "rgba(0, 0, 0, 0.15)",
+    type: "dropShadow",
+  },
+];
+export const tpBackofficeShadowRight1 = [
+  {
+    x: "1",
+    y: "0",
+    blur: "2",
+    spread: "0",
+    color: "rgba(0, 0, 0, 0.3)",
+    type: "dropShadow",
+  },
+  {
+    x: "1",
+    y: "0",
+    blur: "3",
+    spread: "1",
+    color: "rgba(0, 0, 0, 0.15)",
+    type: "dropShadow",
+  },
+];

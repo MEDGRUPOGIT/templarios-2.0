@@ -3,3 +3,4 @@
  */
 
 export const tpDialogWidthMd: string;
+export const tpScrollWidthOs: string;

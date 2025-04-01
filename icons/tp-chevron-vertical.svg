@@ -1,0 +1,38 @@
+
+<svg viewBox="0 0 32 32">
+  <title>chevron vertical</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke-width: var(--stroke-width);
+      fill: currentColor;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+
+    :host([tp-size='sm']) {      font-size: 16px;
+    }
+
+    :host([tp-size='md']) {      font-size: 32px;
+    }
+
+    :host([tp-size='lg']) {      font-size: 48px;
+    }
+  </style>
+<path d="M8 21.3334L16 29.3334L24 21.3334" />
+<path d="M24 10.6666L16 2.66663L8 10.6666""/>
+</svg>

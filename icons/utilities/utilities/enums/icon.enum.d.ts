@@ -44,8 +44,10 @@ export declare enum TpIconC {
     ChevronUp = "tp-chevron-up",
     ChevronRight = "tp-chevron-right",
     ChevronDown = "tp-chevron-down",
+    ChevronVertical = "tp-chevron-vertical",
     ChevronsRight = "tp-chevrons-right",
     ChevronsLeft = "tp-chevrons-left",
+    Clip = "tp-clip",
     Clock = "tp-clock",
     ClockPlay = "tp-clock-play",
     ClockSlow = "tp-clock-slow",
@@ -94,6 +96,7 @@ export declare enum TpIconF {
     FilterOff = "tp-filter-off",
     Flashcards = "tp-flashcards",
     Flask = "tp-flask",
+    Folder = "tp-folder",
     FontDecrease = "tp-font-decrease",
     FontIncrease = "tp-font-increase",
     FontSize = "tp-font-size"

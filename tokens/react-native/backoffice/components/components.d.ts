@@ -1294,6 +1294,7 @@ export const tpModalContentPaddingHorizontalOs: {
   scale: number;
 };
 export const tpModalMetadataSize: string;
+export const tpModalMetadataHeightAuto: string;
 export const tpModalMaxWidth2xl: string;
 export const tpModalMaxWidthXl: string;
 export const tpModalMaxWidthLg: string;

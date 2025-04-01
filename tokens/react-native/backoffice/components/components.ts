@@ -1127,6 +1127,7 @@ export const tpModalContentPaddingHorizontalOs = {
   scale: 512,
 };
 export const tpModalMetadataSize = "2xl xl lg md sm auto";
+export const tpModalMetadataHeightAuto = "boolean";
 export const tpModalMaxWidth2xl = "1440px";
 export const tpModalMaxWidthXl = "1200px";
 export const tpModalMaxWidthLg = "992px";

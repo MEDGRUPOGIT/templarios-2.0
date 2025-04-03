@@ -3,15 +3,15 @@ var L = /* @__PURE__ */ ((l) => (l.SOLID = "solid", l.CLEAR = "clear", l))(L || 
 const S = {
   "tp-fill": Object.values(L)
 };
-var _ = /* @__PURE__ */ ((l) => (l.ERROR = "error", l.SUCCESS = "success", l))(_ || {}), a = /* @__PURE__ */ ((l) => (l.START = "start", l.END = "end", l.FEEDBACK = "feedback", l))(a || {});
+var _ = /* @__PURE__ */ ((l) => (l.SOLID = "solid", l.CLEAR = "clear", l))(_ || {}), a = /* @__PURE__ */ ((l) => (l.BUTTON = "button", l.BUTTON_ICON = "button-icon", l))(a || {});
 const b = {
-  "tp-state": Object.values(_),
-  "tp-icon": Object.values(a)
+  "tp-fill": Object.values(_),
+  "tp-name": Object.values(a)
 };
-var A = /* @__PURE__ */ ((l) => (l.SOLID = "solid", l.CLEAR = "clear", l))(A || {}), r = /* @__PURE__ */ ((l) => (l.BUTTON = "button", l.BUTTON_ICON = "button-icon", l))(r || {});
+var A = /* @__PURE__ */ ((l) => (l.ERROR = "error", l.SUCCESS = "success", l))(A || {}), r = /* @__PURE__ */ ((l) => (l.START = "start", l.END = "end", l.FEEDBACK = "feedback", l))(r || {});
 const M = {
-  "tp-fill": Object.values(A),
-  "tp-name": Object.values(r)
+  "tp-state": Object.values(A),
+  "tp-icon": Object.values(r)
 };
 var R = /* @__PURE__ */ ((l) => (l.ERROR = "error", l.SUCCESS = "success", l))(R || {}), O = /* @__PURE__ */ ((l) => (l.START = "start", l.END = "end", l.FEEDBACK = "feedback", l))(O || {});
 const m = {
@@ -24,17 +24,17 @@ const t = {
 };
 export {
   S as TP_BUTTON,
-  M as TP_BUTTON_ICON,
-  b as TP_INPUT,
+  b as TP_BUTTON_ICON,
+  m as TP_INPUT,
   s as TP_ITEM,
-  m as TP_SELECT,
+  M as TP_SELECT,
   t as TP_TEXT,
   L as TpButtonFill,
-  A as TpButtonIconFill,
-  r as TpButtonIconName,
-  a as TpInputIcon,
-  _ as TpInputState,
-  O as TpSelectIcon,
-  R as TpSelectState,
+  _ as TpButtonIconFill,
+  a as TpButtonIconName,
+  O as TpInputIcon,
+  R as TpInputState,
+  r as TpSelectIcon,
+  A as TpSelectState,
   o as TpTextType
 };

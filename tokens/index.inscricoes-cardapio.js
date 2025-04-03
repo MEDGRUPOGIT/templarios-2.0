@@ -1,17 +1,17 @@
 const s = {};
-var L = /* @__PURE__ */ ((l) => (l.SOLID = "solid", l.CLEAR = "clear", l))(L || {}), _ = /* @__PURE__ */ ((l) => (l.BUTTON = "button", l.BUTTON_ICON = "button-icon", l))(_ || {});
+var L = /* @__PURE__ */ ((l) => (l.SOLID = "solid", l.CLEAR = "clear", l))(L || {});
 const S = {
-  "tp-fill": Object.values(L),
-  "tp-name": Object.values(_)
+  "tp-fill": Object.values(L)
 };
-var a = /* @__PURE__ */ ((l) => (l.ERROR = "error", l.SUCCESS = "success", l))(a || {}), A = /* @__PURE__ */ ((l) => (l.START = "start", l.END = "end", l.FEEDBACK = "feedback", l))(A || {});
+var _ = /* @__PURE__ */ ((l) => (l.ERROR = "error", l.SUCCESS = "success", l))(_ || {}), a = /* @__PURE__ */ ((l) => (l.START = "start", l.END = "end", l.FEEDBACK = "feedback", l))(a || {});
 const b = {
-  "tp-state": Object.values(a),
-  "tp-icon": Object.values(A)
+  "tp-state": Object.values(_),
+  "tp-icon": Object.values(a)
 };
-var r = /* @__PURE__ */ ((l) => (l.SOLID = "solid", l.CLEAR = "clear", l))(r || {});
+var A = /* @__PURE__ */ ((l) => (l.SOLID = "solid", l.CLEAR = "clear", l))(A || {}), r = /* @__PURE__ */ ((l) => (l.BUTTON = "button", l.BUTTON_ICON = "button-icon", l))(r || {});
 const M = {
-  "tp-fill": Object.values(r)
+  "tp-fill": Object.values(A),
+  "tp-name": Object.values(r)
 };
 var R = /* @__PURE__ */ ((l) => (l.ERROR = "error", l.SUCCESS = "success", l))(R || {}), O = /* @__PURE__ */ ((l) => (l.START = "start", l.END = "end", l.FEEDBACK = "feedback", l))(O || {});
 const m = {
@@ -23,17 +23,17 @@ const t = {
   "tp-type": Object.values(o)
 };
 export {
-  M as TP_BUTTON,
-  S as TP_BUTTON_ICON,
+  S as TP_BUTTON,
+  M as TP_BUTTON_ICON,
   b as TP_INPUT,
   s as TP_ITEM,
   m as TP_SELECT,
   t as TP_TEXT,
-  r as TpButtonFill,
-  L as TpButtonIconFill,
-  _ as TpButtonIconName,
-  A as TpInputIcon,
-  a as TpInputState,
+  L as TpButtonFill,
+  A as TpButtonIconFill,
+  r as TpButtonIconName,
+  a as TpInputIcon,
+  _ as TpInputState,
   O as TpSelectIcon,
   R as TpSelectState,
   o as TpTextType

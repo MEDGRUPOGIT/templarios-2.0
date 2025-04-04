@@ -797,3 +797,11 @@ export const tpBackofficeShadowRight1: {
   color: string;
   type: string;
 }[];
+export const tpBackofficeShadowDown1: {
+  x: string;
+  y: string;
+  blur: string;
+  spread: string;
+  color: string;
+  type: string;
+}[];

@@ -103,13 +103,6 @@ export const tpAlertTextFontMapMd: {
   fontFamily: string;
 };
 export const tpAlertMetadataColor: string;
-export const tpApexchartsDotSizeOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpApexchartsDotBorderRadiusOs: string;
 export const tpApexchartsLegendGapOs: {
   original: string;
   number: number;
@@ -665,13 +658,19 @@ export const tpDatepickerContainerBorderRadiusOs: {
   decimal: number;
   scale: number;
 };
-export const tpDatepickerContainerMinHeightMd: {
+export const tpDatepickerContainerHeightMd: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpDatepickerElementPaddingVerticalOs: {
+export const tpDatepickerElementPaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpDatepickerElementPaddingTopOs: {
   original: string;
   number: number;
   decimal: number;
@@ -729,7 +728,7 @@ export const tpDatepickerHintFontMapOs: {
 };
 export const tpDatepickerMetadataDisabled: string;
 export const tpDatepickerMetadataState: string;
-export const tpDatepickerFeddbackFontMapOs: {
+export const tpDatepickerFeedbackFontMapOs: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -740,7 +739,13 @@ export const tpDatepickerFeddbackFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpDatepickerWrapperPaddingBottomOs: {
+export const tpDatepickerFeedbackMarginTopOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpDatepickerPaddingBottomOs: {
   original: string;
   number: number;
   decimal: number;
@@ -758,15 +763,9 @@ export const tpDatepickerIconDefaultSizeOs: {
   decimal: number;
   scale: number;
 };
-export const tpDatepickerCalendarHeightOs: string;
-export const tpDatepickerCalendarWidthOs: string;
-export const tpDatepickerCalendarContentPaddingOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpDatepickerCalendarContentThOs: {
+export const tpDatepickerPopoverHeightOs: string;
+export const tpDatepickerPopoverWidthOs: string;
+export const tpDatepickerPopoverContentHeaderOs: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -777,7 +776,13 @@ export const tpDatepickerCalendarContentThOs: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpDatepickerCalendarContentTdOs: {
+export const tpDatepickerPopoverContentHeaderPaddingBottomOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpDatepickerPopoverContentLabelOs: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -788,7 +793,13 @@ export const tpDatepickerCalendarContentTdOs: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpDatepickerCalendarContentCellOs: {
+export const tpDatepickerPopoverContentLabelPaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpDatepickerPopoverContentButtonDateOs: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -799,25 +810,51 @@ export const tpDatepickerCalendarContentCellOs: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpDatepickerCalendarContentDividerHeightOs: {
+export const tpDatepickerPopoverContentButtonDateShortSizeOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpDatepickerCalendarHeaderButtonOs: {
+export const tpDatepickerPopoverContentButtonDateBorderRadiusOs: string;
+export const tpDatepickerPopoverContentButtonDateLongHeightOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpDatepickerCalendarHeaderButtonPaddingVerticalOs: {
+export const tpDatepickerPopoverContentDividerHeightOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpDatepickerCalendarHeaderButtonFontMapOs: {
+export const tpDatepickerPopoverContentBodyPaddingTopOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpDatepickerPopoverHeaderButtonNavSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpDatepickerPopoverHeaderButtonNavBorderRadiusOs: string;
+export const tpDatepickerPopoverHeaderButtonNavIconSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpDatepickerPopoverHeaderButtonSelectPaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpDatepickerPopoverHeaderButtonSelectFontMapOs: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -827,15 +864,95 @@ export const tpDatepickerCalendarHeaderButtonFontMapOs: {
   };
   lineHeight: string;
   fontFamily: string;
+};
+export const tpDatepickerPopoverHeaderButtonSelectHeightOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpDatepickerPopoverHeaderButtonSelectBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpDatepickerPopoverHeaderButtonSelectIconSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpDatepickerPopoverHeaderButtonSelectGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpDatepickerPopoverHeaderHeightOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpDatepickerPopoverPaddingOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpDatepickerPopoverBoxShadowOs: {
+  x: string;
+  y: string;
+  blur: string;
+  spread: string;
+  color: string;
+  type: string;
+}[];
+export const tpDatepickerPopoverButtonCloseHeightOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpDatepickerPopoverButtonClosePaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpDatepickerPopoverButtonCloseBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpDatepickerPopoverButtonCloseFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpDatepickerPopoverButtonCloseMarginTopOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
 };
 export const tpDatepickerBorderStyleOs: string;
 export const tpDatepickerBorderWidthOs: string;
-export const tpDatepickerFeedbackMarginTopOs: {
+export const tpDatepickerWrapperSidesMinWidthOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
+export const tpDatepickerMinWidthOs: string;
 export const tpDialogBorderRadiusOs: {
   original: string;
   number: number;
@@ -948,7 +1065,7 @@ export const tpInputAddContainerBorderRadiusOs: {
   decimal: number;
   scale: number;
 };
-export const tpInputAddContainerHeightOs: {
+export const tpInputAddContainerMinHeightOs: {
   original: string;
   number: number;
   decimal: number;
@@ -978,12 +1095,6 @@ export const tpInputAddElementFontMapOs: {
   fontFamily: string;
 };
 export const tpInputAddElementPaddingTopOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpInputAddElementPaddingBottomOs: {
   original: string;
   number: number;
   decimal: number;
@@ -1068,25 +1179,19 @@ export const tpInputAddIconDefaultSizeOs: {
 export const tpInputAddMinWidthOs: string;
 export const tpInputAddBorderWidthOs: string;
 export const tpInputAddBorderStyleOs: string;
-export const tpInputAddListMarginTopOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
 export const tpInputAddListGapOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpInputAddTagItemPaddingHorizontalOs: {
+export const tpInputAddListPaddingOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpInputAddTagItemPaddingVerticalOs: {
+export const tpInputAddTagItemPaddingOs: {
   original: string;
   number: number;
   decimal: number;
@@ -1108,6 +1213,24 @@ export const tpInputAddTagItemFontMapOs: {
   };
   lineHeight: string;
   fontFamily: string;
+};
+export const tpInputAddTagItemHeightOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpInputAddTagItemIconSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpInputAddTagItemGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
 };
 export const tpInputContainerBorderRadiusOs: {
   original: string;
@@ -1504,6 +1627,12 @@ export const tpScrollThumbBorderRadiusOs: {
 };
 export const tpScrollBorderWidthOs: string;
 export const tpScrollBorderStyleOs: string;
+export const tpScrollSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpSelectFilterContainerBorderRadiusOs: {
   original: string;
   number: number;
@@ -1697,13 +1826,13 @@ export const tpSelectItemBorderRadiusOs: {
   decimal: number;
   scale: number;
 };
-export const tpSelectItemPaddingOs: {
+export const tpSelectItemPaddingHorizontalOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpSelectItemIconContainerGapOs: {
+export const tpSelectItemGapOs: {
   original: string;
   number: number;
   decimal: number;
@@ -1715,22 +1844,35 @@ export const tpSelectItemIconSizeOs: {
   decimal: number;
   scale: number;
 };
-export const tpSelectItemPlaceholderHeightOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpSelectItemPlaceholderBorderRadiusOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
 export const tpSelectItemPlaceholderBorderWidthOs: string;
 export const tpSelectItemPlaceholderBorderStyleOs: string;
 export const tpSelectItemBorderWidthOs: string;
 export const tpSelectItemBorderStyleOs: string;
+export const tpSelectItemHeightOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSelectItemFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpSelectItemBoxShadowOs: {
+  x: string;
+  y: string;
+  blur: string;
+  spread: string;
+  color: string;
+  type: string;
+}[];
 export const tpSelectContainerBorderRadiusOs: {
   original: string;
   number: number;
@@ -1929,17 +2071,6 @@ export const tpSnackbarFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpSnackbarButtonFontMapOs: {
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-  fontFamily: string;
-};
 export const tpSpinnerMetadataSize: string;
 export const tpSpinnerMetadataColor: string;
 export const tpSpinnerContainerSizeLg: {
@@ -2009,6 +2140,12 @@ export const tpStepsItemFontMapOs: {
   };
   lineHeight: string;
   fontFamily: string;
+};
+export const tpStepsIconSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
 };
 export const tpTabMetadataWidthFull: string;
 export const tpTabMetadataDisabled: string;
@@ -2384,7 +2521,7 @@ export const tpToggleInnerBoxShadowOs: {
   color: string;
   type: string;
 }[];
-export const tpTooltipWidthOs: string;
+export const tpTooltipMaxWidthOs: string;
 export const tpTooltipPaddingOs: {
   original: string;
   number: number;
@@ -2437,79 +2574,96 @@ export const tpTreeFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTreeLeafPaddingLeftOs: string;
-export const tpTreeLeafGapOs: {
+export const tpTreeSubItemPaddingLeftOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpUppyMetadataActive: string;
-export const tpUppyTextMarginTopOs: {
+export const tpUploaderMetadataActive: string;
+export const tpUploaderGapOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpUppyDropzoneGapOs: {
+export const tpUploaderDescriptionFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpUploaderPercentageFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpUploaderItemNameFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpUploaderItemExtensionFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpUploaderItemPaddingHorizontalOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpUppyDropzoneMarginTopOs: {
+export const tpUploaderItemHeightOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpUppyDropzoneItemBorderRadiusOs: {
+export const tpUploaderItemBorderRadiusOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpUppyDropzoneItemPaddingVerticalOs: {
+export const tpUploaderItemIconSizeOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpUppyDropzoneItemPaddingHorizontalOs: {
+export const tpUploaderItemGapOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpUppyDropzoneFileGapOs: {
+export const tpUploaderProgressGapOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpUppyDropzoneIconSizeOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpUppyDropzonePercentageContainerMarginTopOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpUtilsMetadataRow: string;
-export const tpUtilsMetadataCol: string;
-export const tpUtilsMetadataDisplay: string;
-export const tpUtilsMetadataAlignItems: string;
-export const tpUtilsMetadataJustifyContent: string;
-export const tpUtilsMetadataFlexDirection: string;
-export const tpUtilsMetadataFlexWrap: string;
-export const tpUtilsMetadataFlexGrow1: string;
-export const tpUtilsMetadataW100: string;
-export const tpUtilsMetadataH100: string;
-export const tpUtilsMetadataOverflow: string;
-export const tpUtilsMetadataBorder: string;
-export const tpUtilsMetadataTextAlign: string;
-export const tpUtilsMetadataClamp: string;

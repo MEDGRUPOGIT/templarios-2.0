@@ -598,3 +598,29 @@ export const tpBackofficeShadowRight1 = [
     type: "dropShadow",
   },
 ];
+export const tpBackofficeShadowDown1 = [
+  {
+    x: "0",
+    y: "2",
+    blur: "4",
+    spread: "-1",
+    color: "rgba(0, 0, 0, 0.3)",
+    type: "dropShadow",
+  },
+  {
+    x: "0",
+    y: "4",
+    blur: "5",
+    spread: "0",
+    color: "rgba(0, 0, 0, 0.3)",
+    type: "dropShadow",
+  },
+  {
+    x: "0",
+    y: "1",
+    blur: "10",
+    spread: "0",
+    color: "rgba(0, 0, 0, 0.3)",
+    type: "dropShadow",
+  },
+];

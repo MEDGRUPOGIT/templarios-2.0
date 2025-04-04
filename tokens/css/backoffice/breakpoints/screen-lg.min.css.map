@@ -1,0 +1,1 @@
+{"version":3,"sources":["screen-lg.css"],"names":[],"mappings":"AAIA,uCACE,qBAAA,MACA,qBAAA","sourcesContent":["/**\n * Do not edit directly, this file was auto-generated.\n */\n\n.tp-backoffice.tp-breakpoint-screen-lg {\n  --tp-dialog-width-md: 640px;\n  --tp-scroll-width-os: 7px;\n}\n"]}

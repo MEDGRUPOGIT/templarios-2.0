@@ -1,5 +1,7 @@
 export declare const THEMES: {
     medme: {
+        "Billy \u00B7 Dark": string;
+        "Billy \u00B7 Light": string;
         "Default \u00B7 Dark": string;
         "Default \u00B7 Light": string;
     };
@@ -71,6 +73,7 @@ export declare const THEMES: {
     };
     congressos: {
         "Default \u00B7 Dark": string;
+        "Default \u00B7 Light": string;
     };
     "inscricoes-cardapio": {
         "Default \u00B7 Dark \u00B7 Screen md": string;

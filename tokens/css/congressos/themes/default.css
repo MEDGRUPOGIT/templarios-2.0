@@ -3,8 +3,15 @@
  */
 
 .tp-congressos.tp-theme-default {
-  --tp-color-primary-default: hsla( 28, 32%, 49%, 1);
-  --tp-color-primary-hard: hsla( 28, 32%, 44%, 1);
-  --tp-color-primary-harder: hsla( 28, 30%, 54%, 1);
-  --tp-color-primary-strong: hsla( 28, 32%, 49%, 0.5);
+  --tp-color-primary-solid-default: hsla( 28, 32%, 49%, 1);
+  --tp-color-primary-solid-hard: hsla( 28, 32%, 44%, 1);
+  --tp-color-primary-solid-harder: hsla( 28, 30%, 54%, 1);
+  --tp-color-primary-strong-default: hsla( 28, 32%, 49%, 0.5);
+  --tp-color-primary-strong-hard: hsla( 28, 32%, 44%, 0.5);
+  --tp-color-primary-strong-harder: hsla( 28, 30%, 54%, 0.5);
+  --tp-color-primary-weak-default: hsla( 28, 32%, 49%, 0.1);
+  --tp-color-primary-weak-hard: hsla( 28, 32%, 44%, 0.1);
+  --tp-color-primary-weak-harder: hsla( 28, 30%, 54%, 0.1);
 }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImRlZmF1bHQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztFQUVFOztBQUVGO0VBQ0Usd0RBQXdEO0VBQ3hELHFEQUFxRDtFQUNyRCx1REFBdUQ7RUFDdkQsMkRBQTJEO0VBQzNELHdEQUF3RDtFQUN4RCwwREFBMEQ7RUFDMUQseURBQXlEO0VBQ3pELHNEQUFzRDtFQUN0RCx3REFBd0Q7QUFDMUQiLCJmaWxlIjoiZGVmYXVsdC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKipcbiAqIERvIG5vdCBlZGl0IGRpcmVjdGx5LCB0aGlzIGZpbGUgd2FzIGF1dG8tZ2VuZXJhdGVkLlxuICovXG5cbi50cC1jb25ncmVzc29zLnRwLXRoZW1lLWRlZmF1bHQge1xuICAtLXRwLWNvbG9yLXByaW1hcnktc29saWQtZGVmYXVsdDogaHNsYSggMjgsIDMyJSwgNDklLCAxKTtcbiAgLS10cC1jb2xvci1wcmltYXJ5LXNvbGlkLWhhcmQ6IGhzbGEoIDI4LCAzMiUsIDQ0JSwgMSk7XG4gIC0tdHAtY29sb3ItcHJpbWFyeS1zb2xpZC1oYXJkZXI6IGhzbGEoIDI4LCAzMCUsIDU0JSwgMSk7XG4gIC0tdHAtY29sb3ItcHJpbWFyeS1zdHJvbmctZGVmYXVsdDogaHNsYSggMjgsIDMyJSwgNDklLCAwLjUpO1xuICAtLXRwLWNvbG9yLXByaW1hcnktc3Ryb25nLWhhcmQ6IGhzbGEoIDI4LCAzMiUsIDQ0JSwgMC41KTtcbiAgLS10cC1jb2xvci1wcmltYXJ5LXN0cm9uZy1oYXJkZXI6IGhzbGEoIDI4LCAzMCUsIDU0JSwgMC41KTtcbiAgLS10cC1jb2xvci1wcmltYXJ5LXdlYWstZGVmYXVsdDogaHNsYSggMjgsIDMyJSwgNDklLCAwLjEpO1xuICAtLXRwLWNvbG9yLXByaW1hcnktd2Vhay1oYXJkOiBoc2xhKCAyOCwgMzIlLCA0NCUsIDAuMSk7XG4gIC0tdHAtY29sb3ItcHJpbWFyeS13ZWFrLWhhcmRlcjogaHNsYSggMjgsIDMwJSwgNTQlLCAwLjEpO1xufVxuIl19 */

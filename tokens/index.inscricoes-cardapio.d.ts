@@ -1,6 +1,9 @@
 export * from './typescript/library/inscricoes-cardapio/components/item/item.enums';
 export * from './typescript/library/inscricoes-cardapio/components/item/item.types';
 export * from './typescript/library/inscricoes-cardapio/components/item/item.constants';
+export * from './typescript/library/inscricoes-cardapio/components/button/button.enums';
+export * from './typescript/library/inscricoes-cardapio/components/button/button.types';
+export * from './typescript/library/inscricoes-cardapio/components/button/button.constants';
 export * from './typescript/library/inscricoes-cardapio/components/button-icon/button-icon.enums';
 export * from './typescript/library/inscricoes-cardapio/components/button-icon/button-icon.types';
 export * from './typescript/library/inscricoes-cardapio/components/button-icon/button-icon.constants';
@@ -13,6 +16,3 @@ export * from './typescript/library/inscricoes-cardapio/components/text/text.con
 export * from './typescript/library/inscricoes-cardapio/components/select/select.enums';
 export * from './typescript/library/inscricoes-cardapio/components/select/select.types';
 export * from './typescript/library/inscricoes-cardapio/components/select/select.constants';
-export * from './typescript/library/inscricoes-cardapio/components/button/button.enums';
-export * from './typescript/library/inscricoes-cardapio/components/button/button.types';
-export * from './typescript/library/inscricoes-cardapio/components/button/button.constants';

@@ -1,165 +1,165 @@
-const w = {}, W = {}, Y = {}, X = {}, K = {}, V = {}, Z = {};
-var L = /* @__PURE__ */ ((r) => (r.DANGER = "danger", r.WARNING = "warning", r.INFO = "info", r.SUCCESS = "success", r))(L || {});
-const q = {
-  "tp-color": Object.values(L)
-};
-var a = /* @__PURE__ */ ((r) => (r.DEFAULT = "default", r.BORDERED = "bordered", r.ELEVATED = "elevated", r))(a || {});
+const w = {}, W = {}, Y = {}, X = {}, K = {}, V = {}, Z = {}, q = {};
+var L = /* @__PURE__ */ ((r) => (r.TEXT_COLORS = "text-colors", r.COLUMNS = "columns", r.LEGEND_BOTTOM_XL = "legend-bottom-xl", r))(L || {});
 const J = {
-  "tp-fill": Object.values(a)
+  "tp-name": Object.values(L)
 };
-var _ = /* @__PURE__ */ ((r) => (r.SUCCESS = "success", r.DANGER = "danger", r.WARNING = "warning", r.WARNING_LIGHT = "warning-light", r.INFO = "info", r.PRIMARY = "primary", r.GRAY_DARK = "gray-dark", r.GRAY_LIGHT = "gray-light", r))(_ || {});
+var a = /* @__PURE__ */ ((r) => (r["2XL"] = "2xl", r.XL = "xl", r.LG = "lg", r.MD = "md", r))(a || {}), _ = /* @__PURE__ */ ((r) => (r.GRAY = "gray", r.SUCCESS = "success", r.DANGER = "danger", r.WARNING = "warning", r.INFO = "info", r.PRIMARY = "primary", r.DARK = "dark", r.LIGHT = "light", r))(_ || {});
 const Q = {
+  "tp-size": Object.values(a),
   "tp-color": Object.values(_)
 };
-var R = /* @__PURE__ */ ((r) => (r["2XL"] = "2xl", r.XL = "xl", r.LG = "lg", r.MD = "md", r))(R || {}), A = /* @__PURE__ */ ((r) => (r.GRAY = "gray", r.SUCCESS = "success", r.DANGER = "danger", r.WARNING = "warning", r.INFO = "info", r.PRIMARY = "primary", r.DARK = "dark", r.LIGHT = "light", r))(A || {});
+var R = /* @__PURE__ */ ((r) => (r.ERROR = "error", r.SUCCESS = "success", r))(R || {});
 const $ = {
-  "tp-size": Object.values(R),
+  "tp-state": Object.values(R)
+};
+var A = /* @__PURE__ */ ((r) => (r.DANGER = "danger", r.WARNING = "warning", r.INFO = "info", r.SUCCESS = "success", r))(A || {});
+const C = {
   "tp-color": Object.values(A)
-}, C = {};
-var s = /* @__PURE__ */ ((r) => (r.MD = "md", r.SM = "sm", r))(s || {});
+};
+var s = /* @__PURE__ */ ((r) => (r.DEFAULT = "default", r.BORDERED = "bordered", r.ELEVATED = "elevated", r))(s || {});
 const k = {
-  "tp-size": Object.values(s)
+  "tp-fill": Object.values(s)
 };
-var l = /* @__PURE__ */ ((r) => (r.ERROR = "error", r.SUCCESS = "success", r))(l || {});
+var l = /* @__PURE__ */ ((r) => (r.MD = "md", r.SM = "sm", r))(l || {}), O = /* @__PURE__ */ ((r) => (r.SOLID = "solid", r.CLEAR = "clear", r))(O || {}), E = /* @__PURE__ */ ((r) => (r.GRAY = "gray", r.DANGER = "danger", r.SUCCESS = "success", r.WARNING = "warning", r.DARK = "dark", r.INFO = "info", r))(E || {}), t = /* @__PURE__ */ ((r) => (r.BUTTON = "button", r.BUTTON_ICON = "button-icon", r))(t || {});
 const F = {
-  "tp-state": Object.values(l)
+  "tp-size": Object.values(l),
+  "tp-fill": Object.values(O),
+  "tp-color": Object.values(E),
+  "tp-name": Object.values(t)
 };
-var O = /* @__PURE__ */ ((r) => (r.LG = "lg", r.MD = "md", r.SM = "sm", r))(O || {});
+var n = /* @__PURE__ */ ((r) => (r.ERROR = "error", r.SUCCESS = "success", r))(n || {});
 const z = {
-  "tp-size": Object.values(O)
+  "tp-state": Object.values(n)
 };
-var E = /* @__PURE__ */ ((r) => (r.SUCCESS = "success", r.DANGER = "danger", r))(E || {});
+var u = /* @__PURE__ */ ((r) => (r.SUCCESS = "success", r.DANGER = "danger", r))(u || {});
 const o = {
-  "tp-color": Object.values(E)
+  "tp-color": Object.values(u)
 };
-var t = /* @__PURE__ */ ((r) => (r.ERROR = "error", r.SUCCESS = "success", r))(t || {});
+var N = /* @__PURE__ */ ((r) => (r.ERROR = "error", r.SUCCESS = "success", r))(N || {});
 const y = {
-  "tp-state": Object.values(t)
+  "tp-state": Object.values(N)
 };
-var n = /* @__PURE__ */ ((r) => (r["2XL"] = "2xl", r.XL = "xl", r.LG = "lg", r.MD = "md", r.SM = "sm", r.AUTO = "auto", r))(n || {});
+var c = /* @__PURE__ */ ((r) => (r.LG = "lg", r.MD = "md", r.SM = "sm", r))(c || {}), D = /* @__PURE__ */ ((r) => (r.PRIMARY = "primary", r.DARK = "dark", r.GRAY = "gray", r))(D || {});
 const x = {
-  "tp-size": Object.values(n)
-};
-var u = /* @__PURE__ */ ((r) => (r.BORDER_HORIZONTAL = "border-horizontal", r.BORDER_VERTICAL = "border-vertical", r.BORDER_INNER = "border-inner", r.BORDER_ALL = "border-all", r))(u || {}), N = /* @__PURE__ */ ((r) => (r.ONE = "one", r.TWO = "two", r))(N || {}), c = /* @__PURE__ */ ((r) => (r.DANGER = "danger", r.SUCCESS = "success", r.WARNING = "warning", r.INFO = "info", r.PRIMARY = "primary", r))(c || {});
-const T = {
-  "tp-border": Object.values(u),
-  "tp-cell-level": Object.values(N),
-  "tp-feedback": Object.values(c)
-};
-var D = /* @__PURE__ */ ((r) => (r.SUCCESS = "success", r.DANGER = "danger", r.WARNING = "warning", r.INFO = "info", r))(D || {});
-const p = {
+  "tp-size": Object.values(c),
   "tp-color": Object.values(D)
 };
-var G = /* @__PURE__ */ ((r) => (r.ERROR = "error", r.SUCCESS = "success", r))(G || {});
+var G = /* @__PURE__ */ ((r) => (r.DANGER = "danger", r.SUCCESS = "success", r.WARNING = "warning", r.INFO = "info", r))(G || {});
+const T = {
+  "tp-color": Object.values(G)
+};
+var v = /* @__PURE__ */ ((r) => (r.LG = "lg", r.MD = "md", r.SM = "sm", r))(v || {});
+const p = {
+  "tp-size": Object.values(v)
+};
+var e = /* @__PURE__ */ ((r) => (r.ERROR = "error", r.SUCCESS = "success", r))(e || {});
 const rr = {
-  "tp-state": Object.values(G)
+  "tp-state": Object.values(e)
 };
-var v = /* @__PURE__ */ ((r) => (r.TEXT_COLORS = "text-colors", r.COLUMNS = "columns", r.LEGEND_BOTTOM_XL = "legend-bottom-xl", r))(v || {});
+var P = /* @__PURE__ */ ((r) => (r.SUCCESS = "success", r.DANGER = "danger", r.WARNING = "warning", r.INFO = "info", r))(P || {});
 const Lr = {
-  "tp-name": Object.values(v)
-};
-var e = /* @__PURE__ */ ((r) => (r.LG = "lg", r.MD = "md", r.SM = "sm", r))(e || {}), P = /* @__PURE__ */ ((r) => (r.PRIMARY = "primary", r.DARK = "dark", r.GRAY = "gray", r))(P || {});
-const ar = {
-  "tp-size": Object.values(e),
   "tp-color": Object.values(P)
 };
-var m = /* @__PURE__ */ ((r) => (r.ERROR = "error", r.SUCCESS = "success", r))(m || {});
+var m = /* @__PURE__ */ ((r) => (r.PARAGRAPH_MD_REGULAR_NORMAL = "paragraph-md-regular-normal", r.PARAGRAPH_MD_BOLD_NORMAL = "paragraph-md-bold-normal", r.PARAGRAPH_MD_LIGHT_NORMAL = "paragraph-md-light-normal", r.PARAGRAPH_SM_REGULAR_NORMAL = "paragraph-sm-regular-normal", r.PARAGRAPH_SM_BOLD_NORMAL = "paragraph-sm-bold-normal", r.PARAGRAPH_SM_LIGHT_NORMAL = "paragraph-sm-light-normal", r.TITLE_LG_REGULAR_NORMAL = "title-lg-regular-normal", r.TITLE_LG_BOLD_NORMAL = "title-lg-bold-normal", r.TITLE_MD_REGULAR_NORMAL = "title-md-regular-normal", r.TITLE_MD_BOLD_NORMAL = "title-md-bold-normal", r.LABEL_MD_REGULAR_NORMAL = "label-md-regular-normal", r.LABEL_MD_BOLD_NORMAL = "label-md-bold-normal", r.LABEL_MD_LIGHT_NORMAL = "label-md-light-normal", r.LABEL_SM_REGULAR_NORMAL = "label-sm-regular-normal", r.LABEL_SM_BOLD_NORMAL = "label-sm-bold-normal", r.LABEL_SM_LIGHT_NORMAL = "label-sm-light-normal", r.PARAGRAPH_MD_REGULAR_TALL = "paragraph-md-regular-tall", r.PARAGRAPH_MD_BOLD_TALL = "paragraph-md-bold-tall", r.PARAGRAPH_MD_LIGHT_TALL = "paragraph-md-light-tall", r.PARAGRAPH_SM_REGULAR_TALL = "paragraph-sm-regular-tall", r.PARAGRAPH_SM_BOLD_TALL = "paragraph-sm-bold-tall", r.PARAGRAPH_SM_LIGHT_TALL = "paragraph-sm-light-tall", r.TITLE_LG_REGULAR_TALL = "title-lg-regular-tall", r.TITLE_LG_BOLD_TALL = "title-lg-bold-tall", r.TITLE_MD_REGULAR_TALL = "title-md-regular-tall", r.TITLE_MD_BOLD_TALL = "title-md-bold-tall", r.LABEL_MD_REGULAR_TALL = "label-md-regular-tall", r.LABEL_MD_BOLD_TALL = "label-md-bold-tall", r.LABEL_MD_LIGHT_TALL = "label-md-light-tall", r.LABEL_SM_REGULAR_TALL = "label-sm-regular-tall", r.LABEL_SM_BOLD_TALL = "label-sm-bold-tall", r.LABEL_SM_LIGHT_TALL = "label-sm-light-tall", r))(m || {}), M = /* @__PURE__ */ ((r) => (r.DANGER = "danger", r.SUCCESS = "success", r.WARNING = "warning", r.INFO = "info", r.PRIMARY = "primary", r.NEUTRAL_SOLID_100 = "neutral-solid-100", r.NEUTRAL_SOLID_200 = "neutral-solid-200", r.NEUTRAL_SOLID_300 = "neutral-solid-300", r.NEUTRAL_SOLID_400 = "neutral-solid-400", r.NEUTRAL_SOLID_500 = "neutral-solid-500", r.NEUTRAL_SOLID_600 = "neutral-solid-600", r.NEUTRAL_SOLID_700 = "neutral-solid-700", r.NEUTRAL_SOLID_800 = "neutral-solid-800", r.NEUTRAL_SOLID_900 = "neutral-solid-900", r))(M || {});
+const ar = {
+  "tp-type": Object.values(m),
+  "tp-color": Object.values(M)
+};
+var S = /* @__PURE__ */ ((r) => (r["2XL"] = "2xl", r.XL = "xl", r.LG = "lg", r.MD = "md", r.SM = "sm", r.AUTO = "auto", r))(S || {});
 const _r = {
-  "tp-state": Object.values(m)
+  "tp-size": Object.values(S)
 };
-var M = /* @__PURE__ */ ((r) => (r.ERROR = "error", r.SUCCESS = "success", r))(M || {});
+var b = /* @__PURE__ */ ((r) => (r.MD = "md", r.SM = "sm", r))(b || {});
 const Rr = {
-  "tp-state": Object.values(M)
+  "tp-size": Object.values(b)
 };
-var S = /* @__PURE__ */ ((r) => (r.DANGER = "danger", r.SUCCESS = "success", r.WARNING = "warning", r.INFO = "info", r))(S || {});
+var g = /* @__PURE__ */ ((r) => (r.MD = "md", r.SM = "sm", r))(g || {}), d = /* @__PURE__ */ ((r) => (r.SOLID = "solid", r.OUTLINE = "outline", r.CLEAR = "clear", r))(d || {}), U = /* @__PURE__ */ ((r) => (r.GRAY = "gray", r.DANGER = "danger", r.SUCCESS = "success", r.WARNING = "warning", r.DARK = "dark", r.INFO = "info", r))(U || {}), I = /* @__PURE__ */ ((r) => (r.BUTTON = "button", r.BUTTON_ICON = "button-icon", r))(I || {});
 const Ar = {
-  "tp-color": Object.values(S)
+  "tp-size": Object.values(g),
+  "tp-fill": Object.values(d),
+  "tp-color": Object.values(U),
+  "tp-name": Object.values(I)
 };
-var b = /* @__PURE__ */ ((r) => (r.PARAGRAPH_MD_REGULAR_NORMAL = "paragraph-md-regular-normal", r.PARAGRAPH_MD_BOLD_NORMAL = "paragraph-md-bold-normal", r.PARAGRAPH_MD_LIGHT_NORMAL = "paragraph-md-light-normal", r.PARAGRAPH_SM_REGULAR_NORMAL = "paragraph-sm-regular-normal", r.PARAGRAPH_SM_BOLD_NORMAL = "paragraph-sm-bold-normal", r.PARAGRAPH_SM_LIGHT_NORMAL = "paragraph-sm-light-normal", r.TITLE_LG_REGULAR_NORMAL = "title-lg-regular-normal", r.TITLE_LG_BOLD_NORMAL = "title-lg-bold-normal", r.TITLE_MD_REGULAR_NORMAL = "title-md-regular-normal", r.TITLE_MD_BOLD_NORMAL = "title-md-bold-normal", r.LABEL_MD_REGULAR_NORMAL = "label-md-regular-normal", r.LABEL_MD_BOLD_NORMAL = "label-md-bold-normal", r.LABEL_MD_LIGHT_NORMAL = "label-md-light-normal", r.LABEL_SM_REGULAR_NORMAL = "label-sm-regular-normal", r.LABEL_SM_BOLD_NORMAL = "label-sm-bold-normal", r.LABEL_SM_LIGHT_NORMAL = "label-sm-light-normal", r.PARAGRAPH_MD_REGULAR_TALL = "paragraph-md-regular-tall", r.PARAGRAPH_MD_BOLD_TALL = "paragraph-md-bold-tall", r.PARAGRAPH_MD_LIGHT_TALL = "paragraph-md-light-tall", r.PARAGRAPH_SM_REGULAR_TALL = "paragraph-sm-regular-tall", r.PARAGRAPH_SM_BOLD_TALL = "paragraph-sm-bold-tall", r.PARAGRAPH_SM_LIGHT_TALL = "paragraph-sm-light-tall", r.TITLE_LG_REGULAR_TALL = "title-lg-regular-tall", r.TITLE_LG_BOLD_TALL = "title-lg-bold-tall", r.TITLE_MD_REGULAR_TALL = "title-md-regular-tall", r.TITLE_MD_BOLD_TALL = "title-md-bold-tall", r.LABEL_MD_REGULAR_TALL = "label-md-regular-tall", r.LABEL_MD_BOLD_TALL = "label-md-bold-tall", r.LABEL_MD_LIGHT_TALL = "label-md-light-tall", r.LABEL_SM_REGULAR_TALL = "label-sm-regular-tall", r.LABEL_SM_BOLD_TALL = "label-sm-bold-tall", r.LABEL_SM_LIGHT_TALL = "label-sm-light-tall", r))(b || {}), g = /* @__PURE__ */ ((r) => (r.DANGER = "danger", r.SUCCESS = "success", r.WARNING = "warning", r.INFO = "info", r.PRIMARY = "primary", r.NEUTRAL_SOLID_100 = "neutral-solid-100", r.NEUTRAL_SOLID_200 = "neutral-solid-200", r.NEUTRAL_SOLID_300 = "neutral-solid-300", r.NEUTRAL_SOLID_400 = "neutral-solid-400", r.NEUTRAL_SOLID_500 = "neutral-solid-500", r.NEUTRAL_SOLID_600 = "neutral-solid-600", r.NEUTRAL_SOLID_700 = "neutral-solid-700", r.NEUTRAL_SOLID_800 = "neutral-solid-800", r.NEUTRAL_SOLID_900 = "neutral-solid-900", r))(g || {});
+var i = /* @__PURE__ */ ((r) => (r.ERROR = "error", r.SUCCESS = "success", r))(i || {});
 const sr = {
-  "tp-type": Object.values(b),
-  "tp-color": Object.values(g)
+  "tp-state": Object.values(i)
 };
-var d = /* @__PURE__ */ ((r) => (r.ERROR = "error", r.SUCCESS = "success", r))(d || {});
+var j = /* @__PURE__ */ ((r) => (r.BORDER_HORIZONTAL = "border-horizontal", r.BORDER_VERTICAL = "border-vertical", r.BORDER_INNER = "border-inner", r.BORDER_ALL = "border-all", r))(j || {}), H = /* @__PURE__ */ ((r) => (r.ONE = "one", r.TWO = "two", r))(H || {}), h = /* @__PURE__ */ ((r) => (r.DANGER = "danger", r.SUCCESS = "success", r.WARNING = "warning", r.INFO = "info", r.PRIMARY = "primary", r))(h || {});
 const lr = {
-  "tp-state": Object.values(d)
+  "tp-border": Object.values(j),
+  "tp-cell-level": Object.values(H),
+  "tp-feedback": Object.values(h)
 };
-var U = /* @__PURE__ */ ((r) => (r.MD = "md", r.SM = "sm", r))(U || {}), I = /* @__PURE__ */ ((r) => (r.SOLID = "solid", r.CLEAR = "clear", r))(I || {}), i = /* @__PURE__ */ ((r) => (r.GRAY = "gray", r.DANGER = "danger", r.SUCCESS = "success", r.WARNING = "warning", r.DARK = "dark", r.INFO = "info", r))(i || {}), j = /* @__PURE__ */ ((r) => (r.BUTTON = "button", r.BUTTON_ICON = "button-icon", r))(j || {});
+var B = /* @__PURE__ */ ((r) => (r.SUCCESS = "success", r.DANGER = "danger", r.WARNING = "warning", r.WARNING_LIGHT = "warning-light", r.INFO = "info", r.PRIMARY = "primary", r.GRAY_DARK = "gray-dark", r.GRAY_LIGHT = "gray-light", r))(B || {});
 const Or = {
-  "tp-size": Object.values(U),
-  "tp-fill": Object.values(I),
-  "tp-color": Object.values(i),
-  "tp-name": Object.values(j)
+  "tp-color": Object.values(B)
 };
-var H = /* @__PURE__ */ ((r) => (r.MD = "md", r.SM = "sm", r))(H || {}), h = /* @__PURE__ */ ((r) => (r.SOLID = "solid", r.OUTLINE = "outline", r.CLEAR = "clear", r))(h || {}), B = /* @__PURE__ */ ((r) => (r.GRAY = "gray", r.DANGER = "danger", r.SUCCESS = "success", r.WARNING = "warning", r.DARK = "dark", r.INFO = "info", r))(B || {}), f = /* @__PURE__ */ ((r) => (r.BUTTON = "button", r.BUTTON_ICON = "button-icon", r))(f || {});
+var f = /* @__PURE__ */ ((r) => (r.ERROR = "error", r.SUCCESS = "success", r))(f || {});
 const Er = {
-  "tp-size": Object.values(H),
-  "tp-fill": Object.values(h),
-  "tp-color": Object.values(B),
-  "tp-name": Object.values(f)
+  "tp-state": Object.values(f)
 };
 export {
-  q as TP_ALERT,
-  Lr as TP_APEXCHARTS,
-  w as TP_ASIDE_NAV,
-  Ar as TP_BADGE,
-  V as TP_BREADCRUMBS,
-  Er as TP_BUTTON,
-  Or as TP_BUTTON_ICON,
-  J as TP_CARD,
+  C as TP_ALERT,
+  J as TP_APEXCHARTS,
+  K as TP_ASIDE_NAV,
+  T as TP_BADGE,
+  w as TP_BREADCRUMBS,
+  Ar as TP_BUTTON,
+  F as TP_BUTTON_ICON,
+  k as TP_CARD,
   W as TP_CHECKBOX,
-  k as TP_CKEDITOR,
-  _r as TP_DATEPICKER,
-  Q as TP_FLAG_TAG,
-  $ as TP_ICON,
-  F as TP_INPUT,
-  lr as TP_INPUT_ADD,
-  z as TP_MENU,
-  x as TP_MODAL,
-  X as TP_RADIO,
+  Rr as TP_CKEDITOR,
+  z as TP_DATEPICKER,
+  Or as TP_FLAG_TAG,
+  Q as TP_ICON,
+  rr as TP_INPUT,
+  $ as TP_INPUT_ADD,
+  p as TP_MENU,
+  _r as TP_MODAL,
+  Y as TP_RADIO,
   y as TP_SELECT,
-  rr as TP_SELECT_FILTER,
+  Er as TP_SELECT_FILTER,
   o as TP_SELECT_ITEM,
-  p as TP_SNACKBAR,
-  ar as TP_SPINNER,
-  Y as TP_STEPS,
-  Z as TP_TAB,
-  T as TP_TABLE,
-  sr as TP_TEXT,
-  Rr as TP_TEXTAREA,
-  K as TP_TOGGLE,
-  C as TP_UPLOADER,
-  L as TpAlertColor,
-  v as TpApexchartsName,
-  S as TpBadgeColor,
-  B as TpButtonColor,
-  h as TpButtonFill,
-  i as TpButtonIconColor,
-  I as TpButtonIconFill,
-  j as TpButtonIconName,
-  U as TpButtonIconSize,
-  f as TpButtonName,
-  H as TpButtonSize,
-  a as TpCardFill,
-  s as TpCkeditorSize,
-  m as TpDatepickerState,
-  _ as TpFlagTagColor,
-  A as TpIconColor,
-  R as TpIconSize,
-  d as TpInputAddState,
-  l as TpInputState,
-  O as TpMenuSize,
-  n as TpModalSize,
-  G as TpSelectFilterState,
-  E as TpSelectItemColor,
-  t as TpSelectState,
-  D as TpSnackbarColor,
-  P as TpSpinnerColor,
-  e as TpSpinnerSize,
-  u as TpTableBorder,
-  N as TpTableCellLevel,
-  c as TpTableFeedback,
-  g as TpTextColor,
-  b as TpTextType,
-  M as TpTextareaState
+  Lr as TP_SNACKBAR,
+  x as TP_SPINNER,
+  X as TP_STEPS,
+  V as TP_TAB,
+  lr as TP_TABLE,
+  ar as TP_TEXT,
+  sr as TP_TEXTAREA,
+  Z as TP_TOGGLE,
+  q as TP_UPLOADER,
+  A as TpAlertColor,
+  L as TpApexchartsName,
+  G as TpBadgeColor,
+  U as TpButtonColor,
+  d as TpButtonFill,
+  E as TpButtonIconColor,
+  O as TpButtonIconFill,
+  t as TpButtonIconName,
+  l as TpButtonIconSize,
+  I as TpButtonName,
+  g as TpButtonSize,
+  s as TpCardFill,
+  b as TpCkeditorSize,
+  n as TpDatepickerState,
+  B as TpFlagTagColor,
+  _ as TpIconColor,
+  a as TpIconSize,
+  R as TpInputAddState,
+  e as TpInputState,
+  v as TpMenuSize,
+  S as TpModalSize,
+  f as TpSelectFilterState,
+  u as TpSelectItemColor,
+  N as TpSelectState,
+  P as TpSnackbarColor,
+  D as TpSpinnerColor,
+  c as TpSpinnerSize,
+  j as TpTableBorder,
+  H as TpTableCellLevel,
+  h as TpTableFeedback,
+  M as TpTextColor,
+  m as TpTextType,
+  i as TpTextareaState
 };

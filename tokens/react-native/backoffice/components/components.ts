@@ -843,6 +843,12 @@ export const tpDatepickerPopoverButtonCloseMarginTopOs = {
   decimal: 0.12,
   scale: 192,
 };
+export const tpDatepickerPopoverBorderRadiusOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
 export const tpDatepickerBorderStyleOs = "solid";
 export const tpDatepickerBorderWidthOs = "1px";
 export const tpDatepickerWrapperSidesMinWidthOs = {
@@ -1159,6 +1165,7 @@ export const tpInputHintFontMapOs = {
 };
 export const tpInputMetadataDisabled = "boolean";
 export const tpInputMetadataState = "error success";
+export const tpInputMetadataName = "input input-no-label";
 export const tpInputFeedbackFontMapOs = {
   fontWeight: "500",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },

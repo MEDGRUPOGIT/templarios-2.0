@@ -78,17 +78,17 @@ export const tpInputContainerHeightMd = {
   decimal: 0.4,
   scale: 640,
 };
-export const tpInputElementPaddingLeft = {
+export const tpInputContainerGapOs = {
   original: "16px",
   number: 16,
   decimal: 0.16,
   scale: 256,
 };
-export const tpInputElementPaddingRight = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
+export const tpInputElementPaddingLeft = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
 };
 export const tpInputElementFontMap = {
   fontWeight: "400",
@@ -101,18 +101,6 @@ export const tpInputIconSizeMd = {
   number: 24,
   decimal: 0.24,
   scale: 384,
-};
-export const tpInputIconGapLeft = {
-  original: "16px",
-  number: 16,
-  decimal: 0.16,
-  scale: 256,
-};
-export const tpInputIconGapRight = {
-  original: "16px",
-  number: 16,
-  decimal: 0.16,
-  scale: 256,
 };
 export const tpInputLabelFontMap = {
   fontWeight: "400",
@@ -147,18 +135,6 @@ export const tpItemPaddingMd = {
   number: 16,
   decimal: 0.16,
   scale: 256,
-};
-export const tpItemGapMd = {
-  original: "16px",
-  number: 16,
-  decimal: 0.16,
-  scale: 256,
-};
-export const tpItemFontMap = {
-  fontWeight: "400",
-  fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
-  lineHeight: "100%",
-  fontFamily: "FS Emeric",
 };
 export const tpItemMetadataDisabled = "boolean";
 export const tpProgressBarHeightMd = {
@@ -198,5 +174,6 @@ export const tpRadioFontMapOs = {
   lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
+export const tpRadioBorderRadiusOs = "9999px";
 export const tpTextMetadataType =
   "label-lg-bold-short label-lg-bold-tall label-lg-normal-short label-lg-normal-tall label-md-bold-short label-md-bold-tall label-md-normal-short label-md-normal-tall label-sm-bold-short label-sm-bold-tall label-sm-normal-short label-sm-normal-tall paragraph-lg-bold-short paragraph-lg-bold-tall paragraph-lg-normal-short paragraph-lg-normal-tall paragraph-md-bold-short paragraph-md-bold-tall paragraph-md-normal-short paragraph-md-normal-tall paragraph-sm-bold-short paragraph-sm-bold-tall paragraph-sm-normal-short paragraph-sm-normal-tall title-lg-normal-short title-lg-normal-tall title-md-normal-short title-md-normal-tall title-sm-normal-short title-sm-normal-tall";

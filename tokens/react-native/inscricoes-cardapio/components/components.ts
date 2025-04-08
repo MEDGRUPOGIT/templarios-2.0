@@ -25,7 +25,7 @@ export const tpBadgeBorderMd = {
   width: "2px",
   style: "solid",
 };
-export const tpBadgeFontMap = {
+export const tpBadgeFontMapOs = {
   fontWeight: "400",
   fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
   lineHeight: "150%",
@@ -59,14 +59,14 @@ export const tpButtonSolidNoPaddingHorizontalMd = {
   decimal: 0.4,
   scale: 640,
 };
-export const tpButtonBorderRadiusMd = "9999px";
+export const tpButtonBorderRadiusOs = "9999px";
 export const tpButtonHeightMd = {
   original: "48px",
   number: 48,
   decimal: 0.48,
   scale: 768,
 };
-export const tpButtonFontMap = {
+export const tpButtonFontMapOs = {
   fontWeight: "600",
   fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
   lineHeight: "150%",
@@ -87,19 +87,19 @@ export const tpButtonClearNoPaddingHorizontalMd = {
 export const tpButtonMetadataFill = "solid clear";
 export const tpButtonMetadataDisabled = "boolean";
 export const tpButtonMetadataNoPadding = "boolean";
-export const tpCheckboxBorderRadiusMd = {
+export const tpCheckboxBorderRadiusOs = {
   original: "4px",
   number: 4,
   decimal: 0.04,
   scale: 64,
 };
-export const tpCheckboxSizeMd = {
+export const tpCheckboxSizeOs = {
   original: "20px",
   number: 20,
   decimal: 0.2,
   scale: 320,
 };
-export const tpCheckboxGapMd = {
+export const tpCheckboxGapOs = {
   original: "16px",
   number: 16,
   decimal: 0.16,
@@ -107,7 +107,7 @@ export const tpCheckboxGapMd = {
 };
 export const tpCheckboxBorderStyleOs = "solid";
 export const tpCheckboxBorderWidthOs = "2px";
-export const tpInputContainerBorderRadiusMd = {
+export const tpInputContainerBorderRadiusOs = {
   original: "4px",
   number: 4,
   decimal: 0.04,
@@ -119,11 +119,17 @@ export const tpInputContainerPaddingRight = {
   decimal: 0.16,
   scale: 256,
 };
-export const tpInputContainerHeightMd = {
+export const tpInputContainerHeightOs = {
   original: "40px",
   number: 40,
   decimal: 0.4,
   scale: 640,
+};
+export const tpInputContainerGapOs = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
 };
 export const tpInputElementPaddingLeft = {
   original: "16px",
@@ -131,37 +137,19 @@ export const tpInputElementPaddingLeft = {
   decimal: 0.16,
   scale: 256,
 };
-export const tpInputElementPaddingRight = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
-};
-export const tpInputElementFontMap = {
+export const tpInputElementFontMapOs = {
   fontWeight: "400",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
-export const tpInputIconSizeMd = {
+export const tpInputIconSizeOs = {
   original: "24px",
   number: 24,
   decimal: 0.24,
   scale: 384,
 };
-export const tpInputIconGapLeft = {
-  original: "16px",
-  number: 16,
-  decimal: 0.16,
-  scale: 256,
-};
-export const tpInputIconGapRight = {
-  original: "16px",
-  number: 16,
-  decimal: 0.16,
-  scale: 256,
-};
-export const tpInputLabelFontMap = {
+export const tpInputLabelFontMapOs = {
   fontWeight: "400",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
   lineHeight: "150%",
@@ -176,7 +164,7 @@ export const tpInputGapMd = {
 export const tpInputMetadataDisabled = "boolean";
 export const tpInputMetadataState = "error success";
 export const tpInputMetadataIcon = "start end feedback";
-export const tpInputFeddbackFontMap = {
+export const tpInputFeddbackFontMapOs = {
   fontWeight: "400",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
   lineHeight: "150%",
@@ -190,26 +178,26 @@ export const tpItemPaddingMd = {
   decimal: 0.16,
   scale: 256,
 };
-export const tpItemGapMd = {
+export const tpItemGapOs = {
   original: "16px",
   number: 16,
   decimal: 0.16,
   scale: 256,
 };
-export const tpItemFontMap = {
+export const tpItemFontMapOs = {
   fontWeight: "400",
   fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
   lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
 export const tpItemMetadataDisabled = "boolean";
-export const tpModalContainerPaddingMd = {
+export const tpModalContainerPaddingOs = {
   original: "24px",
   number: 24,
   decimal: 0.24,
   scale: 384,
 };
-export const tpModalContainerBoxShadowMd = [
+export const tpModalContainerBoxShadowOs = [
   {
     x: "0",
     y: "28",
@@ -228,8 +216,8 @@ export const tpModalContainerBoxShadowMd = [
   },
 ];
 export const tpModalBackdropSizeFull = "100%";
-export const tpModalBackdropBlurMd = "blur(10px)";
-export const tpSelectContainerBorderRadiusMd = {
+export const tpModalBackdropBlurOs = "blur(10px)";
+export const tpSelectContainerBorderRadiusOs = {
   original: "4px",
   number: 4,
   decimal: 0.04,
@@ -241,11 +229,17 @@ export const tpSelectContainerPaddingRight = {
   decimal: 0.16,
   scale: 256,
 };
-export const tpSelectContainerHeightMd = {
+export const tpSelectContainerHeightOs = {
   original: "40px",
   number: 40,
   decimal: 0.4,
   scale: 640,
+};
+export const tpSelectContainerGapOs = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
 };
 export const tpSelectElementPaddingLeft = {
   original: "16px",
@@ -253,37 +247,19 @@ export const tpSelectElementPaddingLeft = {
   decimal: 0.16,
   scale: 256,
 };
-export const tpSelectElementPaddingRight = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
-};
-export const tpSelectElementFontMap = {
+export const tpSelectElementFontMapOs = {
   fontWeight: "400",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
-export const tpSelectIconSizeMd = {
+export const tpSelectIconSizeOs = {
   original: "24px",
   number: 24,
   decimal: 0.24,
   scale: 384,
 };
-export const tpSelectIconGapLeft = {
-  original: "16px",
-  number: 16,
-  decimal: 0.16,
-  scale: 256,
-};
-export const tpSelectIconGapRight = {
-  original: "16px",
-  number: 16,
-  decimal: 0.16,
-  scale: 256,
-};
-export const tpSelectLabelFontMap = {
+export const tpSelectLabelFontMapOs = {
   fontWeight: "400",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
   lineHeight: "150%",
@@ -298,44 +274,37 @@ export const tpSelectGapMd = {
 export const tpSelectMetadataDisabled = "boolean";
 export const tpSelectMetadataState = "error success";
 export const tpSelectMetadataIcon = "start end feedback";
-export const tpSelectFeddbackFontMap = {
+export const tpSelectFeddbackFontMapOs = {
   fontWeight: "400",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
-export const tpSelectContentHeightMd = "273px";
-export const tpSelectContentItemPaddingHorizontalMd = {
+export const tpSelectContentHeightOs = "273px";
+export const tpSelectContentItemPaddingHorizontalOs = {
   original: "16px",
   number: 16,
   decimal: 0.16,
   scale: 256,
 };
-export const tpSelectContentItemPaddingVerticalMd = {
+export const tpSelectContentItemPaddingVerticalOs = {
   original: "8px",
   number: 8,
   decimal: 0.08,
   scale: 128,
 };
-export const tpSelectContentItemFont = {
+export const tpSelectContentItemFontMapOs = {
   fontWeight: "400",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
   lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
-export const tpSelectContentBorderRadiusMd = {
+export const tpSelectContentBorderRadiusOs = {
   original: "4px",
   number: 4,
   decimal: 0.04,
   scale: 64,
 };
-export const tpSelectContentPositionMd = {
-  original: "40px",
-  number: 40,
-  decimal: 0.4,
-  scale: 640,
-};
-export const tpSelectContentWidthMd = "100%";
 export const tpSelectBorderWidthOs = "2px";
 export const tpSelectBorderStyleOs = "solid";
 export const tpTextMetadataType =

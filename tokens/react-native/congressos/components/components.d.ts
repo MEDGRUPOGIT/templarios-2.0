@@ -88,13 +88,13 @@ export const tpInputContainerHeightMd: {
   decimal: number;
   scale: number;
 };
-export const tpInputElementPaddingLeft: {
+export const tpInputContainerGapOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpInputElementPaddingRight: {
+export const tpInputElementPaddingLeft: {
   original: string;
   number: number;
   decimal: number;
@@ -112,18 +112,6 @@ export const tpInputElementFontMap: {
   fontFamily: string;
 };
 export const tpInputIconSizeMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpInputIconGapLeft: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpInputIconGapRight: {
   original: string;
   number: number;
   decimal: number;
@@ -173,23 +161,6 @@ export const tpItemPaddingMd: {
   decimal: number;
   scale: number;
 };
-export const tpItemGapMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpItemFontMap: {
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-  fontFamily: string;
-};
 export const tpItemMetadataDisabled: string;
 export const tpProgressBarHeightMd: {
   original: string;
@@ -233,4 +204,5 @@ export const tpRadioFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
+export const tpRadioBorderRadiusOs: string;
 export const tpTextMetadataType: string;

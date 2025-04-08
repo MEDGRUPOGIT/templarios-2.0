@@ -76,8 +76,30 @@ export declare const THEMES: {
         "Default \u00B7 Light": string;
     };
     "inscricoes-cardapio": {
-        "Default \u00B7 Dark \u00B7 Screen md": string;
-        "Default \u00B7 Dark \u00B7 Screen sm": string;
+        "Cpmed \u00B7 Dark \u00B7 Screen md": string;
+        "Cpmed \u00B7 Dark \u00B7 Screen sm": string;
+        "Cpmed \u00B7 Light \u00B7 Screen md": string;
+        "Cpmed \u00B7 Light \u00B7 Screen sm": string;
+        "Medeletro \u00B7 Dark \u00B7 Screen md": string;
+        "Medeletro \u00B7 Dark \u00B7 Screen sm": string;
+        "Medeletro \u00B7 Light \u00B7 Screen md": string;
+        "Medeletro \u00B7 Light \u00B7 Screen sm": string;
+        "Nopapo \u00B7 Dark \u00B7 Screen md": string;
+        "Nopapo \u00B7 Dark \u00B7 Screen sm": string;
+        "Nopapo \u00B7 Light \u00B7 Screen md": string;
+        "Nopapo \u00B7 Light \u00B7 Screen sm": string;
+        "Revalidaacao \u00B7 Dark \u00B7 Screen md": string;
+        "Revalidaacao \u00B7 Dark \u00B7 Screen sm": string;
+        "Revalidaacao \u00B7 Light \u00B7 Screen md": string;
+        "Revalidaacao \u00B7 Light \u00B7 Screen sm": string;
+        "Rmais \u00B7 Dark \u00B7 Screen md": string;
+        "Rmais \u00B7 Dark \u00B7 Screen sm": string;
+        "Rmais \u00B7 Light \u00B7 Screen md": string;
+        "Rmais \u00B7 Light \u00B7 Screen sm": string;
+        "Ted \u00B7 Dark \u00B7 Screen md": string;
+        "Ted \u00B7 Dark \u00B7 Screen sm": string;
+        "Ted \u00B7 Light \u00B7 Screen md": string;
+        "Ted \u00B7 Light \u00B7 Screen sm": string;
     };
     medtango: {
         "Medcurso-car": string;

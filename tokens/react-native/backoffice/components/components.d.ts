@@ -944,6 +944,12 @@ export const tpDatepickerPopoverButtonCloseMarginTopOs: {
   decimal: number;
   scale: number;
 };
+export const tpDatepickerPopoverBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpDatepickerBorderStyleOs: string;
 export const tpDatepickerBorderWidthOs: string;
 export const tpDatepickerWrapperSidesMinWidthOs: {
@@ -1308,6 +1314,7 @@ export const tpInputHintFontMapOs: {
 };
 export const tpInputMetadataDisabled: string;
 export const tpInputMetadataState: string;
+export const tpInputMetadataName: string;
 export const tpInputFeedbackFontMapOs: {
   fontWeight: string;
   fontSize: {

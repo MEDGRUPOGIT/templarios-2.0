@@ -1427,27 +1427,27 @@ export const tpInputContainerBorderDisabled = {
   style: "solid",
 };
 export const tpInputContainerBorderErrorDefault = {
-  color: "hsla( 354, 100%, 50%, 1)",
+  color: "hsla( 7, 100%, 50%, 1)",
   width: "1px",
   style: "solid",
 };
 export const tpInputContainerBorderErrorHover = {
-  color: "hsla( 354, 100%, 50%, 1)",
+  color: "hsla( 7, 100%, 50%, 1)",
   width: "1px",
   style: "solid",
 };
 export const tpInputContainerBorderErrorFocus = {
-  color: "hsla( 354, 100%, 50%, 1)",
+  color: "hsla( 7, 100%, 50%, 1)",
   width: "1px",
   style: "solid",
 };
 export const tpInputContainerBorderErrorActive = {
-  color: "hsla( 354, 100%, 50%, 1)",
+  color: "hsla( 7, 100%, 50%, 1)",
   width: "1px",
   style: "solid",
 };
 export const tpInputContainerBorderErrorDisabled = {
-  color: "hsla( 354, 100%, 70%, 1)",
+  color: "hsla( 7, 100%, 70%, 1)",
   width: "1px",
   style: "solid",
 };

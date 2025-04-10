@@ -6,32 +6,32 @@ const i = {
   "tp-color": Object.values(s),
   "tp-name": Object.values(O)
 };
-var a = /* @__PURE__ */ ((r) => (r.SM = "sm", r.LG = "lg", r))(a || {}), v = /* @__PURE__ */ ((r) => (r.RED = "red", r.YELLOW = "yellow", r.GREEN = "green", r.NEUTRAL = "neutral", r.BLUE = "blue", r))(v || {}), c = /* @__PURE__ */ ((r) => (r.BADGE = "badge", r.BADGE_ICON = "badge-icon", r))(c || {});
+var a = /* @__PURE__ */ ((r) => (r.SM = "sm", r.MD = "md", r))(a || {});
 const d = {
-  "tp-size": Object.values(a),
-  "tp-color": Object.values(v),
-  "tp-name": Object.values(c)
+  "tp-size": Object.values(a)
 };
-var n = /* @__PURE__ */ ((r) => (r.SM = "sm", r.MD = "md", r))(n || {});
+var v = /* @__PURE__ */ ((r) => (r.START = "start", r.END = "end", r.BOTH = "both", r))(v || {}), c = /* @__PURE__ */ ((r) => (r.ONE = "one", r.TWO = "two", r.THREE = "three", r))(c || {});
 const f = {
-  "tp-size": Object.values(n)
+  "tp-icon": Object.values(v),
+  "tp-img": Object.values(c)
 };
-var u = /* @__PURE__ */ ((r) => (r.SOLID = "solid", r.WEAK = "weak", r.STRONG = "strong", r))(u || {}), E = /* @__PURE__ */ ((r) => (r.MD = "md", r.LG = "lg", r))(E || {});
+var n = /* @__PURE__ */ ((r) => (r.SM = "sm", r.MD = "md", r.LG = "lg", r))(n || {}), u = /* @__PURE__ */ ((r) => (r.SOLID = "solid", r.OUTLINE = "outline", r.CLEAR = "clear", r))(u || {}), E = /* @__PURE__ */ ((r) => (r.PRIMARY = "primary", r.NEUTRAL = "neutral", r))(E || {}), l = /* @__PURE__ */ ((r) => (r.BUTTON = "button", r.BUTTON_ICON = "button-icon", r))(l || {});
 const w = {
+  "tp-size": Object.values(n),
   "tp-fill": Object.values(u),
-  "tp-size": Object.values(E)
+  "tp-color": Object.values(E),
+  "tp-name": Object.values(l)
 };
-var l = /* @__PURE__ */ ((r) => (r.START = "start", r.END = "end", r.BOTH = "both", r))(l || {}), R = /* @__PURE__ */ ((r) => (r.ONE = "one", r.TWO = "two", r.THREE = "three", r))(R || {});
+var R = /* @__PURE__ */ ((r) => (r.SM = "sm", r.LG = "lg", r))(R || {}), N = /* @__PURE__ */ ((r) => (r.RED = "red", r.YELLOW = "yellow", r.GREEN = "green", r.NEUTRAL = "neutral", r.BLUE = "blue", r))(N || {}), _ = /* @__PURE__ */ ((r) => (r.BADGE = "badge", r.BADGE_ICON = "badge-icon", r))(_ || {});
 const C = {
-  "tp-icon": Object.values(l),
-  "tp-img": Object.values(R)
+  "tp-size": Object.values(R),
+  "tp-color": Object.values(N),
+  "tp-name": Object.values(_)
 };
-var N = /* @__PURE__ */ ((r) => (r.SM = "sm", r.MD = "md", r.LG = "lg", r))(N || {}), _ = /* @__PURE__ */ ((r) => (r.SOLID = "solid", r.OUTLINE = "outline", r.CLEAR = "clear", r))(_ || {}), b = /* @__PURE__ */ ((r) => (r.PRIMARY = "primary", r.NEUTRAL = "neutral", r))(b || {}), A = /* @__PURE__ */ ((r) => (r.BUTTON = "button", r.BUTTON_ICON = "button-icon", r))(A || {});
+var b = /* @__PURE__ */ ((r) => (r.SOLID = "solid", r.WEAK = "weak", r.STRONG = "strong", r))(b || {}), A = /* @__PURE__ */ ((r) => (r.MD = "md", r.LG = "lg", r))(A || {});
 const H = {
-  "tp-size": Object.values(N),
-  "tp-fill": Object.values(_),
-  "tp-color": Object.values(b),
-  "tp-name": Object.values(A)
+  "tp-fill": Object.values(b),
+  "tp-size": Object.values(A)
 };
 var D = /* @__PURE__ */ ((r) => (r.SM = "sm", r.MD = "md", r))(D || {});
 const W = {
@@ -51,38 +51,38 @@ const V = {
   "tp-mode": Object.values(L)
 };
 export {
-  d as TP_BADGE,
-  H as TP_BUTTON,
+  C as TP_BADGE,
+  w as TP_BUTTON,
   i as TP_BUTTON_ICON,
-  f as TP_CHECKBOX,
-  C as TP_CHIP,
-  w as TP_FAB,
-  U as TP_INDEX,
+  d as TP_CHECKBOX,
+  f as TP_CHIP,
+  H as TP_FAB,
+  S as TP_INDEX,
   o as TP_INPUT,
-  m as TP_INPUT_CARDS,
-  M as TP_NAVIGATION_DOTS,
+  U as TP_INPUT_CARDS,
+  m as TP_NAVIGATION_DOTS,
   W as TP_RADIO,
   y as TP_SELECT_HEADER,
-  S as TP_TAB_ITEM,
+  G as TP_TAB_ITEM,
   V as TP_TOAST,
   I as TP_VIDEO_FEATURED,
-  G as TP_VIDEO_ITEM,
-  v as TpBadgeColor,
-  c as TpBadgeName,
-  a as TpBadgeSize,
-  b as TpButtonColor,
-  _ as TpButtonFill,
+  M as TP_VIDEO_ITEM,
+  N as TpBadgeColor,
+  _ as TpBadgeName,
+  R as TpBadgeSize,
+  E as TpButtonColor,
+  u as TpButtonFill,
   s as TpButtonIconColor,
   e as TpButtonIconFill,
   O as TpButtonIconName,
   t as TpButtonIconSize,
-  A as TpButtonName,
-  N as TpButtonSize,
-  n as TpCheckboxSize,
-  l as TpChipIcon,
-  R as TpChipImg,
-  u as TpFabFill,
-  E as TpFabSize,
+  l as TpButtonName,
+  n as TpButtonSize,
+  a as TpCheckboxSize,
+  v as TpChipIcon,
+  c as TpChipImg,
+  b as TpFabFill,
+  A as TpFabSize,
   P as TpInputIcon,
   j as TpInputState,
   D as TpRadioSize,

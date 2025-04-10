@@ -204,5 +204,5 @@ export const tpRadioFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpRadioBorderRadiusOs: string;
+export const tpRadioBorderRadiusMd: string;
 export const tpTextMetadataType: string;

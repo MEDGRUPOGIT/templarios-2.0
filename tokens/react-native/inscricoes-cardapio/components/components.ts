@@ -20,17 +20,16 @@ export const tpBadgeBorderRadiusMd = {
   decimal: 0.04,
   scale: 64,
 };
-export const tpBadgeBorderMd = {
-  color: "rgba(0, 0, 0, 0)",
-  width: "2px",
-  style: "solid",
-};
 export const tpBadgeFontMapOs = {
   fontWeight: "400",
   fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
+export const tpBadgeBorderWidthOs = "1px";
+export const tpBadgeBorderStyleOs = "solid";
+export const tpBadgeMetadataColor =
+  "success danger warning info primary neutral-solid-500";
 export const tpButtonIconSizeMd = {
   original: "32px",
   number: 32,
@@ -87,6 +86,12 @@ export const tpButtonClearNoPaddingHorizontalMd = {
 export const tpButtonMetadataFill = "solid clear";
 export const tpButtonMetadataDisabled = "boolean";
 export const tpButtonMetadataNoPadding = "boolean";
+export const tpButtonGapOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
 export const tpCheckboxBorderRadiusOs = {
   original: "4px",
   number: 4,
@@ -217,6 +222,27 @@ export const tpModalContainerBoxShadowOs = [
 ];
 export const tpModalBackdropSizeFull = "100%";
 export const tpModalBackdropBlurOs = "blur(10px)";
+export const tpRadioSizeOs = {
+  original: "20px",
+  number: 20,
+  decimal: 0.2,
+  scale: 320,
+};
+export const tpRadioBorderWidthOs = "2px";
+export const tpRadioGapOs = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
+};
+export const tpRadioBorderStyleOs = "solid";
+export const tpRadioFontMapOs = {
+  fontWeight: "400",
+  fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpRadioBorderRadiusOs = "9999px";
 export const tpSelectContainerBorderRadiusOs = {
   original: "4px",
   number: 4,

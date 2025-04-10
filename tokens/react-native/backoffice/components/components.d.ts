@@ -1008,6 +1008,7 @@ export const tpDialogBoxShadowOs: {
 }[];
 export const tpDialogMinHeightOs: string;
 export const tpDialogMarginOs: string;
+export const tpDialogMetadataJustifyEnd: string;
 export const tpFlagTagMetadataSize: string;
 export const tpFlagTagMetadataColor: string;
 export const tpFlagTagPaddingHorizontalOs: {
@@ -2470,6 +2471,124 @@ export const tpTextareaWrapperSidesMinWidthOs: {
 };
 export const tpTextareaBorderStyleOs: string;
 export const tpTextareaBorderWidthOs: string;
+export const tpTicketPaddingOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTicketStatusWidthOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTicketBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTicketMetadataColor: string;
+export const tpTicketLabelFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTicketTextFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTicketDatePaddingRightOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTicketDateFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTicketDateBorderWidthOs: string;
+export const tpTicketBorderStyleOs: string;
+export const tpTicketCardPaddingOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTicketCardBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTicketCardGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTicketCardTitleFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTicketCardTextFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTicketCardStatusFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTicketGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTimelineDateWidthOs: string;
 export const tpToggleGapOs: {
   original: string;
   number: number;

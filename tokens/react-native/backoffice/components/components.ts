@@ -912,6 +912,7 @@ export const tpDialogBoxShadowOs = [
 ];
 export const tpDialogMinHeightOs = "230px";
 export const tpDialogMarginOs = "32px";
+export const tpDialogMetadataJustifyEnd = "boolean";
 export const tpFlagTagMetadataSize = "boolean";
 export const tpFlagTagMetadataColor =
   "success danger warning warning-light info primary gray-dark gray-light";
@@ -2282,6 +2283,94 @@ export const tpTextareaWrapperSidesMinWidthOs = {
 };
 export const tpTextareaBorderStyleOs = "solid";
 export const tpTextareaBorderWidthOs = "1px";
+export const tpTicketPaddingOs = {
+  original: "12px",
+  number: 12,
+  decimal: 0.12,
+  scale: 192,
+};
+export const tpTicketStatusWidthOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpTicketBorderRadiusOs = {
+  original: "6px",
+  number: 6,
+  decimal: 0.06,
+  scale: 96,
+};
+export const tpTicketMetadataColor = "success warning info danger primary";
+export const tpTicketLabelFontMapOs = {
+  fontWeight: "600",
+  fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
+  lineHeight: "150%",
+  fontFamily: "Poppins",
+};
+export const tpTicketTextFontMapOs = {
+  fontWeight: "400",
+  fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
+  lineHeight: "150%",
+  fontFamily: "Poppins",
+};
+export const tpTicketDatePaddingRightOs = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
+};
+export const tpTicketDateFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "150%",
+  fontFamily: "Poppins",
+};
+export const tpTicketDateBorderWidthOs = "2px";
+export const tpTicketBorderStyleOs = "solid";
+export const tpTicketCardPaddingOs = {
+  original: "12px",
+  number: 12,
+  decimal: 0.12,
+  scale: 192,
+};
+export const tpTicketCardBorderRadiusOs = {
+  original: "6px",
+  number: 6,
+  decimal: 0.06,
+  scale: 96,
+};
+export const tpTicketCardGapOs = {
+  original: "4px",
+  number: 4,
+  decimal: 0.04,
+  scale: 64,
+};
+export const tpTicketCardTitleFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "18px", number: 18, decimal: 0.18, scale: 288 },
+  lineHeight: "150%",
+  fontFamily: "Poppins",
+};
+export const tpTicketCardTextFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "150%",
+  fontFamily: "Poppins",
+};
+export const tpTicketCardStatusFontMapOs = {
+  fontWeight: "600",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "150%",
+  fontFamily: "Poppins",
+};
+export const tpTicketGapOs = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
+};
+export const tpTimelineDateWidthOs = "114px";
 export const tpToggleGapOs = {
   original: "8px",
   number: 8,

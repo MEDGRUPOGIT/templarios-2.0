@@ -156,10 +156,10 @@ export const tpRadioSizeMd = {
   scale: 320,
 };
 export const tpRadioBorderWidthMd = {
-  original: "2px",
-  number: 2,
-  decimal: 0.02,
-  scale: 32,
+  original: "1px",
+  number: 1,
+  decimal: 0.01,
+  scale: 16,
 };
 export const tpRadioGapMd = {
   original: "16px",
@@ -174,6 +174,6 @@ export const tpRadioFontMapOs = {
   lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
-export const tpRadioBorderRadiusOs = "9999px";
+export const tpRadioBorderRadiusMd = "9999px";
 export const tpTextMetadataType =
   "label-lg-bold-short label-lg-bold-tall label-lg-normal-short label-lg-normal-tall label-md-bold-short label-md-bold-tall label-md-normal-short label-md-normal-tall label-sm-bold-short label-sm-bold-tall label-sm-normal-short label-sm-normal-tall paragraph-lg-bold-short paragraph-lg-bold-tall paragraph-lg-normal-short paragraph-lg-normal-tall paragraph-md-bold-short paragraph-md-bold-tall paragraph-md-normal-short paragraph-md-normal-tall paragraph-sm-bold-short paragraph-sm-bold-tall paragraph-sm-normal-short paragraph-sm-normal-tall title-lg-normal-short title-lg-normal-tall title-md-normal-short title-md-normal-tall title-sm-normal-short title-sm-normal-tall";

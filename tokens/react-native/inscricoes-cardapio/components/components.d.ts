@@ -20,7 +20,6 @@ export const tpBadgeBorderRadiusMd: {
   decimal: number;
   scale: number;
 };
-export const tpBadgeBorderMd: { color: string; width: string; style: string };
 export const tpBadgeFontMapOs: {
   fontWeight: string;
   fontSize: {
@@ -32,6 +31,9 @@ export const tpBadgeFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
+export const tpBadgeBorderWidthOs: string;
+export const tpBadgeBorderStyleOs: string;
+export const tpBadgeMetadataColor: string;
 export const tpButtonIconSizeMd: {
   original: string;
   number: number;
@@ -93,6 +95,12 @@ export const tpButtonClearNoPaddingHorizontalMd: {
 export const tpButtonMetadataFill: string;
 export const tpButtonMetadataDisabled: string;
 export const tpButtonMetadataNoPadding: string;
+export const tpButtonGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpCheckboxBorderRadiusOs: {
   original: string;
   number: number;
@@ -233,6 +241,32 @@ export const tpModalContainerBoxShadowOs: {
 }[];
 export const tpModalBackdropSizeFull: string;
 export const tpModalBackdropBlurOs: string;
+export const tpRadioSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpRadioBorderWidthOs: string;
+export const tpRadioGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpRadioBorderStyleOs: string;
+export const tpRadioFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpRadioBorderRadiusOs: string;
 export const tpSelectContainerBorderRadiusOs: {
   original: string;
   number: number;

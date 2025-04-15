@@ -3,19 +3,19 @@ var L = /* @__PURE__ */ ((l) => (l.SUCCESS = "success", l.DANGER = "danger", l.W
 const t = {
   "tp-color": Object.values(L)
 };
-var _ = /* @__PURE__ */ ((l) => (l.SOLID = "solid", l.CLEAR = "clear", l))(_ || {});
+var _ = /* @__PURE__ */ ((l) => (l.ERROR = "error", l.SUCCESS = "success", l))(_ || {}), a = /* @__PURE__ */ ((l) => (l.START = "start", l.END = "end", l.FEEDBACK = "feedback", l))(a || {});
 const b = {
-  "tp-fill": Object.values(_)
+  "tp-state": Object.values(_),
+  "tp-icon": Object.values(a)
 };
-var a = /* @__PURE__ */ ((l) => (l.SOLID = "solid", l.CLEAR = "clear", l))(a || {}), A = /* @__PURE__ */ ((l) => (l.BUTTON = "button", l.BUTTON_ICON = "button-icon", l))(A || {});
+var A = /* @__PURE__ */ ((l) => (l.SOLID = "solid", l.CLEAR = "clear", l))(A || {}), r = /* @__PURE__ */ ((l) => (l.BUTTON = "button", l.BUTTON_ICON = "button-icon", l))(r || {});
 const M = {
-  "tp-fill": Object.values(a),
-  "tp-name": Object.values(A)
+  "tp-fill": Object.values(A),
+  "tp-name": Object.values(r)
 };
-var r = /* @__PURE__ */ ((l) => (l.ERROR = "error", l.SUCCESS = "success", l))(r || {}), R = /* @__PURE__ */ ((l) => (l.START = "start", l.END = "end", l.FEEDBACK = "feedback", l))(R || {});
+var R = /* @__PURE__ */ ((l) => (l.SOLID = "solid", l.CLEAR = "clear", l))(R || {});
 const m = {
-  "tp-state": Object.values(r),
-  "tp-icon": Object.values(R)
+  "tp-fill": Object.values(R)
 };
 var O = /* @__PURE__ */ ((l) => (l.ERROR = "error", l.SUCCESS = "success", l))(O || {}), s = /* @__PURE__ */ ((l) => (l.START = "start", l.END = "end", l.FEEDBACK = "feedback", l))(s || {});
 const E = {
@@ -28,19 +28,19 @@ const P = {
 };
 export {
   t as TP_BADGE,
-  b as TP_BUTTON,
+  m as TP_BUTTON,
   M as TP_BUTTON_ICON,
-  m as TP_INPUT,
+  E as TP_INPUT,
   S as TP_ITEM,
-  E as TP_SELECT,
+  b as TP_SELECT,
   P as TP_TEXT,
   L as TpBadgeColor,
-  _ as TpButtonFill,
-  a as TpButtonIconFill,
-  A as TpButtonIconName,
-  R as TpInputIcon,
-  r as TpInputState,
-  s as TpSelectIcon,
-  O as TpSelectState,
+  R as TpButtonFill,
+  A as TpButtonIconFill,
+  r as TpButtonIconName,
+  s as TpInputIcon,
+  O as TpInputState,
+  a as TpSelectIcon,
+  _ as TpSelectState,
   o as TpTextType
 };

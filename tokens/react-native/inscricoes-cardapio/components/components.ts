@@ -47,16 +47,16 @@ export const tpButtonIconMetadataFill = "solid clear";
 export const tpButtonIconMetadataName = "button button-icon";
 export const tpButtonIconMetadataDisabled = "boolean";
 export const tpButtonSolidPaddingHorizontalMd = {
-  original: "40px",
-  number: 40,
-  decimal: 0.4,
-  scale: 640,
+  original: "20px",
+  number: 20,
+  decimal: 0.2,
+  scale: 320,
 };
 export const tpButtonSolidNoPaddingHorizontalMd = {
-  original: "40px",
-  number: 40,
-  decimal: 0.4,
-  scale: 640,
+  original: "20px",
+  number: 20,
+  decimal: 0.2,
+  scale: 320,
 };
 export const tpButtonBorderRadiusOs = "9999px";
 export const tpButtonHeightMd = {
@@ -72,10 +72,10 @@ export const tpButtonFontMapOs = {
   fontFamily: "FS Emeric",
 };
 export const tpButtonClearPaddingHorizontalMd = {
-  original: "16px",
-  number: 16,
-  decimal: 0.16,
-  scale: 256,
+  original: "20px",
+  number: 20,
+  decimal: 0.2,
+  scale: 320,
 };
 export const tpButtonClearNoPaddingHorizontalMd = {
   original: "0px",
@@ -86,7 +86,13 @@ export const tpButtonClearNoPaddingHorizontalMd = {
 export const tpButtonMetadataFill = "solid clear";
 export const tpButtonMetadataDisabled = "boolean";
 export const tpButtonMetadataNoPadding = "boolean";
-export const tpButtonGapOs = {
+export const tpButtonIconsSizeOs = {
+  original: "20px",
+  number: 20,
+  decimal: 0.2,
+  scale: 320,
+};
+export const tpButtonTextPaddingHorizontalOs = {
   original: "8px",
   number: 8,
   decimal: 0.08,
@@ -243,6 +249,24 @@ export const tpRadioFontMapOs = {
   fontFamily: "FS Emeric",
 };
 export const tpRadioBorderRadiusOs = "9999px";
+export const tpScrollBarWidthOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpScrollBarThumbWidthOs = {
+  original: "4px",
+  number: 4,
+  decimal: 0.04,
+  scale: 64,
+};
+export const tpScrollBarThumbBorderRadiusOs = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
+};
 export const tpSelectContainerBorderRadiusOs = {
   original: "4px",
   number: 4,
@@ -306,7 +330,7 @@ export const tpSelectFeddbackFontMapOs = {
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
-export const tpSelectContentHeightOs = "273px";
+export const tpSelectContentMaxHeightOs = "273px";
 export const tpSelectContentItemPaddingHorizontalOs = {
   original: "16px",
   number: 16,
@@ -331,7 +355,13 @@ export const tpSelectContentBorderRadiusOs = {
   decimal: 0.04,
   scale: 64,
 };
-export const tpSelectBorderWidthOs = "2px";
+export const tpSelectBorderWidthOs = "1px";
 export const tpSelectBorderStyleOs = "solid";
+export const tpSelectContainerPopoverOpenBorderRadiusOs = {
+  original: "0px",
+  number: 0,
+  decimal: 0,
+  scale: 0,
+};
 export const tpTextMetadataType =
   "label-lg-bold-short label-lg-bold-tall label-lg-normal-short label-lg-normal-tall label-md-bold-short label-md-bold-tall label-md-normal-short label-md-normal-tall label-sm-bold-short label-sm-bold-tall label-sm-normal-short label-sm-normal-tall label-xs-bold-short label-xs-bold-tall label-xs-normal-short label-xs-normal-tall label-2xs-bold-short label-2xs-bold-tall label-2xs-normal-short label-2xs-normal-tall paragraph-lg-bold-short paragraph-lg-bold-tall paragraph-lg-normal-short paragraph-lg-normal-tall paragraph-md-bold-short paragraph-md-bold-tall paragraph-md-normal-short paragraph-md-normal-tall paragraph-sm-bold-short paragraph-sm-bold-tall paragraph-sm-normal-short paragraph-sm-normal-tall paragraph-xs-bold-short paragraph-xs-bold-tall paragraph-xs-normal-short paragraph-xs-normal-tall paragraph-2xs-bold-short paragraph-2xs-bold-tall paragraph-2xs-normal-short paragraph-2xs-normal-tall title-xl-normal-short title-xl-normal-tall  title-lg-normal-short title-lg-normal-tall title-md-normal-short title-md-normal-tall title-sm-normal-short title-sm-normal-tall title-xs-normal-short title-xs-normal-tall";

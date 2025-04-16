@@ -95,7 +95,13 @@ export const tpButtonClearNoPaddingHorizontalMd: {
 export const tpButtonMetadataFill: string;
 export const tpButtonMetadataDisabled: string;
 export const tpButtonMetadataNoPadding: string;
-export const tpButtonGapOs: {
+export const tpButtonIconsSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpButtonTextPaddingHorizontalOs: {
   original: string;
   number: number;
   decimal: number;
@@ -267,6 +273,24 @@ export const tpRadioFontMapOs: {
   fontFamily: string;
 };
 export const tpRadioBorderRadiusOs: string;
+export const tpScrollBarWidthOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpScrollBarThumbWidthOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpScrollBarThumbBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpSelectContainerBorderRadiusOs: {
   original: string;
   number: number;
@@ -345,7 +369,7 @@ export const tpSelectFeddbackFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpSelectContentHeightOs: string;
+export const tpSelectContentMaxHeightOs: string;
 export const tpSelectContentItemPaddingHorizontalOs: {
   original: string;
   number: number;
@@ -377,4 +401,10 @@ export const tpSelectContentBorderRadiusOs: {
 };
 export const tpSelectBorderWidthOs: string;
 export const tpSelectBorderStyleOs: string;
+export const tpSelectContainerPopoverOpenBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpTextMetadataType: string;

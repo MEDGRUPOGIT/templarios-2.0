@@ -20,11 +20,6 @@ export const tpShadowDown1 = [
     type: "dropShadow",
   },
 ];
-export const tpBorderSolidMd = {
-  style: "solid",
-  width: "1px",
-  color: "hsla( 188, 10%, 28%, 1)",
-};
 export const tpColorDangerSolidDefault = "#ed685e";
 export const tpColorDangerStrongDefault = "rgba(237, 104, 94, 0.5)";
 export const tpColorSuccessSolidDefault = "#5eed71";
@@ -536,6 +531,12 @@ export const tpSizingXs = {
   number: 6,
   decimal: 0.06,
   scale: 96,
+};
+export const tpSizing2xs = {
+  original: "4px",
+  number: 4,
+  decimal: 0.04,
+  scale: 64,
 };
 export const tpSizingNone = {
   original: "0px",

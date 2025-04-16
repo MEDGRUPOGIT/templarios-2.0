@@ -10,7 +10,6 @@ export const tpShadowDown1: {
   color: string;
   type: string;
 }[];
-export const tpBorderSolidMd: { style: string; width: string; color: string };
 export const tpColorDangerSolidDefault: string;
 export const tpColorDangerStrongDefault: string;
 export const tpColorSuccessSolidDefault: string;
@@ -768,6 +767,12 @@ export const tpSizingSm: {
   scale: number;
 };
 export const tpSizingXs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizing2xs: {
   original: string;
   number: number;
   decimal: number;

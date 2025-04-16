@@ -205,4 +205,22 @@ export const tpRadioFontMapOs: {
   fontFamily: string;
 };
 export const tpRadioBorderRadiusMd: string;
+export const tpScrollBarWidthOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpScrollBarThumbWidthOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpScrollBarThumbBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpTextMetadataType: string;

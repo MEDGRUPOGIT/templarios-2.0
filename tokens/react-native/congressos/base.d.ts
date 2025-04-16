@@ -76,6 +76,12 @@ export const tpBorderWidthMd: {
   scale: number;
 };
 export const tpBorderRadiusFull: string;
+export const tpBorderRadiusLg: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpBorderRadiusMd: {
   original: string;
   number: number;
@@ -753,6 +759,18 @@ export const tpSizingMd: {
   scale: number;
 };
 export const tpSizingSm: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizingXs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizing2xs: {
   original: string;
   number: number;
   decimal: number;

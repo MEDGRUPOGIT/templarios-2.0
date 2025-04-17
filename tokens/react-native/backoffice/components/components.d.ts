@@ -621,6 +621,53 @@ export const tpCheckboxIconSizeOs: {
   decimal: number;
   scale: number;
 };
+export const tpChipHeightOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpChipIconSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpChipPaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpChipGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpChipBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpChipFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpChipListGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpCkeditorMetadataSize: string;
 export const tpCkeditorMetadataInline: string;
 export const tpCkeditorEditableMinHeightMd: string;
@@ -1009,6 +1056,153 @@ export const tpDialogBoxShadowOs: {
 export const tpDialogMinHeightOs: string;
 export const tpDialogMarginOs: string;
 export const tpDialogMetadataJustifyEnd: string;
+export const tpFilterGridContainerBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpFilterGridContainerHeightOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpFilterGridElementPaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpFilterGridElementGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpFilterGridElementFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpFilterGridElementPaddingTopOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpFilterGridLabelDefaultFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpFilterGridLabelFloatFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpFilterGridMetadataDisabled: string;
+export const tpFilterGridPaddingBottomOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpFilterGridPopoverMaxHeightOs: string;
+export const tpFilterGridPopoverBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpFilterGridPopoverBoxShadowOs: {
+  x: string;
+  y: string;
+  blur: string;
+  spread: string;
+  color: string;
+  type: string;
+}[];
+export const tpFilterGridPopoverItemHeightOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpFilterGridPopoverItemPaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpFilterGridPopoverItemFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpFilterGridPopoverItemGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpFilterGridIconDefaultSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpFilterGridMiddlePaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpFilterGridWrapperSidesMinWidthOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpFilterGridMinWidthOs: string;
+export const tpFilterGridInputMarginVerticalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpFilterGridInputMarginHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpFilterGridBorderWidthOs: string;
+export const tpFilterGridBorderStyleOs: string;
 export const tpFlagTagMetadataSize: string;
 export const tpFlagTagMetadataColor: string;
 export const tpFlagTagPaddingHorizontalOs: {
@@ -1066,31 +1260,31 @@ export const tpIconSizeMd: {
   decimal: number;
   scale: number;
 };
-export const tpInputAddContainerBorderRadiusOs: {
+export const tpInputChipContainerBorderRadiusOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpInputAddContainerMinHeightOs: {
+export const tpInputChipContainerMinHeightOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpInputAddElementPaddingHorizontalOs: {
+export const tpInputChipElementPaddingHorizontalOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpInputAddElementGapOs: {
+export const tpInputChipElementGapOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpInputAddElementFontMapOs: {
+export const tpInputChipElementFontMapOs: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -1101,13 +1295,13 @@ export const tpInputAddElementFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpInputAddElementPaddingTopOs: {
+export const tpInputChipElementPaddingTopOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpInputAddLabelDefaultFontMapOs: {
+export const tpInputChipLabelDefaultFontMapOs: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -1118,7 +1312,7 @@ export const tpInputAddLabelDefaultFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpInputAddLabelFloatFontMapOs: {
+export const tpInputChipLabelFloatFontMapOs: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -1129,7 +1323,7 @@ export const tpInputAddLabelFloatFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpInputAddHintFontMapOs: {
+export const tpInputChipHintFontMapOs: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -1140,9 +1334,9 @@ export const tpInputAddHintFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpInputAddMetadataDisabled: string;
-export const tpInputAddMetadataState: string;
-export const tpInputAddFeedbackFontMapOs: {
+export const tpInputChipMetadataDisabled: string;
+export const tpInputChipMetadataState: string;
+export const tpInputChipFeedbackFontMapOs: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -1153,87 +1347,40 @@ export const tpInputAddFeedbackFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpInputAddFeedbackMarginTopOs: {
+export const tpInputChipFeedbackMarginTopOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpInputAddPaddingBottomOs: {
+export const tpInputChipPaddingBottomOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpInputAddWrapperSidesMinWidthOs: {
+export const tpInputChipWrapperSidesMinWidthOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpInputAddMiddlePaddingHorizontalOs: {
+export const tpInputChipMiddlePaddingHorizontalOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpInputAddIconDefaultSizeOs: {
+export const tpInputChipIconDefaultSizeOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpInputAddMinWidthOs: string;
-export const tpInputAddBorderWidthOs: string;
-export const tpInputAddBorderStyleOs: string;
-export const tpInputAddListGapOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpInputAddListPaddingOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpInputAddTagItemPaddingOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpInputAddTagItemBorderRadiusOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpInputAddTagItemFontMapOs: {
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-  fontFamily: string;
-};
-export const tpInputAddTagItemHeightOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpInputAddTagItemIconSizeOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpInputAddTagItemGapOs: {
+export const tpInputChipMinWidthOs: string;
+export const tpInputChipBorderWidthOs: string;
+export const tpInputChipBorderStyleOs: string;
+export const tpInputChipListPaddingOs: {
   original: string;
   number: number;
   decimal: number;

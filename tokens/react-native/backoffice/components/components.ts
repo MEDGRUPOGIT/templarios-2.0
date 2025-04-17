@@ -552,6 +552,48 @@ export const tpCheckboxIconSizeOs = {
   decimal: 0.16,
   scale: 256,
 };
+export const tpChipHeightOs = {
+  original: "32px",
+  number: 32,
+  decimal: 0.32,
+  scale: 512,
+};
+export const tpChipIconSizeOs = {
+  original: "20px",
+  number: 20,
+  decimal: 0.2,
+  scale: 320,
+};
+export const tpChipPaddingHorizontalOs = {
+  original: "12px",
+  number: 12,
+  decimal: 0.12,
+  scale: 192,
+};
+export const tpChipGapOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpChipBorderRadiusOs = {
+  original: "4px",
+  number: 4,
+  decimal: 0.04,
+  scale: 64,
+};
+export const tpChipFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "100%",
+  fontFamily: "Poppins",
+};
+export const tpChipListGapOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
 export const tpCkeditorMetadataSize = "md sm";
 export const tpCkeditorMetadataInline = "boolean";
 export const tpCkeditorEditableMinHeightMd = "300px";
@@ -913,6 +955,143 @@ export const tpDialogBoxShadowOs = [
 export const tpDialogMinHeightOs = "230px";
 export const tpDialogMarginOs = "32px";
 export const tpDialogMetadataJustifyEnd = "boolean";
+export const tpFilterGridContainerBorderRadiusOs = {
+  original: "4px",
+  number: 4,
+  decimal: 0.04,
+  scale: 64,
+};
+export const tpFilterGridContainerHeightOs = {
+  original: "48px",
+  number: 48,
+  decimal: 0.48,
+  scale: 768,
+};
+export const tpFilterGridElementPaddingHorizontalOs = {
+  original: "12px",
+  number: 12,
+  decimal: 0.12,
+  scale: 192,
+};
+export const tpFilterGridElementGapOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpFilterGridElementFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "100%",
+  fontFamily: "Poppins",
+};
+export const tpFilterGridElementPaddingTopOs = {
+  original: "4px",
+  number: 4,
+  decimal: 0.04,
+  scale: 64,
+};
+export const tpFilterGridLabelDefaultFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "100%",
+  fontFamily: "Poppins",
+};
+export const tpFilterGridLabelFloatFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
+  lineHeight: "100%",
+  fontFamily: "Poppins",
+};
+export const tpFilterGridMetadataDisabled = "boolean";
+export const tpFilterGridPaddingBottomOs = {
+  original: "24px",
+  number: 24,
+  decimal: 0.24,
+  scale: 384,
+};
+export const tpFilterGridPopoverMaxHeightOs = "256px";
+export const tpFilterGridPopoverBorderRadiusOs = {
+  original: "4px",
+  number: 4,
+  decimal: 0.04,
+  scale: 64,
+};
+export const tpFilterGridPopoverBoxShadowOs = [
+  {
+    x: "0",
+    y: "1",
+    blur: "2",
+    spread: "0",
+    color: "rgba(0, 0, 0, 0.3)",
+    type: "dropShadow",
+  },
+  {
+    x: "0",
+    y: "1",
+    blur: "3",
+    spread: "1",
+    color: "rgba(0, 0, 0, 0.15)",
+    type: "dropShadow",
+  },
+];
+export const tpFilterGridPopoverItemHeightOs = {
+  original: "40px",
+  number: 40,
+  decimal: 0.4,
+  scale: 640,
+};
+export const tpFilterGridPopoverItemPaddingHorizontalOs = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
+};
+export const tpFilterGridPopoverItemFontMapOs = {
+  fontWeight: "500",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "100%",
+  fontFamily: "Poppins",
+};
+export const tpFilterGridPopoverItemGapOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpFilterGridIconDefaultSizeOs = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
+};
+export const tpFilterGridMiddlePaddingHorizontalOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpFilterGridWrapperSidesMinWidthOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpFilterGridMinWidthOs = "200px";
+export const tpFilterGridInputMarginVerticalOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpFilterGridInputMarginHorizontalOs = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
+};
+export const tpFilterGridBorderWidthOs = "1px";
+export const tpFilterGridBorderStyleOs = "solid";
 export const tpFlagTagMetadataSize = "boolean";
 export const tpFlagTagMetadataColor =
   "success danger warning warning-light info primary gray-dark gray-light";
@@ -967,148 +1146,106 @@ export const tpIconSizeMd = {
   decimal: 0.2,
   scale: 320,
 };
-export const tpInputAddContainerBorderRadiusOs = {
+export const tpInputChipContainerBorderRadiusOs = {
   original: "4px",
   number: 4,
   decimal: 0.04,
   scale: 64,
 };
-export const tpInputAddContainerMinHeightOs = {
+export const tpInputChipContainerMinHeightOs = {
   original: "48px",
   number: 48,
   decimal: 0.48,
   scale: 768,
 };
-export const tpInputAddElementPaddingHorizontalOs = {
+export const tpInputChipElementPaddingHorizontalOs = {
   original: "12px",
   number: 12,
   decimal: 0.12,
   scale: 192,
 };
-export const tpInputAddElementGapOs = {
+export const tpInputChipElementGapOs = {
   original: "8px",
   number: 8,
   decimal: 0.08,
   scale: 128,
 };
-export const tpInputAddElementFontMapOs = {
+export const tpInputChipElementFontMapOs = {
   fontWeight: "500",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
   lineHeight: "100%",
   fontFamily: "Poppins",
 };
-export const tpInputAddElementPaddingTopOs = {
+export const tpInputChipElementPaddingTopOs = {
   original: "4px",
   number: 4,
   decimal: 0.04,
   scale: 64,
 };
-export const tpInputAddLabelDefaultFontMapOs = {
+export const tpInputChipLabelDefaultFontMapOs = {
   fontWeight: "500",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
   lineHeight: "100%",
   fontFamily: "Poppins",
 };
-export const tpInputAddLabelFloatFontMapOs = {
+export const tpInputChipLabelFloatFontMapOs = {
   fontWeight: "500",
   fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
   lineHeight: "100%",
   fontFamily: "Poppins",
 };
-export const tpInputAddHintFontMapOs = {
+export const tpInputChipHintFontMapOs = {
   fontWeight: "500",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
   lineHeight: "150%",
   fontFamily: "Poppins",
 };
-export const tpInputAddMetadataDisabled = "boolean";
-export const tpInputAddMetadataState = "error success";
-export const tpInputAddFeedbackFontMapOs = {
+export const tpInputChipMetadataDisabled = "boolean";
+export const tpInputChipMetadataState = "error success";
+export const tpInputChipFeedbackFontMapOs = {
   fontWeight: "500",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
   lineHeight: "150%",
   fontFamily: "Poppins",
 };
-export const tpInputAddFeedbackMarginTopOs = {
+export const tpInputChipFeedbackMarginTopOs = {
   original: "8px",
   number: 8,
   decimal: 0.08,
   scale: 128,
 };
-export const tpInputAddPaddingBottomOs = {
+export const tpInputChipPaddingBottomOs = {
   original: "24px",
   number: 24,
   decimal: 0.24,
   scale: 384,
 };
-export const tpInputAddWrapperSidesMinWidthOs = {
+export const tpInputChipWrapperSidesMinWidthOs = {
   original: "8px",
   number: 8,
   decimal: 0.08,
   scale: 128,
 };
-export const tpInputAddMiddlePaddingHorizontalOs = {
+export const tpInputChipMiddlePaddingHorizontalOs = {
   original: "8px",
   number: 8,
   decimal: 0.08,
   scale: 128,
 };
-export const tpInputAddIconDefaultSizeOs = {
+export const tpInputChipIconDefaultSizeOs = {
   original: "16px",
   number: 16,
   decimal: 0.16,
   scale: 256,
 };
-export const tpInputAddMinWidthOs = "200px";
-export const tpInputAddBorderWidthOs = "1px";
-export const tpInputAddBorderStyleOs = "solid";
-export const tpInputAddListGapOs = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
-};
-export const tpInputAddListPaddingOs = {
+export const tpInputChipMinWidthOs = "200px";
+export const tpInputChipBorderWidthOs = "1px";
+export const tpInputChipBorderStyleOs = "solid";
+export const tpInputChipListPaddingOs = {
   original: "12px",
   number: 12,
   decimal: 0.12,
   scale: 192,
-};
-export const tpInputAddTagItemPaddingOs = {
-  original: "12px",
-  number: 12,
-  decimal: 0.12,
-  scale: 192,
-};
-export const tpInputAddTagItemBorderRadiusOs = {
-  original: "4px",
-  number: 4,
-  decimal: 0.04,
-  scale: 64,
-};
-export const tpInputAddTagItemFontMapOs = {
-  fontWeight: "500",
-  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "100%",
-  fontFamily: "Poppins",
-};
-export const tpInputAddTagItemHeightOs = {
-  original: "32px",
-  number: 32,
-  decimal: 0.32,
-  scale: 512,
-};
-export const tpInputAddTagItemIconSizeOs = {
-  original: "16px",
-  number: 16,
-  decimal: 0.16,
-  scale: 256,
-};
-export const tpInputAddTagItemGapOs = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
 };
 export const tpInputContainerBorderRadiusOs = {
   original: "4px",

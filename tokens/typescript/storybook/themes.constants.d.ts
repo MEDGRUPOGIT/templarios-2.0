@@ -76,6 +76,10 @@ export declare const THEMES: {
         "Default \u00B7 Light": string;
     };
     "inscricoes-cardapio": {
+        "Cpmed-revalida \u00B7 Dark \u00B7 Screen md": string;
+        "Cpmed-revalida \u00B7 Dark \u00B7 Screen sm": string;
+        "Cpmed-revalida \u00B7 Light \u00B7 Screen md": string;
+        "Cpmed-revalida \u00B7 Light \u00B7 Screen sm": string;
         "Cpmed \u00B7 Dark \u00B7 Screen md": string;
         "Cpmed \u00B7 Dark \u00B7 Screen sm": string;
         "Cpmed \u00B7 Light \u00B7 Screen md": string;

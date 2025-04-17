@@ -5,87 +5,87 @@ const i = {
   "tp-color": Object.values(e),
   "tp-name": Object.values(s)
 };
-var O = /* @__PURE__ */ ((r) => (r.SM = "sm", r.MD = "md", r))(O || {});
+var O = /* @__PURE__ */ ((r) => (r.SM = "sm", r.MD = "md", r.LG = "lg", r))(O || {}), a = /* @__PURE__ */ ((r) => (r.SOLID = "solid", r.CLEAR = "clear", r))(a || {}), v = /* @__PURE__ */ ((r) => (r.PRIMARY = "primary", r.CONTRAST = "contrast", r.NEUTRAL = "neutral", r))(v || {}), c = /* @__PURE__ */ ((r) => (r.BUTTON = "button", r.BUTTON_ICON = "button-icon", r))(c || {});
 const d = {
-  "tp-size": Object.values(O)
+  "tp-size": Object.values(O),
+  "tp-fill": Object.values(a),
+  "tp-color": Object.values(v),
+  "tp-name": Object.values(c)
 };
-var a = /* @__PURE__ */ ((r) => (r.SM = "sm", r.MD = "md", r.LG = "lg", r))(a || {}), v = /* @__PURE__ */ ((r) => (r.SOLID = "solid", r.CLEAR = "clear", r))(v || {}), c = /* @__PURE__ */ ((r) => (r.PRIMARY = "primary", r.CONTRAST = "contrast", r.NEUTRAL = "neutral", r))(c || {}), n = /* @__PURE__ */ ((r) => (r.BUTTON = "button", r.BUTTON_ICON = "button-icon", r))(n || {});
+var n = /* @__PURE__ */ ((r) => (r.SM = "sm", r.MD = "md", r))(n || {});
 const f = {
-  "tp-size": Object.values(a),
-  "tp-fill": Object.values(v),
-  "tp-color": Object.values(c),
-  "tp-name": Object.values(n)
+  "tp-size": Object.values(n)
 };
-var u = /* @__PURE__ */ ((r) => (r.ERROR = "error", r.SUCCESS = "success", r))(u || {}), E = /* @__PURE__ */ ((r) => (r.START = "start", r.END = "end", r))(E || {});
+var u = /* @__PURE__ */ ((r) => (r.SOLID = "solid", r.WEAK = "weak", r.STRONG = "strong", r))(u || {}), E = /* @__PURE__ */ ((r) => (r.MD = "md", r.LG = "lg", r))(E || {});
 const w = {
-  "tp-state": Object.values(u),
-  "tp-icon": Object.values(E)
+  "tp-fill": Object.values(u),
+  "tp-size": Object.values(E)
 };
-var l = /* @__PURE__ */ ((r) => (r.SM = "sm", r.MD = "md", r))(l || {});
+var l = /* @__PURE__ */ ((r) => (r.START = "start", r.END = "end", r.BOTH = "both", r))(l || {}), R = /* @__PURE__ */ ((r) => (r.ONE = "one", r.TWO = "two", r.THREE = "three", r))(R || {});
 const C = {
-  "tp-size": Object.values(l)
+  "tp-icon": Object.values(l),
+  "tp-img": Object.values(R)
 };
-var R = /* @__PURE__ */ ((r) => (r.SOLID = "solid", r.WEAK = "weak", r.STRONG = "strong", r))(R || {}), N = /* @__PURE__ */ ((r) => (r.MD = "md", r.LG = "lg", r))(N || {});
+var N = /* @__PURE__ */ ((r) => (r.SM = "sm", r.MD = "md", r.LG = "lg", r))(N || {}), _ = /* @__PURE__ */ ((r) => (r.SOLID = "solid", r.OUTLINE = "outline", r.CLEAR = "clear", r))(_ || {}), b = /* @__PURE__ */ ((r) => (r.PRIMARY = "primary", r.NEUTRAL = "neutral", r))(b || {}), A = /* @__PURE__ */ ((r) => (r.BUTTON = "button", r.BUTTON_ICON = "button-icon", r))(A || {});
 const H = {
-  "tp-fill": Object.values(R),
-  "tp-size": Object.values(N)
+  "tp-size": Object.values(N),
+  "tp-fill": Object.values(_),
+  "tp-color": Object.values(b),
+  "tp-name": Object.values(A)
 };
-var _ = /* @__PURE__ */ ((r) => (r.START = "start", r.END = "end", r))(_ || {});
+var D = /* @__PURE__ */ ((r) => (r.ERROR = "error", r.SUCCESS = "success", r))(D || {}), j = /* @__PURE__ */ ((r) => (r.START = "start", r.END = "end", r))(j || {});
 const W = {
-  "tp-icon": Object.values(_)
+  "tp-state": Object.values(D),
+  "tp-icon": Object.values(j)
 };
-var b = /* @__PURE__ */ ((r) => (r.ERROR = "error", r.WARNING = "warning", r.INFO = "info", r.SUCCESS = "success", r))(b || {});
+var P = /* @__PURE__ */ ((r) => (r.ERROR = "error", r.WARNING = "warning", r.INFO = "info", r.SUCCESS = "success", r))(P || {});
 const o = {
-  "tp-mode": Object.values(b)
+  "tp-mode": Object.values(P)
 };
-var A = /* @__PURE__ */ ((r) => (r.START = "start", r.END = "end", r.BOTH = "both", r))(A || {}), D = /* @__PURE__ */ ((r) => (r.ONE = "one", r.TWO = "two", r.THREE = "three", r))(D || {});
+var T = /* @__PURE__ */ ((r) => (r.START = "start", r.END = "end", r))(T || {});
 const y = {
-  "tp-icon": Object.values(A),
-  "tp-img": Object.values(D)
+  "tp-icon": Object.values(T)
 };
-var j = /* @__PURE__ */ ((r) => (r.SM = "sm", r.MD = "md", r.LG = "lg", r))(j || {}), P = /* @__PURE__ */ ((r) => (r.SOLID = "solid", r.OUTLINE = "outline", r.CLEAR = "clear", r))(P || {}), T = /* @__PURE__ */ ((r) => (r.PRIMARY = "primary", r.NEUTRAL = "neutral", r))(T || {}), L = /* @__PURE__ */ ((r) => (r.BUTTON = "button", r.BUTTON_ICON = "button-icon", r))(L || {});
+var L = /* @__PURE__ */ ((r) => (r.SM = "sm", r.MD = "md", r))(L || {});
 const V = {
-  "tp-size": Object.values(j),
-  "tp-fill": Object.values(P),
-  "tp-color": Object.values(T),
-  "tp-name": Object.values(L)
+  "tp-size": Object.values(L)
 };
 export {
   i as TP_BADGE,
-  V as TP_BUTTON,
-  f as TP_BUTTON_ICON,
-  d as TP_CHECKBOX,
-  y as TP_CHIP,
-  H as TP_FAB,
-  U as TP_INDEX,
-  w as TP_INPUT,
+  H as TP_BUTTON,
+  d as TP_BUTTON_ICON,
+  f as TP_CHECKBOX,
+  C as TP_CHIP,
+  w as TP_FAB,
+  m as TP_INDEX,
+  W as TP_INPUT,
   S as TP_INPUT_CARDS,
-  M as TP_NAVIGATION_DOTS,
-  C as TP_RADIO,
-  W as TP_SELECT_HEADER,
+  U as TP_NAVIGATION_DOTS,
+  V as TP_RADIO,
+  y as TP_SELECT_HEADER,
   G as TP_TAB_ITEM,
   o as TP_TOAST,
-  m as TP_VIDEO_FEATURED,
-  I as TP_VIDEO_ITEM,
+  I as TP_VIDEO_FEATURED,
+  M as TP_VIDEO_ITEM,
   e as TpBadgeColor,
   s as TpBadgeName,
   t as TpBadgeSize,
-  T as TpButtonColor,
-  P as TpButtonFill,
-  c as TpButtonIconColor,
-  v as TpButtonIconFill,
-  n as TpButtonIconName,
-  a as TpButtonIconSize,
-  L as TpButtonName,
-  j as TpButtonSize,
-  O as TpCheckboxSize,
-  A as TpChipIcon,
-  D as TpChipImg,
-  R as TpFabFill,
-  N as TpFabSize,
-  E as TpInputIcon,
-  u as TpInputState,
-  l as TpRadioSize,
-  _ as TpSelectHeaderIcon,
-  b as TpToastMode
+  b as TpButtonColor,
+  _ as TpButtonFill,
+  v as TpButtonIconColor,
+  a as TpButtonIconFill,
+  c as TpButtonIconName,
+  O as TpButtonIconSize,
+  A as TpButtonName,
+  N as TpButtonSize,
+  n as TpCheckboxSize,
+  l as TpChipIcon,
+  R as TpChipImg,
+  u as TpFabFill,
+  E as TpFabSize,
+  j as TpInputIcon,
+  D as TpInputState,
+  L as TpRadioSize,
+  T as TpSelectHeaderIcon,
+  P as TpToastMode
 };

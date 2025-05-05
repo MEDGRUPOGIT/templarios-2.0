@@ -1,0 +1,31 @@
+<svg viewBox="0 0 32 32">
+  <title>paypal</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* ionic */
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+  </style>
+  <path d="M4 23.3333L8 4H17.3333C25.3333 4 25.3333 16 17.3333 16H11.6L10 23.3333H4Z" />
+  <path d="M9.06665 28L13.0667 8.66663H22.4C30.4 8.66663 30.4 20.6666 22.4 20.6666H16.6667L15.0667 28H9.06665Z" />
+</svg>

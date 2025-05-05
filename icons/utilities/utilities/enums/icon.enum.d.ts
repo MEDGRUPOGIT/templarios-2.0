@@ -1,4 +1,5 @@
 export declare enum TpIconA {
+    AcademicHat = "tp-academic-hat",
     Activity = "tp-activity",
     AddCircle = "tp-add-circle",
     AlertTriangle = "tp-alert-triangle",
@@ -40,22 +41,26 @@ export declare enum TpIconC {
     CheckCircle2 = "tp-check-circle-2",
     CheckSquare = "tp-check-square",
     Cheque = "tp-cheque",
+    ChevronDown = "tp-chevron-down",
+    ChevronHorizontal = "tp-chevron-horizontal",
     ChevronLeft = "tp-chevron-left",
     ChevronUp = "tp-chevron-up",
     ChevronRight = "tp-chevron-right",
-    ChevronDown = "tp-chevron-down",
     ChevronVertical = "tp-chevron-vertical",
     ChevronsRight = "tp-chevrons-right",
     ChevronsLeft = "tp-chevrons-left",
     Clip = "tp-clip",
-    Clock = "tp-clock",
     ClockPlay = "tp-clock-play",
     ClockSlow = "tp-clock-slow",
+    Clock = "tp-clock",
+    Coin = "tp-coin",
     ComentarioQuestao = "tp-comentario-questao",
-    Copy = "tp-copy",
     Compass = "tp-compass",
+    Copy = "tp-copy",
+    CornerBottomLeft = "tp-corner-bottom-left",
     Covid = "tp-covid",
     Cpf = "tp-cpf",
+    CreditCard = "tp-credit-card",
     Credito = "tp-credito",
     Custom = "tp-custom"
 }
@@ -65,6 +70,7 @@ export declare enum TpIconD {
     DivideSquare = "tp-divide-square",
     DolarSign = "tp-dollar-sign",
     Download = "tp-download",
+    Drag = "tp-drag",
     Drugs = "tp-drugs"
 }
 export declare enum TpIconE {
@@ -81,6 +87,7 @@ export declare enum TpIconF {
     FaceMeh = "tp-face-meh",
     FaceFrown = "tp-face-frown",
     Faceterrible = "tp-face-terrible",
+    FacebookTag = "tp-facebook-tag",
     Female = "tp-female",
     File = "tp-file",
     FileCheck = "tp-file-check",
@@ -96,6 +103,7 @@ export declare enum TpIconF {
     FilterOff = "tp-filter-off",
     Flashcards = "tp-flashcards",
     Flask = "tp-flask",
+    FolderPlus = "tp-folder-plus",
     Folder = "tp-folder",
     FontDecrease = "tp-font-decrease",
     FontIncrease = "tp-font-increase",
@@ -123,6 +131,7 @@ export declare enum TpIconI {
     Image = "tp-image",
     Inbox = "tp-inbox",
     Info = "tp-info",
+    Instagram = "tp-instagram",
     ImgAssimilacao = "img-assimilacao",
     ImgAutoFeedback = "img-autofeedback",
     ImgCovid19 = "img-covid-19",
@@ -143,7 +152,9 @@ export declare enum TpIconL {
     ListStar = "tp-list-star",
     Light = "tp-light",
     Like = "tp-like",
+    Linkedin = "tp-linkedin",
     Lock = "tp-lock",
+    LogOut = "tp-log-out",
     Login = "tp-login"
 }
 export declare enum TpIconM {
@@ -154,6 +165,7 @@ export declare enum TpIconM {
     MinusCircle = "tp-minus-circle",
     Menu = "tp-menu",
     MedicalBag = "tp-medical-bag",
+    Medrobot = "tp-medrobot",
     MemoriaDeAula = "tp-memoria-de-aula",
     Mail = "tp-mail",
     Mic = "tp-mic",
@@ -178,7 +190,12 @@ export declare enum TpIconO {
 export declare enum TpIconP {
     Passaporte = "tp-passaporte",
     ParkOutlineAlarm = "tp-park-outline-alarm",
+    Paypal = "tp-paypal",
     Phone = "tp-phone",
+    PictureInPictureActivate = "tp-picture-in-picture-activate",
+    PictureInPictureDeactivate = "tp-picture-in-picture-deactivate",
+    PinSlash = "tp-pin-slash",
+    Pin = "tp-pin",
     Pix = "tp-pix",
     Plane = "tp-plane",
     PlayCircle = "tp-play-circle",
@@ -186,7 +203,9 @@ export declare enum TpIconP {
     PlusCircle = "tp-plus-circle",
     PointerActive = "tp-pointer-active",
     PointerDefault = "tp-pointer-default",
-    Printer = "tp-printer"
+    Pregnant = "tp-pregnant",
+    Printer = "tp-printer",
+    Prohibition = "tp-prohibition"
 }
 export declare enum TpIconQ {
     Qrcode = "tp-qrcode",
@@ -213,6 +232,9 @@ export declare enum TpIconS {
     Shrink = "tp-shrink",
     Slash = "tp-slash",
     Smart = "tp-smart",
+    SmartphoneDevice = "tp-smartphone-device",
+    SoundHigh = "tp-sound-high",
+    Square = "tp-square",
     Star = "tp-star",
     Stethoscope = "tp-stethoscope",
     Sun = "tp-sun",
@@ -236,15 +258,18 @@ export declare enum TpIconT {
 export declare enum TpIconU {
     User = "tp-user",
     UserCheck = "tp-user-check",
+    UserScan = "tp-user-scan",
     UserX = "tp-user-x",
     Users = "tp-users",
     Upload = "tp-upload"
 }
 export declare enum TpIconV {
     Video = "tp-video",
-    Video2 = "tp-video-2"
+    Video2 = "tp-video-2",
+    Virus = "tp-virus"
 }
 export declare enum TpIconW {
+    Whatsapp = "tp-whatsapp",
     WiFi = "tp-wi-fi",
     WiFiOff = "tp-wi-fi-off",
     WiFiOff2 = "tp-wi-fi-off-2"
@@ -253,6 +278,9 @@ export declare enum TpIconX {
     X = "tp-x",
     XCircle = "tp-x-circle",
     XSquare = "tp-x-square"
+}
+export declare enum TpIconY {
+    Youtube = "tp-youtube"
 }
 export declare enum TpIconZ {
     Z = "tp-z",

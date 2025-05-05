@@ -1,0 +1,30 @@
+<svg viewBox="0 0 32 32">
+  <title>log-out</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* ionic */
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+  </style>
+  <path d="M16.0001 16H25.3334M25.3334 16L21.3334 20M25.3334 16L21.3334 12M25.3334 8V6.66667C25.3334 5.95942 25.0525 5.28115 24.5524 4.78105C24.0523 4.28095 23.374 4 22.6667 4H9.33341C8.62617 4 7.94789 4.28095 7.4478 4.78105C6.9477 5.28115 6.66675 5.95942 6.66675 6.66667V25.3333C6.66675 26.0406 6.9477 26.7189 7.4478 27.219C7.94789 27.719 8.62617 28 9.33341 28H22.6667C23.374 28 24.0523 27.719 24.5524 27.219C25.0525 26.7189 25.3334 26.0406 25.3334 25.3333V24" />
+</svg>

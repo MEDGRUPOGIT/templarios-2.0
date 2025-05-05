@@ -1,0 +1,30 @@
+<svg viewBox="0 0 32 32">
+  <title>prohibition</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* ionic */
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+  </style>
+  <path d="M25.5214 6.66664C24.2815 5.39843 22.8003 4.39119 21.1651 3.70422C19.5299 3.01726 17.7737 2.66447 16.0001 2.66664C8.63609 2.66664 2.66676 8.63597 2.66676 16C2.66262 19.4909 4.03187 22.8434 6.47876 25.3333M6.47876 25.3333C7.71871 26.6015 9.1999 27.6088 10.8351 28.2957C12.4703 28.9827 14.2264 29.3355 16.0001 29.3333C23.3641 29.3333 29.3334 23.364 29.3334 16C29.3372 12.5088 27.9675 9.15631 25.5201 6.66664L6.47876 25.3333Z" />
+</svg>

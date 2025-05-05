@@ -1,0 +1,32 @@
+<svg viewBox="0 0 32 32">
+  <title>pregnant</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* ionic */
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+  </style>
+  <circle cx="10.1889" cy="9.29733" r="4.38096" transform="rotate(5.39769 10.1889 9.29733)" />
+  <path d="M6.49991 11.9996C5.5 16.175 6.49997 20.6344 11.6786 22.6392C17.1598 24.7613 17.9333 20.4799 19.5688 20.6345C21.2044 20.789 20.9469 23.515 22.6855 22.5791C25.4132 21.1109 22.8099 15.4401 18.944 16.1749M10.8672 13.7616C11.0146 14.1422 12.1817 14.9859 13.4902 15.1096C15.1257 15.2641 17.0189 12.6927 18.5514 13.9376C20.084 15.1825 18.6845 18.3507 14.1684 19.5741" />
+  <path d="M20.3333 28.619C21.9762 26.4285 27.9999 25.3333 27.9999 17.119C27.9999 9.45231 18.7794 6.34428 17.0476 2.88086" />
+</svg>

@@ -1,0 +1,30 @@
+<svg viewBox="0 0 32 32">
+  <title>medrobot</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* ionic */
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+  </style>
+  <path d="M6.42114 7.10547C8.47378 7.78968 17.3685 9.1581 20.1054 13.9476C23.1416 19.261 20.1054 25.5792 19.4212 29.0002M5.73678 7.79037C7.1052 8.47458 11.8947 11.8956 14.6315 16.6851C17.3684 21.4746 17.3684 25.5799 18.7368 29.0009M5.73678 8.47309C5.73678 11.8941 7.88716 15.9994 9.84205 19.4205C11.7969 22.8415 14.6315 26.9468 17.3684 28.9994M29 16C29 23.1797 23.1797 29 16 29C8.8203 29 3 23.1797 3 16C3 8.8203 8.8203 3 16 3C23.1797 3 29 8.8203 29 16Z"/>
+</svg>

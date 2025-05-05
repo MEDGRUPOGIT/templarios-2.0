@@ -1,0 +1,31 @@
+<svg viewBox="0 0 32 32">
+  <title>academic-hat</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* ionic */
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+  </style>
+  <path d="M29.3334 11.3334V18M18.9561 4.6667C18.0323 4.22822 17.0226 4.00073 16.0001 4.00073C14.9775 4.00073 13.9678 4.22822 13.0441 4.6667L4.12275 8.84936C2.18141 9.7587 2.18141 12.908 4.12275 13.8174L13.0427 18C13.9667 18.4387 14.9766 18.6663 15.9994 18.6663C17.0222 18.6663 18.0322 18.4387 18.9561 18L27.8774 13.8174C29.8187 12.908 29.8187 9.7587 27.8774 8.84936L18.9561 4.6667Z" />
+  <path d="M6.66675 15.3334V22.1667C6.66675 26.0574 12.9254 28 16.0001 28C19.0747 28 25.3334 26.0574 25.3334 22.1667V15.3334" />
+</svg>

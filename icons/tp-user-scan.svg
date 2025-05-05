@@ -1,0 +1,30 @@
+<svg viewBox="0 0 24 24">
+  <title>user-scan</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* ionic */
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+  </style>
+  <path d="M8 4H4V8M24 4H28V8M8 28H4V24M9.33333 24V22.6667C9.33333 20.8986 10.0357 19.2029 11.286 17.9526C12.5362 16.7024 14.2319 16 16 16M16 16C17.7681 16 19.4638 16.7024 20.714 17.9526C21.9643 19.2029 22.6667 20.8986 22.6667 22.6667V24M16 16C17.0609 16 18.0783 15.5786 18.8284 14.8284C19.5786 14.0783 20 13.0609 20 12C20 10.9391 19.5786 9.92172 18.8284 9.17157C18.0783 8.42143 17.0609 8 16 8C14.9391 8 13.9217 8.42143 13.1716 9.17157C12.4214 9.92172 12 10.9391 12 12C12 13.0609 12.4214 14.0783 13.1716 14.8284C13.9217 15.5786 14.9391 16 16 16ZM24 28H28V24"/>
+</svg>

@@ -1,4 +1,4 @@
-import { TpIconA, TpIconB, TpIconC, TpIconD, TpIconE, TpIconF, TpIconG, TpIconH, TpIconI, TpIconK, TpIconL, TpIconM, TpIconN, TpIconO, TpIconP, TpIconQ, TpIconR, TpIconS, TpIconT, TpIconU, TpIconV, TpIconW, TpIconX, TpIconZ } from '../enums/icon.enum';
+import { TpIconA, TpIconB, TpIconC, TpIconD, TpIconE, TpIconF, TpIconG, TpIconH, TpIconI, TpIconK, TpIconL, TpIconM, TpIconN, TpIconO, TpIconP, TpIconQ, TpIconR, TpIconS, TpIconT, TpIconU, TpIconV, TpIconW, TpIconX, TpIconY, TpIconZ } from '../enums/icon.enum';
 export declare const TP_ICONS_A: TpIconA[];
 export declare const TP_ICONS_B: TpIconB[];
 export declare const TP_ICONS_C: TpIconC[];
@@ -22,6 +22,7 @@ export declare const TP_ICONS_U: TpIconU[];
 export declare const TP_ICONS_V: TpIconV[];
 export declare const TP_ICONS_W: TpIconW[];
 export declare const TP_ICONS_X: TpIconX[];
+export declare const TP_ICONS_Y: TpIconY.Youtube[];
 export declare const TP_ICONS_Z: TpIconZ[];
-export declare const TP_ICONS: (TpIconA | TpIconB | TpIconC | TpIconD | TpIconE | TpIconF | TpIconG | TpIconH | TpIconI | TpIconK | TpIconL | TpIconM | TpIconN | TpIconO | TpIconP | TpIconQ | TpIconR | TpIconS | TpIconT | TpIconU | TpIconV | TpIconW | TpIconX | TpIconZ)[];
+export declare const TP_ICONS: (TpIconA | TpIconB | TpIconC | TpIconD | TpIconE | TpIconF | TpIconG | TpIconH | TpIconI | TpIconK | TpIconL | TpIconM | TpIconN | TpIconO | TpIconP | TpIconQ | TpIconR | TpIconS | TpIconT | TpIconU | TpIconV | TpIconW | TpIconX | TpIconY.Youtube | TpIconZ)[];
 export declare const TP_ICONS_STORYBOOK: string[];

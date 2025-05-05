@@ -1,0 +1,31 @@
+<svg viewBox="0 0 32 32">
+  <title>coin</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* ionic */
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+  </style>
+  <path d="M16 29C23.1796 29 29 23.1796 29 16C29 8.82029 23.1796 3 16 3C8.82029 3 3 8.82029 3 16C3 23.1796 8.82029 29 16 29Z" />
+  <path d="M19.9001 11.4504C19.0096 10.5599 17.4414 9.94053 16.0001 9.90175M16.0001 9.90175C14.2853 9.8556 12.7501 10.6314 12.7501 12.7504C12.7501 16.6504 19.9001 14.7004 19.9001 18.6004C19.9001 20.8247 17.9972 21.7805 16.0001 21.7087M16.0001 9.90175V7.55042M12.1001 19.9004C12.9379 21.0175 14.4957 21.6546 16.0001 21.7087M16.0001 21.7087V24.4504"/>
+</svg>

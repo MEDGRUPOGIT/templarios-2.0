@@ -1,0 +1,30 @@
+<svg viewBox="0 0 32 32">
+  <title>square</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* ionic */
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+  </style>
+  <path d="M28 4.8V27.2C28 27.4122 27.9157 27.6157 27.7657 27.7657C27.6157 27.9157 27.4122 28 27.2 28H4.8C4.58783 28 4.38434 27.9157 4.23431 27.7657C4.08429 27.6157 4 27.4122 4 27.2V4.8C4 4.58783 4.08429 4.38434 4.23431 4.23431C4.38434 4.08429 4.58783 4 4.8 4H27.2C27.4122 4 27.6157 4.08429 27.7657 4.23431C27.9157 4.38434 28 4.58783 28 4.8Z" />
+</svg>

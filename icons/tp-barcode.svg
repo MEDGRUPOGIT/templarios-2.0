@@ -1,0 +1,30 @@
+<svg viewBox="0 0 32 32">
+  <title>barcode</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* ionic */
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+  </style>
+  <path d="M12 6.66663V25.3333M21.3333 6.66663V25.3333M25.3333 6.66663V25.3333M6.66663 25.3333V6.66663H7.99996V25.3333H6.66663ZM16 25.3333V6.66663H17.3333V25.3333H16Z" />
+</svg>

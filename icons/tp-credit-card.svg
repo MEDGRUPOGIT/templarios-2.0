@@ -1,0 +1,30 @@
+<svg viewBox="0 0 32 32">
+  <title>credit-card</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* ionic */
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+  </style>
+  <path d="M29.3333 12V22.6666C29.3333 23.3739 29.0523 24.0521 28.5522 24.5522C28.0521 25.0523 27.3739 25.3333 26.6666 25.3333H5.33329C4.62605 25.3333 3.94777 25.0523 3.44767 24.5522C2.94758 24.0521 2.66663 23.3739 2.66663 22.6666V9.33329C2.66663 8.62605 2.94758 7.94777 3.44767 7.44767C3.94777 6.94758 4.62605 6.66663 5.33329 6.66663H26.6666C27.3739 6.66663 28.0521 6.94758 28.5522 7.44767C29.0523 7.94777 29.3333 8.62605 29.3333 9.33329V12ZM29.3333 12H7.99996" />
+</svg>

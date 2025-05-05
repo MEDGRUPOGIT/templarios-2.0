@@ -1,0 +1,31 @@
+<svg viewBox="0 0 32 32">
+  <title>chevron-horizontal</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* ionic */
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+  </style>
+  <path d="M21.3335 24L29.3335 16L21.3335 8" />
+  <path d="M10.6665 8L2.6665 16L10.6665 24" />
+</svg>

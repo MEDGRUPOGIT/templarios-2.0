@@ -1,0 +1,30 @@
+<svg viewBox="0 0 32 32">
+  <title>pin</title>
+  <style>
+    :host {
+      --stroke-width: 1.5;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* ionic */
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+  </style>
+  <path d="M12.6667 19.3333L4 27.9999M6.66667 12.6466L18.924 24.9039L21.1867 22.6413L20.6627 17.5919L28.0093 11.3613L20.2093 3.56128L13.9773 10.9079L8.92933 10.3839L6.66667 12.6466Z" />
+</svg>

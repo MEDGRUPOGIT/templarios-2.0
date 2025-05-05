@@ -178,6 +178,7 @@ export declare enum TpIconO {
 export declare enum TpIconP {
     Passaporte = "tp-passaporte",
     ParkOutlineAlarm = "tp-park-outline-alarm",
+    Phone = "tp-phone",
     Pix = "tp-pix",
     Plane = "tp-plane",
     PlayCircle = "tp-play-circle",

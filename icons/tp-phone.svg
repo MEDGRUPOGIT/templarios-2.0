@@ -1,0 +1,30 @@
+<svg viewBox="0 0 32 32">
+  <title>phone</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* ionic */
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+  </style>
+  <path d="M23.9037 19.8021L18.4971 20.8577C14.8451 19.0108 12.5892 16.8893 11.2763 13.5823L12.2872 8.11908L10.3764 3H5.45194C3.97162 3 2.80592 4.23255 3.027 5.70733C3.57895 9.38909 5.20635 16.0646 9.96347 20.8577C14.9592 25.8912 22.1543 28.0754 26.1143 28.9435C27.6435 29.2789 29 28.0768 29 26.5001V21.7588L23.9037 19.8021Z"/>
+</svg>

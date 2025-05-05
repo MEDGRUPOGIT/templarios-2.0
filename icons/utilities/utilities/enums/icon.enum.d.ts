@@ -196,6 +196,7 @@ export declare enum TpIconP {
     PictureInPictureDeactivate = "tp-picture-in-picture-deactivate",
     PinSlash = "tp-pin-slash",
     Pin = "tp-pin",
+    PixSymbol = "tp-pix-symbol",
     Pix = "tp-pix",
     Plane = "tp-plane",
     PlayCircle = "tp-play-circle",

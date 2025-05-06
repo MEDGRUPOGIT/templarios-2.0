@@ -17,6 +17,7 @@ export declare enum TpIconA {
 }
 export declare enum TpIconB {
     Baby = "tp-baby",
+    Barcode = "tp-barcode",
     Bell = "tp-bell",
     Book = "tp-book",
     BookOpen = "tp-book-open",

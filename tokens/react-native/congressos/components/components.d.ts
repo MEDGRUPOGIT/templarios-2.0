@@ -2,14 +2,14 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-export const tpButtonBorderRadiusMd: string;
-export const tpButtonHeightMd: {
+export const tpButtonSolidPaddingHorizontalMd: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpButtonPaddingHorizontalMd: {
+export const tpButtonBorderRadiusOs: string;
+export const tpButtonHeightMd: {
   original: string;
   number: number;
   decimal: number;
@@ -26,8 +26,27 @@ export const tpButtonFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
+export const tpButtonClearPaddingHorizontalMd: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpButtonMetadataFill: string;
 export const tpButtonMetadataDisabled: string;
+export const tpButtonMetadataNoPadding: string;
+export const tpButtonIconsSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpButtonTextPaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpCheckboxOuterBorderRadiusMd: {
   original: string;
   number: number;
@@ -65,6 +84,37 @@ export const tpCheckboxFontMapOs: {
   fontFamily: string;
 };
 export const tpCheckboxIconSizeMd: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpGraphicLegendFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpGraphicLegendDotSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpGraphicLegendDotBorderRadiusOs: string;
+export const tpGraphicLegendDotBorderWidthOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpGraphicLegendDotBorderStyleOs: string;
+export const tpGraphicLegendGapOs: {
   original: string;
   number: number;
   decimal: number;
@@ -162,6 +212,18 @@ export const tpItemPaddingMd: {
   scale: number;
 };
 export const tpItemMetadataDisabled: string;
+export const tpLayoutHeaderPaddingOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpLayoutHeaderGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpProgressBarHeightMd: {
   original: string;
   number: number;

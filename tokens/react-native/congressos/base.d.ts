@@ -6,6 +6,10 @@ export const tpColorDangerSolidDefault: string;
 export const tpColorDangerStrongDefault: string;
 export const tpColorSuccessSolidDefault: string;
 export const tpColorSuccessStrongDefault: string;
+export const tpColorInfoSolidDefault: string;
+export const tpColorInfoStrongDefault: string;
+export const tpColorWarningSolidDefault: string;
+export const tpColorWarningStrongDefault: string;
 export const tpColorNeutralFixedSolid10: string;
 export const tpColorNeutralFixedSolid15: string;
 export const tpColorNeutralFixedSolid20: string;
@@ -649,6 +653,12 @@ export const tpTypographyTitleXsNormalTall: {
   };
   lineHeight: string;
   fontFamily: string;
+};
+export const tpSpacing8xl: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
 };
 export const tpSpacing7xl: {
   original: string;

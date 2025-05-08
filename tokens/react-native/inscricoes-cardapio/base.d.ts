@@ -646,6 +646,12 @@ export const tpTypographyTitleXsNormalTall: {
   lineHeight: string;
   fontFamily: string;
 };
+export const tpSpacing8xl: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpSpacing7xl: {
   original: string;
   number: number;

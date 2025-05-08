@@ -34,6 +34,7 @@ export const tpBadgeFontMapOs: {
 export const tpBadgeBorderWidthOs: string;
 export const tpBadgeBorderStyleOs: string;
 export const tpBadgeMetadataColor: string;
+export const tpBadgeTextTransformOs: string;
 export const tpButtonIconSizeMd: {
   original: string;
   number: number;
@@ -247,6 +248,20 @@ export const tpModalContainerBoxShadowOs: {
 }[];
 export const tpModalBackdropSizeFull: string;
 export const tpModalBackdropBlurOs: string;
+export const tpRadioCardPaddingOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpRadioCardBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpRadioCardBorderWidthOs: string;
+export const tpRadioCardBorderStyleOs: string;
 export const tpRadioSizeOs: {
   original: string;
   number: number;
@@ -303,6 +318,12 @@ export const tpSelectContainerPaddingRight: {
   decimal: number;
   scale: number;
 };
+export const tpSelectContainerPaddingLeft: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpSelectContainerHeightOs: {
   original: string;
   number: number;
@@ -310,12 +331,6 @@ export const tpSelectContainerHeightOs: {
   scale: number;
 };
 export const tpSelectContainerGapOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpSelectElementPaddingLeft: {
   original: string;
   number: number;
   decimal: number;
@@ -393,6 +408,12 @@ export const tpSelectContentItemFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
+export const tpSelectContentItemGaoOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpSelectContentBorderRadiusOs: {
   original: string;
   number: number;
@@ -406,5 +427,62 @@ export const tpSelectContainerPopoverOpenBorderRadiusOs: {
   number: number;
   decimal: number;
   scale: number;
+};
+export const tpStepGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpStepContainerItensGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpStepItemSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpStepItemIconSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpStepItemBorderRadiusOs: string;
+export const tpStepItemBorderStyleOs: string;
+export const tpStepItemBorderWidthOs: string;
+export const tpStepItemFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpStepDividerWidthOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpStepDividerBorderWidthOs: string;
+export const tpStepDividerBorderStyleOs: string;
+export const tpStepLabelFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
 };
 export const tpTextMetadataType: string;

@@ -2,18 +2,18 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-export const tpButtonBorderRadiusMd = "9999px";
+export const tpButtonSolidPaddingHorizontalMd = {
+  original: "20px",
+  number: 20,
+  decimal: 0.2,
+  scale: 320,
+};
+export const tpButtonBorderRadiusOs = "9999px";
 export const tpButtonHeightMd = {
   original: "48px",
   number: 48,
   decimal: 0.48,
   scale: 768,
-};
-export const tpButtonPaddingHorizontalMd = {
-  original: "32px",
-  number: 32,
-  decimal: 0.32,
-  scale: 512,
 };
 export const tpButtonFontMapOs = {
   fontWeight: "600",
@@ -21,8 +21,27 @@ export const tpButtonFontMapOs = {
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
+export const tpButtonClearPaddingHorizontalMd = {
+  original: "20px",
+  number: 20,
+  decimal: 0.2,
+  scale: 320,
+};
 export const tpButtonMetadataFill = "solid clear";
 export const tpButtonMetadataDisabled = "boolean";
+export const tpButtonMetadataNoPadding = "boolean";
+export const tpButtonIconsSizeOs = {
+  original: "20px",
+  number: 20,
+  decimal: 0.2,
+  scale: 320,
+};
+export const tpButtonTextPaddingHorizontalOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
 export const tpCheckboxOuterBorderRadiusMd = {
   original: "4px",
   number: 4,
@@ -55,6 +74,32 @@ export const tpCheckboxFontMapOs = {
   fontFamily: "FS Emeric",
 };
 export const tpCheckboxIconSizeMd = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
+};
+export const tpGraphicLegendFontMapOs = {
+  fontWeight: "400",
+  fontSize: { original: "18px", number: 18, decimal: 0.18, scale: 288 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpGraphicLegendDotSizeOs = {
+  original: "24px",
+  number: 24,
+  decimal: 0.24,
+  scale: 384,
+};
+export const tpGraphicLegendDotBorderRadiusOs = "9999px";
+export const tpGraphicLegendDotBorderWidthOs = {
+  original: "1px",
+  number: 1,
+  decimal: 0.01,
+  scale: 16,
+};
+export const tpGraphicLegendDotBorderStyleOs = "solid";
+export const tpGraphicLegendGapOs = {
   original: "16px",
   number: 16,
   decimal: 0.16,
@@ -137,6 +182,18 @@ export const tpItemPaddingMd = {
   scale: 256,
 };
 export const tpItemMetadataDisabled = "boolean";
+export const tpLayoutHeaderPaddingOs = {
+  original: "24px",
+  number: 24,
+  decimal: 0.24,
+  scale: 384,
+};
+export const tpLayoutHeaderGapOs = {
+  original: "24px",
+  number: 24,
+  decimal: 0.24,
+  scale: 384,
+};
 export const tpProgressBarHeightMd = {
   original: "8px",
   number: 8,
@@ -156,10 +213,10 @@ export const tpRadioSizeMd = {
   scale: 320,
 };
 export const tpRadioBorderWidthMd = {
-  original: "1px",
-  number: 1,
-  decimal: 0.01,
-  scale: 16,
+  original: "2px",
+  number: 2,
+  decimal: 0.02,
+  scale: 32,
 };
 export const tpRadioGapMd = {
   original: "16px",

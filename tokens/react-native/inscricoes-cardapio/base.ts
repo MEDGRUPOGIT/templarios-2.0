@@ -406,6 +406,12 @@ export const tpTypographyTitleXsNormalTall = {
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
+export const tpSpacing8xl = {
+  original: "80px",
+  number: 80,
+  decimal: 0.8,
+  scale: 1280,
+};
 export const tpSpacing7xl = {
   original: "56px",
   number: 56,

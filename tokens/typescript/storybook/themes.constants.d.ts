@@ -72,8 +72,22 @@ export declare const THEMES: {
         "Permissoes \u00B7 Light \u00B7 Screen sm": string;
     };
     congressos: {
-        "Default \u00B7 Dark": string;
-        "Default \u00B7 Light": string;
+        "Default \u00B7 Dark \u00B7 Screen md": string;
+        "Default \u00B7 Dark \u00B7 Screen sm": string;
+        "Default \u00B7 Light \u00B7 Screen md": string;
+        "Default \u00B7 Light \u00B7 Screen sm": string;
+    };
+    especialidades: {
+        "Acesso-direto \u00B7 Dark": string;
+        "Acesso-direto \u00B7 Light": string;
+        "Cirurgia \u00B7 Dark": string;
+        "Cirurgia \u00B7 Light": string;
+        "Clinica \u00B7 Dark": string;
+        "Clinica \u00B7 Light": string;
+        "Gneco \u00B7 Dark": string;
+        "Gneco \u00B7 Light": string;
+        "Pediatria \u00B7 Dark": string;
+        "Pediatria \u00B7 Light": string;
     };
     "inscricoes-cardapio": {
         "Cpmed-revalida \u00B7 Dark \u00B7 Screen md": string;

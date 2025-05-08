@@ -2,7 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-export const tpModalContainerHeightMd: string;
+export const tpModalContainerMaxHeightMd: string;
 export const tpModalContainerWidthMd: string;
 export const tpModalContainerBorderRadius: {
   original: string;

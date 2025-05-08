@@ -21,7 +21,7 @@ export const tpBadgeBorderRadiusMd = {
   scale: 64,
 };
 export const tpBadgeFontMapOs = {
-  fontWeight: "400",
+  fontWeight: "600",
   fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
   lineHeight: "150%",
   fontFamily: "FS Emeric",
@@ -30,6 +30,7 @@ export const tpBadgeBorderWidthOs = "1px";
 export const tpBadgeBorderStyleOs = "solid";
 export const tpBadgeMetadataColor =
   "success danger warning info primary neutral-solid-500";
+export const tpBadgeTextTransformOs = "uppercase";
 export const tpButtonIconSizeMd = {
   original: "32px",
   number: 32,
@@ -228,6 +229,20 @@ export const tpModalContainerBoxShadowOs = [
 ];
 export const tpModalBackdropSizeFull = "100%";
 export const tpModalBackdropBlurOs = "blur(10px)";
+export const tpRadioCardPaddingOs = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
+};
+export const tpRadioCardBorderRadiusOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpRadioCardBorderWidthOs = "1px";
+export const tpRadioCardBorderStyleOs = "solid";
 export const tpRadioSizeOs = {
   original: "20px",
   number: 20,
@@ -279,6 +294,12 @@ export const tpSelectContainerPaddingRight = {
   decimal: 0.16,
   scale: 256,
 };
+export const tpSelectContainerPaddingLeft = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
+};
 export const tpSelectContainerHeightOs = {
   original: "40px",
   number: 40,
@@ -286,12 +307,6 @@ export const tpSelectContainerHeightOs = {
   scale: 640,
 };
 export const tpSelectContainerGapOs = {
-  original: "16px",
-  number: 16,
-  decimal: 0.16,
-  scale: 256,
-};
-export const tpSelectElementPaddingLeft = {
   original: "16px",
   number: 16,
   decimal: 0.16,
@@ -349,6 +364,12 @@ export const tpSelectContentItemFontMapOs = {
   lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
+export const tpSelectContentItemGaoOs = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
+};
 export const tpSelectContentBorderRadiusOs = {
   original: "4px",
   number: 4,
@@ -362,6 +383,53 @@ export const tpSelectContainerPopoverOpenBorderRadiusOs = {
   number: 0,
   decimal: 0,
   scale: 0,
+};
+export const tpStepGapOs = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
+};
+export const tpStepContainerItensGapOs = {
+  original: "6px",
+  number: 6,
+  decimal: 0.06,
+  scale: 96,
+};
+export const tpStepItemSizeOs = {
+  original: "24px",
+  number: 24,
+  decimal: 0.24,
+  scale: 384,
+};
+export const tpStepItemIconSizeOs = {
+  original: "16px",
+  number: 16,
+  decimal: 0.16,
+  scale: 256,
+};
+export const tpStepItemBorderRadiusOs = "9999px";
+export const tpStepItemBorderStyleOs = "solid";
+export const tpStepItemBorderWidthOs = "1px";
+export const tpStepItemFontMapOs = {
+  fontWeight: "600",
+  fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpStepDividerWidthOs = {
+  original: "12px",
+  number: 12,
+  decimal: 0.12,
+  scale: 192,
+};
+export const tpStepDividerBorderWidthOs = "1px";
+export const tpStepDividerBorderStyleOs = "dashed";
+export const tpStepLabelFontMapOs = {
+  fontWeight: "400",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
 };
 export const tpTextMetadataType =
   "label-lg-bold-short label-lg-bold-tall label-lg-normal-short label-lg-normal-tall label-md-bold-short label-md-bold-tall label-md-normal-short label-md-normal-tall label-sm-bold-short label-sm-bold-tall label-sm-normal-short label-sm-normal-tall label-xs-bold-short label-xs-bold-tall label-xs-normal-short label-xs-normal-tall label-2xs-bold-short label-2xs-bold-tall label-2xs-normal-short label-2xs-normal-tall paragraph-lg-bold-short paragraph-lg-bold-tall paragraph-lg-normal-short paragraph-lg-normal-tall paragraph-md-bold-short paragraph-md-bold-tall paragraph-md-normal-short paragraph-md-normal-tall paragraph-sm-bold-short paragraph-sm-bold-tall paragraph-sm-normal-short paragraph-sm-normal-tall paragraph-xs-bold-short paragraph-xs-bold-tall paragraph-xs-normal-short paragraph-xs-normal-tall paragraph-2xs-bold-short paragraph-2xs-bold-tall paragraph-2xs-normal-short paragraph-2xs-normal-tall title-xl-normal-short title-xl-normal-tall  title-lg-normal-short title-lg-normal-tall title-md-normal-short title-md-normal-tall title-sm-normal-short title-sm-normal-tall title-xs-normal-short title-xs-normal-tall";

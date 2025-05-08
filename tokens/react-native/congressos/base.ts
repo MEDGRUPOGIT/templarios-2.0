@@ -6,6 +6,10 @@ export const tpColorDangerSolidDefault = "#ed685e";
 export const tpColorDangerStrongDefault = "rgba(237, 104, 94, 0.5)";
 export const tpColorSuccessSolidDefault = "#5eed71";
 export const tpColorSuccessStrongDefault = "rgba(94, 237, 113, 0.5)";
+export const tpColorInfoSolidDefault = "#5e87ed";
+export const tpColorInfoStrongDefault = "rgba(94, 135, 237, 0.5)";
+export const tpColorWarningSolidDefault = "#edbb5e";
+export const tpColorWarningStrongDefault = "rgba(237, 187, 94, 0.5)";
 export const tpColorNeutralFixedSolid10 = "hsla( 188, 10%, 8%, 1)";
 export const tpColorNeutralFixedSolid15 = "hsla( 188, 10%, 13%, 1)";
 export const tpColorNeutralFixedSolid20 = "hsla( 188, 10%, 18%, 1)";
@@ -399,6 +403,12 @@ export const tpTypographyTitleXsNormalTall = {
   fontSize: { original: "20px", number: 20, decimal: 0.2, scale: 320 },
   lineHeight: "150%",
   fontFamily: "FS Emeric",
+};
+export const tpSpacing8xl = {
+  original: "80px",
+  number: 80,
+  decimal: 0.8,
+  scale: 1280,
 };
 export const tpSpacing7xl = {
   original: "56px",

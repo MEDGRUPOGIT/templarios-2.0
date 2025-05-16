@@ -3,11 +3,13 @@ export declare enum TpIconA {
     Activity = "tp-activity",
     AddCircle = "tp-add-circle",
     AlertTriangle = "tp-alert-triangle",
+    Anotar = "tp-anotar",
+    ArrowBottomLeft = "tp-arrow-bottom-left",
     ArrowDownCircle = "tp-arrow-down-circle",
     ArrowDownFilled = "tp-arrow-down-filled",
     ArrowLeftCircle = "tp-arrow-left-circle",
-    Anotar = "tp-anotar",
     ArrowRightCircle = "tp-arrow-right-circle",
+    ArrowTopRight = "tp-arrow-top-right",
     ArrowUpCircle = "tp-arrow-up-circle",
     ArrowUpFilled = "tp-arrow-up-filled",
     Avaliar = "tp-avaliar",
@@ -71,6 +73,7 @@ export declare enum TpIconD {
     DivideSquare = "tp-divide-square",
     DolarSign = "tp-dollar-sign",
     Download = "tp-download",
+    DragHandGesture = "tp-drag-hand-gesture",
     Drag = "tp-drag",
     Drugs = "tp-drugs"
 }
@@ -185,6 +188,7 @@ export declare enum TpIconN {
     Nuvem = "tp-nuvem"
 }
 export declare enum TpIconO {
+    OpenHandGesture = "tp-open-hand-gesture",
     Order = "tp-order",
     Order2 = "tp-order-2"
 }

@@ -1,0 +1,30 @@
+<svg viewBox="0 0 32 32">
+  <title>drag-hand-gesture</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* ionic */
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+  </style>
+  <path d="M9.33338 13.9999L6.66138 17.5626C6.28805 18.0603 6.1005 18.6729 6.13118 19.2943C6.16186 19.9157 6.40884 20.5068 6.82938 20.9653L11.8747 26.4693C12.3787 27.0199 13.0907 27.3333 13.8387 27.3333H20.0001C23.2001 27.3333 25.3334 25.3333 25.3334 21.9999V10.5719C25.3334 7.52395 21.3334 7.52395 21.3334 10.5719V11.3333V9.36928C21.3334 6.32128 17.3334 6.32128 17.3334 9.36928M17.3334 9.36928V11.3333V8.66662M17.3334 9.36928V8.66662M17.3334 8.66662C17.3334 5.61862 13.3334 5.61862 13.3334 8.66662V11.3333V8.51195C13.3334 7.40661 12.4374 6.66662 11.3334 6.66662C10.803 6.66662 10.2942 6.87733 9.91917 7.2524C9.5441 7.62747 9.33338 8.13618 9.33338 8.66662V17.9999" />
+</svg>

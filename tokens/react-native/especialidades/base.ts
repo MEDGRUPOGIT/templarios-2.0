@@ -400,11 +400,23 @@ export const tpTypographyTitleXsNormalTall = {
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
+export const tpSpacing8xl = {
+  original: "80px",
+  number: 80,
+  decimal: 0.8,
+  scale: 1280,
+};
 export const tpSpacing7xl = {
   original: "56px",
   number: 56,
   decimal: 0.56,
   scale: 896,
+};
+export const tpSpacing6xl = {
+  original: "52px",
+  number: 52,
+  decimal: 0.52,
+  scale: 832,
 };
 export const tpSpacing5xl = {
   original: "48px",
@@ -454,17 +466,41 @@ export const tpSpacingSm = {
   decimal: 0.08,
   scale: 128,
 };
+export const tpSpacingXs = {
+  original: "6px",
+  number: 6,
+  decimal: 0.06,
+  scale: 96,
+};
+export const tpSpacing2xs = {
+  original: "4px",
+  number: 4,
+  decimal: 0.04,
+  scale: 64,
+};
 export const tpSpacingNone = {
   original: "0px",
   number: 0,
   decimal: 0,
   scale: 0,
 };
+export const tpSizing8xl = {
+  original: "80px",
+  number: 80,
+  decimal: 0.8,
+  scale: 1280,
+};
 export const tpSizing7xl = {
   original: "56px",
   number: 56,
   decimal: 0.56,
   scale: 896,
+};
+export const tpSizing6xl = {
+  original: "52px",
+  number: 52,
+  decimal: 0.52,
+  scale: 832,
 };
 export const tpSizing5xl = {
   original: "48px",
@@ -525,6 +561,18 @@ export const tpSizing2xs = {
   number: 4,
   decimal: 0.04,
   scale: 64,
+};
+export const tpSizing3xs = {
+  original: "2px",
+  number: 2,
+  decimal: 0.02,
+  scale: 32,
+};
+export const tpSizing4xs = {
+  original: "1px",
+  number: 1,
+  decimal: 0.01,
+  scale: 16,
 };
 export const tpSizingNone = {
   original: "0px",

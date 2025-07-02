@@ -666,6 +666,12 @@ export const tpSpacing7xl: {
   decimal: number;
   scale: number;
 };
+export const tpSpacing6xl: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpSpacing5xl: {
   original: string;
   number: number;
@@ -714,13 +720,43 @@ export const tpSpacingSm: {
   decimal: number;
   scale: number;
 };
+export const tpSpacingXs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSpacing2xs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpSpacingNone: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
+export const tpSizing9xl: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizing8xl: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpSizing7xl: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizing6xl: {
   original: string;
   number: number;
   decimal: number;
@@ -781,6 +817,18 @@ export const tpSizingXs: {
   scale: number;
 };
 export const tpSizing2xs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizing3xs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizing4xs: {
   original: string;
   number: number;
   decimal: number;

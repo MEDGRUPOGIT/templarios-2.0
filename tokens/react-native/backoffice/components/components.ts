@@ -21,10 +21,10 @@ export const tpAccordionContentPaddingOs = {
   scale: 384,
 };
 export const tpAccordionHeaderHeightOs = {
-  original: "60px",
-  number: 60,
-  decimal: 0.6,
-  scale: 960,
+  original: "72px",
+  number: 72,
+  decimal: 0.72,
+  scale: 1152,
 };
 export const tpAccordionHeaderIconSizeOs = {
   original: "20px",
@@ -660,10 +660,10 @@ export const tpDatepickerPopoverHeaderButtonSelectGapOs = {
   scale: 128,
 };
 export const tpDatepickerPopoverHeaderHeightOs = {
-  original: "60px",
-  number: 60,
-  decimal: 0.6,
-  scale: 960,
+  original: "72px",
+  number: 72,
+  decimal: 0.72,
+  scale: 1152,
 };
 export const tpDatepickerPopoverPaddingOs = {
   original: "8px",
@@ -1137,10 +1137,10 @@ export const tpPaginatorSelectBorderRadiusOs = {
   scale: 96,
 };
 export const tpPaginatorSelectMinWidthOs = {
-  original: "60px",
-  number: 60,
-  decimal: 0.6,
-  scale: 960,
+  original: "72px",
+  number: 72,
+  decimal: 0.72,
+  scale: 1152,
 };
 export const tpPaginatorSelectHeightOs = {
   original: "32px",
@@ -1443,10 +1443,10 @@ export const tpSnackbarFontMapOs = {
 export const tpSpinnerMetadataSize = "lg md sm";
 export const tpSpinnerMetadataColor = "primary dark gray";
 export const tpSpinnerContainerSizeLg = {
-  original: "60px",
-  number: 60,
-  decimal: 0.6,
-  scale: 960,
+  original: "72px",
+  number: 72,
+  decimal: 0.72,
+  scale: 1152,
 };
 export const tpSpinnerContainerSizeMd = {
   original: "32px",
@@ -1461,10 +1461,10 @@ export const tpSpinnerContainerSizeSm = {
   scale: 256,
 };
 export const tpSpinnerIconSizeLg = {
-  original: "60px",
-  number: 60,
-  decimal: 0.6,
-  scale: 960,
+  original: "72px",
+  number: 72,
+  decimal: 0.72,
+  scale: 1152,
 };
 export const tpSpinnerIconSizeMd = {
   original: "32px",

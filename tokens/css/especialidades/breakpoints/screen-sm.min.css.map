@@ -1,0 +1,1 @@
+{"version":3,"sources":["screen-sm.css"],"names":[],"mappings":"AAIA,2CACE,+BAAA,KACA,kCAAA","sourcesContent":["/**\n * Do not edit directly, this file was auto-generated.\n */\n\n.tp-especialidades.tp-breakpoint-screen-sm {\n  --tp-ui-content-padding-top-os: 48px;\n  --tp-ui-col-padding-horizontal-os: 0px;\n}\n"]}

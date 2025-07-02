@@ -1,1 +1,0 @@
-{"version":3,"sources":["screen-md.css"],"names":[],"mappings":"AAIA,gDACE,mCAAA,IACA,8BAAA,IACA,mCAAA","sourcesContent":["/**\n * Do not edit directly, this file was auto-generated.\n */\n\n.tp-inscricoes-cardapio.tp-breakpoint-screen-md {\n  --tp-modal-container-max-height-md: 80%;\n  --tp-modal-container-width-md: 80%;\n  --tp-modal-container-border-radius: 16px;\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["screen-md.css"],"names":[],"mappings":"AAIA,2CACE,+BAAA,KACA,kCAAA","sourcesContent":["/**\n * Do not edit directly, this file was auto-generated.\n */\n\n.tp-especialidades.tp-breakpoint-screen-md {\n  --tp-ui-content-padding-top-os: 80px;\n  --tp-ui-col-padding-horizontal-os: 24px;\n}\n"]}

@@ -1,0 +1,30 @@
+<svg viewBox="0 0 32 32">
+  <title>unlock</title>
+  <style>
+    :host {
+      --stroke-width: 2;
+      --fill: none;
+      --transition: none;
+    }
+
+    :host {
+      font-size: 24px;
+      stroke: inherit;
+    }
+
+    :host path {
+      stroke: currentColor;
+      stroke-width: var(--stroke-width);
+      fill: var(--fill);
+      transition: var(--transition);
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* ionic */
+    :host(.ion-color) path {
+      --stroke: var(--ion-color-base) !important;
+    }
+  </style>
+<path d="M9.33339 9.33329C9.33339 7.56518 10.0358 5.86949 11.286 4.61925C12.5363 3.369 14.2319 2.66663 16.0001 2.66663C17.7682 2.66663 19.4639 3.369 20.7141 4.61925C21.9643 5.86949 22.6667 7.56518 22.6667 9.33329L22.6667 16.5M6.66667 16.5H25.3333C26.8061 16.5 28 17.6939 28 19.1667L28.0001 26.6666C28.0001 28.1394 26.8062 29.3333 25.3334 29.3333H6.66673C5.19397 29.3333 4.00006 28.1394 4.00006 26.6666L4 19.1667C4 17.6939 5.19391 16.5 6.66667 16.5Z" />
+</svg>

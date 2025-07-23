@@ -262,6 +262,7 @@ export declare enum TpIconT {
     TypeMinus = "tp-type-minus"
 }
 export declare enum TpIconU {
+    Unlock = "tp-unlock",
     User = "tp-user",
     UserCheck = "tp-user-check",
     UserScan = "tp-user-scan",

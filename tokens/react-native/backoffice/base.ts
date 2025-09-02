@@ -184,116 +184,230 @@ export const tpSpacingNone = {
   decimal: 0,
   scale: 0,
 };
-export const tpSizing9xl = {
+export const tpSizingFixed9xl = {
   original: "72px",
   number: 72,
   decimal: 0.72,
   scale: 1152,
 };
-export const tpSizing8xl = {
+export const tpSizingFixed8xl = {
   original: "60px",
   number: 60,
   decimal: 0.6,
   scale: 960,
 };
-export const tpSizing7xl = {
+export const tpSizingFixed7xl = {
   original: "48px",
   number: 48,
   decimal: 0.48,
   scale: 768,
 };
-export const tpSizing6xl = {
+export const tpSizingFixed6xl = {
   original: "40px",
   number: 40,
   decimal: 0.4,
   scale: 640,
 };
-export const tpSizing5xl = {
+export const tpSizingFixed5xl = {
   original: "38px",
   number: 38,
   decimal: 0.38,
   scale: 608,
 };
-export const tpSizing4xl = {
+export const tpSizingFixed4xl = {
   original: "36px",
   number: 36,
   decimal: 0.36,
   scale: 576,
 };
-export const tpSizing3xl = {
+export const tpSizingFixed3xl = {
   original: "32px",
   number: 32,
   decimal: 0.32,
   scale: 512,
 };
-export const tpSizing2xl = {
+export const tpSizingFixed2xl = {
   original: "28px",
   number: 28,
   decimal: 0.28,
   scale: 448,
 };
-export const tpSizingXl = {
+export const tpSizingFixedXl = {
   original: "24px",
   number: 24,
   decimal: 0.24,
   scale: 384,
 };
-export const tpSizingLg = {
+export const tpSizingFixedLg = {
   original: "20px",
   number: 20,
   decimal: 0.2,
   scale: 320,
 };
-export const tpSizingMd = {
+export const tpSizingFixedMd = {
   original: "16px",
   number: 16,
   decimal: 0.16,
   scale: 256,
 };
-export const tpSizingSm = {
+export const tpSizingFixedSm = {
   original: "14px",
   number: 14,
   decimal: 0.14,
   scale: 224,
 };
-export const tpSizingXs = {
+export const tpSizingFixedXs = {
   original: "12px",
   number: 12,
   decimal: 0.12,
   scale: 192,
 };
-export const tpSizing2xs = {
+export const tpSizingFixed2xs = {
   original: "10px",
   number: 10,
   decimal: 0.1,
   scale: 160,
 };
-export const tpSizing3xs = {
+export const tpSizingFixed3xs = {
   original: "8px",
   number: 8,
   decimal: 0.08,
   scale: 128,
 };
-export const tpSizing4xs = {
+export const tpSizingFixed4xs = {
   original: "4px",
   number: 4,
   decimal: 0.04,
   scale: 64,
 };
-export const tpSizing5xs = {
+export const tpSizingFixed5xs = {
   original: "2px",
   number: 2,
   decimal: 0.02,
   scale: 32,
 };
-export const tpSizing6xs = {
+export const tpSizingFixed6xs = {
   original: "1px",
   number: 1,
   decimal: 0.01,
   scale: 16,
 };
-export const tpSizingNone = {
+export const tpSizingFixedNone = {
   original: "0px",
+  number: 0,
+  decimal: 0,
+  scale: 0,
+};
+export const tpSizingDynamic9xl = {
+  original: "4.5rem",
+  number: 4.5,
+  decimal: 0.045,
+  scale: 72,
+};
+export const tpSizingDynamic8xl = {
+  original: "3.75rem",
+  number: 3.75,
+  decimal: 0.0375,
+  scale: 60,
+};
+export const tpSizingDynamic7xl = {
+  original: "3rem",
+  number: 3,
+  decimal: 0.03,
+  scale: 48,
+};
+export const tpSizingDynamic6xl = {
+  original: "2.5rem",
+  number: 2.5,
+  decimal: 0.025,
+  scale: 40,
+};
+export const tpSizingDynamic5xl = {
+  original: "2.375rem",
+  number: 2.375,
+  decimal: 0.02375,
+  scale: 38,
+};
+export const tpSizingDynamic4xl = {
+  original: "2.25rem",
+  number: 2.25,
+  decimal: 0.0225,
+  scale: 36,
+};
+export const tpSizingDynamic3xl = {
+  original: "2rem",
+  number: 2,
+  decimal: 0.02,
+  scale: 32,
+};
+export const tpSizingDynamic2xl = {
+  original: "1.75rem",
+  number: 1.75,
+  decimal: 0.0175,
+  scale: 28,
+};
+export const tpSizingDynamicXl = {
+  original: "1.5rem",
+  number: 1.5,
+  decimal: 0.015,
+  scale: 24,
+};
+export const tpSizingDynamicLg = {
+  original: "1.25rem",
+  number: 1.25,
+  decimal: 0.0125,
+  scale: 20,
+};
+export const tpSizingDynamicMd = {
+  original: "1rem",
+  number: 1,
+  decimal: 0.01,
+  scale: 16,
+};
+export const tpSizingDynamicSm = {
+  original: "0.875rem",
+  number: 0.875,
+  decimal: 0.00875,
+  scale: 14,
+};
+export const tpSizingDynamicXs = {
+  original: "0.75rem",
+  number: 0.75,
+  decimal: 0.0075,
+  scale: 12,
+};
+export const tpSizingDynamic2xs = {
+  original: "0.625rem",
+  number: 0.625,
+  decimal: 0.00625,
+  scale: 10,
+};
+export const tpSizingDynamic3xs = {
+  original: "0.5rem",
+  number: 0.5,
+  decimal: 0.005,
+  scale: 8,
+};
+export const tpSizingDynamic4xs = {
+  original: "0.25rem",
+  number: 0.25,
+  decimal: 0.0025,
+  scale: 4,
+};
+export const tpSizingDynamic5xs = {
+  original: "0.125rem",
+  number: 0.125,
+  decimal: 0.00125,
+  scale: 2,
+};
+export const tpSizingDynamic6xs = {
+  original: "0.0625rem",
+  number: 0.0625,
+  decimal: 0.000625,
+  scale: 1,
+};
+export const tpSizingDynamicNone = {
+  original: "0rem",
   number: 0,
   decimal: 0,
   scale: 0,

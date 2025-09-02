@@ -183,115 +183,229 @@ export const tpSpacingNone: {
   decimal: number;
   scale: number;
 };
-export const tpSizing9xl: {
+export const tpSizingFixed9xl: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpSizing8xl: {
+export const tpSizingFixed8xl: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpSizing7xl: {
+export const tpSizingFixed7xl: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpSizing6xl: {
+export const tpSizingFixed6xl: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpSizing5xl: {
+export const tpSizingFixed5xl: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpSizing4xl: {
+export const tpSizingFixed4xl: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpSizing3xl: {
+export const tpSizingFixed3xl: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpSizing2xl: {
+export const tpSizingFixed2xl: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpSizingXl: {
+export const tpSizingFixedXl: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpSizingLg: {
+export const tpSizingFixedLg: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpSizingMd: {
+export const tpSizingFixedMd: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpSizingSm: {
+export const tpSizingFixedSm: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpSizingXs: {
+export const tpSizingFixedXs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpSizing2xs: {
+export const tpSizingFixed2xs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpSizing3xs: {
+export const tpSizingFixed3xs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpSizing4xs: {
+export const tpSizingFixed4xs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpSizing5xs: {
+export const tpSizingFixed5xs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpSizing6xs: {
+export const tpSizingFixed6xs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpSizingNone: {
+export const tpSizingFixedNone: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizingDynamic9xl: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizingDynamic8xl: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizingDynamic7xl: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizingDynamic6xl: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizingDynamic5xl: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizingDynamic4xl: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizingDynamic3xl: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizingDynamic2xl: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizingDynamicXl: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizingDynamicLg: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizingDynamicMd: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizingDynamicSm: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizingDynamicXs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizingDynamic2xs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizingDynamic3xs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizingDynamic4xs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizingDynamic5xs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizingDynamic6xs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpSizingDynamicNone: {
   original: string;
   number: number;
   decimal: number;

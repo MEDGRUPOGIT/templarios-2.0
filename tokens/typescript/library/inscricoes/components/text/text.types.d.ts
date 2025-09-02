@@ -1,4 +1,5 @@
-import { TpTextType } from './text.enums';
+import { TpTextType, TpTextColor } from './text.enums';
 export type TpText = {
     ['tp-type']: `${TpTextType}`;
+    ['tp-color']: `${TpTextColor}`;
 };

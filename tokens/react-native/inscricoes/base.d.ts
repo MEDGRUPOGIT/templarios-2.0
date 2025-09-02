@@ -96,6 +96,50 @@ export const tpBorderRadiusNone: {
   decimal: number;
   scale: number;
 };
+export const tpTypographyLabelXlRegularShort: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelXlRegularTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelXlMediumShort: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelXlMediumTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
 export const tpTypographyLabelXlBoldShort: {
   fontWeight: string;
   fontSize: {
@@ -118,7 +162,7 @@ export const tpTypographyLabelXlBoldTall: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyLabelXlNormalShort: {
+export const tpTypographyLabelXlBlackShort: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -129,7 +173,51 @@ export const tpTypographyLabelXlNormalShort: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyLabelXlNormalTall: {
+export const tpTypographyLabelXlBlackTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelLgRegularShort: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelLgRegularTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelLgMediumShort: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelLgMediumTall: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -162,7 +250,7 @@ export const tpTypographyLabelLgBoldTall: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyLabelLgNormalShort: {
+export const tpTypographyLabelLgBlackShort: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -173,7 +261,51 @@ export const tpTypographyLabelLgNormalShort: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyLabelLgNormalTall: {
+export const tpTypographyLabelLgBlackTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelMdRegularShort: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelMdRegularTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelMdMediumShort: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelMdMediumTall: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -206,7 +338,7 @@ export const tpTypographyLabelMdBoldTall: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyLabelMdNormalShort: {
+export const tpTypographyLabelMdBlackShort: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -217,7 +349,51 @@ export const tpTypographyLabelMdNormalShort: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyLabelMdNormalTall: {
+export const tpTypographyLabelMdBlackTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelSmRegularShort: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelSmRegularTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelSmMediumShort: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelSmMediumTall: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -250,7 +426,7 @@ export const tpTypographyLabelSmBoldTall: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyLabelSmNormalShort: {
+export const tpTypographyLabelSmBlackShort: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -261,7 +437,51 @@ export const tpTypographyLabelSmNormalShort: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyLabelSmNormalTall: {
+export const tpTypographyLabelSmBlackTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelXsRegularShort: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelXsRegularTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelXsMediumShort: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabelXsMediumTall: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -294,7 +514,7 @@ export const tpTypographyLabelXsBoldTall: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyLabelXsNormalShort: {
+export const tpTypographyLabelXsBlackShort: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -305,7 +525,51 @@ export const tpTypographyLabelXsNormalShort: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyLabelXsNormalTall: {
+export const tpTypographyLabelXsBlackTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabel2xsRegularShort: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabel2xsRegularTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabel2xsMediumShort: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyLabel2xsMediumTall: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -338,7 +602,7 @@ export const tpTypographyLabel2xsBoldTall: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyLabel2xsNormalShort: {
+export const tpTypographyLabel2xsBlackShort: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -349,7 +613,51 @@ export const tpTypographyLabel2xsNormalShort: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyLabel2xsNormalTall: {
+export const tpTypographyLabel2xsBlackTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraphLgRegularShort: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraphLgRegularTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraphLgMediumShort: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraphLgMediumTall: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -382,7 +690,7 @@ export const tpTypographyParagraphLgBoldTall: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyParagraphLgNormalShort: {
+export const tpTypographyParagraphLgBlackShort: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -393,7 +701,51 @@ export const tpTypographyParagraphLgNormalShort: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyParagraphLgNormalTall: {
+export const tpTypographyParagraphLgBlackTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraphMdRegularShort: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraphMdRegularTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraphMdMediumShort: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraphMdMediumTall: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -426,7 +778,7 @@ export const tpTypographyParagraphMdBoldTall: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyParagraphMdNormalShort: {
+export const tpTypographyParagraphMdBlackShort: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -437,7 +789,51 @@ export const tpTypographyParagraphMdNormalShort: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyParagraphMdNormalTall: {
+export const tpTypographyParagraphMdBlackTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraphSmRegularShort: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraphSmRegularTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraphSmMediumShort: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraphSmMediumTall: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -470,7 +866,7 @@ export const tpTypographyParagraphSmBoldTall: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyParagraphSmNormalShort: {
+export const tpTypographyParagraphSmBlackShort: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -481,7 +877,51 @@ export const tpTypographyParagraphSmNormalShort: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyParagraphSmNormalTall: {
+export const tpTypographyParagraphSmBlackTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraphXsRegularShort: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraphXsRegularTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraphXsMediumShort: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraphXsMediumTall: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -514,7 +954,7 @@ export const tpTypographyParagraphXsBoldTall: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyParagraphXsNormalShort: {
+export const tpTypographyParagraphXsBlackShort: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -525,7 +965,51 @@ export const tpTypographyParagraphXsNormalShort: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyParagraphXsNormalTall: {
+export const tpTypographyParagraphXsBlackTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraph2xsRegularShort: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraph2xsRegularTall: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraph2xsMediumShort: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTypographyParagraph2xsMediumTall: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -558,7 +1042,7 @@ export const tpTypographyParagraph2xsBoldTall: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyParagraph2xsNormalShort: {
+export const tpTypographyParagraph2xsBlackShort: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -569,7 +1053,7 @@ export const tpTypographyParagraph2xsNormalShort: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyParagraph2xsNormalTall: {
+export const tpTypographyParagraph2xsBlackTall: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -580,7 +1064,7 @@ export const tpTypographyParagraph2xsNormalTall: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyTitleXlNormalShort: {
+export const tpTypographyTitleXlRegularShort: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -591,7 +1075,7 @@ export const tpTypographyTitleXlNormalShort: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyTitleXlNormalTall: {
+export const tpTypographyTitleXlRegularTall: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -602,7 +1086,7 @@ export const tpTypographyTitleXlNormalTall: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyTitleLgNormalShort: {
+export const tpTypographyTitleLgRegularShort: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -613,7 +1097,7 @@ export const tpTypographyTitleLgNormalShort: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyTitleLgNormalTall: {
+export const tpTypographyTitleLgRegularTall: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -624,7 +1108,7 @@ export const tpTypographyTitleLgNormalTall: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyTitleMdNormalShort: {
+export const tpTypographyTitleMdRegularShort: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -635,7 +1119,7 @@ export const tpTypographyTitleMdNormalShort: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyTitleMdNormalTall: {
+export const tpTypographyTitleMdRegularTall: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -646,7 +1130,7 @@ export const tpTypographyTitleMdNormalTall: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyTitleSmNormalShort: {
+export const tpTypographyTitleSmRegularShort: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -657,7 +1141,7 @@ export const tpTypographyTitleSmNormalShort: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyTitleSmNormalTall: {
+export const tpTypographyTitleSmRegularTall: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -668,7 +1152,7 @@ export const tpTypographyTitleSmNormalTall: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyTitleXsNormalShort: {
+export const tpTypographyTitleXsRegularShort: {
   fontWeight: string;
   fontSize: {
     original: string;
@@ -679,7 +1163,7 @@ export const tpTypographyTitleXsNormalShort: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTypographyTitleXsNormalTall: {
+export const tpTypographyTitleXsRegularTall: {
   fontWeight: string;
   fontSize: {
     original: string;

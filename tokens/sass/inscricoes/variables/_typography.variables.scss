@@ -1,6 +1,38 @@
 
     $tp-typography: (
       
+      label-xl-regular-short: (
+        'font-weight': 400,
+'font-size': 24px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-xl-regular-tall: (
+        'font-weight': 400,
+'font-size': 24px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-xl-medium-short: (
+        'font-weight': 500,
+'font-size': 24px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-xl-medium-tall: (
+        'font-weight': 500,
+'font-size': 24px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
       label-xl-bold-short: (
         'font-weight': 600,
 'font-size': 24px,
@@ -17,17 +49,49 @@
       )
     ,
 
-      label-xl-normal-short: (
-        'font-weight': 400,
+      label-xl-black-short: (
+        'font-weight': 900,
 'font-size': 24px,
 'line-height': 100%,
 'font-family': FS Emeric
       )
     ,
 
-      label-xl-normal-tall: (
-        'font-weight': 400,
+      label-xl-black-tall: (
+        'font-weight': 900,
 'font-size': 24px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-lg-regular-short: (
+        'font-weight': 400,
+'font-size': 18px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-lg-regular-tall: (
+        'font-weight': 400,
+'font-size': 18px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-lg-medium-short: (
+        'font-weight': 500,
+'font-size': 18px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-lg-medium-tall: (
+        'font-weight': 500,
+'font-size': 18px,
 'line-height': 150%,
 'font-family': FS Emeric
       )
@@ -49,17 +113,49 @@
       )
     ,
 
-      label-lg-normal-short: (
-        'font-weight': 400,
+      label-lg-black-short: (
+        'font-weight': 900,
 'font-size': 18px,
 'line-height': 100%,
 'font-family': FS Emeric
       )
     ,
 
-      label-lg-normal-tall: (
-        'font-weight': 400,
+      label-lg-black-tall: (
+        'font-weight': 900,
 'font-size': 18px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-md-regular-short: (
+        'font-weight': 400,
+'font-size': 16px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-md-regular-tall: (
+        'font-weight': 400,
+'font-size': 16px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-md-medium-short: (
+        'font-weight': 500,
+'font-size': 16px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-md-medium-tall: (
+        'font-weight': 500,
+'font-size': 16px,
 'line-height': 150%,
 'font-family': FS Emeric
       )
@@ -81,17 +177,49 @@
       )
     ,
 
-      label-md-normal-short: (
-        'font-weight': 400,
+      label-md-black-short: (
+        'font-weight': 900,
 'font-size': 16px,
 'line-height': 100%,
 'font-family': FS Emeric
       )
     ,
 
-      label-md-normal-tall: (
-        'font-weight': 400,
+      label-md-black-tall: (
+        'font-weight': 900,
 'font-size': 16px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-sm-regular-short: (
+        'font-weight': 400,
+'font-size': 14px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-sm-regular-tall: (
+        'font-weight': 400,
+'font-size': 14px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-sm-medium-short: (
+        'font-weight': 500,
+'font-size': 14px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-sm-medium-tall: (
+        'font-weight': 500,
+'font-size': 14px,
 'line-height': 150%,
 'font-family': FS Emeric
       )
@@ -113,17 +241,49 @@
       )
     ,
 
-      label-sm-normal-short: (
-        'font-weight': 400,
+      label-sm-black-short: (
+        'font-weight': 900,
 'font-size': 14px,
 'line-height': 100%,
 'font-family': FS Emeric
       )
     ,
 
-      label-sm-normal-tall: (
-        'font-weight': 400,
+      label-sm-black-tall: (
+        'font-weight': 900,
 'font-size': 14px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-xs-regular-short: (
+        'font-weight': 400,
+'font-size': 12px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-xs-regular-tall: (
+        'font-weight': 400,
+'font-size': 12px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-xs-medium-short: (
+        'font-weight': 500,
+'font-size': 12px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-xs-medium-tall: (
+        'font-weight': 500,
+'font-size': 12px,
 'line-height': 150%,
 'font-family': FS Emeric
       )
@@ -145,17 +305,49 @@
       )
     ,
 
-      label-xs-normal-short: (
-        'font-weight': 400,
+      label-xs-black-short: (
+        'font-weight': 900,
 'font-size': 12px,
 'line-height': 100%,
 'font-family': FS Emeric
       )
     ,
 
-      label-xs-normal-tall: (
-        'font-weight': 400,
+      label-xs-black-tall: (
+        'font-weight': 900,
 'font-size': 12px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-2xs-regular-short: (
+        'font-weight': 400,
+'font-size': 10px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-2xs-regular-tall: (
+        'font-weight': 400,
+'font-size': 10px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-2xs-medium-short: (
+        'font-weight': 500,
+'font-size': 10px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      label-2xs-medium-tall: (
+        'font-weight': 500,
+'font-size': 10px,
 'line-height': 150%,
 'font-family': FS Emeric
       )
@@ -177,17 +369,49 @@
       )
     ,
 
-      label-2xs-normal-short: (
-        'font-weight': 400,
+      label-2xs-black-short: (
+        'font-weight': 900,
 'font-size': 10px,
 'line-height': 100%,
 'font-family': FS Emeric
       )
     ,
 
-      label-2xs-normal-tall: (
-        'font-weight': 400,
+      label-2xs-black-tall: (
+        'font-weight': 900,
 'font-size': 10px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-lg-regular-short: (
+        'font-weight': 400,
+'font-size': 18px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-lg-regular-tall: (
+        'font-weight': 400,
+'font-size': 18px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-lg-medium-short: (
+        'font-weight': 500,
+'font-size': 18px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-lg-medium-tall: (
+        'font-weight': 500,
+'font-size': 18px,
 'line-height': 150%,
 'font-family': FS Emeric
       )
@@ -209,17 +433,49 @@
       )
     ,
 
-      paragraph-lg-normal-short: (
-        'font-weight': 400,
+      paragraph-lg-black-short: (
+        'font-weight': 900,
 'font-size': 18px,
 'line-height': 100%,
 'font-family': FS Emeric
       )
     ,
 
-      paragraph-lg-normal-tall: (
-        'font-weight': 400,
+      paragraph-lg-black-tall: (
+        'font-weight': 900,
 'font-size': 18px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-md-regular-short: (
+        'font-weight': 400,
+'font-size': 16px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-md-regular-tall: (
+        'font-weight': 400,
+'font-size': 16px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-md-medium-short: (
+        'font-weight': 500,
+'font-size': 16px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-md-medium-tall: (
+        'font-weight': 500,
+'font-size': 16px,
 'line-height': 150%,
 'font-family': FS Emeric
       )
@@ -241,17 +497,49 @@
       )
     ,
 
-      paragraph-md-normal-short: (
-        'font-weight': 400,
+      paragraph-md-black-short: (
+        'font-weight': 900,
 'font-size': 16px,
 'line-height': 100%,
 'font-family': FS Emeric
       )
     ,
 
-      paragraph-md-normal-tall: (
-        'font-weight': 400,
+      paragraph-md-black-tall: (
+        'font-weight': 900,
 'font-size': 16px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-sm-regular-short: (
+        'font-weight': 400,
+'font-size': 14px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-sm-regular-tall: (
+        'font-weight': 400,
+'font-size': 14px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-sm-medium-short: (
+        'font-weight': 500,
+'font-size': 14px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-sm-medium-tall: (
+        'font-weight': 500,
+'font-size': 14px,
 'line-height': 150%,
 'font-family': FS Emeric
       )
@@ -273,17 +561,49 @@
       )
     ,
 
-      paragraph-sm-normal-short: (
-        'font-weight': 400,
+      paragraph-sm-black-short: (
+        'font-weight': 900,
 'font-size': 14px,
 'line-height': 100%,
 'font-family': FS Emeric
       )
     ,
 
-      paragraph-sm-normal-tall: (
-        'font-weight': 400,
+      paragraph-sm-black-tall: (
+        'font-weight': 900,
 'font-size': 14px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-xs-regular-short: (
+        'font-weight': 400,
+'font-size': 12px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-xs-regular-tall: (
+        'font-weight': 400,
+'font-size': 12px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-xs-medium-short: (
+        'font-weight': 500,
+'font-size': 12px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-xs-medium-tall: (
+        'font-weight': 500,
+'font-size': 12px,
 'line-height': 150%,
 'font-family': FS Emeric
       )
@@ -305,17 +625,49 @@
       )
     ,
 
-      paragraph-xs-normal-short: (
-        'font-weight': 400,
+      paragraph-xs-black-short: (
+        'font-weight': 900,
 'font-size': 12px,
 'line-height': 100%,
 'font-family': FS Emeric
       )
     ,
 
-      paragraph-xs-normal-tall: (
-        'font-weight': 400,
+      paragraph-xs-black-tall: (
+        'font-weight': 900,
 'font-size': 12px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-2xs-regular-short: (
+        'font-weight': 400,
+'font-size': 10px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-2xs-regular-tall: (
+        'font-weight': 400,
+'font-size': 10px,
+'line-height': 150%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-2xs-medium-short: (
+        'font-weight': 500,
+'font-size': 10px,
+'line-height': 100%,
+'font-family': FS Emeric
+      )
+    ,
+
+      paragraph-2xs-medium-tall: (
+        'font-weight': 500,
+'font-size': 10px,
 'line-height': 150%,
 'font-family': FS Emeric
       )
@@ -337,23 +689,23 @@
       )
     ,
 
-      paragraph-2xs-normal-short: (
-        'font-weight': 400,
+      paragraph-2xs-black-short: (
+        'font-weight': 900,
 'font-size': 10px,
 'line-height': 100%,
 'font-family': FS Emeric
       )
     ,
 
-      paragraph-2xs-normal-tall: (
-        'font-weight': 400,
+      paragraph-2xs-black-tall: (
+        'font-weight': 900,
 'font-size': 10px,
 'line-height': 150%,
 'font-family': FS Emeric
       )
     ,
 
-      title-xl-normal-short: (
+      title-xl-regular-short: (
         'font-weight': 600,
 'font-size': 64px,
 'line-height': 100%,
@@ -361,7 +713,7 @@
       )
     ,
 
-      title-xl-normal-tall: (
+      title-xl-regular-tall: (
         'font-weight': 600,
 'font-size': 64px,
 'line-height': 150%,
@@ -369,7 +721,7 @@
       )
     ,
 
-      title-lg-normal-short: (
+      title-lg-regular-short: (
         'font-weight': 600,
 'font-size': 48px,
 'line-height': 100%,
@@ -377,7 +729,7 @@
       )
     ,
 
-      title-lg-normal-tall: (
+      title-lg-regular-tall: (
         'font-weight': 600,
 'font-size': 48px,
 'line-height': 150%,
@@ -385,7 +737,7 @@
       )
     ,
 
-      title-md-normal-short: (
+      title-md-regular-short: (
         'font-weight': 600,
 'font-size': 32px,
 'line-height': 100%,
@@ -393,7 +745,7 @@
       )
     ,
 
-      title-md-normal-tall: (
+      title-md-regular-tall: (
         'font-weight': 600,
 'font-size': 32px,
 'line-height': 150%,
@@ -401,7 +753,7 @@
       )
     ,
 
-      title-sm-normal-short: (
+      title-sm-regular-short: (
         'font-weight': 600,
 'font-size': 24px,
 'line-height': 100%,
@@ -409,7 +761,7 @@
       )
     ,
 
-      title-sm-normal-tall: (
+      title-sm-regular-tall: (
         'font-weight': 600,
 'font-size': 24px,
 'line-height': 150%,
@@ -417,7 +769,7 @@
       )
     ,
 
-      title-xs-normal-short: (
+      title-xs-regular-short: (
         'font-weight': 600,
 'font-size': 20px,
 'line-height': 100%,
@@ -425,7 +777,7 @@
       )
     ,
 
-      title-xs-normal-tall: (
+      title-xs-regular-tall: (
         'font-weight': 600,
 'font-size': 20px,
 'line-height': 150%,
@@ -436,6 +788,38 @@
 
     $tp-typography-custom-properties: (
       
+      label-xl-regular-short: (
+        '--font-weight': 400,
+'--font-size': 24px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-xl-regular-tall: (
+        '--font-weight': 400,
+'--font-size': 24px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-xl-medium-short: (
+        '--font-weight': 500,
+'--font-size': 24px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-xl-medium-tall: (
+        '--font-weight': 500,
+'--font-size': 24px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
       label-xl-bold-short: (
         '--font-weight': 600,
 '--font-size': 24px,
@@ -452,17 +836,49 @@
       )
     ,
 
-      label-xl-normal-short: (
-        '--font-weight': 400,
+      label-xl-black-short: (
+        '--font-weight': 900,
 '--font-size': 24px,
 '--line-height': 100%,
 '--font-family': FS Emeric
       )
     ,
 
-      label-xl-normal-tall: (
-        '--font-weight': 400,
+      label-xl-black-tall: (
+        '--font-weight': 900,
 '--font-size': 24px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-lg-regular-short: (
+        '--font-weight': 400,
+'--font-size': 18px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-lg-regular-tall: (
+        '--font-weight': 400,
+'--font-size': 18px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-lg-medium-short: (
+        '--font-weight': 500,
+'--font-size': 18px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-lg-medium-tall: (
+        '--font-weight': 500,
+'--font-size': 18px,
 '--line-height': 150%,
 '--font-family': FS Emeric
       )
@@ -484,17 +900,49 @@
       )
     ,
 
-      label-lg-normal-short: (
-        '--font-weight': 400,
+      label-lg-black-short: (
+        '--font-weight': 900,
 '--font-size': 18px,
 '--line-height': 100%,
 '--font-family': FS Emeric
       )
     ,
 
-      label-lg-normal-tall: (
-        '--font-weight': 400,
+      label-lg-black-tall: (
+        '--font-weight': 900,
 '--font-size': 18px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-md-regular-short: (
+        '--font-weight': 400,
+'--font-size': 16px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-md-regular-tall: (
+        '--font-weight': 400,
+'--font-size': 16px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-md-medium-short: (
+        '--font-weight': 500,
+'--font-size': 16px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-md-medium-tall: (
+        '--font-weight': 500,
+'--font-size': 16px,
 '--line-height': 150%,
 '--font-family': FS Emeric
       )
@@ -516,17 +964,49 @@
       )
     ,
 
-      label-md-normal-short: (
-        '--font-weight': 400,
+      label-md-black-short: (
+        '--font-weight': 900,
 '--font-size': 16px,
 '--line-height': 100%,
 '--font-family': FS Emeric
       )
     ,
 
-      label-md-normal-tall: (
-        '--font-weight': 400,
+      label-md-black-tall: (
+        '--font-weight': 900,
 '--font-size': 16px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-sm-regular-short: (
+        '--font-weight': 400,
+'--font-size': 14px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-sm-regular-tall: (
+        '--font-weight': 400,
+'--font-size': 14px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-sm-medium-short: (
+        '--font-weight': 500,
+'--font-size': 14px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-sm-medium-tall: (
+        '--font-weight': 500,
+'--font-size': 14px,
 '--line-height': 150%,
 '--font-family': FS Emeric
       )
@@ -548,17 +1028,49 @@
       )
     ,
 
-      label-sm-normal-short: (
-        '--font-weight': 400,
+      label-sm-black-short: (
+        '--font-weight': 900,
 '--font-size': 14px,
 '--line-height': 100%,
 '--font-family': FS Emeric
       )
     ,
 
-      label-sm-normal-tall: (
-        '--font-weight': 400,
+      label-sm-black-tall: (
+        '--font-weight': 900,
 '--font-size': 14px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-xs-regular-short: (
+        '--font-weight': 400,
+'--font-size': 12px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-xs-regular-tall: (
+        '--font-weight': 400,
+'--font-size': 12px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-xs-medium-short: (
+        '--font-weight': 500,
+'--font-size': 12px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-xs-medium-tall: (
+        '--font-weight': 500,
+'--font-size': 12px,
 '--line-height': 150%,
 '--font-family': FS Emeric
       )
@@ -580,17 +1092,49 @@
       )
     ,
 
-      label-xs-normal-short: (
-        '--font-weight': 400,
+      label-xs-black-short: (
+        '--font-weight': 900,
 '--font-size': 12px,
 '--line-height': 100%,
 '--font-family': FS Emeric
       )
     ,
 
-      label-xs-normal-tall: (
-        '--font-weight': 400,
+      label-xs-black-tall: (
+        '--font-weight': 900,
 '--font-size': 12px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-2xs-regular-short: (
+        '--font-weight': 400,
+'--font-size': 10px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-2xs-regular-tall: (
+        '--font-weight': 400,
+'--font-size': 10px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-2xs-medium-short: (
+        '--font-weight': 500,
+'--font-size': 10px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      label-2xs-medium-tall: (
+        '--font-weight': 500,
+'--font-size': 10px,
 '--line-height': 150%,
 '--font-family': FS Emeric
       )
@@ -612,17 +1156,49 @@
       )
     ,
 
-      label-2xs-normal-short: (
-        '--font-weight': 400,
+      label-2xs-black-short: (
+        '--font-weight': 900,
 '--font-size': 10px,
 '--line-height': 100%,
 '--font-family': FS Emeric
       )
     ,
 
-      label-2xs-normal-tall: (
-        '--font-weight': 400,
+      label-2xs-black-tall: (
+        '--font-weight': 900,
 '--font-size': 10px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-lg-regular-short: (
+        '--font-weight': 400,
+'--font-size': 18px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-lg-regular-tall: (
+        '--font-weight': 400,
+'--font-size': 18px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-lg-medium-short: (
+        '--font-weight': 500,
+'--font-size': 18px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-lg-medium-tall: (
+        '--font-weight': 500,
+'--font-size': 18px,
 '--line-height': 150%,
 '--font-family': FS Emeric
       )
@@ -644,17 +1220,49 @@
       )
     ,
 
-      paragraph-lg-normal-short: (
-        '--font-weight': 400,
+      paragraph-lg-black-short: (
+        '--font-weight': 900,
 '--font-size': 18px,
 '--line-height': 100%,
 '--font-family': FS Emeric
       )
     ,
 
-      paragraph-lg-normal-tall: (
-        '--font-weight': 400,
+      paragraph-lg-black-tall: (
+        '--font-weight': 900,
 '--font-size': 18px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-md-regular-short: (
+        '--font-weight': 400,
+'--font-size': 16px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-md-regular-tall: (
+        '--font-weight': 400,
+'--font-size': 16px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-md-medium-short: (
+        '--font-weight': 500,
+'--font-size': 16px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-md-medium-tall: (
+        '--font-weight': 500,
+'--font-size': 16px,
 '--line-height': 150%,
 '--font-family': FS Emeric
       )
@@ -676,17 +1284,49 @@
       )
     ,
 
-      paragraph-md-normal-short: (
-        '--font-weight': 400,
+      paragraph-md-black-short: (
+        '--font-weight': 900,
 '--font-size': 16px,
 '--line-height': 100%,
 '--font-family': FS Emeric
       )
     ,
 
-      paragraph-md-normal-tall: (
-        '--font-weight': 400,
+      paragraph-md-black-tall: (
+        '--font-weight': 900,
 '--font-size': 16px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-sm-regular-short: (
+        '--font-weight': 400,
+'--font-size': 14px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-sm-regular-tall: (
+        '--font-weight': 400,
+'--font-size': 14px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-sm-medium-short: (
+        '--font-weight': 500,
+'--font-size': 14px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-sm-medium-tall: (
+        '--font-weight': 500,
+'--font-size': 14px,
 '--line-height': 150%,
 '--font-family': FS Emeric
       )
@@ -708,17 +1348,49 @@
       )
     ,
 
-      paragraph-sm-normal-short: (
-        '--font-weight': 400,
+      paragraph-sm-black-short: (
+        '--font-weight': 900,
 '--font-size': 14px,
 '--line-height': 100%,
 '--font-family': FS Emeric
       )
     ,
 
-      paragraph-sm-normal-tall: (
-        '--font-weight': 400,
+      paragraph-sm-black-tall: (
+        '--font-weight': 900,
 '--font-size': 14px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-xs-regular-short: (
+        '--font-weight': 400,
+'--font-size': 12px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-xs-regular-tall: (
+        '--font-weight': 400,
+'--font-size': 12px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-xs-medium-short: (
+        '--font-weight': 500,
+'--font-size': 12px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-xs-medium-tall: (
+        '--font-weight': 500,
+'--font-size': 12px,
 '--line-height': 150%,
 '--font-family': FS Emeric
       )
@@ -740,17 +1412,49 @@
       )
     ,
 
-      paragraph-xs-normal-short: (
-        '--font-weight': 400,
+      paragraph-xs-black-short: (
+        '--font-weight': 900,
 '--font-size': 12px,
 '--line-height': 100%,
 '--font-family': FS Emeric
       )
     ,
 
-      paragraph-xs-normal-tall: (
-        '--font-weight': 400,
+      paragraph-xs-black-tall: (
+        '--font-weight': 900,
 '--font-size': 12px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-2xs-regular-short: (
+        '--font-weight': 400,
+'--font-size': 10px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-2xs-regular-tall: (
+        '--font-weight': 400,
+'--font-size': 10px,
+'--line-height': 150%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-2xs-medium-short: (
+        '--font-weight': 500,
+'--font-size': 10px,
+'--line-height': 100%,
+'--font-family': FS Emeric
+      )
+    ,
+
+      paragraph-2xs-medium-tall: (
+        '--font-weight': 500,
+'--font-size': 10px,
 '--line-height': 150%,
 '--font-family': FS Emeric
       )
@@ -772,23 +1476,23 @@
       )
     ,
 
-      paragraph-2xs-normal-short: (
-        '--font-weight': 400,
+      paragraph-2xs-black-short: (
+        '--font-weight': 900,
 '--font-size': 10px,
 '--line-height': 100%,
 '--font-family': FS Emeric
       )
     ,
 
-      paragraph-2xs-normal-tall: (
-        '--font-weight': 400,
+      paragraph-2xs-black-tall: (
+        '--font-weight': 900,
 '--font-size': 10px,
 '--line-height': 150%,
 '--font-family': FS Emeric
       )
     ,
 
-      title-xl-normal-short: (
+      title-xl-regular-short: (
         '--font-weight': 600,
 '--font-size': 64px,
 '--line-height': 100%,
@@ -796,7 +1500,7 @@
       )
     ,
 
-      title-xl-normal-tall: (
+      title-xl-regular-tall: (
         '--font-weight': 600,
 '--font-size': 64px,
 '--line-height': 150%,
@@ -804,7 +1508,7 @@
       )
     ,
 
-      title-lg-normal-short: (
+      title-lg-regular-short: (
         '--font-weight': 600,
 '--font-size': 48px,
 '--line-height': 100%,
@@ -812,7 +1516,7 @@
       )
     ,
 
-      title-lg-normal-tall: (
+      title-lg-regular-tall: (
         '--font-weight': 600,
 '--font-size': 48px,
 '--line-height': 150%,
@@ -820,7 +1524,7 @@
       )
     ,
 
-      title-md-normal-short: (
+      title-md-regular-short: (
         '--font-weight': 600,
 '--font-size': 32px,
 '--line-height': 100%,
@@ -828,7 +1532,7 @@
       )
     ,
 
-      title-md-normal-tall: (
+      title-md-regular-tall: (
         '--font-weight': 600,
 '--font-size': 32px,
 '--line-height': 150%,
@@ -836,7 +1540,7 @@
       )
     ,
 
-      title-sm-normal-short: (
+      title-sm-regular-short: (
         '--font-weight': 600,
 '--font-size': 24px,
 '--line-height': 100%,
@@ -844,7 +1548,7 @@
       )
     ,
 
-      title-sm-normal-tall: (
+      title-sm-regular-tall: (
         '--font-weight': 600,
 '--font-size': 24px,
 '--line-height': 150%,
@@ -852,7 +1556,7 @@
       )
     ,
 
-      title-xs-normal-short: (
+      title-xs-regular-short: (
         '--font-weight': 600,
 '--font-size': 20px,
 '--line-height': 100%,
@@ -860,7 +1564,7 @@
       )
     ,
 
-      title-xs-normal-tall: (
+      title-xs-regular-tall: (
         '--font-weight': 600,
 '--font-size': 20px,
 '--line-height': 150%,
@@ -870,6 +1574,38 @@
     );
 
     
+      %tp-typography-label-xl-regular-short {
+        font-weight: 400 !important;
+font-size: 24px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-xl-regular-tall {
+        font-weight: 400 !important;
+font-size: 24px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-xl-medium-short {
+        font-weight: 500 !important;
+font-size: 24px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-xl-medium-tall {
+        font-weight: 500 !important;
+font-size: 24px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
       %tp-typography-label-xl-bold-short {
         font-weight: 600 !important;
 font-size: 24px !important;
@@ -886,17 +1622,49 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-xl-normal-short {
-        font-weight: 400 !important;
+      %tp-typography-label-xl-black-short {
+        font-weight: 900 !important;
 font-size: 24px !important;
 line-height: 100% !important;
 font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-xl-normal-tall {
-        font-weight: 400 !important;
+      %tp-typography-label-xl-black-tall {
+        font-weight: 900 !important;
 font-size: 24px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-lg-regular-short {
+        font-weight: 400 !important;
+font-size: 18px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-lg-regular-tall {
+        font-weight: 400 !important;
+font-size: 18px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-lg-medium-short {
+        font-weight: 500 !important;
+font-size: 18px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-lg-medium-tall {
+        font-weight: 500 !important;
+font-size: 18px !important;
 line-height: 150% !important;
 font-family: FS Emeric !important;
       }
@@ -918,17 +1686,49 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-lg-normal-short {
-        font-weight: 400 !important;
+      %tp-typography-label-lg-black-short {
+        font-weight: 900 !important;
 font-size: 18px !important;
 line-height: 100% !important;
 font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-lg-normal-tall {
-        font-weight: 400 !important;
+      %tp-typography-label-lg-black-tall {
+        font-weight: 900 !important;
 font-size: 18px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-md-regular-short {
+        font-weight: 400 !important;
+font-size: 16px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-md-regular-tall {
+        font-weight: 400 !important;
+font-size: 16px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-md-medium-short {
+        font-weight: 500 !important;
+font-size: 16px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-md-medium-tall {
+        font-weight: 500 !important;
+font-size: 16px !important;
 line-height: 150% !important;
 font-family: FS Emeric !important;
       }
@@ -950,17 +1750,49 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-md-normal-short {
-        font-weight: 400 !important;
+      %tp-typography-label-md-black-short {
+        font-weight: 900 !important;
 font-size: 16px !important;
 line-height: 100% !important;
 font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-md-normal-tall {
-        font-weight: 400 !important;
+      %tp-typography-label-md-black-tall {
+        font-weight: 900 !important;
 font-size: 16px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-sm-regular-short {
+        font-weight: 400 !important;
+font-size: 14px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-sm-regular-tall {
+        font-weight: 400 !important;
+font-size: 14px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-sm-medium-short {
+        font-weight: 500 !important;
+font-size: 14px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-sm-medium-tall {
+        font-weight: 500 !important;
+font-size: 14px !important;
 line-height: 150% !important;
 font-family: FS Emeric !important;
       }
@@ -982,17 +1814,49 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-sm-normal-short {
-        font-weight: 400 !important;
+      %tp-typography-label-sm-black-short {
+        font-weight: 900 !important;
 font-size: 14px !important;
 line-height: 100% !important;
 font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-sm-normal-tall {
-        font-weight: 400 !important;
+      %tp-typography-label-sm-black-tall {
+        font-weight: 900 !important;
 font-size: 14px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-xs-regular-short {
+        font-weight: 400 !important;
+font-size: 12px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-xs-regular-tall {
+        font-weight: 400 !important;
+font-size: 12px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-xs-medium-short {
+        font-weight: 500 !important;
+font-size: 12px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-xs-medium-tall {
+        font-weight: 500 !important;
+font-size: 12px !important;
 line-height: 150% !important;
 font-family: FS Emeric !important;
       }
@@ -1014,17 +1878,49 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-xs-normal-short {
-        font-weight: 400 !important;
+      %tp-typography-label-xs-black-short {
+        font-weight: 900 !important;
 font-size: 12px !important;
 line-height: 100% !important;
 font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-xs-normal-tall {
-        font-weight: 400 !important;
+      %tp-typography-label-xs-black-tall {
+        font-weight: 900 !important;
 font-size: 12px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-2xs-regular-short {
+        font-weight: 400 !important;
+font-size: 10px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-2xs-regular-tall {
+        font-weight: 400 !important;
+font-size: 10px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-2xs-medium-short {
+        font-weight: 500 !important;
+font-size: 10px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-2xs-medium-tall {
+        font-weight: 500 !important;
+font-size: 10px !important;
 line-height: 150% !important;
 font-family: FS Emeric !important;
       }
@@ -1046,17 +1942,49 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-2xs-normal-short {
-        font-weight: 400 !important;
+      %tp-typography-label-2xs-black-short {
+        font-weight: 900 !important;
 font-size: 10px !important;
 line-height: 100% !important;
 font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-2xs-normal-tall {
-        font-weight: 400 !important;
+      %tp-typography-label-2xs-black-tall {
+        font-weight: 900 !important;
 font-size: 10px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-lg-regular-short {
+        font-weight: 400 !important;
+font-size: 18px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-lg-regular-tall {
+        font-weight: 400 !important;
+font-size: 18px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-lg-medium-short {
+        font-weight: 500 !important;
+font-size: 18px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-lg-medium-tall {
+        font-weight: 500 !important;
+font-size: 18px !important;
 line-height: 150% !important;
 font-family: FS Emeric !important;
       }
@@ -1078,17 +2006,49 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-paragraph-lg-normal-short {
-        font-weight: 400 !important;
+      %tp-typography-paragraph-lg-black-short {
+        font-weight: 900 !important;
 font-size: 18px !important;
 line-height: 100% !important;
 font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-paragraph-lg-normal-tall {
-        font-weight: 400 !important;
+      %tp-typography-paragraph-lg-black-tall {
+        font-weight: 900 !important;
 font-size: 18px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-md-regular-short {
+        font-weight: 400 !important;
+font-size: 16px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-md-regular-tall {
+        font-weight: 400 !important;
+font-size: 16px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-md-medium-short {
+        font-weight: 500 !important;
+font-size: 16px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-md-medium-tall {
+        font-weight: 500 !important;
+font-size: 16px !important;
 line-height: 150% !important;
 font-family: FS Emeric !important;
       }
@@ -1110,17 +2070,49 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-paragraph-md-normal-short {
-        font-weight: 400 !important;
+      %tp-typography-paragraph-md-black-short {
+        font-weight: 900 !important;
 font-size: 16px !important;
 line-height: 100% !important;
 font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-paragraph-md-normal-tall {
-        font-weight: 400 !important;
+      %tp-typography-paragraph-md-black-tall {
+        font-weight: 900 !important;
 font-size: 16px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-regular-short {
+        font-weight: 400 !important;
+font-size: 14px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-regular-tall {
+        font-weight: 400 !important;
+font-size: 14px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-medium-short {
+        font-weight: 500 !important;
+font-size: 14px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-medium-tall {
+        font-weight: 500 !important;
+font-size: 14px !important;
 line-height: 150% !important;
 font-family: FS Emeric !important;
       }
@@ -1142,17 +2134,49 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-paragraph-sm-normal-short {
-        font-weight: 400 !important;
+      %tp-typography-paragraph-sm-black-short {
+        font-weight: 900 !important;
 font-size: 14px !important;
 line-height: 100% !important;
 font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-paragraph-sm-normal-tall {
-        font-weight: 400 !important;
+      %tp-typography-paragraph-sm-black-tall {
+        font-weight: 900 !important;
 font-size: 14px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-xs-regular-short {
+        font-weight: 400 !important;
+font-size: 12px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-xs-regular-tall {
+        font-weight: 400 !important;
+font-size: 12px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-xs-medium-short {
+        font-weight: 500 !important;
+font-size: 12px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-xs-medium-tall {
+        font-weight: 500 !important;
+font-size: 12px !important;
 line-height: 150% !important;
 font-family: FS Emeric !important;
       }
@@ -1174,17 +2198,49 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-paragraph-xs-normal-short {
-        font-weight: 400 !important;
+      %tp-typography-paragraph-xs-black-short {
+        font-weight: 900 !important;
 font-size: 12px !important;
 line-height: 100% !important;
 font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-paragraph-xs-normal-tall {
-        font-weight: 400 !important;
+      %tp-typography-paragraph-xs-black-tall {
+        font-weight: 900 !important;
 font-size: 12px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-2xs-regular-short {
+        font-weight: 400 !important;
+font-size: 10px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-2xs-regular-tall {
+        font-weight: 400 !important;
+font-size: 10px !important;
+line-height: 150% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-2xs-medium-short {
+        font-weight: 500 !important;
+font-size: 10px !important;
+line-height: 100% !important;
+font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-2xs-medium-tall {
+        font-weight: 500 !important;
+font-size: 10px !important;
 line-height: 150% !important;
 font-family: FS Emeric !important;
       }
@@ -1206,23 +2262,23 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-paragraph-2xs-normal-short {
-        font-weight: 400 !important;
+      %tp-typography-paragraph-2xs-black-short {
+        font-weight: 900 !important;
 font-size: 10px !important;
 line-height: 100% !important;
 font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-paragraph-2xs-normal-tall {
-        font-weight: 400 !important;
+      %tp-typography-paragraph-2xs-black-tall {
+        font-weight: 900 !important;
 font-size: 10px !important;
 line-height: 150% !important;
 font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-title-xl-normal-short {
+      %tp-typography-title-xl-regular-short {
         font-weight: 600 !important;
 font-size: 64px !important;
 line-height: 100% !important;
@@ -1230,7 +2286,7 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-title-xl-normal-tall {
+      %tp-typography-title-xl-regular-tall {
         font-weight: 600 !important;
 font-size: 64px !important;
 line-height: 150% !important;
@@ -1238,7 +2294,7 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-title-lg-normal-short {
+      %tp-typography-title-lg-regular-short {
         font-weight: 600 !important;
 font-size: 48px !important;
 line-height: 100% !important;
@@ -1246,7 +2302,7 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-title-lg-normal-tall {
+      %tp-typography-title-lg-regular-tall {
         font-weight: 600 !important;
 font-size: 48px !important;
 line-height: 150% !important;
@@ -1254,7 +2310,7 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-title-md-normal-short {
+      %tp-typography-title-md-regular-short {
         font-weight: 600 !important;
 font-size: 32px !important;
 line-height: 100% !important;
@@ -1262,7 +2318,7 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-title-md-normal-tall {
+      %tp-typography-title-md-regular-tall {
         font-weight: 600 !important;
 font-size: 32px !important;
 line-height: 150% !important;
@@ -1270,7 +2326,7 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-title-sm-normal-short {
+      %tp-typography-title-sm-regular-short {
         font-weight: 600 !important;
 font-size: 24px !important;
 line-height: 100% !important;
@@ -1278,7 +2334,7 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-title-sm-normal-tall {
+      %tp-typography-title-sm-regular-tall {
         font-weight: 600 !important;
 font-size: 24px !important;
 line-height: 150% !important;
@@ -1286,7 +2342,7 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-title-xs-normal-short {
+      %tp-typography-title-xs-regular-short {
         font-weight: 600 !important;
 font-size: 20px !important;
 line-height: 100% !important;
@@ -1294,7 +2350,7 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-title-xs-normal-tall {
+      %tp-typography-title-xs-regular-tall {
         font-weight: 600 !important;
 font-size: 20px !important;
 line-height: 150% !important;
@@ -1303,6 +2359,38 @@ font-family: FS Emeric !important;
     
 
     
+      %tp-typography-label-xl-regular-short-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 24px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-xl-regular-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 24px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-xl-medium-short-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 24px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-xl-medium-tall-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 24px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
       %tp-typography-label-xl-bold-short-custom-properties {
         --font-weight: 600 !important;
 --font-size: 24px !important;
@@ -1319,17 +2407,49 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-xl-normal-short-custom-properties {
-        --font-weight: 400 !important;
+      %tp-typography-label-xl-black-short-custom-properties {
+        --font-weight: 900 !important;
 --font-size: 24px !important;
 --line-height: 100% !important;
 --font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-xl-normal-tall-custom-properties {
-        --font-weight: 400 !important;
+      %tp-typography-label-xl-black-tall-custom-properties {
+        --font-weight: 900 !important;
 --font-size: 24px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-lg-regular-short-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 18px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-lg-regular-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 18px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-lg-medium-short-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 18px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-lg-medium-tall-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 18px !important;
 --line-height: 150% !important;
 --font-family: FS Emeric !important;
       }
@@ -1351,17 +2471,49 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-lg-normal-short-custom-properties {
-        --font-weight: 400 !important;
+      %tp-typography-label-lg-black-short-custom-properties {
+        --font-weight: 900 !important;
 --font-size: 18px !important;
 --line-height: 100% !important;
 --font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-lg-normal-tall-custom-properties {
-        --font-weight: 400 !important;
+      %tp-typography-label-lg-black-tall-custom-properties {
+        --font-weight: 900 !important;
 --font-size: 18px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-md-regular-short-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 16px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-md-regular-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 16px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-md-medium-short-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 16px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-md-medium-tall-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 16px !important;
 --line-height: 150% !important;
 --font-family: FS Emeric !important;
       }
@@ -1383,17 +2535,49 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-md-normal-short-custom-properties {
-        --font-weight: 400 !important;
+      %tp-typography-label-md-black-short-custom-properties {
+        --font-weight: 900 !important;
 --font-size: 16px !important;
 --line-height: 100% !important;
 --font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-md-normal-tall-custom-properties {
-        --font-weight: 400 !important;
+      %tp-typography-label-md-black-tall-custom-properties {
+        --font-weight: 900 !important;
 --font-size: 16px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-sm-regular-short-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 14px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-sm-regular-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 14px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-sm-medium-short-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 14px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-sm-medium-tall-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 14px !important;
 --line-height: 150% !important;
 --font-family: FS Emeric !important;
       }
@@ -1415,17 +2599,49 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-sm-normal-short-custom-properties {
-        --font-weight: 400 !important;
+      %tp-typography-label-sm-black-short-custom-properties {
+        --font-weight: 900 !important;
 --font-size: 14px !important;
 --line-height: 100% !important;
 --font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-sm-normal-tall-custom-properties {
-        --font-weight: 400 !important;
+      %tp-typography-label-sm-black-tall-custom-properties {
+        --font-weight: 900 !important;
 --font-size: 14px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-xs-regular-short-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 12px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-xs-regular-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 12px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-xs-medium-short-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 12px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-xs-medium-tall-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 12px !important;
 --line-height: 150% !important;
 --font-family: FS Emeric !important;
       }
@@ -1447,17 +2663,49 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-xs-normal-short-custom-properties {
-        --font-weight: 400 !important;
+      %tp-typography-label-xs-black-short-custom-properties {
+        --font-weight: 900 !important;
 --font-size: 12px !important;
 --line-height: 100% !important;
 --font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-xs-normal-tall-custom-properties {
-        --font-weight: 400 !important;
+      %tp-typography-label-xs-black-tall-custom-properties {
+        --font-weight: 900 !important;
 --font-size: 12px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-2xs-regular-short-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 10px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-2xs-regular-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 10px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-2xs-medium-short-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 10px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-label-2xs-medium-tall-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 10px !important;
 --line-height: 150% !important;
 --font-family: FS Emeric !important;
       }
@@ -1479,17 +2727,49 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-2xs-normal-short-custom-properties {
-        --font-weight: 400 !important;
+      %tp-typography-label-2xs-black-short-custom-properties {
+        --font-weight: 900 !important;
 --font-size: 10px !important;
 --line-height: 100% !important;
 --font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-label-2xs-normal-tall-custom-properties {
-        --font-weight: 400 !important;
+      %tp-typography-label-2xs-black-tall-custom-properties {
+        --font-weight: 900 !important;
 --font-size: 10px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-lg-regular-short-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 18px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-lg-regular-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 18px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-lg-medium-short-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 18px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-lg-medium-tall-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 18px !important;
 --line-height: 150% !important;
 --font-family: FS Emeric !important;
       }
@@ -1511,17 +2791,49 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-paragraph-lg-normal-short-custom-properties {
-        --font-weight: 400 !important;
+      %tp-typography-paragraph-lg-black-short-custom-properties {
+        --font-weight: 900 !important;
 --font-size: 18px !important;
 --line-height: 100% !important;
 --font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-paragraph-lg-normal-tall-custom-properties {
-        --font-weight: 400 !important;
+      %tp-typography-paragraph-lg-black-tall-custom-properties {
+        --font-weight: 900 !important;
 --font-size: 18px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-md-regular-short-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 16px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-md-regular-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 16px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-md-medium-short-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 16px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-md-medium-tall-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 16px !important;
 --line-height: 150% !important;
 --font-family: FS Emeric !important;
       }
@@ -1543,17 +2855,49 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-paragraph-md-normal-short-custom-properties {
-        --font-weight: 400 !important;
+      %tp-typography-paragraph-md-black-short-custom-properties {
+        --font-weight: 900 !important;
 --font-size: 16px !important;
 --line-height: 100% !important;
 --font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-paragraph-md-normal-tall-custom-properties {
-        --font-weight: 400 !important;
+      %tp-typography-paragraph-md-black-tall-custom-properties {
+        --font-weight: 900 !important;
 --font-size: 16px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-regular-short-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 14px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-regular-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 14px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-medium-short-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 14px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-sm-medium-tall-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 14px !important;
 --line-height: 150% !important;
 --font-family: FS Emeric !important;
       }
@@ -1575,17 +2919,49 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-paragraph-sm-normal-short-custom-properties {
-        --font-weight: 400 !important;
+      %tp-typography-paragraph-sm-black-short-custom-properties {
+        --font-weight: 900 !important;
 --font-size: 14px !important;
 --line-height: 100% !important;
 --font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-paragraph-sm-normal-tall-custom-properties {
-        --font-weight: 400 !important;
+      %tp-typography-paragraph-sm-black-tall-custom-properties {
+        --font-weight: 900 !important;
 --font-size: 14px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-xs-regular-short-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 12px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-xs-regular-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 12px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-xs-medium-short-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 12px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-xs-medium-tall-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 12px !important;
 --line-height: 150% !important;
 --font-family: FS Emeric !important;
       }
@@ -1607,17 +2983,49 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-paragraph-xs-normal-short-custom-properties {
-        --font-weight: 400 !important;
+      %tp-typography-paragraph-xs-black-short-custom-properties {
+        --font-weight: 900 !important;
 --font-size: 12px !important;
 --line-height: 100% !important;
 --font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-paragraph-xs-normal-tall-custom-properties {
-        --font-weight: 400 !important;
+      %tp-typography-paragraph-xs-black-tall-custom-properties {
+        --font-weight: 900 !important;
 --font-size: 12px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-2xs-regular-short-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 10px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-2xs-regular-tall-custom-properties {
+        --font-weight: 400 !important;
+--font-size: 10px !important;
+--line-height: 150% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-2xs-medium-short-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 10px !important;
+--line-height: 100% !important;
+--font-family: FS Emeric !important;
+      }
+    
+
+      %tp-typography-paragraph-2xs-medium-tall-custom-properties {
+        --font-weight: 500 !important;
+--font-size: 10px !important;
 --line-height: 150% !important;
 --font-family: FS Emeric !important;
       }
@@ -1639,23 +3047,23 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-paragraph-2xs-normal-short-custom-properties {
-        --font-weight: 400 !important;
+      %tp-typography-paragraph-2xs-black-short-custom-properties {
+        --font-weight: 900 !important;
 --font-size: 10px !important;
 --line-height: 100% !important;
 --font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-paragraph-2xs-normal-tall-custom-properties {
-        --font-weight: 400 !important;
+      %tp-typography-paragraph-2xs-black-tall-custom-properties {
+        --font-weight: 900 !important;
 --font-size: 10px !important;
 --line-height: 150% !important;
 --font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-title-xl-normal-short-custom-properties {
+      %tp-typography-title-xl-regular-short-custom-properties {
         --font-weight: 600 !important;
 --font-size: 64px !important;
 --line-height: 100% !important;
@@ -1663,7 +3071,7 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-title-xl-normal-tall-custom-properties {
+      %tp-typography-title-xl-regular-tall-custom-properties {
         --font-weight: 600 !important;
 --font-size: 64px !important;
 --line-height: 150% !important;
@@ -1671,7 +3079,7 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-title-lg-normal-short-custom-properties {
+      %tp-typography-title-lg-regular-short-custom-properties {
         --font-weight: 600 !important;
 --font-size: 48px !important;
 --line-height: 100% !important;
@@ -1679,7 +3087,7 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-title-lg-normal-tall-custom-properties {
+      %tp-typography-title-lg-regular-tall-custom-properties {
         --font-weight: 600 !important;
 --font-size: 48px !important;
 --line-height: 150% !important;
@@ -1687,7 +3095,7 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-title-md-normal-short-custom-properties {
+      %tp-typography-title-md-regular-short-custom-properties {
         --font-weight: 600 !important;
 --font-size: 32px !important;
 --line-height: 100% !important;
@@ -1695,7 +3103,7 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-title-md-normal-tall-custom-properties {
+      %tp-typography-title-md-regular-tall-custom-properties {
         --font-weight: 600 !important;
 --font-size: 32px !important;
 --line-height: 150% !important;
@@ -1703,7 +3111,7 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-title-sm-normal-short-custom-properties {
+      %tp-typography-title-sm-regular-short-custom-properties {
         --font-weight: 600 !important;
 --font-size: 24px !important;
 --line-height: 100% !important;
@@ -1711,7 +3119,7 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-title-sm-normal-tall-custom-properties {
+      %tp-typography-title-sm-regular-tall-custom-properties {
         --font-weight: 600 !important;
 --font-size: 24px !important;
 --line-height: 150% !important;
@@ -1719,7 +3127,7 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-title-xs-normal-short-custom-properties {
+      %tp-typography-title-xs-regular-short-custom-properties {
         --font-weight: 600 !important;
 --font-size: 20px !important;
 --line-height: 100% !important;
@@ -1727,7 +3135,7 @@ font-family: FS Emeric !important;
       }
     
 
-      %tp-typography-title-xs-normal-tall-custom-properties {
+      %tp-typography-title-xs-regular-tall-custom-properties {
         --font-weight: 600 !important;
 --font-size: 20px !important;
 --line-height: 150% !important;

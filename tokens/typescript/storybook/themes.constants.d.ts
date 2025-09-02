@@ -72,6 +72,10 @@ export declare const THEMES: {
         "Permissoes \u00B7 Light \u00B7 Screen sm": string;
     };
     congressos: {
+        "Cir-25 \u00B7 Dark \u00B7 Screen md": string;
+        "Cir-25 \u00B7 Dark \u00B7 Screen sm": string;
+        "Cir-25 \u00B7 Light \u00B7 Screen md": string;
+        "Cir-25 \u00B7 Light \u00B7 Screen sm": string;
         "Default \u00B7 Dark \u00B7 Screen md": string;
         "Default \u00B7 Dark \u00B7 Screen sm": string;
         "Default \u00B7 Light \u00B7 Screen md": string;
@@ -112,6 +116,10 @@ export declare const THEMES: {
         "Cpmedrev \u00B7 Dark \u00B7 Screen sm": string;
         "Cpmedrev \u00B7 Light \u00B7 Screen md": string;
         "Cpmedrev \u00B7 Light \u00B7 Screen sm": string;
+        "Extensivo \u00B7 Dark \u00B7 Screen md": string;
+        "Extensivo \u00B7 Dark \u00B7 Screen sm": string;
+        "Extensivo \u00B7 Light \u00B7 Screen md": string;
+        "Extensivo \u00B7 Light \u00B7 Screen sm": string;
         "Med-foco \u00B7 Dark \u00B7 Screen md": string;
         "Med-foco \u00B7 Dark \u00B7 Screen sm": string;
         "Med-foco \u00B7 Light \u00B7 Screen md": string;

@@ -106,6 +106,30 @@ export const tpBorderRadiusNone = {
   decimal: 0,
   scale: 0,
 };
+export const tpTypographyLabelXlRegularShort = {
+  fontWeight: "400",
+  fontSize: { original: "24px", number: 24, decimal: 0.24, scale: 384 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabelXlRegularTall = {
+  fontWeight: "400",
+  fontSize: { original: "24px", number: 24, decimal: 0.24, scale: 384 },
+  lineHeight: "150%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabelXlMediumShort = {
+  fontWeight: "500",
+  fontSize: { original: "24px", number: 24, decimal: 0.24, scale: 384 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabelXlMediumTall = {
+  fontWeight: "500",
+  fontSize: { original: "24px", number: 24, decimal: 0.24, scale: 384 },
+  lineHeight: "150%",
+  fontFamily: "FS Emeric",
+};
 export const tpTypographyLabelXlBoldShort = {
   fontWeight: "600",
   fontSize: { original: "24px", number: 24, decimal: 0.24, scale: 384 },
@@ -118,15 +142,39 @@ export const tpTypographyLabelXlBoldTall = {
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyLabelXlNormalShort = {
-  fontWeight: "400",
+export const tpTypographyLabelXlBlackShort = {
+  fontWeight: "900",
   fontSize: { original: "24px", number: 24, decimal: 0.24, scale: 384 },
   lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyLabelXlNormalTall = {
-  fontWeight: "400",
+export const tpTypographyLabelXlBlackTall = {
+  fontWeight: "900",
   fontSize: { original: "24px", number: 24, decimal: 0.24, scale: 384 },
+  lineHeight: "150%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabelLgRegularShort = {
+  fontWeight: "400",
+  fontSize: { original: "18px", number: 18, decimal: 0.18, scale: 288 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabelLgRegularTall = {
+  fontWeight: "400",
+  fontSize: { original: "18px", number: 18, decimal: 0.18, scale: 288 },
+  lineHeight: "150%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabelLgMediumShort = {
+  fontWeight: "500",
+  fontSize: { original: "18px", number: 18, decimal: 0.18, scale: 288 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabelLgMediumTall = {
+  fontWeight: "500",
+  fontSize: { original: "18px", number: 18, decimal: 0.18, scale: 288 },
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
@@ -142,15 +190,39 @@ export const tpTypographyLabelLgBoldTall = {
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyLabelLgNormalShort = {
-  fontWeight: "400",
+export const tpTypographyLabelLgBlackShort = {
+  fontWeight: "900",
   fontSize: { original: "18px", number: 18, decimal: 0.18, scale: 288 },
   lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyLabelLgNormalTall = {
-  fontWeight: "400",
+export const tpTypographyLabelLgBlackTall = {
+  fontWeight: "900",
   fontSize: { original: "18px", number: 18, decimal: 0.18, scale: 288 },
+  lineHeight: "150%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabelMdRegularShort = {
+  fontWeight: "400",
+  fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabelMdRegularTall = {
+  fontWeight: "400",
+  fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
+  lineHeight: "150%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabelMdMediumShort = {
+  fontWeight: "500",
+  fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabelMdMediumTall = {
+  fontWeight: "500",
+  fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
@@ -166,15 +238,39 @@ export const tpTypographyLabelMdBoldTall = {
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyLabelMdNormalShort = {
-  fontWeight: "400",
+export const tpTypographyLabelMdBlackShort = {
+  fontWeight: "900",
   fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
   lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyLabelMdNormalTall = {
-  fontWeight: "400",
+export const tpTypographyLabelMdBlackTall = {
+  fontWeight: "900",
   fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
+  lineHeight: "150%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabelSmRegularShort = {
+  fontWeight: "400",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabelSmRegularTall = {
+  fontWeight: "400",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "150%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabelSmMediumShort = {
+  fontWeight: "500",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabelSmMediumTall = {
+  fontWeight: "500",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
@@ -190,15 +286,39 @@ export const tpTypographyLabelSmBoldTall = {
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyLabelSmNormalShort = {
-  fontWeight: "400",
+export const tpTypographyLabelSmBlackShort = {
+  fontWeight: "900",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
   lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyLabelSmNormalTall = {
-  fontWeight: "400",
+export const tpTypographyLabelSmBlackTall = {
+  fontWeight: "900",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "150%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabelXsRegularShort = {
+  fontWeight: "400",
+  fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabelXsRegularTall = {
+  fontWeight: "400",
+  fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
+  lineHeight: "150%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabelXsMediumShort = {
+  fontWeight: "500",
+  fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabelXsMediumTall = {
+  fontWeight: "500",
+  fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
@@ -214,15 +334,39 @@ export const tpTypographyLabelXsBoldTall = {
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyLabelXsNormalShort = {
-  fontWeight: "400",
+export const tpTypographyLabelXsBlackShort = {
+  fontWeight: "900",
   fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
   lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyLabelXsNormalTall = {
-  fontWeight: "400",
+export const tpTypographyLabelXsBlackTall = {
+  fontWeight: "900",
   fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
+  lineHeight: "150%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabel2xsRegularShort = {
+  fontWeight: "400",
+  fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabel2xsRegularTall = {
+  fontWeight: "400",
+  fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
+  lineHeight: "150%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabel2xsMediumShort = {
+  fontWeight: "500",
+  fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyLabel2xsMediumTall = {
+  fontWeight: "500",
+  fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
@@ -238,15 +382,39 @@ export const tpTypographyLabel2xsBoldTall = {
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyLabel2xsNormalShort = {
-  fontWeight: "400",
+export const tpTypographyLabel2xsBlackShort = {
+  fontWeight: "900",
   fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
   lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyLabel2xsNormalTall = {
-  fontWeight: "400",
+export const tpTypographyLabel2xsBlackTall = {
+  fontWeight: "900",
   fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
+  lineHeight: "150%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyParagraphLgRegularShort = {
+  fontWeight: "400",
+  fontSize: { original: "18px", number: 18, decimal: 0.18, scale: 288 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyParagraphLgRegularTall = {
+  fontWeight: "400",
+  fontSize: { original: "18px", number: 18, decimal: 0.18, scale: 288 },
+  lineHeight: "150%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyParagraphLgMediumShort = {
+  fontWeight: "500",
+  fontSize: { original: "18px", number: 18, decimal: 0.18, scale: 288 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyParagraphLgMediumTall = {
+  fontWeight: "500",
+  fontSize: { original: "18px", number: 18, decimal: 0.18, scale: 288 },
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
@@ -262,15 +430,39 @@ export const tpTypographyParagraphLgBoldTall = {
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyParagraphLgNormalShort = {
-  fontWeight: "400",
+export const tpTypographyParagraphLgBlackShort = {
+  fontWeight: "900",
   fontSize: { original: "18px", number: 18, decimal: 0.18, scale: 288 },
   lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyParagraphLgNormalTall = {
-  fontWeight: "400",
+export const tpTypographyParagraphLgBlackTall = {
+  fontWeight: "900",
   fontSize: { original: "18px", number: 18, decimal: 0.18, scale: 288 },
+  lineHeight: "150%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyParagraphMdRegularShort = {
+  fontWeight: "400",
+  fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyParagraphMdRegularTall = {
+  fontWeight: "400",
+  fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
+  lineHeight: "150%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyParagraphMdMediumShort = {
+  fontWeight: "500",
+  fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyParagraphMdMediumTall = {
+  fontWeight: "500",
+  fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
@@ -286,15 +478,39 @@ export const tpTypographyParagraphMdBoldTall = {
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyParagraphMdNormalShort = {
-  fontWeight: "400",
+export const tpTypographyParagraphMdBlackShort = {
+  fontWeight: "900",
   fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
   lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyParagraphMdNormalTall = {
-  fontWeight: "400",
+export const tpTypographyParagraphMdBlackTall = {
+  fontWeight: "900",
   fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
+  lineHeight: "150%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyParagraphSmRegularShort = {
+  fontWeight: "400",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyParagraphSmRegularTall = {
+  fontWeight: "400",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "150%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyParagraphSmMediumShort = {
+  fontWeight: "500",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyParagraphSmMediumTall = {
+  fontWeight: "500",
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
@@ -310,15 +526,39 @@ export const tpTypographyParagraphSmBoldTall = {
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyParagraphSmNormalShort = {
-  fontWeight: "400",
+export const tpTypographyParagraphSmBlackShort = {
+  fontWeight: "900",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
   lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyParagraphSmNormalTall = {
-  fontWeight: "400",
+export const tpTypographyParagraphSmBlackTall = {
+  fontWeight: "900",
   fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  lineHeight: "150%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyParagraphXsRegularShort = {
+  fontWeight: "400",
+  fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyParagraphXsRegularTall = {
+  fontWeight: "400",
+  fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
+  lineHeight: "150%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyParagraphXsMediumShort = {
+  fontWeight: "500",
+  fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyParagraphXsMediumTall = {
+  fontWeight: "500",
+  fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
@@ -334,15 +574,39 @@ export const tpTypographyParagraphXsBoldTall = {
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyParagraphXsNormalShort = {
-  fontWeight: "400",
+export const tpTypographyParagraphXsBlackShort = {
+  fontWeight: "900",
   fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
   lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyParagraphXsNormalTall = {
-  fontWeight: "400",
+export const tpTypographyParagraphXsBlackTall = {
+  fontWeight: "900",
   fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
+  lineHeight: "150%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyParagraph2xsRegularShort = {
+  fontWeight: "400",
+  fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyParagraph2xsRegularTall = {
+  fontWeight: "400",
+  fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
+  lineHeight: "150%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyParagraph2xsMediumShort = {
+  fontWeight: "500",
+  fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
+  lineHeight: "100%",
+  fontFamily: "FS Emeric",
+};
+export const tpTypographyParagraph2xsMediumTall = {
+  fontWeight: "500",
+  fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
@@ -358,73 +622,73 @@ export const tpTypographyParagraph2xsBoldTall = {
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyParagraph2xsNormalShort = {
-  fontWeight: "400",
+export const tpTypographyParagraph2xsBlackShort = {
+  fontWeight: "900",
   fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
   lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyParagraph2xsNormalTall = {
-  fontWeight: "400",
+export const tpTypographyParagraph2xsBlackTall = {
+  fontWeight: "900",
   fontSize: { original: "10px", number: 10, decimal: 0.1, scale: 160 },
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyTitleXlNormalShort = {
+export const tpTypographyTitleXlRegularShort = {
   fontWeight: "600",
   fontSize: { original: "64px", number: 64, decimal: 0.64, scale: 1024 },
   lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyTitleXlNormalTall = {
+export const tpTypographyTitleXlRegularTall = {
   fontWeight: "600",
   fontSize: { original: "64px", number: 64, decimal: 0.64, scale: 1024 },
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyTitleLgNormalShort = {
+export const tpTypographyTitleLgRegularShort = {
   fontWeight: "600",
   fontSize: { original: "48px", number: 48, decimal: 0.48, scale: 768 },
   lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyTitleLgNormalTall = {
+export const tpTypographyTitleLgRegularTall = {
   fontWeight: "600",
   fontSize: { original: "48px", number: 48, decimal: 0.48, scale: 768 },
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyTitleMdNormalShort = {
+export const tpTypographyTitleMdRegularShort = {
   fontWeight: "600",
   fontSize: { original: "32px", number: 32, decimal: 0.32, scale: 512 },
   lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyTitleMdNormalTall = {
+export const tpTypographyTitleMdRegularTall = {
   fontWeight: "600",
   fontSize: { original: "32px", number: 32, decimal: 0.32, scale: 512 },
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyTitleSmNormalShort = {
+export const tpTypographyTitleSmRegularShort = {
   fontWeight: "600",
   fontSize: { original: "24px", number: 24, decimal: 0.24, scale: 384 },
   lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyTitleSmNormalTall = {
+export const tpTypographyTitleSmRegularTall = {
   fontWeight: "600",
   fontSize: { original: "24px", number: 24, decimal: 0.24, scale: 384 },
   lineHeight: "150%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyTitleXsNormalShort = {
+export const tpTypographyTitleXsRegularShort = {
   fontWeight: "600",
   fontSize: { original: "20px", number: 20, decimal: 0.2, scale: 320 },
   lineHeight: "100%",
   fontFamily: "FS Emeric",
 };
-export const tpTypographyTitleXsNormalTall = {
+export const tpTypographyTitleXsRegularTall = {
   fontWeight: "600",
   fontSize: { original: "20px", number: 20, decimal: 0.2, scale: 320 },
   lineHeight: "150%",

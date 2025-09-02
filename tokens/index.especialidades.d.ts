@@ -4,9 +4,6 @@ export * from './typescript/library/especialidades/components/item/item.constant
 export * from './typescript/library/especialidades/components/toggle/toggle.enums';
 export * from './typescript/library/especialidades/components/toggle/toggle.types';
 export * from './typescript/library/especialidades/components/toggle/toggle.constants';
-export * from './typescript/library/especialidades/components/button/button.enums';
-export * from './typescript/library/especialidades/components/button/button.types';
-export * from './typescript/library/especialidades/components/button/button.constants';
 export * from './typescript/library/especialidades/components/text/text.enums';
 export * from './typescript/library/especialidades/components/text/text.types';
 export * from './typescript/library/especialidades/components/text/text.constants';
@@ -16,3 +13,6 @@ export * from './typescript/library/especialidades/components/select/select.cons
 export * from './typescript/library/especialidades/components/input/input.enums';
 export * from './typescript/library/especialidades/components/input/input.types';
 export * from './typescript/library/especialidades/components/input/input.constants';
+export * from './typescript/library/especialidades/components/button/button.enums';
+export * from './typescript/library/especialidades/components/button/button.types';
+export * from './typescript/library/especialidades/components/button/button.constants';

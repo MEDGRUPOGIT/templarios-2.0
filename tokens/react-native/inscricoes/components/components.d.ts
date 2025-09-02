@@ -480,6 +480,12 @@ export const tpItemPaddingVerticalOs: {
   decimal: number;
   scale: number;
 };
+export const tpItemPaddingNoPaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpItemGapOs: {
   original: string;
   number: number;
@@ -499,6 +505,7 @@ export const tpItemFontMapOs: {
 };
 export const tpItemMetadataDisabled: string;
 export const tpItemMetadataDivider: string;
+export const tpItemMetadataNoPadding: string;
 export const tpItemDividerHeightOs: {
   original: string;
   number: number;
@@ -844,7 +851,7 @@ export const tpStepItemFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpStepItemMetadataState: string;
+export const tpStepMetadataStateItem: string;
 export const tpStepDividerWidthOs: {
   original: string;
   number: number;
@@ -865,6 +872,7 @@ export const tpStepLabelFontMapOs: {
   fontFamily: string;
 };
 export const tpTextMetadataType: string;
+export const tpTextMetadataColor: string;
 export const tpToggleGapOs: {
   original: string;
   number: number;

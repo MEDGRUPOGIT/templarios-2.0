@@ -103,6 +103,12 @@ export const tpBadgeFontMapMd: {
   fontFamily: string;
 };
 export const tpBadgeMetadataColor: string;
+export const tpButtonGroupMetadataSize: string;
+export const tpButtonGroupMetadataFill: string;
+export const tpButtonGroupMetadataColor: string;
+export const tpButtonGroupMetadataDisabled: string;
+export const tpButtonGroupMetadataName: string;
+export const tpButtonGroupBorderStyleOs: string;
 export const tpButtonIconSolidBorderRadiusMd: {
   original: string;
   number: number;
@@ -127,13 +133,6 @@ export const tpButtonIconSolidSizeSm: {
   decimal: number;
   scale: number;
 };
-export const tpButtonIconMetadataSize: string;
-export const tpButtonIconMetadataFill: string;
-export const tpButtonIconMetadataColor: string;
-export const tpButtonIconMetadataDisabled: string;
-export const tpButtonIconMetadataName: string;
-export const tpButtonIconBorderWidthOs: string;
-export const tpButtonIconBorderStyleOs: string;
 export const tpButtonIconClearSizeMd: {
   original: string;
   number: number;
@@ -158,6 +157,27 @@ export const tpButtonIconClearBorderRadiusSm: {
   decimal: number;
   scale: number;
 };
+export const tpButtonIconLinkSizeMd: string;
+export const tpButtonIconLinkSizeSm: string;
+export const tpButtonIconLinkBorderRadiusMd: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpButtonIconLinkBorderRadiusSm: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpButtonIconMetadataSize: string;
+export const tpButtonIconMetadataFill: string;
+export const tpButtonIconMetadataColor: string;
+export const tpButtonIconMetadataDisabled: string;
+export const tpButtonIconMetadataName: string;
+export const tpButtonIconBorderWidthOs: string;
+export const tpButtonIconBorderStyleOs: string;
 export const tpButtonIconIconSizeOs: {
   original: string;
   number: number;
@@ -300,6 +320,32 @@ export const tpButtonOutlineHeightSm: {
   decimal: number;
   scale: number;
 };
+export const tpButtonLinkHeightMd: string;
+export const tpButtonLinkHeightSm: string;
+export const tpButtonLinkPaddingHorizontalMd: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpButtonLinkPaddingHorizontalSm: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpButtonLinkBorderRadiusMd: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpButtonLinkBorderRadiusSm: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpButtonMetadataSize: string;
 export const tpButtonMetadataFill: string;
 export const tpButtonMetadataColor: string;
@@ -376,6 +422,50 @@ export const tpCardBorderWidthOs: string;
 export const tpCardBorderWidthNone: string;
 export const tpCardBorderStyleOs: string;
 export const tpCardBorderStyleNone: string;
+export const tpCarouselControlSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpCarouselControlIconSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpCarouselControlContainerPaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpCarouselControlBorderRadiusOs: string;
+export const tpCarouselTabSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpCarouselTabBorderRadiusOs: string;
+export const tpCarouselTabContainerPaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpCarouselTabListPaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpCarouselGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpCheckboxBorderRadiusOs: {
   original: string;
   number: number;
@@ -604,12 +694,6 @@ export const tpDatepickerFeedbackMarginTopOs: {
   decimal: number;
   scale: number;
 };
-export const tpDatepickerPaddingBottomOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
 export const tpDatepickerMiddlePaddingHorizontalOs: {
   original: string;
   number: number;
@@ -818,56 +902,12 @@ export const tpDatepickerWrapperSidesMinWidthOs: {
   scale: number;
 };
 export const tpDatepickerMinWidthOs: string;
-export const tpDialogBorderRadiusOs: {
+export const tpDatepickerGapOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpDialogBorderWidthOs: string;
-export const tpDialogBorderStyleOs: string;
-export const tpDialogHeaderHeightOs: string;
-export const tpDialogHeaderPaddingHorizontalOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpDialogHeaderFontMapOs: {
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-  fontFamily: string;
-};
-export const tpDialogContentPaddingOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpDialogFooterPaddingHorizontalOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpDialogFooterHeightOs: string;
-export const tpDialogBoxShadowOs: {
-  x: string;
-  y: string;
-  blur: string;
-  spread: string;
-  color: string;
-  type: string;
-}[];
-export const tpDialogMinHeightOs: string;
-export const tpDialogMarginOs: string;
-export const tpDialogMetadataJustifyEnd: string;
 export const tpIconMetadataSize: string;
 export const tpIconMetadataColor: string;
 export const tpIconSize2xl: {
@@ -987,12 +1027,6 @@ export const tpInputChipFeedbackMarginTopOs: {
   decimal: number;
   scale: number;
 };
-export const tpInputChipPaddingBottomOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
 export const tpInputChipWrapperSidesMinWidthOs: {
   original: string;
   number: number;
@@ -1015,6 +1049,12 @@ export const tpInputChipMinWidthOs: string;
 export const tpInputChipBorderWidthOs: string;
 export const tpInputChipBorderStyleOs: string;
 export const tpInputChipListPaddingOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpInputChipGapOs: {
   original: string;
   number: number;
   decimal: number;
@@ -1114,12 +1154,6 @@ export const tpInputFeedbackMarginTopOs: {
   decimal: number;
   scale: number;
 };
-export const tpInputPaddingBottomOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
 export const tpInputWrapperSidesMinWidthOs: {
   original: string;
   number: number;
@@ -1162,6 +1196,12 @@ export const tpInputTagItemFontMapOs: {
   };
   lineHeight: string;
   fontFamily: string;
+};
+export const tpInputGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
 };
 export const tpMenuMetadataSize: string;
 export const tpMenuWidthLg: string;
@@ -1219,7 +1259,6 @@ export const tpModalMarginOs: {
   decimal: number;
   scale: number;
 };
-export const tpModalMinHeightOs: string;
 export const tpModalBoxShadowOs: {
   x: string;
   y: string;
@@ -1454,12 +1493,6 @@ export const tpSelectFeedbackMarginTopOs: {
   decimal: number;
   scale: number;
 };
-export const tpSelectPaddingBottomOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
 export const tpSelectPopoverMaxHeightOs: string;
 export const tpSelectPopoverBorderRadiusOs: {
   original: string;
@@ -1519,6 +1552,12 @@ export const tpSelectWrapperSidesMinWidthOs: {
 export const tpSelectMinWidthOs: string;
 export const tpSelectBorderStyleOs: string;
 export const tpSelectBorderWidthOs: string;
+export const tpSelectGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpSnackbarMetadataColor: string;
 export const tpSnackbarMinHeightOs: {
   original: string;
@@ -1728,12 +1767,6 @@ export const tpTableThIconSizeOs: {
   decimal: number;
   scale: number;
 };
-export const tpTableThContainerGapOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
 export const tpTableThLevelTwoPaddingLeftOs: {
   original: string;
   number: number;
@@ -1773,12 +1806,6 @@ export const tpTableTdLevelOnePaddingLeftOs: {
   scale: number;
 };
 export const tpTableTdGapOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpTableTdContainerGapOs: {
   original: string;
   number: number;
   decimal: number;
@@ -1905,12 +1932,6 @@ export const tpTextareaFeedbackMarginTopOs: {
   decimal: number;
   scale: number;
 };
-export const tpTextareaPaddingBottomOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
 export const tpTextareaMiddlePaddingHorizontalOs: {
   original: string;
   number: number;
@@ -1925,6 +1946,183 @@ export const tpTextareaWrapperSidesMinWidthOs: {
 };
 export const tpTextareaBorderStyleOs: string;
 export const tpTextareaBorderWidthOs: string;
+export const tpTextareaGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTimepickerContainerBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTimepickerContainerHeightMd: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTimepickerElementPaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTimepickerElementPaddingTopOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTimepickerElementGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTimepickerElementFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTimepickerLabelDefaultFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTimepickerLabelFloatFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTimepickerMetadataDisabled: string;
+export const tpTimepickerMetadataState: string;
+export const tpTimepickerFeedbackFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTimepickerMiddlePaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTimepickerIconDefaultSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTimepickerPopoverMaxHeightOs: string;
+export const tpTimepickerPopoverPaddingOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTimepickerPopoverGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTimepickerPopoverBoxShadowOs: {
+  x: string;
+  y: string;
+  blur: string;
+  spread: string;
+  color: string;
+  type: string;
+}[];
+export const tpTimepickerPopoverBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTimepickerBorderStyleOs: string;
+export const tpTimepickerBorderWidthOs: string;
+export const tpTimepickerWrapperSidesMinWidthOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTimepickerMinWidthOs: string;
+export const tpTimepickerCellHeightOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTimepickerCellWidthOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTimepickerCellBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTimepickerCellBorderWidthOs: string;
+export const tpTimepickerCellUnselectedFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTimepickerCellSelectedFontMapOs: {
+  fontWeight: string;
+  fontSize: {
+    original: string;
+    number: number;
+    decimal: number;
+    scale: number;
+  };
+  lineHeight: string;
+  fontFamily: string;
+};
+export const tpTimepickerGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpToggleGapOs: {
   original: string;
   number: number;
@@ -2013,12 +2211,6 @@ export const tpTooltipFontMapOs: {
   lineHeight: string;
   fontFamily: string;
 };
-export const tpTreeItemPaddingBottomOs: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
 export const tpTreeItemGapOs: {
   original: string;
   number: number;
@@ -2037,6 +2229,12 @@ export const tpTreeFontMapOs: {
   fontFamily: string;
 };
 export const tpTreeSubItemPaddingLeftOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTreeIconSizeOs: {
   original: string;
   number: number;
   decimal: number;

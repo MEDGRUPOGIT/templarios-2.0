@@ -6,86 +6,86 @@ const i = {
   "tp-color": Object.values(s),
   "tp-name": Object.values(O)
 };
-var a = /* @__PURE__ */ ((r) => (r.SOLID = "solid", r.WEAK = "weak", r.STRONG = "strong", r))(a || {}), v = /* @__PURE__ */ ((r) => (r.MD = "md", r.LG = "lg", r))(v || {});
+var a = /* @__PURE__ */ ((r) => (r.SM = "sm", r.MD = "md", r.LG = "lg", r))(a || {}), v = /* @__PURE__ */ ((r) => (r.SOLID = "solid", r.OUTLINE = "outline", r.CLEAR = "clear", r))(v || {}), c = /* @__PURE__ */ ((r) => (r.PRIMARY = "primary", r.NEUTRAL = "neutral", r))(c || {}), n = /* @__PURE__ */ ((r) => (r.BUTTON = "button", r.BUTTON_ICON = "button-icon", r))(n || {});
 const d = {
-  "tp-fill": Object.values(a),
-  "tp-size": Object.values(v)
+  "tp-size": Object.values(a),
+  "tp-fill": Object.values(v),
+  "tp-color": Object.values(c),
+  "tp-name": Object.values(n)
 };
-var c = /* @__PURE__ */ ((r) => (r.SM = "sm", r.MD = "md", r))(c || {});
+var u = /* @__PURE__ */ ((r) => (r.START = "start", r.END = "end", r.BOTH = "both", r))(u || {}), E = /* @__PURE__ */ ((r) => (r.ONE = "one", r.TWO = "two", r.THREE = "three", r))(E || {});
 const f = {
-  "tp-size": Object.values(c)
+  "tp-icon": Object.values(u),
+  "tp-img": Object.values(E)
 };
-var n = /* @__PURE__ */ ((r) => (r.START = "start", r.END = "end", r))(n || {});
+var l = /* @__PURE__ */ ((r) => (r.SM = "sm", r.MD = "md", r))(l || {});
 const w = {
-  "tp-icon": Object.values(n)
+  "tp-size": Object.values(l)
 };
-var u = /* @__PURE__ */ ((r) => (r.ERROR = "error", r.SUCCESS = "success", r))(u || {}), E = /* @__PURE__ */ ((r) => (r.START = "start", r.END = "end", r))(E || {});
+var R = /* @__PURE__ */ ((r) => (r.SOLID = "solid", r.WEAK = "weak", r.STRONG = "strong", r))(R || {}), N = /* @__PURE__ */ ((r) => (r.MD = "md", r.LG = "lg", r))(N || {});
 const C = {
-  "tp-state": Object.values(u),
-  "tp-icon": Object.values(E)
-};
-var l = /* @__PURE__ */ ((r) => (r.SM = "sm", r.MD = "md", r.LG = "lg", r))(l || {}), R = /* @__PURE__ */ ((r) => (r.SOLID = "solid", r.OUTLINE = "outline", r.CLEAR = "clear", r))(R || {}), N = /* @__PURE__ */ ((r) => (r.PRIMARY = "primary", r.NEUTRAL = "neutral", r))(N || {}), _ = /* @__PURE__ */ ((r) => (r.BUTTON = "button", r.BUTTON_ICON = "button-icon", r))(_ || {});
-const H = {
-  "tp-size": Object.values(l),
   "tp-fill": Object.values(R),
-  "tp-color": Object.values(N),
-  "tp-name": Object.values(_)
+  "tp-size": Object.values(N)
 };
-var b = /* @__PURE__ */ ((r) => (r.SM = "sm", r.MD = "md", r))(b || {});
+var _ = /* @__PURE__ */ ((r) => (r.SM = "sm", r.LG = "lg", r))(_ || {}), b = /* @__PURE__ */ ((r) => (r.RED = "red", r.YELLOW = "yellow", r.GREEN = "green", r.NEUTRAL = "neutral", r.BLUE = "blue", r))(b || {}), A = /* @__PURE__ */ ((r) => (r.BADGE = "badge", r.BADGE_ICON = "badge-icon", r))(A || {});
+const H = {
+  "tp-size": Object.values(_),
+  "tp-color": Object.values(b),
+  "tp-name": Object.values(A)
+};
+var D = /* @__PURE__ */ ((r) => (r.ERROR = "error", r.WARNING = "warning", r.INFO = "info", r.SUCCESS = "success", r))(D || {});
 const W = {
-  "tp-size": Object.values(b)
+  "tp-mode": Object.values(D)
 };
-var A = /* @__PURE__ */ ((r) => (r.SM = "sm", r.LG = "lg", r))(A || {}), D = /* @__PURE__ */ ((r) => (r.RED = "red", r.YELLOW = "yellow", r.GREEN = "green", r.NEUTRAL = "neutral", r.BLUE = "blue", r))(D || {}), j = /* @__PURE__ */ ((r) => (r.BADGE = "badge", r.BADGE_ICON = "badge-icon", r))(j || {});
+var j = /* @__PURE__ */ ((r) => (r.START = "start", r.END = "end", r))(j || {});
 const o = {
-  "tp-size": Object.values(A),
-  "tp-color": Object.values(D),
-  "tp-name": Object.values(j)
+  "tp-icon": Object.values(j)
 };
-var P = /* @__PURE__ */ ((r) => (r.ERROR = "error", r.WARNING = "warning", r.INFO = "info", r.SUCCESS = "success", r))(P || {});
+var P = /* @__PURE__ */ ((r) => (r.ERROR = "error", r.SUCCESS = "success", r))(P || {}), T = /* @__PURE__ */ ((r) => (r.START = "start", r.END = "end", r))(T || {});
 const y = {
-  "tp-mode": Object.values(P)
+  "tp-state": Object.values(P),
+  "tp-icon": Object.values(T)
 };
-var T = /* @__PURE__ */ ((r) => (r.START = "start", r.END = "end", r.BOTH = "both", r))(T || {}), L = /* @__PURE__ */ ((r) => (r.ONE = "one", r.TWO = "two", r.THREE = "three", r))(L || {});
+var L = /* @__PURE__ */ ((r) => (r.SM = "sm", r.MD = "md", r))(L || {});
 const V = {
-  "tp-icon": Object.values(T),
-  "tp-img": Object.values(L)
+  "tp-size": Object.values(L)
 };
 export {
-  o as TP_BADGE,
-  H as TP_BUTTON,
+  H as TP_BADGE,
+  d as TP_BUTTON,
   i as TP_BUTTON_ICON,
-  f as TP_CHECKBOX,
-  V as TP_CHIP,
-  d as TP_FAB,
-  U as TP_INDEX,
-  C as TP_INPUT,
-  S as TP_INPUT_CARDS,
-  M as TP_NAVIGATION_DOTS,
-  W as TP_RADIO,
-  w as TP_SELECT_HEADER,
-  I as TP_TAB_ITEM,
-  y as TP_TOAST,
+  w as TP_CHECKBOX,
+  f as TP_CHIP,
+  C as TP_FAB,
+  S as TP_INDEX,
+  y as TP_INPUT,
+  M as TP_INPUT_CARDS,
+  U as TP_NAVIGATION_DOTS,
+  V as TP_RADIO,
+  o as TP_SELECT_HEADER,
+  m as TP_TAB_ITEM,
+  W as TP_TOAST,
   G as TP_VIDEO_FEATURED,
-  m as TP_VIDEO_ITEM,
-  D as TpBadgeColor,
-  j as TpBadgeName,
-  A as TpBadgeSize,
-  N as TpButtonColor,
-  R as TpButtonFill,
+  I as TP_VIDEO_ITEM,
+  b as TpBadgeColor,
+  A as TpBadgeName,
+  _ as TpBadgeSize,
+  c as TpButtonColor,
+  v as TpButtonFill,
   s as TpButtonIconColor,
   e as TpButtonIconFill,
   O as TpButtonIconName,
   t as TpButtonIconSize,
-  _ as TpButtonName,
-  l as TpButtonSize,
-  c as TpCheckboxSize,
-  T as TpChipIcon,
-  L as TpChipImg,
-  a as TpFabFill,
-  v as TpFabSize,
-  E as TpInputIcon,
-  u as TpInputState,
-  b as TpRadioSize,
-  n as TpSelectHeaderIcon,
-  P as TpToastMode
+  n as TpButtonName,
+  a as TpButtonSize,
+  l as TpCheckboxSize,
+  u as TpChipIcon,
+  E as TpChipImg,
+  R as TpFabFill,
+  N as TpFabSize,
+  T as TpInputIcon,
+  P as TpInputState,
+  L as TpRadioSize,
+  j as TpSelectHeaderIcon,
+  D as TpToastMode
 };

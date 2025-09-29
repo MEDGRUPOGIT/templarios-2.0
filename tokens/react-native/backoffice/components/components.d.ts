@@ -42,6 +42,18 @@ export const tpAccordionHeaderIconSizeOs: {
   decimal: number;
   scale: number;
 };
+export const tpAccordionCardHeaderPaddingHorizontalOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpAccordionCardBorderRadiusOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpApexchartsLegendGapOs: {
   original: string;
   number: number;
@@ -1663,6 +1675,18 @@ export const tpTabHeaderItemPaddingHorizontalOs: {
   scale: number;
 };
 export const tpTabHeaderItemMinWidthOs: string;
+export const tpTabHeaderItemGapOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpTabHeaderItemIconSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
 export const tpTabHeaderBorderWidthOs: string;
 export const tpTabHeaderBarHeightOs: {
   original: string;

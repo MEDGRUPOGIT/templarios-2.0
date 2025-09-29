@@ -2,7 +2,6 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-export const tpDialogWidthMd = "100%";
 export const tpScrollWidthOs = {
   original: "0px",
   number: 0,

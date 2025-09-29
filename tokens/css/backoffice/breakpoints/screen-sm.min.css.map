@@ -1,1 +1,1 @@
-{"version":3,"sources":["screen-sm.css"],"names":[],"mappings":"AAIA,uCACE,qBAAA,KACA,qBAAA","sourcesContent":["/**\n * Do not edit directly, this file was auto-generated.\n */\n\n.tp-backoffice.tp-breakpoint-screen-sm {\n  --tp-dialog-width-md: 100%;\n  --tp-scroll-width-os: 0px;\n}\n"]}
+{"version":3,"sources":["screen-sm.css"],"names":[],"mappings":"AAIA,uCACE,qBAAA","sourcesContent":["/**\n * Do not edit directly, this file was auto-generated.\n */\n\n.tp-backoffice.tp-breakpoint-screen-sm {\n  --tp-scroll-width-os: 0px;\n}\n"]}

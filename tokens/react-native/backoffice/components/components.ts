@@ -32,6 +32,18 @@ export const tpAccordionHeaderIconSizeOs = {
   decimal: 0.2,
   scale: 320,
 };
+export const tpAccordionCardHeaderPaddingHorizontalOs = {
+  original: "24px",
+  number: 24,
+  decimal: 0.24,
+  scale: 384,
+};
+export const tpAccordionCardBorderRadiusOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
 export const tpApexchartsLegendGapOs = {
   original: "8px",
   number: 8,
@@ -458,7 +470,7 @@ export const tpCheckboxGapOs = {
 };
 export const tpCheckboxFontMapDefault = {
   fontWeight: "400",
-  fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
+  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
   lineHeight: "100%",
   fontFamily: "Poppins",
 };
@@ -1529,6 +1541,18 @@ export const tpTabHeaderItemPaddingHorizontalOs = {
   scale: 384,
 };
 export const tpTabHeaderItemMinWidthOs = "160px";
+export const tpTabHeaderItemGapOs = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpTabHeaderItemIconSizeOs = {
+  original: "1.25rem",
+  number: 1.25,
+  decimal: 0.0125,
+  scale: 20,
+};
 export const tpTabHeaderBorderWidthOs = "1px";
 export const tpTabHeaderBarHeightOs = {
   original: "2px",
@@ -1612,7 +1636,7 @@ export const tpTableMetadataPointer = "boolean";
 export const tpTableMetadataResponsive = "boolean";
 export const tpTableMetadataFeedback = "danger success warning info primary";
 export const tpTableMetadataMinWidthInitial = "boolean";
-export const tpTableThMinWidthOs = "150px";
+export const tpTableThMinWidthOs = "60px";
 export const tpTableThPaddingOs = {
   original: "12px",
   number: 12,
@@ -1689,7 +1713,7 @@ export const tpTableTdLevelTwoPaddingLeftOs = {
   decimal: 0.24,
   scale: 384,
 };
-export const tpTableTdMinWidthOs = "150px";
+export const tpTableTdMinWidthOs = "60px";
 export const tpTableTdIconSizeOs = {
   original: "16px",
   number: 16,

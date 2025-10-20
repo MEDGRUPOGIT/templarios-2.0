@@ -2,294 +2,6 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-export const tpAiInputContainerHeightOneLineMd = {
-  original: "48px",
-  number: 48,
-  decimal: 0.48,
-  scale: 768,
-};
-export const tpAiInputContainerHeightTwoLinesMd = {
-  original: "64px",
-  number: 64,
-  decimal: 0.64,
-  scale: 1024,
-};
-export const tpAiInputContainerHeightThreeLinesMd = {
-  original: "80px",
-  number: 80,
-  decimal: 0.8,
-  scale: 1280,
-};
-export const tpAiInputContainerHeightFourLinesMd = {
-  original: "104px",
-  number: 104,
-  decimal: 1.04,
-  scale: 1664,
-};
-export const tpAiInputContainerPaddingMd = {
-  original: "6px",
-  number: 6,
-  decimal: 0.06,
-  scale: 96,
-};
-export const tpAiInputContainerGapMd = {
-  original: "6px",
-  number: 6,
-  decimal: 0.06,
-  scale: 96,
-};
-export const tpAiInputContainerBorderRadiusMd = {
-  original: "24px",
-  number: 24,
-  decimal: 0.24,
-  scale: 384,
-};
-export const tpAiInputContainerBorderDefault = {
-  color: "hsla( 224, 10%, 75%, 0.35)",
-  width: "1px",
-  style: "solid",
-};
-export const tpAiInputContainerBorderHover = {
-  color: "hsla( 224, 10%, 55%, 0.35)",
-  width: "1px",
-  style: "solid",
-};
-export const tpAiInputContainerBorderFocus = {
-  color: "hsla( 224, 10%, 45%, 0.35)",
-  width: "1px",
-  style: "solid",
-};
-export const tpAiInputContainerBorderActive = {
-  color: "hsla( 224, 10%, 55%, 0.35)",
-  width: "1px",
-  style: "solid",
-};
-export const tpAiInputContainerBorderDisabled = {
-  color: "hsla( 224, 10%, 85%, 0.35)",
-  width: "1px",
-  style: "solid",
-};
-export const tpAiInputContainerBorderVoiceDefault = {
-  color: "hsla( 185, 100%, 30%, 0.35)",
-  width: "1px",
-  style: "solid",
-};
-export const tpAiInputContainerBorderVoiceHover = {
-  color: "hsla( 185, 100%, 30%, 0.35)",
-  width: "1px",
-  style: "solid",
-};
-export const tpAiInputContainerBorderVoiceFocus = {
-  color: "hsla( 185, 100%, 30%, 0.35)",
-  width: "1px",
-  style: "solid",
-};
-export const tpAiInputContainerBorderVoiceActive = {
-  color: "hsla( 185, 100%, 30%, 0.35)",
-  width: "1px",
-  style: "solid",
-};
-export const tpAiInputContainerBorderVoiceDisabled = {
-  color: "hsla( 224, 10%, 85%, 0.35)",
-  width: "1px",
-  style: "solid",
-};
-export const tpAiInputContainerBorderWidthOs = "1px";
-export const tpAiInputContainerBorderWidthVoiceOs = "1px";
-export const tpAiInputContainerBorderStyleOs = "solid";
-export const tpAiInputContainerBorderStyleVoiceOs = "solid";
-export const tpAiInputButtonSizeMd = {
-  original: "36px",
-  number: 36,
-  decimal: 0.36,
-  scale: 576,
-};
-export const tpAiInputInputDefaultPaddingLeftMd = {
-  original: "12px",
-  number: 12,
-  decimal: 0.12,
-  scale: 192,
-};
-export const tpAiInputInputDefaultPaddingRightMd = {
-  original: "0px",
-  number: 0,
-  decimal: 0,
-  scale: 0,
-};
-export const tpAiInputInputVoicePaddingLeftMd = {
-  original: "0px",
-  number: 0,
-  decimal: 0,
-  scale: 0,
-};
-export const tpAiInputInputVoicePaddingRightMd = {
-  original: "12px",
-  number: 12,
-  decimal: 0.12,
-  scale: 192,
-};
-export const tpAiInputFontMapMd = {
-  fontFamily: "FS Emeric",
-  fontWeight: "400",
-  fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
-  lineHeight: "120%",
-};
-export const tpAiInputFontLetterSpacingMd = "4%";
-export const tpAiInputIconSizeMd = {
-  original: "20px",
-  number: 20,
-  decimal: 0.2,
-  scale: 320,
-};
-export const tpAiPromptAttachmentHeightMd = {
-  original: "48px",
-  number: 48,
-  decimal: 0.48,
-  scale: 768,
-};
-export const tpAiPromptAttachmentGapMd = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
-};
-export const tpAiPromptAttachmentPaddingHorizontalMd = {
-  original: "18px",
-  number: 18,
-  decimal: 0.18,
-  scale: 288,
-};
-export const tpAiPromptAttachmentFontMapMd = {
-  fontFamily: "FS Emeric",
-  fontWeight: "400",
-  fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
-  lineHeight: "120%",
-};
-export const tpAiPromptAttachmentFontLetterSpacingMd = "4%";
-export const tpAiPromptAttachmentBorderRadiusMd = "9999px";
-export const tpAiRequestPromptPaddingMd = {
-  original: "12px",
-  number: 12,
-  decimal: 0.12,
-  scale: 192,
-};
-export const tpAiRequestPromptTextGapRightMd = {
-  original: "0px",
-  number: 0,
-  decimal: 0,
-  scale: 0,
-};
-export const tpAiRequestPromptBorderRadiusDefaultMd = {
-  original: "12px",
-  number: 12,
-  decimal: 0.12,
-  scale: 192,
-};
-export const tpAiRequestPromptBorderRadiusAttachedMd = {
-  original: "12px",
-  number: 12,
-  decimal: 0.12,
-  scale: 192,
-};
-export const tpAiRequestAttachmentBorderRadiusDefaultMd = {
-  original: "12px",
-  number: 12,
-  decimal: 0.12,
-  scale: 192,
-};
-export const tpAiRequestAttachmentBorderRadiusAttachedMd = {
-  original: "12px",
-  number: 12,
-  decimal: 0.12,
-  scale: 192,
-};
-export const tpAiRequestAttachmentPaddingMd = {
-  original: "6px",
-  number: 6,
-  decimal: 0.06,
-  scale: 96,
-};
-export const tpAiRequestAttachmentTextGapRightMd = {
-  original: "12px",
-  number: 12,
-  decimal: 0.12,
-  scale: 192,
-};
-export const tpAiRequestWidthMd = "100%";
-export const tpAiRequestGapMd = {
-  original: "6px",
-  number: 6,
-  decimal: 0.06,
-  scale: 96,
-};
-export const tpAiRequestIconSizeMd = {
-  original: "20px",
-  number: 20,
-  decimal: 0.2,
-  scale: 320,
-};
-export const tpAiRequestIconGapMd = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
-};
-export const tpAiRequestFontMapMd = {
-  fontFamily: "FS Emeric",
-  fontWeight: "400",
-  fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
-  lineHeight: "140%",
-};
-export const tpAiRequestFontLetterSpacingMd = "4%";
-export const tpAiSourceOrderWidthMd = {
-  original: "20px",
-  number: 20,
-  decimal: 0.2,
-  scale: 320,
-};
-export const tpAiSourceDescriptionFontMapMd = {
-  fontFamily: "FS Emeric",
-  fontWeight: "400",
-  fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
-  lineHeight: "140%",
-};
-export const tpAiSourceGapMd = {
-  original: "12px",
-  number: 12,
-  decimal: 0.12,
-  scale: 192,
-};
-export const tpAiSourceHeaderGapMd = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
-};
-export const tpAiSourceHeaderFontMapMd = {
-  fontFamily: "FS Emeric",
-  fontWeight: "600",
-  fontSize: { original: "18px", number: 18, decimal: 0.18, scale: 288 },
-  lineHeight: "120%",
-};
-export const tpAiSourceFooterGapMd = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
-};
-export const tpAiSourceFooterFontMapMd = {
-  fontFamily: "FS Emeric",
-  fontWeight: "400",
-  fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
-  lineHeight: "120%",
-};
-export const tpAiSourceImgSize = {
-  original: "20px",
-  number: 20,
-  decimal: 0.2,
-  scale: 320,
-};
-export const tpAiSourceFontLetterSpacingMd = "4%";
 export const tpBadgeHeightSm = {
   original: "24px",
   number: 24,
@@ -865,87 +577,6 @@ export const tpCardBorderRadiusSm = {
   decimal: 0.08,
   scale: 128,
 };
-export const tpCardNavCategoryGapMd = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
-};
-export const tpCardNavCategoryFontMapMd = {
-  fontFamily: "FS Emeric",
-  fontWeight: "400",
-  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "120%",
-};
-export const tpCardNavCategoryFontLetterSpacingMd = "4%";
-export const tpCardNavCategoryFontTextTransformMd = "uppercase";
-export const tpCardNavIconContainerSizeMd = {
-  original: "48px",
-  number: 48,
-  decimal: 0.48,
-  scale: 768,
-};
-export const tpCardNavIconContainerBorderRadiusMd = "9999px";
-export const tpCardNavIconSizeMd = {
-  original: "28px",
-  number: 28,
-  decimal: 0.28,
-  scale: 448,
-};
-export const tpCardNavPaddingMd = {
-  original: "16px",
-  number: 16,
-  decimal: 0.16,
-  scale: 256,
-};
-export const tpCardNavBorderRadiusMd = {
-  original: "12px",
-  number: 12,
-  decimal: 0.12,
-  scale: 192,
-};
-export const tpCardNavWidthMd = "196px";
-export const tpCardNavHeightMd = "272px";
-export const tpCardNavTitleFontMapMd = {
-  fontFamily: "FS Emeric",
-  fontWeight: "600",
-  fontSize: { original: "24px", number: 24, decimal: 0.24, scale: 384 },
-  lineHeight: "120%",
-};
-export const tpCardNavTitleFontLetterSpacingMd = "2%";
-export const tpCardNavTitleFontTextTransformMd = "uppercase";
-export const tpCardNavBorderDefault = {
-  color: "hsla( 224, 10%, 45%, 0.35)",
-  width: "1px",
-  style: "solid",
-};
-export const tpCardNavBorderHover = {
-  color: "hsla( 224, 10%, 45%, 0.35)",
-  width: "1px",
-  style: "solid",
-};
-export const tpCardNavBorderFocus = {
-  color: "hsla( 224, 10%, 45%, 0.35)",
-  width: "1px",
-  style: "solid",
-};
-export const tpCardNavBorderActive = {
-  color: "hsla( 224, 10%, 45%, 0.35)",
-  width: "1px",
-  style: "solid",
-};
-export const tpCardNavBorderVisited = {
-  color: "hsla( 224, 10%, 45%, 0.35)",
-  width: "1px",
-  style: "solid",
-};
-export const tpCardNavBorderDisabled = {
-  color: "hsla( 224, 10%, 55%, 0.35)",
-  width: "1px",
-  style: "solid",
-};
-export const tpCardNavBorderWidthOs = "1px";
-export const tpCardNavBorderStyleOs = "solid";
 export const tpCheckboxCheckedOuterBorderDefault = {
   color: "rgba(0, 0, 0, 0)",
   width: "1px",
@@ -1315,62 +946,6 @@ export const tpFabBorderRadiusMd = "9999px";
 export const tpFabMetadataFill = "solid weak strong";
 export const tpFabMetadataSize = "md lg";
 export const tpFabMetadataDisabled = "boolean";
-export const tpFlagRibbonHeightLg = "73.5px";
-export const tpFlagRibbonHeightMd = "51.65px";
-export const tpFlagRibbonHeightSm = "47.56px";
-export const tpFlagRibbonWidthLg = "74px";
-export const tpFlagRibbonWidthMd = "52px";
-export const tpFlagRibbonWidthSm = "47.88px";
-export const tpFlagFontMapLg = {
-  fontFamily: "FS Emeric",
-  fontWeight: "600",
-  fontSize: { original: "12px", number: 12, decimal: 0.12, scale: 192 },
-  lineHeight: "120%",
-};
-export const tpFlagFontMapMd = {
-  fontFamily: "FS Emeric",
-  fontWeight: "700",
-  fontSize: { original: "8px", number: 8, decimal: 0.08, scale: 128 },
-  lineHeight: "120%",
-};
-export const tpFlagFontMapSm = {
-  fontFamily: "FS Emeric",
-  fontWeight: "700",
-  fontSize: { original: "8px", number: 8, decimal: 0.08, scale: 128 },
-  lineHeight: "120%",
-};
-export const tpFlagFontTextTransformLg = "uppercase";
-export const tpFlagFontTextTransformMd = "uppercase";
-export const tpFlagFontTextTransformSm = "uppercase";
-export const tpFlagTransformRotateLg = "-45deg";
-export const tpFlagTransformRotateMd = "-45deg";
-export const tpFlagTransformRotateSm = "-45deg";
-export const tpIndexIconSizeMd = {
-  original: "24px",
-  number: 24,
-  decimal: 0.24,
-  scale: 384,
-};
-export const tpIndexPaddingMd = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
-};
-export const tpIndexGapMd = {
-  original: "12px",
-  number: 12,
-  decimal: 0.12,
-  scale: 192,
-};
-export const tpIndexFontMapMd = {
-  fontFamily: "FS Emeric",
-  fontWeight: "600",
-  fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
-  lineHeight: "120%",
-};
-export const tpIndexFontLetterSpacingMd = "4%";
-export const tpIndexMetadataDisabled = "boolean";
 export const tpInputContainerGapMd = {
   original: "12px",
   number: 12,
@@ -1538,86 +1113,37 @@ export const tpInputIconSizeMd = {
   decimal: 0.16,
   scale: 256,
 };
-export const tpInputCardsLabelFontMapMd = {
+export const tpItemIconsSizeOs = {
+  original: "24px",
+  number: 24,
+  decimal: 0.24,
+  scale: 384,
+};
+export const tpItemTitleFontMapOs = {
   fontFamily: "FS Emeric",
-  fontWeight: "400",
-  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
+  fontWeight: "600",
+  fontSize: { original: "18px", number: 18, decimal: 0.18, scale: 288 },
   lineHeight: "120%",
 };
-export const tpInputCardsLabelFontTextTransformMd = "uppercase";
-export const tpInputCardsFeedbackPaddingHorizontalMd = {
+export const tpItemTitleFontLetterSpacingOs = "4%";
+export const tpItemDescriptionFontMapOs = {
+  fontFamily: "FS Emeric",
+  fontWeight: "400",
+  fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
+  lineHeight: "120%",
+};
+export const tpItemDescriptionFontLetterSpacingOs = "4%";
+export const tpItemGapOs = {
+  original: "12px",
+  number: 12,
+  decimal: 0.12,
+  scale: 192,
+};
+export const tpItemPaddingOs = {
   original: "8px",
   number: 8,
   decimal: 0.08,
   scale: 128,
-};
-export const tpInputCardsFeedbackFontMapMd = {
-  fontFamily: "FS Emeric",
-  fontWeight: "400",
-  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "120%",
-};
-export const tpInputCardsGapMd = {
-  original: "6px",
-  number: 6,
-  decimal: 0.06,
-  scale: 96,
-};
-export const tpInputCardsOptionsGapMd = {
-  original: "6px",
-  number: 6,
-  decimal: 0.06,
-  scale: 96,
-};
-export const tpInputCardsFontLetterSpacingMd = "4%";
-export const tpInputCardsMetadataDisabled = "boolean";
-export const tpMenuItemLabelHeightMd = {
-  original: "36px",
-  number: 36,
-  decimal: 0.36,
-  scale: 576,
-};
-export const tpMenuItemIconContainerPaddingMd = {
-  original: "16px",
-  number: 16,
-  decimal: 0.16,
-  scale: 256,
-};
-export const tpMenuItemIconContainerBorderRadiusMd = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
-};
-export const tpMenuItemIconSizeMd = {
-  original: "36px",
-  number: 36,
-  decimal: 0.36,
-  scale: 576,
-};
-export const tpMenuItemWidthMd = {
-  original: "96px",
-  number: 96,
-  decimal: 0.96,
-  scale: 1536,
-};
-export const tpMenuItemGapMd = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
-};
-export const tpMenuItemPaddingVerticalMd = {
-  original: "4px",
-  number: 4,
-  decimal: 0.04,
-  scale: 64,
-};
-export const tpMenuItemFontMapMd = {
-  fontFamily: "FS Emeric",
-  fontWeight: "400",
-  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "120%",
 };
 export const tpNavigationDotsDotSizeMd = {
   original: "6px",
@@ -1836,40 +1362,6 @@ export const tpSelectGapMd = {
   scale: 96,
 };
 export const tpSelectFontLetterSpacingMd = "4%";
-export const tpSelectHeaderIconEndSizeMd = {
-  original: "16px",
-  number: 16,
-  decimal: 0.16,
-  scale: 256,
-};
-export const tpSelectHeaderHeightMd = {
-  original: "40px",
-  number: 40,
-  decimal: 0.4,
-  scale: 640,
-};
-export const tpSelectHeaderWidthMd = "100%";
-export const tpSelectHeaderIconStartSizeMd = {
-  original: "20px",
-  number: 20,
-  decimal: 0.2,
-  scale: 320,
-};
-export const tpSelectHeaderFontMapMd = {
-  fontFamily: "FS Emeric",
-  fontWeight: "600",
-  fontSize: { original: "18px", number: 18, decimal: 0.18, scale: 288 },
-  lineHeight: "120%",
-};
-export const tpSelectHeaderFontLetterSpacingMd = "2%";
-export const tpSelectHeaderTextGap = {
-  original: "16px",
-  number: 16,
-  decimal: 0.16,
-  scale: 256,
-};
-export const tpSelectHeaderMetadataDisabled = "boolean";
-export const tpSelectHeaderMetadataIcon = "start end";
 export const tpSheetFooterPaddingMd = {
   original: "24px",
   number: 24,
@@ -1965,100 +1457,6 @@ export const tpToastPaddingMd = {
   scale: 192,
 };
 export const tpToastMetadataMode = "error warning info success";
-export const tpVideoFeaturedWidthMd = "280px";
-export const tpVideoFeaturedThumbnailHeightMd = "200px";
-export const tpVideoFeaturedThumbnailWidthMd = "100%";
-export const tpVideoFeaturedThumbnailBorderRadiusMd = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
-};
-export const tpVideoFeaturedGapMd = {
-  original: "16px",
-  number: 16,
-  decimal: 0.16,
-  scale: 256,
-};
-export const tpVideoFeaturedInfoGapMd = {
-  original: "12px",
-  number: 12,
-  decimal: 0.12,
-  scale: 192,
-};
-export const tpVideoFeaturedInfoWidthMd = "100%";
-export const tpVideoFeaturedTitleFontMapMd = {
-  fontFamily: "FS Emeric",
-  fontWeight: "600",
-  fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
-  lineHeight: "120%",
-};
-export const tpVideoFeaturedFontLetterSpacingMd = "4%";
-export const tpVideoFeaturedLikesFontMapMd = {
-  fontFamily: "FS Emeric",
-  fontWeight: "600",
-  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "120%",
-};
-export const tpVideoFeaturedLikesGapMd = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
-};
-export const tpVideoFeaturedIconSizeMd = {
-  original: "24px",
-  number: 24,
-  decimal: 0.24,
-  scale: 384,
-};
-export const tpVideoFeaturedFocusedOpacity = "1";
-export const tpVideoFeaturedHiddenOpacity = "0.3";
-export const tpVideoFeaturedMetadataDisabled = "boolean";
-export const tpVideoItemDurationFontMapMd = {
-  fontFamily: "FS Emeric",
-  fontWeight: "400",
-  fontSize: { original: "14px", number: 14, decimal: 0.14, scale: 224 },
-  lineHeight: "120%",
-};
-export const tpVideoItemGapMd = {
-  original: "16px",
-  number: 16,
-  decimal: 0.16,
-  scale: 256,
-};
-export const tpVideoItemThumbnailWidthMd = {
-  original: "88px",
-  number: 88,
-  decimal: 0.88,
-  scale: 1408,
-};
-export const tpVideoItemThumbnailHeightMd = {
-  original: "64px",
-  number: 64,
-  decimal: 0.64,
-  scale: 1024,
-};
-export const tpVideoItemThumbnailBorderRadiusMd = {
-  original: "4px",
-  number: 4,
-  decimal: 0.04,
-  scale: 64,
-};
-export const tpVideoItemInfoGapMd = {
-  original: "8px",
-  number: 8,
-  decimal: 0.08,
-  scale: 128,
-};
-export const tpVideoItemTitleFontMapMd = {
-  fontFamily: "FS Emeric",
-  fontWeight: "400",
-  fontSize: { original: "16px", number: 16, decimal: 0.16, scale: 256 },
-  lineHeight: "120%",
-};
-export const tpVideoItemFontLetterSpacingMd = "4%";
-export const tpVideoItemMetadataDisabled = "boolean";
 export const tpTabWidthMd = "100%";
 export const tpTabHeightMd = {
   original: "48px",
@@ -2077,4 +1475,52 @@ export const tpTabPaddingHorizontalMd = {
   number: 8,
   decimal: 0.08,
   scale: 128,
+};
+export const tpUiHeaderPaddingSm = {
+  original: "24px",
+  number: 24,
+  decimal: 0.24,
+  scale: 384,
+};
+export const tpUiFooterPaddingSm = {
+  original: "24px",
+  number: 24,
+  decimal: 0.24,
+  scale: 384,
+};
+export const tpUiContentPaddingHorizontalSm = {
+  original: "24px",
+  number: 24,
+  decimal: 0.24,
+  scale: 384,
+};
+export const tpUiContentWithHeaderPaddingTopSm = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpUiContentWithFooterPaddingBottomSm = {
+  original: "8px",
+  number: 8,
+  decimal: 0.08,
+  scale: 128,
+};
+export const tpUiContentNoHeaderPaddingTopSm = {
+  original: "32px",
+  number: 32,
+  decimal: 0.32,
+  scale: 512,
+};
+export const tpUiContentNoFooterPaddingBottomSm = {
+  original: "24px",
+  number: 24,
+  decimal: 0.24,
+  scale: 384,
+};
+export const tpUiContentGapSm = {
+  original: "24px",
+  number: 24,
+  decimal: 0.24,
+  scale: 384,
 };

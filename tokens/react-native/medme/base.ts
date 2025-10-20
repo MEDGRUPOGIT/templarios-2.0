@@ -144,6 +144,7 @@ export const tpSpacingNone = {
   decimal: 0,
   scale: 0,
 };
+export const tpSizingFull = "100%";
 export const tpSizing9xl = {
   original: "104px",
   number: 104,
@@ -270,4 +271,3 @@ export const tpSizing9xs = {
   decimal: 0.04,
   scale: 64,
 };
-export const tpSizingFull = "100%";

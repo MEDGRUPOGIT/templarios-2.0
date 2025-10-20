@@ -2,324 +2,6 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-export const tpAiInputContainerHeightOneLineMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiInputContainerHeightTwoLinesMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiInputContainerHeightThreeLinesMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiInputContainerHeightFourLinesMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiInputContainerPaddingMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiInputContainerGapMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiInputContainerBorderRadiusMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiInputContainerBorderDefault: {
-  color: string;
-  width: string;
-  style: string;
-};
-export const tpAiInputContainerBorderHover: {
-  color: string;
-  width: string;
-  style: string;
-};
-export const tpAiInputContainerBorderFocus: {
-  color: string;
-  width: string;
-  style: string;
-};
-export const tpAiInputContainerBorderActive: {
-  color: string;
-  width: string;
-  style: string;
-};
-export const tpAiInputContainerBorderDisabled: {
-  color: string;
-  width: string;
-  style: string;
-};
-export const tpAiInputContainerBorderVoiceDefault: {
-  color: string;
-  width: string;
-  style: string;
-};
-export const tpAiInputContainerBorderVoiceHover: {
-  color: string;
-  width: string;
-  style: string;
-};
-export const tpAiInputContainerBorderVoiceFocus: {
-  color: string;
-  width: string;
-  style: string;
-};
-export const tpAiInputContainerBorderVoiceActive: {
-  color: string;
-  width: string;
-  style: string;
-};
-export const tpAiInputContainerBorderVoiceDisabled: {
-  color: string;
-  width: string;
-  style: string;
-};
-export const tpAiInputContainerBorderWidthOs: string;
-export const tpAiInputContainerBorderWidthVoiceOs: string;
-export const tpAiInputContainerBorderStyleOs: string;
-export const tpAiInputContainerBorderStyleVoiceOs: string;
-export const tpAiInputButtonSizeMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiInputInputDefaultPaddingLeftMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiInputInputDefaultPaddingRightMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiInputInputVoicePaddingLeftMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiInputInputVoicePaddingRightMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiInputFontMapMd: {
-  fontFamily: string;
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-};
-export const tpAiInputFontLetterSpacingMd: string;
-export const tpAiInputIconSizeMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiPromptAttachmentHeightMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiPromptAttachmentGapMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiPromptAttachmentPaddingHorizontalMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiPromptAttachmentFontMapMd: {
-  fontFamily: string;
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-};
-export const tpAiPromptAttachmentFontLetterSpacingMd: string;
-export const tpAiPromptAttachmentBorderRadiusMd: string;
-export const tpAiRequestPromptPaddingMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiRequestPromptTextGapRightMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiRequestPromptBorderRadiusDefaultMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiRequestPromptBorderRadiusAttachedMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiRequestAttachmentBorderRadiusDefaultMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiRequestAttachmentBorderRadiusAttachedMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiRequestAttachmentPaddingMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiRequestAttachmentTextGapRightMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiRequestWidthMd: string;
-export const tpAiRequestGapMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiRequestIconSizeMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiRequestIconGapMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiRequestFontMapMd: {
-  fontFamily: string;
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-};
-export const tpAiRequestFontLetterSpacingMd: string;
-export const tpAiSourceOrderWidthMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiSourceDescriptionFontMapMd: {
-  fontFamily: string;
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-};
-export const tpAiSourceGapMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiSourceHeaderGapMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiSourceHeaderFontMapMd: {
-  fontFamily: string;
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-};
-export const tpAiSourceFooterGapMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiSourceFooterFontMapMd: {
-  fontFamily: string;
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-};
-export const tpAiSourceImgSize: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpAiSourceFontLetterSpacingMd: string;
 export const tpBadgeHeightSm: {
   original: string;
   number: number;
@@ -920,97 +602,6 @@ export const tpCardBorderRadiusSm: {
   decimal: number;
   scale: number;
 };
-export const tpCardNavCategoryGapMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpCardNavCategoryFontMapMd: {
-  fontFamily: string;
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-};
-export const tpCardNavCategoryFontLetterSpacingMd: string;
-export const tpCardNavCategoryFontTextTransformMd: string;
-export const tpCardNavIconContainerSizeMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpCardNavIconContainerBorderRadiusMd: string;
-export const tpCardNavIconSizeMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpCardNavPaddingMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpCardNavBorderRadiusMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpCardNavWidthMd: string;
-export const tpCardNavHeightMd: string;
-export const tpCardNavTitleFontMapMd: {
-  fontFamily: string;
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-};
-export const tpCardNavTitleFontLetterSpacingMd: string;
-export const tpCardNavTitleFontTextTransformMd: string;
-export const tpCardNavBorderDefault: {
-  color: string;
-  width: string;
-  style: string;
-};
-export const tpCardNavBorderHover: {
-  color: string;
-  width: string;
-  style: string;
-};
-export const tpCardNavBorderFocus: {
-  color: string;
-  width: string;
-  style: string;
-};
-export const tpCardNavBorderActive: {
-  color: string;
-  width: string;
-  style: string;
-};
-export const tpCardNavBorderVisited: {
-  color: string;
-  width: string;
-  style: string;
-};
-export const tpCardNavBorderDisabled: {
-  color: string;
-  width: string;
-  style: string;
-};
-export const tpCardNavBorderWidthOs: string;
-export const tpCardNavBorderStyleOs: string;
 export const tpCheckboxCheckedOuterBorderDefault: {
   color: string;
   width: string;
@@ -1400,82 +991,6 @@ export const tpFabBorderRadiusMd: string;
 export const tpFabMetadataFill: string;
 export const tpFabMetadataSize: string;
 export const tpFabMetadataDisabled: string;
-export const tpFlagRibbonHeightLg: string;
-export const tpFlagRibbonHeightMd: string;
-export const tpFlagRibbonHeightSm: string;
-export const tpFlagRibbonWidthLg: string;
-export const tpFlagRibbonWidthMd: string;
-export const tpFlagRibbonWidthSm: string;
-export const tpFlagFontMapLg: {
-  fontFamily: string;
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-};
-export const tpFlagFontMapMd: {
-  fontFamily: string;
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-};
-export const tpFlagFontMapSm: {
-  fontFamily: string;
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-};
-export const tpFlagFontTextTransformLg: string;
-export const tpFlagFontTextTransformMd: string;
-export const tpFlagFontTextTransformSm: string;
-export const tpFlagTransformRotateLg: string;
-export const tpFlagTransformRotateMd: string;
-export const tpFlagTransformRotateSm: string;
-export const tpIndexIconSizeMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpIndexPaddingMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpIndexGapMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpIndexFontMapMd: {
-  fontFamily: string;
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-};
-export const tpIndexFontLetterSpacingMd: string;
-export const tpIndexMetadataDisabled: string;
 export const tpInputContainerGapMd: {
   original: string;
   number: number;
@@ -1658,7 +1173,13 @@ export const tpInputIconSizeMd: {
   decimal: number;
   scale: number;
 };
-export const tpInputCardsLabelFontMapMd: {
+export const tpItemIconsSizeOs: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpItemTitleFontMapOs: {
   fontFamily: string;
   fontWeight: string;
   fontSize: {
@@ -1669,14 +1190,8 @@ export const tpInputCardsLabelFontMapMd: {
   };
   lineHeight: string;
 };
-export const tpInputCardsLabelFontTextTransformMd: string;
-export const tpInputCardsFeedbackPaddingHorizontalMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpInputCardsFeedbackFontMapMd: {
+export const tpItemTitleFontLetterSpacingOs: string;
+export const tpItemDescriptionFontMapOs: {
   fontFamily: string;
   fontWeight: string;
   fontSize: {
@@ -1687,72 +1202,18 @@ export const tpInputCardsFeedbackFontMapMd: {
   };
   lineHeight: string;
 };
-export const tpInputCardsGapMd: {
+export const tpItemDescriptionFontLetterSpacingOs: string;
+export const tpItemGapOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
 };
-export const tpInputCardsOptionsGapMd: {
+export const tpItemPaddingOs: {
   original: string;
   number: number;
   decimal: number;
   scale: number;
-};
-export const tpInputCardsFontLetterSpacingMd: string;
-export const tpInputCardsMetadataDisabled: string;
-export const tpMenuItemLabelHeightMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpMenuItemIconContainerPaddingMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpMenuItemIconContainerBorderRadiusMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpMenuItemIconSizeMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpMenuItemWidthMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpMenuItemGapMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpMenuItemPaddingVerticalMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpMenuItemFontMapMd: {
-  fontFamily: string;
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
 };
 export const tpNavigationDotsDotSizeMd: {
   original: string;
@@ -1996,45 +1457,6 @@ export const tpSelectGapMd: {
   scale: number;
 };
 export const tpSelectFontLetterSpacingMd: string;
-export const tpSelectHeaderIconEndSizeMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpSelectHeaderHeightMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpSelectHeaderWidthMd: string;
-export const tpSelectHeaderIconStartSizeMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpSelectHeaderFontMapMd: {
-  fontFamily: string;
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-};
-export const tpSelectHeaderFontLetterSpacingMd: string;
-export const tpSelectHeaderTextGap: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpSelectHeaderMetadataDisabled: string;
-export const tpSelectHeaderMetadataIcon: string;
 export const tpSheetFooterPaddingMd: {
   original: string;
   number: number;
@@ -2145,120 +1567,6 @@ export const tpToastPaddingMd: {
   scale: number;
 };
 export const tpToastMetadataMode: string;
-export const tpVideoFeaturedWidthMd: string;
-export const tpVideoFeaturedThumbnailHeightMd: string;
-export const tpVideoFeaturedThumbnailWidthMd: string;
-export const tpVideoFeaturedThumbnailBorderRadiusMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpVideoFeaturedGapMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpVideoFeaturedInfoGapMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpVideoFeaturedInfoWidthMd: string;
-export const tpVideoFeaturedTitleFontMapMd: {
-  fontFamily: string;
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-};
-export const tpVideoFeaturedFontLetterSpacingMd: string;
-export const tpVideoFeaturedLikesFontMapMd: {
-  fontFamily: string;
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-};
-export const tpVideoFeaturedLikesGapMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpVideoFeaturedIconSizeMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpVideoFeaturedFocusedOpacity: string;
-export const tpVideoFeaturedHiddenOpacity: string;
-export const tpVideoFeaturedMetadataDisabled: string;
-export const tpVideoItemDurationFontMapMd: {
-  fontFamily: string;
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-};
-export const tpVideoItemGapMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpVideoItemThumbnailWidthMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpVideoItemThumbnailHeightMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpVideoItemThumbnailBorderRadiusMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpVideoItemInfoGapMd: {
-  original: string;
-  number: number;
-  decimal: number;
-  scale: number;
-};
-export const tpVideoItemTitleFontMapMd: {
-  fontFamily: string;
-  fontWeight: string;
-  fontSize: {
-    original: string;
-    number: number;
-    decimal: number;
-    scale: number;
-  };
-  lineHeight: string;
-};
-export const tpVideoItemFontLetterSpacingMd: string;
-export const tpVideoItemMetadataDisabled: string;
 export const tpTabWidthMd: string;
 export const tpTabHeightMd: {
   original: string;
@@ -2273,6 +1581,54 @@ export const tpTabGapMd: {
   scale: number;
 };
 export const tpTabPaddingHorizontalMd: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpUiHeaderPaddingSm: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpUiFooterPaddingSm: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpUiContentPaddingHorizontalSm: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpUiContentWithHeaderPaddingTopSm: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpUiContentWithFooterPaddingBottomSm: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpUiContentNoHeaderPaddingTopSm: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpUiContentNoFooterPaddingBottomSm: {
+  original: string;
+  number: number;
+  decimal: number;
+  scale: number;
+};
+export const tpUiContentGapSm: {
   original: string;
   number: number;
   decimal: number;

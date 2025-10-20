@@ -144,6 +144,7 @@ export const tpSpacingNone: {
   decimal: number;
   scale: number;
 };
+export const tpSizingFull: string;
 export const tpSizing9xl: {
   original: string;
   number: number;
@@ -270,4 +271,3 @@ export const tpSizing9xs: {
   decimal: number;
   scale: number;
 };
-export const tpSizingFull: string;

@@ -159,7 +159,8 @@ export declare enum TpIconL {
     Linkedin = "tp-linkedin",
     Lock = "tp-lock",
     LogOut = "tp-log-out",
-    Login = "tp-login"
+    Login = "tp-login",
+    LongArrowDownRight = "tp-long-arrow-down-right"
 }
 export declare enum TpIconM {
     MoreVertical = "tp-more-vertical",

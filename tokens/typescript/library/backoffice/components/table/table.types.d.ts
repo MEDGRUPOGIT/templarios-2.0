@@ -14,4 +14,5 @@ export type TpTable = {
     ['tp-responsive']: boolean;
     ['tp-feedback']: `${TpTableFeedback}`;
     ['tp-min-width-initial']: boolean;
+    ['tp-first-column-left']: boolean;
 };

@@ -1636,6 +1636,7 @@ export const tpTableMetadataPointer = "boolean";
 export const tpTableMetadataResponsive = "boolean";
 export const tpTableMetadataFeedback = "danger success warning info primary";
 export const tpTableMetadataMinWidthInitial = "boolean";
+export const tpTableMetadataFirstColumnLeft = "boolean";
 export const tpTableThMinWidthOs = "60px";
 export const tpTableThPaddingOs = {
   original: "12px",

@@ -1754,6 +1754,7 @@ export const tpTableMetadataPointer: string;
 export const tpTableMetadataResponsive: string;
 export const tpTableMetadataFeedback: string;
 export const tpTableMetadataMinWidthInitial: string;
+export const tpTableMetadataFirstColumnLeft: string;
 export const tpTableThMinWidthOs: string;
 export const tpTableThPaddingOs: {
   original: string;
